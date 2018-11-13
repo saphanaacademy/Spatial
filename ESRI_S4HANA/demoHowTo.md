@@ -40,7 +40,10 @@ XXXXXX
 Here are the prerequisites for this exercise.
 
 * S/4HANA system on premise system
-* 
+* A technical S/4HANA user with appropriate roles (see list below)
+* An SAP HANA on premise system
+* An SAP HANA technical user with appropriate rights (see list below)
+* An Eclipse IDE with HANA and ABAP tools installed
 
 If you do not have your own S/4HANA system a trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa)
 
@@ -49,10 +52,9 @@ An S/4HANA user must be available that has the appropriate roles to access sales
 Downloads and instructions for ABAP and HANA tools for Eclipse
 	https://tools.hana.ondemand.com/
 
-Business Roles for S/4HANA User Include 
- - SAP_BC_SEFS_ADMIN
- - SAP_BC_SES_ADMIN<
-
+Business Roles for the S/4HANA Technical User Include 
+* SAP_BC_SEFS_ADMIN
+* SAP_BC_SES_ADMIN
 * SAP_BR_BILLING_CLERK
 * SAP_BR_BUPA_MASTER_SPECIALIST
 * SAP_BR_CREDIT_CONTROLLER
