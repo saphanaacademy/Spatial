@@ -45,7 +45,7 @@ Downloads and instructions for ABAP and HANA tools for Eclipse
 Business Roles for S/4HANA User
 
 
-### <a name="cdsview1"></a> Create a cds view
+### <a name="cdsview1"></a> Creation of CDS Views in S/4HANA
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
