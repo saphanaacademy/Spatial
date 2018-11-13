@@ -52,8 +52,8 @@ An S/4HANA user must be available that has the appropriate roles to access sales
 Downloads and instructions for ABAP and HANA tools for Eclipse
 	https://tools.hana.ondemand.com/
 
-Business Roles for the S/4HANA Technical User Include 
-&emsp;SAP_BC_SEFS_ADMIN
+Business Roles for the S/4HANA Technical User Include
+&emsp;SAP_BC_SEFS_ADMIN\
 * SAP_BC_SES_ADMIN
 * SAP_BR_BILLING_CLERK
 * SAP_BR_BUPA_MASTER_SPECIALIST
