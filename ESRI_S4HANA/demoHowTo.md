@@ -70,6 +70,31 @@ left outer join I_Address
     I_Address.PostalCode
 }
 ```
+
+```
+@AbapCatalog.sqlViewName: 'ZXSHCCUSTOMERGEO'
+@ClientHandling.algorithm: #SESSION_VARIABLE
+@AbapCatalog.compiler.compareFilter: true
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'customer geo data for location hierarchy'
+@VDM.viewType: #CONSUMPTION
+
+define view ZXSH_C_CUSTOMERGEO as select from I_Customer 
+inner join I_Address
+    on I_Customer.AddressID = I_Address.AddressID
+{
+   I_Customer.Customer as LHCustomer,
+   I_Address.AddressID as LHAddressID, 
+   I_Address.AddressTimeZone as LHAddressTimeZone, 
+   I_Address.CityName as LHCityName,
+   I_Address.District as LHDistrict,
+   I_Address.Region as LHRegion,
+   I_Address.County as LHCounty,
+   I_Address.Country as LHCountry,
+   I_Address.PostalCode as LHPostalCode
+}
+```
+
 	
 	
 
