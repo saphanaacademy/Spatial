@@ -5,7 +5,7 @@
 
 
 ## Description
-In this exercise, you’ll learn how 
+In this exercise, you’ll learn how to integrate business and ESRI GIS data at the data level. This integrated data will be consumed in SAP Analytics Cloud.
 
 * XXXXXX
 
