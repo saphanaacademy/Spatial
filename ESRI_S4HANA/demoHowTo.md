@@ -1,6 +1,6 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>Exercise - Extending S4HANA with ESRI Spatial Data</h1></td></tr>
-<tr><td><h3>SAP Spatial</h3></td><td><h3><img src="images/shaIcon.jpg"> &nbsp;Difficulty Level: Intermediate</h3></td></tr>
+<tr><td width=60%><h3>SAP Spatial</h3></td><td><h3>&nbsp;Difficulty Level: Intermediate</h3></td></tr>
 </table>
 
 
