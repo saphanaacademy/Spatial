@@ -7,6 +7,8 @@
 ## Description
 In this exercise, you’ll learn how to integrate business and ESRI GIS data at the data level. This integrated data will be consumed in SAP Analytics Cloud.
 
+<img src="/images/s4HpEsriDemoArch02.jpg">    
+
 * XXXXXX
 
 For further reading on HANA Spatial and ESRI, click link below.
