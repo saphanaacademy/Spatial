@@ -16,12 +16,8 @@ In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at t
 * In HANA the virtual tables from the S/4HANA data are combined with spatial tables in calculation views for consumption
 
 
-<ul>
-<li>
 <p>foo</p>
 <p>bar</p>
-</li>
-</ul>
 
 
 
