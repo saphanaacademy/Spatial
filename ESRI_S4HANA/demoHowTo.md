@@ -10,8 +10,7 @@ In this exercise, you’ll learn how
 * XXXXXX
 
 For further reading on HANA Spatial and ESRI, click link below.
-<www.sap.com>
-
+<http://www.sap.com>
 
 ## Target group
 
