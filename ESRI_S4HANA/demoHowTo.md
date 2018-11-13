@@ -1,15 +1,13 @@
 <table width=100% border=>
-<tr><td colspan=2><h1>EXERCISE 1_1 - BUILDING A PROJECT WITH THE NEO ARCHETYPE</h1></td></tr>
-<tr><td><h3>SAP Partner Workshop</h3></td><td><h1><img src="images/clock.png"> &nbsp;30 min</h1></td></tr>
+<tr><td colspan=2><h1>Demo - Extending S4HANA with ESRI Spatial Data</h1></td></tr>
+<tr><td><h3>SAP Spatial</h3></td><td><h1><img src="images/clock.png"> &nbsp;30 min</h1></td></tr>
 </table>
 
 
 ## Description
 In this exercise, you’ll learn how 
 
-* to create a SAP S/4HANA Cloud SDK project for Neo from an archetype using the Terminal window
-* to build the project with Maven
-* to deploy the application to your local SCP and, finally, to your real Neo stack environment
+* XXXXXX
 
 For further reading on S/4HANA Cloud SDK, click link below.
 <https://www.sap.com/germany/developer/topics/s4hana-cloud-sdk.html>
@@ -18,21 +16,19 @@ For further reading on S/4HANA Cloud SDK, click link below.
 ## Target group
 
 * Developers
-* People interested in learning about S/4HANA extension and SDK  
+* People interested in learning about S/4HANA extension and ESRI data  
 
 
 ## Goal
 
-The goal of this exercise is to create a Maven project for Neo stack starting from the Neo archetype made available with the SAP S/4HANA Cloud SDK.
+XXXXXX
 
 
 ## Prerequisites
   
 Here below are prerequisites for this exercise.
 
-* A trial account on the SAP Cloud Platform. You can get one by registering here <https://account.hanatrial.ondemand.com>
-* Apache Maven
-* Java JDK 8
+* dddddddd
 
 
 ## Steps
