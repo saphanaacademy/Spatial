@@ -46,6 +46,8 @@ Here below are prerequisites for this exercise.
 
 1. [Creation of CDS Views in S/4HANA](#cdsview1)
 
+If you do not have your own S/4HANA system a trial system can be found on the [SAP Cloud Appliance Library.] (https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa)
+
 An S/4HANA user must be available that has the appropriate roles to access sales data and create CDS views. A technical user is also required to create a connection from HANA to the S/4HANA system via Smart Data Access.
 
 Downloads and instructions for ABAP and HANA tools for Eclipse
