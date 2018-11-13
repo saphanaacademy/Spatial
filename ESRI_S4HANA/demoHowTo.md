@@ -1,6 +1,6 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>Demo - Extending S4HANA with ESRI Spatial Data</h1></td></tr>
-<tr><td><h3>SAP Spatial</h3></td><td><h1><img src="images/clock.png"> &nbsp;Difficulty Level: Intermediate</h1></td></tr>
+<tr><td><h3>SAP Spatial</h3></td><td><h3><img src="images/clock.png"> &nbsp;Difficulty Level: Intermediate</h3></td></tr>
 </table>
 
 
