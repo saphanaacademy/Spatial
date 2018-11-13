@@ -10,9 +10,9 @@ In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at t
 <img src="images/s4HpEsriDemoArch02.jpg">    
 
 * In S/4HANA CDS views are created to combine customer sales, product, and location information
-* 
-* The ABAP connector is activated in the Data Provisioning Agent is used enabling the ABAP Connector to S4
-* In HANA virtual tables of the S/4HANA data are created
+* The Data Provisioning Agent is installed and the ABAP adapter is registered with the SAP HANA system
+* A Remote Connection is made from the HANA system to the S/4HANA system
+* Virtual Tables of the S/4HANA CDS views are created
 * In HANA the virtual tables from the S/4HANA data are combined with spatial tables in calculation views for consumption
 
 
