@@ -41,12 +41,12 @@ XXXXXX.
 
 	
 	
-@AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
-@AbapCatalog.compiler.compareFilter: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
-@ClientHandling.algorithm: #SESSION_VARIABLE
-@EndUserText.label: 'Z Copy Sales Order Item'
-@VDM.viewType: #CONSUMPTION
+@AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'\
+@AbapCatalog.compiler.compareFilter: true\
+@AccessControl.authorizationCheck: #NOT_REQUIRED\
+@ClientHandling.algorithm: #SESSION_VARIABLE\
+@EndUserText.label: 'Z Copy Sales Order Item'\
+@VDM.viewType: #CONSUMPTION\
 
 define view ZXSH_C_SALESORDERITEMFSZ as select from C_Salesorderitemfs 
 left outer join I_Customer
