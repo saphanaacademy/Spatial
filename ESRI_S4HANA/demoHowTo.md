@@ -40,11 +40,11 @@ Here below are prerequisites for this exercise.
 XXXXXX.
 
 	
-	```
+	
 	cd application/target
-	```
+	
 
-...
+
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
 @AbapCatalog.compiler.compareFilter: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
@@ -75,4 +75,4 @@ left outer join I_Address
     I_Address.County,
     I_Address.PostalCode
 }
-...
+
