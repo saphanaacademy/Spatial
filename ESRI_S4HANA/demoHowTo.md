@@ -52,8 +52,8 @@ Downloads and instructions for ABAP and HANA tools for Eclipse
 	https://tools.hana.ondemand.com/
 
 Business Roles for S/4HANA User Include 
-	SAP_BC_SEFS_ADMIN
-	SAP_BC_SES_ADMIN
+	- SAP_BC_SEFS_ADMIN
+	- SAP_BC_SES_ADMIN
 	SAP_BR_BILLING_CLERK
 	SAP_BR_BUPA_MASTER_SPECIALIST
 	SAP_BR_CREDIT_CONTROLLER
