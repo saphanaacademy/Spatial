@@ -33,19 +33,19 @@ Here below are prerequisites for this exercise.
 
 ## Steps
 
-1. [Create a project with the Neo archetype through the terminal](#cdsview1)
+1. [Create XXXXXX](#cdsview1)
 
 
 ### <a name="cdsview1"></a> Create a cds view
 	
 ```
 
-@AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'\
-@AbapCatalog.compiler.compareFilter: true\
-@AccessControl.authorizationCheck: #NOT_REQUIRED\
-@ClientHandling.algorithm: #SESSION_VARIABLE\
-@EndUserText.label: 'Z Copy Sales Order Item'\
-@VDM.viewType: #CONSUMPTION\
+@AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
+@AbapCatalog.compiler.compareFilter: true
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@ClientHandling.algorithm: #SESSION_VARIABLE
+@EndUserText.label: 'Z Copy Sales Order Item'
+@VDM.viewType: #CONSUMPTION
 
 define view ZXSH_C_SALESORDERITEMFSZ as select from C_Salesorderitemfs\
 left outer join I_Customer\
