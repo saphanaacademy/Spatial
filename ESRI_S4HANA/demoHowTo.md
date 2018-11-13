@@ -37,10 +37,9 @@ Here below are prerequisites for this exercise.
 
 
 ### <a name="cdsview1"></a> Create a cds view
-XXXXXX.
+	
+```
 
-	
-	
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'\
 @AbapCatalog.compiler.compareFilter: true\
 @AccessControl.authorizationCheck: #NOT_REQUIRED\
@@ -48,29 +47,31 @@ XXXXXX.
 @EndUserText.label: 'Z Copy Sales Order Item'\
 @VDM.viewType: #CONSUMPTION\
 
-define view ZXSH_C_SALESORDERITEMFSZ as select from C_Salesorderitemfs 
-left outer join I_Customer
-    on C_Salesorderitemfs.ShipToParty = I_Customer.Customer
-left outer join I_Address
-    on I_Customer.AddressID = I_Address.AddressID
-{
-    Customer,
-    CustomerName,
-    SalesOrder,
-    RequestedDeliveryDate,
-    SalesOrderItem,
-    SalesOrderItemText,
-    NetAmount, 
-    TransactionCurrency,
-    RequestedQuantity,
-    I_Address.AddressID,
-    I_Address.AddressTimeZone, 
-    I_Address.CityName,
-    I_Address.District,
-    I_Address.Region,
-    I_Address.County,
-    I_Address.PostalCode
-} 
+define view ZXSH_C_SALESORDERITEMFSZ as select from C_Salesorderitemfs\
+left outer join I_Customer\
+    on C_Salesorderitemfs.ShipToParty = I_Customer.Customer\
+left outer join I_Address\
+    on I_Customer.AddressID = I_Address.AddressID\
+{\
+    Customer,\
+    CustomerName,\
+    SalesOrder,\
+    RequestedDeliveryDate,\
+    SalesOrderItem,\
+    SalesOrderItemText,\
+    NetAmount,\
+    TransactionCurrency,\
+    RequestedQuantity,\
+    I_Address.AddressID,\
+    I_Address.AddressTimeZone,\
+    I_Address.CityName,\
+    I_Address.District,\
+    I_Address.Region,\
+    I_Address.County,\
+    I_Address.PostalCode\
+}\
+
+```
 	
 	
 
