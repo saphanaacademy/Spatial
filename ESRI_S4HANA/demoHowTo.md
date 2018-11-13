@@ -1,11 +1,11 @@
 <table width=100% border=>
-<tr><td colspan=2><h1>Exercise - Extending S4HANA with ESRI Spatial Data</h1></td></tr>
+<tr><td colspan=2><h1>Exercise - Extending S/4HANA with ESRI Spatial Data</h1></td></tr>
 <tr><td width=40%><h3>SAP Spatial</h3></td><td width=60%><h3>&nbsp;Difficulty Level: Intermediate</h3></td></tr>
 </table>
 
 
 ## Description
-In this exercise, you’ll learn how to integrate business and ESRI GIS data at the data level. This integrated data will be consumed in SAP Analytics Cloud.
+In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at the data level. This integrated data will be consumed in SAP Analytics Cloud.
 
 <img src="images/s4HpEsriDemoArch02.jpg">    
 
@@ -35,7 +35,14 @@ Here below are prerequisites for this exercise.
 
 ## Steps
 
-1. [Create XXXXXX](#cdsview1)
+1. [Creation of CDS Views in S/4HANA](#cdsview1)
+
+An S/4HANA user must be available that has the appropriate roles to access sales data and create CDS views. A technical user is also required to create a connection from HANA to the S/4HANA system via Smart Data Access.
+
+Downloads and instructions for ABAP and HANA tools for Eclipse
+	https://tools.hana.ondemand.com/
+
+Business Roles for S/4HANA User
 
 
 ### <a name="cdsview1"></a> Create a cds view
