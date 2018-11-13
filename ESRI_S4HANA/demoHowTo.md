@@ -70,7 +70,7 @@ left outer join I_Address
     I_Address.Region,
     I_Address.County,
     I_Address.PostalCode
-}
+} 
 	
 	
 
