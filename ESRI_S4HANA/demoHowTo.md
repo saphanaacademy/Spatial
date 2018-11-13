@@ -39,6 +39,11 @@ Here below are prerequisites for this exercise.
 ### <a name="cdsview1"></a> Create a cds view
 XXXXXX.
 
+	
+	```
+	cd application/target
+	```
+
 ...
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
 @AbapCatalog.compiler.compareFilter: true
