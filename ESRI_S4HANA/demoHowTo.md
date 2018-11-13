@@ -26,8 +26,8 @@ For further reading on HANA Spatial and ESRI, click link below.
 
 ## Target group
 
-* Developers
-* People interested in learning about S/4HANA extension and ESRI data  
+* Data analysts and developers
+* People interested in learning about extending S/4HANA with ESRI data  
 
 
 ## Goal
@@ -37,14 +37,10 @@ XXXXXX
 
 ## Prerequisites
   
-Here below are prerequisites for this exercise.
+Here are the prerequisites for this exercise.
 
-* dddddddd
-
-
-## Steps
-
-1. [Creation of CDS Views in S/4HANA](#cdsview1)
+* S/4HANA system on premise system
+* 
 
 If you do not have your own S/4HANA system a trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa)
 
@@ -54,8 +50,9 @@ Downloads and instructions for ABAP and HANA tools for Eclipse
 	https://tools.hana.ondemand.com/
 
 Business Roles for S/4HANA User Include 
-* SAP_BC_SEFS_ADMIN
-* SAP_BC_SES_ADMIN
+<ul style="list-style-type:none">
+  <li>SAP_BC_SEFS_ADMIN</li>
+  <li>SAP_BC_SES_ADMIN</li>
 * SAP_BR_BILLING_CLERK
 * SAP_BR_BUPA_MASTER_SPECIALIST
 * SAP_BR_CREDIT_CONTROLLER
@@ -74,6 +71,12 @@ Business Roles for S/4HANA User Include
 * SAP_BR_SET_CLERK
 * SAP_BR_SHIPPING_SPECIALIST
 * SAP_BR_WAREHOUSE_CLERK
+
+
+
+## Steps
+
+1. [Creation of CDS Views in S/4HANA](#cdsview1)
 
 
 ### <a name="cdsview1"></a> Creation of CDS Views in S/4HANA
