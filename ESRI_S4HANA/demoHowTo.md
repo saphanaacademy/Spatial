@@ -62,13 +62,16 @@ Note that the appliance Windows machine includes a configured Eclipse IDE with t
 
 ### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
 
-In your Eclipse ABAP project create a new CDS view 
+The first CDS view that needs to be created will include sales amounts by customer > location > product. In your Eclipse ABAP project create a new CDS view with the following information.
+
 ```
 Name = ZXSH_C_SALESORDERITEMFSZ
 Description = Public Consumption View, Z Copy Sales Order Item
 ```
 
 <img src="images/s4HpEsriDemoPics01.jpg">
+
+Copy the following code into the view editor. You can substitute the "SH" in ZXSH so that it matches your namespace.
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
@@ -105,7 +108,11 @@ left outer join I_Address
 
 ### <a name="cdsview2"></a> Creation of CDS View with Customer Location
 
+The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. In your Eclipse ABAP project create a new CDS view with the following information.
+
 <img src="images/s4HpEsriDemoPics02.jpg">
+
+Copy the following code into the view editor. You can substitute the "SH" in ZXSH so that it matches your namespace.
 
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCCUSTOMERGEO'
