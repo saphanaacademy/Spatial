@@ -46,7 +46,7 @@ Here are the knowledge prerequisites for this exercise.
 * Familiarity with Calculation views in SAP HANA
 * Familiarity with Story design in SAP Analytics Cloud
 
-The S/4HANA trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa) If you are using the trial appliance then the appropriate user for this exercise is S4H_SD_DEM. Please see the Welcome page on the Windows Remote Desktop included with the appliance. 
+It is highly recommenced that this exercise be done on a trial S/4HANA system as this is a demo and therefore not production ready. This demo also uses customer sales CDS views. On a trial systenm these views would only return several hundred records vs. what is on a production system. The S/4HANA trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa) If you are using the trial appliance then the appropriate user for this exercise is S4H_SD_DEM. Please see the Welcome page on the Windows Remote Desktop included with the appliance. 
 
 Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 * SAP_BR_SALES_MANAGER
