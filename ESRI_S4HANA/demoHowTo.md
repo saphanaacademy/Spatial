@@ -3,6 +3,7 @@
 <tr><td width=40%><h3>SAP HANA Spatial & S/4HANA</h3></td><td width=60%><h3>&nbsp;Difficulty Level: Intermediate</h3></td></tr>
 </table>
 
+<img src="images/s4HpEsriDemoSAC01.jpg">  
 
 ## Description
 In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at the data level. This integrated data will be consumed in SAP Analytics Cloud.
