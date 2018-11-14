@@ -30,20 +30,19 @@ XXXXXX need appropriate link <http://www.sap.com>
   
 Here are the prerequisites for this exercise.
 
-* An S/4HANA on premise system
+* A fully activated S/4HANA on premise trial system
 * A technical S/4HANA user with appropriate roles (see below)
 * An SAP HANA on premise system
 * An SAP HANA technical user with appropriate rights (see below)
 * An Eclipse IDE with HANA and ABAP tools installed
 
-If you do not have your own S/4HANA system a trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa) If you are using the trial appliance then the appropriate user for this exercise is S4H_SD_DEM. Please see the Welcome page on the Windows Remote Desktop included with the appliance. 
+The S/4HANA trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa) If you are using the trial appliance then the appropriate user for this exercise is S4H_SD_DEM. Please see the Welcome page on the Windows Remote Desktop included with the appliance. 
 
-Business Roles for the S/4HANA Technical User Should Include
+Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 * SAP_BR_SALES_MANAGER
 * SAP_BR_PRODMASTER_SPECIALIST
 
-Downloads and instructions for ABAP and HANA tools for Eclipse
-	https://tools.hana.ondemand.com/
+Note that the appliance Windows machine includes a configured Eclipse IDE with the needed tools for ABAP CDS development installed. If you are interested in learning more about this Eclipse setup, please see the downloads and instructions for ABAP and HANA tools for Eclipse at https://tools.hana.ondemand.com/
 
 ## Steps
 
