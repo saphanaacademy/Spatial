@@ -78,7 +78,7 @@ Description = Public Consumption View, Z Copy Sales Order Item
 
 <img src="images/s4HpEsriDemoPics01.jpg">
 
-Copy the following code into the view editor. You can substitute the "SH" in ZXSH so that it matches your namespace.
+Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
@@ -119,7 +119,7 @@ The second CDS view that needs to be created will be a customer location hierarc
 
 <img src="images/s4HpEsriDemoPics02.jpg">
 
-Copy the following code into the view editor. You can substitute the "SH" in ZXSH so that it matches your namespace.
+Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
 
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCCUSTOMERGEO'
