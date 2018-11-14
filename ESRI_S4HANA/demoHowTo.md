@@ -19,15 +19,11 @@ For further reading on HANA Spatial and ESRI, click link below.
 
 <http://www.sap.com>
 
+
 ## Target group
 
 * Data analysts and developers
 * People interested in learning about extending S/4HANA with ESRI data  
-
-
-## Goal
-
-XXXXXX
 
 
 ## Prerequisites
