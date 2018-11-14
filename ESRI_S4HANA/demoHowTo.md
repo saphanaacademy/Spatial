@@ -15,12 +15,6 @@ In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at t
 * Virtual Tables of the S/4HANA CDS views are created
 * In HANA the virtual tables from the S/4HANA data are combined with spatial tables in calculation views for consumption
 
-
-<pre><code>foo	baz 		bim
-</code></pre>
-
-
-
 For further reading on HANA Spatial and ESRI, click link below.
 
 <http://www.sap.com>
