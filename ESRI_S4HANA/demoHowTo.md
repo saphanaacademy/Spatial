@@ -40,36 +40,14 @@ Here are the prerequisites for this exercise.
 * An SAP HANA technical user with appropriate rights (see list below)
 * An Eclipse IDE with HANA and ABAP tools installed
 
-If you do not have your own S/4HANA system a trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa)
+If you do not have your own S/4HANA system a trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa) If you are using the trial appliance then the appropriate user for this exercise is S4H_SD_DEM. Please see the Welcome page on the Windows Remote Desktop included with the appliance. 
 
-An S/4HANA user must be available that has the appropriate roles to access sales data and create CDS views. A technical user is also required to create a connection from HANA to the S/4HANA system via Smart Data Access.
+Business Roles for the S/4HANA Technical User Should Include
+* SAP_BR_SALES_MANAGER
+* SAP_BR_PRODMASTER_SPECIALIST
 
 Downloads and instructions for ABAP and HANA tools for Eclipse
 	https://tools.hana.ondemand.com/
-
-Business Roles for the S/4HANA Technical User Include
-&emsp;SAP_BC_SEFS_ADMIN\
-* SAP_BC_SES_ADMIN
-* SAP_BR_BILLING_CLERK
-* SAP_BR_BUPA_MASTER_SPECIALIST
-* SAP_BR_CREDIT_CONTROLLER
-* SAP_BR_EMPLOYEE
-* SAP_BR_INTERNAL_SALES_REP
-* SAP_BR_INTRASTAT_SPECIALIST
-* SAP_BR_ORDER_FULFILLMNT_MNGR
-* SAP_BR_ORDER_FULFILLMNT_SPCLST
-* SAP_BR_PRICING_SPECIALIST
-* SAP_BR_PRODMASTER_SPECIALIST
-* SAP_BR_PRODN_SUPERVISOR_RPTV
-* SAP_BR_RECEIVING_SPECIALIST
-* SAP_BR_RETURNS_REFUND_CLERK
-* SAP_BR_SALES_MANAGER
-* SAP_BR_SALES_PROCESS_MANAGER
-* SAP_BR_SET_CLERK
-* SAP_BR_SHIPPING_SPECIALIST
-* SAP_BR_WAREHOUSE_CLERK
-
-
 
 ## Steps
 
