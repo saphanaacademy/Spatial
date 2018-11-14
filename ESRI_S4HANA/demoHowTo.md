@@ -31,10 +31,9 @@ XXXXXX need appropriate link <http://www.sap.com>
 Here are the prerequisites for this exercise.
 
 * A fully activated S/4HANA on premise trial system
-* A technical S/4HANA user with appropriate roles (see below)
+* Familiarity with ABAP CDS Views in S/4HANA
 * An SAP HANA on premise system
 * An SAP HANA technical user with appropriate rights (see below)
-* An Eclipse IDE with HANA and ABAP tools installed
 
 The S/4HANA trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/4dd49282-86ec-4e78-8b40-ef0c237012fa) If you are using the trial appliance then the appropriate user for this exercise is S4H_SD_DEM. Please see the Welcome page on the Windows Remote Desktop included with the appliance. 
 
