@@ -42,7 +42,7 @@ Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 * SAP_BR_SALES_MANAGER
 * SAP_BR_PRODMASTER_SPECIALIST
 
-Note that the appliance Windows machine includes a configured Eclipse IDE with the needed tools for ABAP CDS development installed. If you are interested in learning more about this Eclipse setup, please see the downloads and instructions for ABAP and HANA tools for Eclipse at https://tools.hana.ondemand.com/
+Note that the appliance Windows machine includes a configured Eclipse IDE with the needed tools for ABAP CDS development installed. If you are interested in learning more about how to set up your own Eclipse environment, please see the downloads and instructions for ABAP and HANA tools for Eclipse at https://tools.hana.ondemand.com/
 
 ## Steps
 
