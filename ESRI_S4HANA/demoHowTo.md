@@ -55,6 +55,10 @@ Note that the appliance Windows machine includes a configured Eclipse IDE with t
 
 1. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
 1. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
+1. [Setup of Remote Connection and Virtual Tables for the S/4HANA System](#remotecon)
+1. [Setup of Sample Database for the SAP HANA System](#remotecon)
+1. [Creation of SQL and Calculation Views on Integrated Data](#remotecon)
+1. [Creation of Connection and Models and Story in SAP Analytics Cloud](#remotecon)
 
 ### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
 
@@ -127,6 +131,22 @@ inner join I_Address
 }
 ```
 
-	
-	
+### <a name="remotecon"></a> Setup of Remote Connection and Virtual Tables for the S/4HANA System
+
+XXXXXX need steps and video links etc.
+
+
+### <a name="remotecon"></a> Setup of Sample Database for the SAP HANA System
+
+XXXXXX need steps and video links etc.	
+
+
+### <a name="remotecon"></a> Creation of SQL and Calculation Views on Integrated Data
+
+XXXXXX need steps and video links etc.		
+
+
+### <a name="remotecon"></a> Creation of Connection and Models and Story in SAP Analytics Cloud
+
+XXXXXX need steps and video links etc.		
 
