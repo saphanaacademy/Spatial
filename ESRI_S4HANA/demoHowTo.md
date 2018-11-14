@@ -53,6 +53,12 @@ Note that the appliance Windows machine includes a configured Eclipse IDE with t
 
 ### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
 
+In your Eclipse ABAP project create a new CDS view 
+```
+Name = ZXSH_C_SALESORDERITEMFSZ
+Description = Public Consumption View, Z Copy Sales Order Item
+```
+
 <img src="images/s4HpEsriDemoPics01.jpg">
 	
 ```
