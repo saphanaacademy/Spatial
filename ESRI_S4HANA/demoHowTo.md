@@ -47,10 +47,10 @@ Downloads and instructions for ABAP and HANA tools for Eclipse
 
 ## Steps
 
-1. [Creation of CDS Views in S/4HANA](#cdsview1)
+1. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
+1. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
 
-
-### <a name="cdsview1"></a> Creation of CDS Views in S/4HANA
+### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
@@ -84,6 +84,8 @@ left outer join I_Address
     I_Address.PostalCode
 }
 ```
+
+### <a name="cdsview2"></a> Creation of CDS View with Customer Location
 
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCCUSTOMERGEO'
