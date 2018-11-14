@@ -3,18 +3,18 @@
 <tr><td width=40%><h3>SAP HANA Spatial & S/4HANA</h3></td><td width=60%><h3>&nbsp;Difficulty Level: Intermediate</h3></td></tr>
 </table>
 
-<img src="images/s4HpEsriDemoSAC01.jpg">
-
 ## Description
 In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at the data level. This integrated data will be consumed in SAP Analytics Cloud.
 
-<img src="images/s4HpEsriDemoArch02.jpg">    
+<img src="images/s4HpEsriDemoSAC01.jpg">
 
 * In S/4HANA CDS views are created to combine customer sales, product, and location information
 * The Data Provisioning Agent is installed and the ABAP adapter is registered with the SAP HANA system
 * A Remote Connection is made from the HANA system to the S/4HANA system
 * Virtual Tables of the S/4HANA CDS views are created
 * In HANA the virtual tables from the S/4HANA data are combined with spatial tables in calculation views for consumption
+
+<img src="images/s4HpEsriDemoArch02.jpg">  
 
 For further reading on HANA Spatial and ESRI, click link below.
 
