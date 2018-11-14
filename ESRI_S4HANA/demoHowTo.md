@@ -23,7 +23,7 @@ XXXXXX need appropriate link <http://www.sap.com>
 ## Target group
 
 * Data analysts and developers
-* People interested in learning about extending S/4HANA with ESRI data  
+* People interested in learning about extending S/4HANA with ESRI spatial data  
 
 
 ## Prerequisites
