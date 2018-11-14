@@ -17,7 +17,7 @@ In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at t
 
 For further reading on HANA Spatial and ESRI, click link below.
 
-<http://www.sap.com>
+XXXXXX need appropriate link <http://www.sap.com>
 
 
 ## Target group
