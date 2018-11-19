@@ -4,7 +4,7 @@
 </table>
 
 ## Description
-In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at the data level. This integrated data will be consumed in SAP Analytics Cloud.
+In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at the data level. This integrated data can be consumed in SAP Analytics Cloud.
 
 <img src="images/s4HpEsriDemoSAC01.jpg">
 
