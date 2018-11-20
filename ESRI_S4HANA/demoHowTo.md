@@ -120,6 +120,11 @@ left outer join I_Address
 
 The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. In your Eclipse ABAP project create a new CDS view with the following information.
 
+```
+Name = ZXSH_C_CUSTOMERGEO
+Description = Public Consumption View, Customer Location Hierarchy
+```
+
 <img src="images/s4HpEsriDemoPics02.jpg">
 
 Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
