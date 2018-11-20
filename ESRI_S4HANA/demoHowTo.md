@@ -58,7 +58,7 @@ Note that the appliance Windows machine includes a configured Eclipse IDE with t
 
 For more information on getting started with the S/4HANA fully activated trial appliance please see [these videos on the SAP HANA Academy.](https://www.youtube.com/playlist?list=PLkzo92owKnVwCbYmnsFkPQ8hCyzGmXO8_)
 
-## Steps
+## <a name="steps"></a> Steps
 
 1. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
 1. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
@@ -112,6 +112,9 @@ left outer join I_Address
     I_Address.PostalCode
 }
 ```
+
+[Back to Steps](#steps)
+
 
 ### <a name="cdsview2"></a> Creation of CDS View with Customer Location
 
