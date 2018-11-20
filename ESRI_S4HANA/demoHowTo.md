@@ -148,6 +148,9 @@ inner join I_Address
 }
 ```
 
+[Back to Steps](#steps)
+
+
 ### <a name="remotecon"></a> Setup of Remote Connection and Virtual Tables for the S/4HANA System
 
 In order to connect your SAP HANA system to your S/4HANA system you need to first set up the Data Provisioning Agent.  
@@ -157,20 +160,26 @@ https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation a
 
 SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
 
-
+[Back to Steps](#steps)
 
 
 ### <a name="remotecon"></a> Setup of Sample Database for the SAP HANA System
 
 XXXXXX need steps and video links etc.	
 
+[Back to Steps](#steps)
+
 
 ### <a name="remotecon"></a> Creation of SQL and Calculation Views on Integrated Data
 
 XXXXXX need steps and video links etc.		
 
+[Back to Steps](#steps)
+
 
 ### <a name="remotecon"></a> Creation of Connection and Models and Story in SAP Analytics Cloud
 
 XXXXXX need steps and video links etc.		
+
+[Back to Steps](#steps)
 
