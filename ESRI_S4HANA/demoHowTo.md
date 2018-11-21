@@ -10,9 +10,6 @@ In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at t
 
 <iframe width="400" height="225" src="https://www.youtube.com/embed/nX54bL0GOcw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Onv9nhPIBp0" frameborder="0" allowfullscreen> </iframe>
-
-
 ## Overview
 
 * In S/4HANA CDS views are created to combine customer sales, product, and location information
