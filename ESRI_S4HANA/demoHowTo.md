@@ -55,8 +55,11 @@ Here are the knowledge prerequisites for this exercise.
 
 We need to create two ABAP CDS views in our S/4HANA system. The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component.
 
-2. [Setup of Remote Connection and Virtual Tables for the S/4HANA System](#remotecon)
-1. [Setup of Sample Database for the SAP HANA System](#remotecon)
+2. [Setup of Smart Data Access to the S/4HANA System](exercises/dataSDI.md)
+
+This task includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating Virtual Tables for the ABAP CDS views we created earlier.
+
+3. [Setup of Sample Database for the SAP HANA System](#remotecon)
 1. [Creation of EPSG (SRID 3857) Spatial System](#spatialsys)
 1. [Creation of SQL and Calculation Views on Integrated Data](#remotecon)
 1. [Creation of Connection and Models and Story in SAP Analytics Cloud](#remotecon)
@@ -66,18 +69,6 @@ We need to create two ABAP CDS views in our S/4HANA system. The first CDS view t
 
 
 
-### <a name="remotecon"></a> Setup of Remote Connection and Virtual Tables for the S/4HANA System
-
-In order to connect your SAP HANA system to your S/4HANA system you need to first set up the Data Provisioning Agent.  
-https://tools.hana.ondemand.com/ > click on the Cloud Integration tab > scroll down to the Data Integration Downloads section.
-
-* Note that this download is only for dev/testing purposes. Please contact your SAP representative for licensing of this product on a production system.
-
-https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
-
-SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
-
-[Back to Steps](#steps)
 
 
 ### <a name="remotecon"></a> Setup of Sample Database for the SAP HANA System
