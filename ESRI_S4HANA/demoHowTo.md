@@ -46,7 +46,7 @@ Here are the knowledge prerequisites for this exercise.
 * Familiarity with Calculation views in SAP HANA
 * Familiarity with Story design in SAP Analytics Cloud
 
-[Go to the Prerequisites](exercises/prereqs.md)
+[Go to the Prerequisites](exercises/preReqs.md)
 
 
 ## <a name="steps"></a> Steps
