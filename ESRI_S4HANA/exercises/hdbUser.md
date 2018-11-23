@@ -1,8 +1,8 @@
-### <Setup of Sample Database for the SAP HANA System
+### Setup of Development User for the SAP HANA System
 
 XXXXXX need steps and video links etc.	
 
-In the next steps we will create a HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
+In the next steps we will create a technical HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
 
 ```
 ------------
