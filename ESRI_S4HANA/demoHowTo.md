@@ -49,7 +49,7 @@ Here are the knowledge prerequisites for this exercise.
 [Go to the Prerequisites](exercises/preReqs.md)
 
 
-## <a name="steps"></a> Steps
+## <a name="tasks"></a> Tasks
 
 1. [Creation of CDS Views in S/4HANA](exercises/dataS4H.md)
 
@@ -64,8 +64,6 @@ We need to create two ABAP CDS views in our S/4HANA system. The first CDS view t
 
 
 
-
-[Back to Steps](#steps)
 
 
 ### <a name="remotecon"></a> Setup of Remote Connection and Virtual Tables for the S/4HANA System
