@@ -65,6 +65,7 @@ For more information on getting started with the S/4HANA fully activated trial a
 1. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
 1. [Setup of Remote Connection and Virtual Tables for the S/4HANA System](#remotecon)
 1. [Setup of Sample Database for the SAP HANA System](#remotecon)
+1. [Creation of EPSG (SRID 3857) Spatial System](#spatialsys)
 1. [Creation of SQL and Calculation Views on Integrated Data](#remotecon)
 1. [Creation of Connection and Models and Story in SAP Analytics Cloud](#remotecon)
 
@@ -175,10 +176,92 @@ SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ
 
 XXXXXX need steps and video links etc.	
 
+In the next steps we will create a HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
+
+```
+------------
+--
+-- hdb user
+--
+------------
+
+CREATE USER HACKT28 PASSWORD Initial1;
+ALTER USER HACKT28 DISABLE PASSWORD LIFETIME;
+
+GRANT CREATE REMOTE SOURCE TO HACKT28;
+GRANT ADAPTER ADMIN TO HACKT28;
+GRANT AGENT ADMIN TO HACKT28;
+GRANT IMPORT TO HACKT28;
+GRANT CONTENT_ADMIN TO HACKT28;
+GRANT MODELING TO HACKT28;
+
+
+INSERT INTO _SYS_REPO.PACKAGE_CATALOG(PACKAGE_ID, SRC_SYSTEM, SRC_TENANT, DESCRIPTION, RESPONSIBLE, IS_STRUCTURAL) 
+	VALUES ('HACKT28','HDB','','HACKT28','HACKT28',0);
+GRANT EXECUTE ON REPOSITORY_REST TO HACKT28;
+GRANT EXECUTE ON GRANT_ACTIVATED_ROLE TO HACKT28;
+GRANT EXECUTE ON REVOKE_ACTIVATED_ROLE TO HACKT28;
+GRANT REPO.READ, REPO.EDIT_NATIVE_OBJECTS, REPO.ACTIVATE_NATIVE_OBJECTS, REPO.MAINTAIN_NATIVE_PACKAGES 
+	ON "HACKT28" TO HACKT28;
+GRANT REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_IMPORTED_PACKAGES 
+	ON "HACKT28" TO HACKT28;
+
+-- To delete user --
+-- DELETE FROM _SYS_REPO.PACKAGE_CATALOG WHERE RESPONSIBLE = 'HACKT28';
+-- SELECT TOP 1000 * FROM "_SYS_REPO"."PACKAGE_CATALOG" WHERE PACKAGE_ID = 'HACKT28';
+-- DROP USER HACKT28 CASCADE;
+
+
+
+```
+
+-- run this as HACKT28
+GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE ON SCHEMA HACKT28 to _SYS_REPO WITH GRANT OPTION;
+
+```
+
+### <a name="spatialsys"></a>Creation of EPSG (SRID 3857) Spatial System
+
+```
+
+------------
+--
+-- spatial sys
+--
+------------
+
+-- run this as HACKT28
+CREATE SPATIAL REFERENCE SYSTEM "WGS 84 / Pseudo-Mercator" IDENTIFIED BY 3857
+TYPE PLANAR
+SNAP TO GRID 1e-4
+TOLERANCE 1e-4
+COORDINATE X BETWEEN -20037508.3427892447 AND 20037508.3427892447
+COORDINATE Y BETWEEN -19929191.7668547928 AND 19929191.766854766
+ORGANIZATION "EPSG" IDENTIFIED BY 3857
+LINEAR UNIT OF MEASURE "metre"
+ANGULAR UNIT OF MEASURE NULL
+POLYGON FORMAT 'EvenOdd'
+STORAGE FORMAT 'Internal'
+DEFINITION 'PROJCS["Popular Visualisation CRS / Mercator",GEOGCS["Popular Visualisation CRS",DATUM["Popular_Visualisation_Datum",SPHEROID["Popular Visualisation Sphere",6378137,0,AUTHORITY["EPSG","7059"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6055"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.01745329251994328,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4055"]],UNIT["metre",1,AUTHORITY["EPSG","9001"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],AUTHORITY["EPSG","3785"],AXIS["X",EAST],AXIS["Y",NORTH]]'
+TRANSFORM DEFINITION '+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs';
+
+
+------------
+--
+-- import csv files for census and centroid tables
+--
+------------
+
+-- see file that has csv files as opposed to binaries (binaries are causing errors)
+
+```
+
 [Back to Steps](#steps)
 
 
 ### <a name="remotecon"></a> Creation of SQL and Calculation Views on Integrated Data
+
+XXXXXX need steps and video links etc.	
 
 ```
 -- run as HACKT28 to create 3 sql views
@@ -282,7 +365,7 @@ left outer join "HACKT28"."GEOZIPCODECENTROID" T1
 select * from "HACKT28"."SV_ZXSHCSLSORDITFSZ_HDBGEOZIPCODECENTROID";
 ```
 
-XXXXXX need steps and video links etc.		
+	
 
 [Back to Steps](#steps)
 
