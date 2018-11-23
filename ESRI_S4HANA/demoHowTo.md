@@ -46,6 +46,8 @@ Here are the knowledge prerequisites for this exercise.
 * Familiarity with Calculation views in SAP HANA
 * Familiarity with Story design in SAP Analytics Cloud
 
+[Go to the prerequisites](exercises/prereqs.md)
+
 ## <a name="steps"></a> Steps
 
 1. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
