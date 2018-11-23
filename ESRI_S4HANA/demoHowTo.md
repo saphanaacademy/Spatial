@@ -77,5 +77,5 @@ A sample database is used for this exercise and consists of US Census data as we
 6. [Creation of SQL and Calculation Views on Integrated Data](exercises/hdbViews.md)
 
 
-7. [Creation of Connection and Models and Story in SAP Analytics Cloud](exercises/sacAnalytis)
+7. [Creation of Connection and Models and Story in SAP Analytics Cloud](exercises/sacAnalytics.md)
 
