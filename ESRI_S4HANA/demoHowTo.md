@@ -1,11 +1,6 @@
 <table width=100% border=>
-<tr><td colspan=2><h1>How To Extend S/4HANA with HANA Spatial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1></td></tr>
-<tr><td width=40%><h3>Exercise Overview</h3></td><td width=60%><h3>&nbsp;Difficulty Level: Intermediate</h3></td></tr>
-</table>
-
-<table width=100% border=>
 <tr><td colspan=2><h1>EXERCISE -How to Extend S/4HANA with HANA Spatial</h1></td></tr>
-<tr><td><h3>SAP Partner Workshop</h3></td><td width=60%><h1>&nbsp;Difficulty Level: Intermediate</h1></td></tr>
+<tr><td><h3>Exercise Overview</h3></td><td width=60%>&nbsp;Difficulty Level: Intermediate</td></tr>
 </table>
 
 ## Description
