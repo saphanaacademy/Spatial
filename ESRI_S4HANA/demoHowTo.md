@@ -1,5 +1,5 @@
 <table width=100% border=>
-<tr><td colspan=2><h1>EXERCISE -How to Extend S/4HANA with HANA Spatial</h1></td></tr>
+<tr><td colspan=2><h1>Exercise - How to Extend S/4HANA with HANA Spatial</h1></td></tr>
 <tr><td><h3>Exercise Overview</h3></td><td width=60%>&nbsp;Difficulty Level: Intermediate</td></tr>
 </table>
 
