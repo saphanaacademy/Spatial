@@ -74,26 +74,8 @@ A sample database is used for this exercise and consists of US Census data as we
 
 
 
-6. [Creation of SQL and Calculation Views on Integrated Data](#remotecon)
+6. [Creation of SQL and Calculation Views on Integrated Data](exercises/hdbViews.md)
 
 
-7. [Creation of Connection and Models and Story in SAP Analytics Cloud](#remotecon)
-
-
-
-
-```
-
-
-
-[Back to Steps](#steps)
-
-
-
-
-### <a name="remotecon"></a> Creation of Connection and Models and Story in SAP Analytics Cloud
-
-XXXXXX need steps and video links etc.		
-
-[Back to Steps](#steps)
+7. [Creation of Connection and Models and Story in SAP Analytics Cloud](exercises/sacAnalytis)
 
