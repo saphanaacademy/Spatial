@@ -33,7 +33,7 @@ XXXXXX need appropriate link <http://www.sap.com>
 
 ## Prerequisites
   
-Here are the equipment prerequisites for this exercise.
+Here is a list of the equipment prerequisites for this exercise. A link to the prerequisites page is further below.
 
 * A fully activated S/4HANA on premise trial system
 * An SAP HANA system (for this exercise we can use the HANA database on the S/4HANA system)
