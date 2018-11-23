@@ -51,6 +51,8 @@ Here are the knowledge prerequisites for this exercise.
 
 ## <a name="tasks"></a> Tasks
 
+After you've completed the prerequisites there are a number of main tasks to complete. Some of these tasks will consist of running code in the Eclipse IDE with SAP tools. The Eclipse IDE is installed on the Windows client of the S/4HANA trial appliance.
+
 1. [Creation of CDS Views in S/4HANA](exercises/s4hViews.md)
 
 We need to create two ABAP CDS views in our S/4HANA system. The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component.
