@@ -59,7 +59,7 @@ We need to create two ABAP CDS views in our S/4HANA system. The first CDS view t
 
 We need to create a HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
 
-3. [Setup of Smart Data Access to the S/4HANA System](exercises/hdbRemote.md)
+3. [Setup of Smart Data Access to the S/4HANA System](exercises/sdiConfig.md)
 
 This task includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating Virtual Tables for the ABAP CDS views we created earlier.
 
