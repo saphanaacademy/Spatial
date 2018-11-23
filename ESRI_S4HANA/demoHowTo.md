@@ -51,7 +51,7 @@ Here are the knowledge prerequisites for this exercise.
 
 ## <a name="tasks"></a> Tasks
 
-After you've completed the prerequisites there are a number of main tasks to complete. Some of these tasks will consist of running code in the Eclipse IDE with SAP tools. The Eclipse IDE is installed on the Windows client of the S/4HANA trial appliance.
+After you've completed the prerequisites there are a number of main tasks to complete. Some of these tasks will consist of running code in the Eclipse IDE with SAP tools. The Eclipse IDE is installed on the Windows client of the S/4HANA trial appliance. You will also need to import several HANA pieces like a sample database and some SQL and Calculation Vews.
 
 1. [Creation of CDS Views in S/4HANA](exercises/s4hViews.md)
 
