@@ -51,15 +51,17 @@ Here are the knowledge prerequisites for this exercise.
 
 ## <a name="steps"></a> Steps
 
-1. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
-1. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
+1. [Creation of CDS Views in S/4HANA](exercises/dataS4H.md)
+
+We need to create two ABAP CDS views in our S/4HANA system. The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component.
+
 1. [Setup of Remote Connection and Virtual Tables for the S/4HANA System](#remotecon)
 1. [Setup of Sample Database for the SAP HANA System](#remotecon)
 1. [Creation of EPSG (SRID 3857) Spatial System](#spatialsys)
 1. [Creation of SQL and Calculation Views on Integrated Data](#remotecon)
 1. [Creation of Connection and Models and Story in SAP Analytics Cloud](#remotecon)
 
-The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component.
+
 
 
 
