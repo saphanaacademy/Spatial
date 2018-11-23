@@ -51,15 +51,15 @@ Here are the knowledge prerequisites for this exercise.
 
 ## <a name="tasks"></a> Tasks
 
-1. [Creation of CDS Views in S/4HANA](exercises/dataS4H.md)
+1. [Creation of CDS Views in S/4HANA](exercises/s4hViews.md)
 
 We need to create two ABAP CDS views in our S/4HANA system. The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component.
 
-2. [Creation of Developer User for the SAP HANA System]()
+2. [Creation of Developer User for the SAP HANA System](hdbUser)
 
 We need to create a HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
 
-3. [Setup of Smart Data Access to the S/4HANA System](exercises/hdbSDI.md)
+3. [Setup of Smart Data Access to the S/4HANA System](exercises/hdbRemote.md)
 
 This task includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating Virtual Tables for the ABAP CDS views we created earlier.
 
