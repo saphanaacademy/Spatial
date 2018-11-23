@@ -35,7 +35,7 @@ XXXXXX need appropriate link <http://www.sap.com>
   
 Here is a list of the equipment prerequisites for this exercise. A link to the prerequisites page is further below.
 
-* A fully activated S/4HANA on premise trial system
+* A fully activated S/4HANA on premise trial system (or a non-production / development S/4HANA system)
 * An SAP HANA system (for this exercise we can use the HANA database on the S/4HANA system)
 * An SAP Analytics Cloud (SAC) account
 * A configured connection from the SAC tenant to the HANA system (we will use SDI's Data Provisioning and Remote Sources)
