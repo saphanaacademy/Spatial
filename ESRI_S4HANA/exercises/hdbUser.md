@@ -5,7 +5,21 @@
 
 XXXXXX need steps and video links etc.	
 
+## Description
+
 In the next steps we will create a technical HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
+
+
+## Prerequisites
+
+You will need the Eclipse IDE with SAP HANA tools installed. If you are using the S/4HANA trial appliance then this IDE will be set up already on the Windows client.
+
+
+## Steps
+
+1. In Eclipse, go to the Window menu > Perspective > Open Perspective >  SAP HANA Administration Console (if you don't see it in this options list then choose Other > HANA Administration.
+
+
 
 ```
 ------------
