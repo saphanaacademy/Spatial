@@ -17,7 +17,7 @@ You will need the Eclipse IDE with SAP HANA tools installed. If you are using th
 
 ## Steps
 
-1. In Eclipse, go to the Window menu > Perspective > Open Perspective >  SAP HANA Administration Console (if you don't see it in this options list then choose Other > HANA Administration.
+1. In Eclipse, go to the Window menu > Perspective > Open Perspective >  SAP HANA Development Console (if you don't see it in this options list then choose Other > SAP HANA Development.
 
 
 
