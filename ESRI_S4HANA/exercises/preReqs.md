@@ -1,6 +1,6 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
-<tr><td><h3>Prerequisites</h3></td><td width=60%></br>&nbsp;</p></td></tr>
+<tr><td><h3>Prerequisites</h3></td><td width=60%></br>&nbsp;Development Environment</p></td></tr>
 </table>
 
 ## Description
