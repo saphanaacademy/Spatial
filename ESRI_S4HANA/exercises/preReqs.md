@@ -5,11 +5,11 @@
 
 ## Description
 
-In the next steps we will set up our development / trial environment for this exercise. 
+In the next steps we will set up our development / trial environment for the exercise. 
 
 ## Steps
 
-Here are the  for completing the exercise prerequisites.
+Here are the steps for completing the exercise prerequisites.
 
 1. Starting up an S/4HANA Trial System: It is highly recommenced that this exercise be done on a trial S/4HANA system as this is a technical / 'how to' demo. This demo also uses customer sales CDS views. On a trial system these views would only return several hundred records vs. what is on a production system. If you do insist on using your production system, then you will need to filter your final custom CDS views so that a much smaller / sample record set is returned. Creating the custom views will be covered later on.
 
@@ -17,11 +17,19 @@ Here are the  for completing the exercise prerequisites.
 
 2. (Option A) Accessing the SAP HANA System Using the S/4HANA Trial Appliance to Emulate a Sidecar
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Accessing the SAP HANA System Using the S/4HANA Trial Appliance to Emulate a Sidecar](#hdbons4h)
+
 2. (Option B) Starting an SAP Cloud Platform HANA System to Use as a Sidecar
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting up an S/4HANA Trial System](#s4htrial)
 
 3. Getting an SAP Analytics Cloud (SAC) System
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting up an S/4HANA Trial System](#s4htrial)
+
 4. Configuring the SAC Connection to the SAP HANA Database
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting up an S/4HANA Trial System](#s4htrial)
 
 
 ## <a name="s4htrial"></a> Starting up an S/4HANA Trial System
@@ -34,5 +42,8 @@ Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 Note that the appliance Windows machine includes a configured Eclipse IDE with the needed tools for ABAP CDS development installed. If you are interested in learning more about how to set up your own Eclipse environment, please see the downloads and instructions for ABAP and HANA tools for Eclipse at https://tools.hana.ondemand.com/
 
 For more information on getting started with the S/4HANA fully activated trial appliance please see [these videos on the SAP HANA Academy.](https://www.youtube.com/playlist?list=PLkzo92owKnVwCbYmnsFkPQ8hCyzGmXO8_)
+
+
+## <a name="hdbons4h"></a> Accessing the SAP HANA System Using the S/4HANA Trial Appliance to Emulate a Sidecar
 
 [Go Back to the Main Page](../demoHowTo.md)
