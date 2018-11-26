@@ -22,8 +22,8 @@ In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at t
 
 ## Target group
 
-* Data analysts and developers
 * People interested in learning about extending S/4HANA with ESRI spatial data  
+* Data analysts and developers
 
 
 ## Prerequisites
