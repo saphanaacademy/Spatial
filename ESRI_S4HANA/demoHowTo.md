@@ -51,7 +51,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 1. We need to create two ABAP CDS views in our S/4HANA system. The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component.
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Creation of CDS Views in S/4HANA](exercises/s4hViews.md)
+* [Creation of CDS Views in S/4HANA](exercises/s4hViews.md)
 
 2. We need to create a HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
 
