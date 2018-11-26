@@ -23,15 +23,15 @@ Here are the steps for completing the exercise prerequisites.
 
 2. (Option B) Starting an SAP Cloud Platform HANA System to Use as a Sidecar
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting an SAP Cloud Platform HANA System to Use as a Sidecar](#s4htrial)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting an SAP Cloud Platform HANA System to Use as a Sidecar](#hdbonscp)
 
 3. Getting an SAP Analytics Cloud (SAC) System
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Getting an SAP Analytics Cloud (SAC) System](#s4htrial)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Getting an SAP Analytics Cloud (SAC) System](#sac)
 
 4. Configuring the SAC Connection to the SAP HANA Database
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configuring the SAC Connection to the SAP HANA Database](#s4htrial)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configuring the SAC Connection to the SAP HANA Database](#sactohdb)
 
 
 ## <a name="s4htrial"></a> Starting up an S/4HANA Trial System
@@ -47,5 +47,11 @@ For more information on getting started with the S/4HANA fully activated trial a
 
 
 ## <a name="hdbons4h"></a> Accessing the SAP HANA System Using the S/4HANA Trial Appliance
+
+## <a name="hdbonscp"></a> Starting an SAP Cloud Platform HANA System to Use as a Sidecar
+
+## <a name="sac"></a> Getting an SAP Analytics Cloud (SAC) System
+
+## <a name="sactohdb"></a> Configuring the SAC Connection to the SAP HANA Database
 
 [Go Back to the Main Page](../demoHowTo.md)
