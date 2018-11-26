@@ -65,15 +65,15 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 * [Setup of Sample Database for the SAP HANA System](exercises/hdbData.md)
 
-5.
+5. XXXXXX
 
 * [Creation of EPSG (SRID 3857) Spatial System and Data Transform](exercises/hdbSpatial.md)
 
-6.
+6. XXXXXX
 
 * [Creation of SQL and Calculation Views on Integrated Data](exercises/hdbViews.md)
 
-7.
+7. XXXXXX
 
 * [Creation of Connection and Models and Story in SAP Analytics Cloud](exercises/sacAnalytics.md)
 
