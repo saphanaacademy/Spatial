@@ -49,10 +49,18 @@ For more information on getting started with the S/4HANA fully activated trial a
 
 ## <a name="hdbons4h"></a> Accessing the SAP HANA System Using the S/4HANA Trial Appliance
 
+[Go Back to the List of Steps](#steps)
+
 ## <a name="hdbonscp"></a> Starting an SAP Cloud Platform HANA System to Use as a Sidecar
+
+[Go Back to the List of Steps](#steps)
 
 ## <a name="sac"></a> Getting an SAP Analytics Cloud (SAC) System
 
+[Go Back to the List of Steps](#steps)
+
 ## <a name="sactohdb"></a> Configuring the SAC Connection to the SAP HANA Database
+
+[Go Back to the List of Steps](#steps)
 
 [Go Back to the Main Page](../demoHowTo.md)
