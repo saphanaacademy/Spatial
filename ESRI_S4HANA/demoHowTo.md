@@ -59,15 +59,15 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 3. The next task includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating Virtual Tables for the ABAP CDS views we created earlier.
 
-[Setup of Smart Data Access to the S/4HANA System](exercises/sdiConfig.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Setup of Smart Data Access to the S/4HANA System](exercises/sdiConfig.md)
 
 4. A sample database is used for this exercise and consists of US Census data as well as a table used to approimate the Longitude and Latitude of customer addresses in the S/4HANA sales data. This task will be undertaken by the technical HANA user we created earlier.
 
-<span style="margin-left:30px;">XXXXXX</span> [Setup of Sample Database for the SAP HANA System](exercises/hdbData.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Setup of Sample Database for the SAP HANA System](exercises/hdbData.md)
 
 5. XXXXXX
 
-* [Creation of EPSG (SRID 3857) Spatial System and Data Transform](exercises/hdbSpatial.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Creation of EPSG (SRID 3857) Spatial System and Data Transform](exercises/hdbSpatial.md)
 
 6. XXXXXX
 
