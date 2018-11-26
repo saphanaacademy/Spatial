@@ -1,13 +1,13 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
-<tr><td><h3>Prerequisites</h3></td><td width=60%></br>&nbsp;Getting Your Environment Ready</p></td></tr>
+<tr><td><h3>Prerequisites</h3></td><td width=60%></br>&nbsp;</p></td></tr>
 </table>
 
 ## Description
 
 In the next steps we will set up our development / trial environment for the exercise. 
 
-We will need an S/4HANA system, a HANA datbase, and access to the SAP Analytics Cloud.
+We will need an S/4HANA system, a HANA database, and access to the SAP Analytics Cloud.
 
 For the HANA 'sidecar' there are two options depending on what you want to accomplish. The first option will be to emulate having a sidecar and just use the HANA database that is on the S/4HANA trial appliance. The second option will be to use a HANA database on SAP Cloud Platform. The latter option is of course more work and potentially more expensive.
 
