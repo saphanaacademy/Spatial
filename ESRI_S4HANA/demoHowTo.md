@@ -55,7 +55,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 2. We need to create a HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
 
-<pre><code> [Creation of Developer User for the SAP HANA System](hdbUser)</code></pre>
+<pre> [Creation of Developer User for the SAP HANA System](hdbUser)</pre>
 
 3. The next task includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating Virtual Tables for the ABAP CDS views we created earlier.
 
