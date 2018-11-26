@@ -1,4 +1,27 @@
+<table width=100% border=>
+<tr><td colspan=2><h1>Creating Demo ABAP CDS Views in S/4HANA</h1></td></tr>
+<tr><td><h3>Creation of EPSG (SRID 3857) Spatial System and Transform of Spatial Data</h3></td><td width=60%></br>&nbsp;Task #1</p></td></tr>
+</table>
 
+XXXXXX need steps and video links etc.	
+
+## Description
+
+In the next steps we will first create a Spatial Reference System in our HANA database. This system will be EPSG / 3857 and is a requirement to use the data later ESRI Arc GIS. We will also alter an existing table in our sample HANA data so that it has a column with spatial data transformed to SRID 3857.
+
+
+## Prerequisites
+
+You should have an S/4HANA fully activated trial appliance set up. This appliance will have a Windows client, accessible by Remote Desktop, with the Eclipse IDE with SAP HANA tools installed. 
+
+You might want to have some familiarity with ABAP CDS views in S/4HANA but that is not a big requirement. You don't necessarily have to create your own CDS views from the ground up as you might just wish to slightly modify / extend existing CDS views.
+
+If you want to find out more about creating your own virtual models in CDS please see [the HANA Academy playlist on ABAP CDS here](https://www.youtube.com/playlist?list=PLkzo92owKnVxO-jWmOWugBv_9WQiq8wLc). Please note that these videos were created using an earlier S/4HANA trial system on version 1510 so some workflows might be slightly different looking, but the concepts should be the same.
+
+
+
+
+## Steps
 
 ## <a name="steps"></a> Steps
 
