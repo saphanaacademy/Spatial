@@ -31,7 +31,7 @@ If you suspend your instance through the SAP Cloud Appliance Library (CAL) conso
 
 On occasion one of the servers included in the instance may not be properly initialized in AWS. This will show in a variety of errors, but is most easily spotted by having a status that does not turn to Active.  You can terminate this instance and request another instance to be created.  Note that it might take a few minutes for the terminated instance to disappear from the console and allow you to create another Trial instance in its place.
 
-## Working with the SAP Cloud Appliance Library (CAL) Console:
+<h2>Working with the SAP Cloud Appliance Library (CAL) Console:</h2>
 
 <h4>My CAL console logged off while I was waiting for the AWS instance to be created. What should I do?</h4>
 
