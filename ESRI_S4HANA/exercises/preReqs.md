@@ -49,11 +49,11 @@ Note that the appliance Windows machine includes a configured Eclipse IDE with t
 
 [Go Back to the List of Steps](#steps)
 
-## <a name="hdbons4h"></a> Accessing the SAP HANA System Using the S/4HANA Trial Appliance
+## <a name="hdbons4h"></a> (Option A) Accessing the SAP HANA System Using the S/4HANA Trial Appliance
 
 [Go Back to the List of Steps](#steps)
 
-## <a name="hdbonscp"></a> Starting an SAP Cloud Platform HANA System to Use as a Sidecar
+## <a name="hdbonscp"></a> (Option B) Starting an SAP Cloud Platform HANA System to Use as a Sidecar
 
 [Go Back to the List of Steps](#steps)
 
