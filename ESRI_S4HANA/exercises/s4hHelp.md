@@ -69,3 +69,6 @@ Please be careful with your case. Many of the scripts and services are case-sens
 Please take note of any on-screen annotations added to the videos as we have noted a few changes in syntax or menu options released with the latest 1610 image build since the videos were created.
 
 Please note that these files may be changed with any new caveats, updates or resolutions that may arise.
+
+[Go Back to the Prerequisites Page](../preReqs.md)
+[Go Back to the Main Page](../demoHowTo.md)
