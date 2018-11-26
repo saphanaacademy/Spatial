@@ -22,7 +22,8 @@ In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at t
 
 ## Target group
 
-* People interested in learning about extending S/4HANA with ESRI spatial data  
+* People interested in learning about extending S/4HANA with ESRI spatial data 
+* People interested in extending S/4HANA with a HANA sidecar
 * Data analysts and developers
 
 
@@ -31,7 +32,7 @@ In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at t
 Here is a list of the equipment prerequisites for this exercise. A link to the prerequisites page is further below.
 
 * A fully activated S/4HANA on premise trial system (or a non-production / development S/4HANA system)
-* An SAP HANA system (for this exercise we can use the HANA database on the S/4HANA system)
+* An SAP HANA system (for this exercise we can use the HANA database on (a) S/4HANA or (b) in SAP Cloud Platform)
 * An SAP Analytics Cloud (SAC) account
 * A configured connection from the SAC tenant to the HANA system (we will use SDI's Data Provisioning and Remote Sources)
 
