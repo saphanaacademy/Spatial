@@ -63,7 +63,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 4. A sample database is used for this exercise and consists of US Census data as well as a table used to approimate the Longitude and Latitude of customer addresses in the S/4HANA sales data. This task will be undertaken by the technical HANA user we created earlier.
 
-<p style="margin-left:30px;">XXXXXX</p> [Setup of Sample Database for the SAP HANA System](exercises/hdbData.md)
+<span style="margin-left:30px;">XXXXXX</span> [Setup of Sample Database for the SAP HANA System](exercises/hdbData.md)
 
 5. XXXXXX
 
