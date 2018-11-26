@@ -7,12 +7,14 @@ XXXXXX need steps and video links etc.
 
 ## Description
 
-In the next steps we will first create a Spatial Reference System in our HANA database. This system will be EPSG / 3857 and is a requirement to use the data later ESRI Arc GIS. We will also alter an existing table in our sample HANA data so that it has a column with spatial data transformed to SRID 3857.
+In these steps we will create two ABAP CDS views in our S/4HANA system. These views will combine data from several existing CDS views and will be accessed later on from our HANA database. 
+
+One view will add address location data and product data into an existing customer sales view and the other view will have just customer location data from a customer information model. The latter view will be used later in a Calculation View that provides a location hierarchy for the SAP Analytics Cloud.
 
 
 ## Prerequisites
 
-You should have an S/4HANA fully activated trial appliance set up. This appliance will have a Windows client, accessible by Remote Desktop, with the Eclipse IDE with SAP HANA tools installed. 
+You should have an S/4HANA fully activated trial appliance set up. This appliance will have a Windows client, accessible by Remote Desktop, with the Eclipse IDE with SAP HANA tools installed. If you have not yet done so, please see [the Prerequisites page](exercises/preReqs.md) for more information.
 
 You might want to have some familiarity with ABAP CDS views in S/4HANA but that is not a big requirement. You don't necessarily have to create your own CDS views from the ground up as you might just wish to slightly modify / extend existing CDS views.
 
