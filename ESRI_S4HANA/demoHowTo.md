@@ -20,11 +20,6 @@ In this exercise, you’ll learn how to integrate S/4HANA and ESRI GIS data at t
 <img src="images/s4HpEsriDemoArch.jpg">  
 
 
-For further reading on HANA Spatial and ESRI, click link below.
-
-XXXXXX need appropriate link <http://www.sap.com>
-
-
 ## Target group
 
 * Data analysts and developers
