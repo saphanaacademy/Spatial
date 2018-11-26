@@ -5,7 +5,7 @@
 
 ## Description
 
-In the next steps we will set up our development / trial environment for the exercise. 
+In the next steps we will set up our development environment for the exercise. 
 
 We will need an S/4HANA system, a HANA database, and access to the SAP Analytics Cloud.
 
@@ -38,14 +38,14 @@ Here are the steps for completing the exercise prerequisites.
 
 ## <a name="s4htrial"></a> Starting up an S/4HANA Trial System
 
-The S/4HANA trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/614183a7-11c6-4030-9908-81b6eab86d54) If you are using the trial appliance then the appropriate user for this exercise is S4H_SD_DEM. Please see the Welcome page on the Windows Remote Desktop included with the appliance. 
+For information on getting started with the S/4HANA fully activated trial in the SAP Cloud Appliance Library please see [these videos on the SAP HANA Academy.](https://www.youtube.com/playlist?list=PLkzo92owKnVwCbYmnsFkPQ8hCyzGmXO8_)  Note that these videos are for the 1610 version of S/4HANA on premise but the setup steps in the videos should be applicable to a later version such as 1709.
+
+The S/4HANA trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/614183a7-11c6-4030-9908-81b6eab86d54) If you are using the trial appliance then the appropriate user for this exercise in later tasks is S4H_SD_DEM. Please see the Welcome page on the Windows Remote Desktop included with the appliance. 
 
 Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 * SAP_BR_SALES_MANAGER
 
 Note that the appliance Windows machine includes a configured Eclipse IDE with the needed tools for ABAP CDS development installed. If you are interested in learning more about how to set up your own Eclipse environment, please see the downloads and instructions for ABAP and HANA tools for Eclipse at https://tools.hana.ondemand.com/
-
-For more information on getting started with the S/4HANA fully activated trial appliance please see [these videos on the SAP HANA Academy.](https://www.youtube.com/playlist?list=PLkzo92owKnVwCbYmnsFkPQ8hCyzGmXO8_)
 
 [Go Back to the List of Steps](#steps)
 
