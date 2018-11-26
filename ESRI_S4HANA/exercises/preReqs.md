@@ -5,7 +5,7 @@
 
 ## Description
 
-In the next steps you will set up our development environment for the exercise. 
+In the next steps you will set up your development environment for the exercise. 
 
 You will need an S/4HANA system, a HANA database, and access to the SAP Analytics Cloud.
 
