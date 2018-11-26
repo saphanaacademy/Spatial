@@ -7,6 +7,8 @@
 
 In the next steps we will set up our development / trial environment for the exercise. 
 
+For the HANA 'sidecar' there are two options depending on what you want to accomplish. The first option will be to emulate having a sidecar and just use the HANA database that is on the S/4HANA trial appliance. The second option will be to use a HANA database on SAP Cloud Platform. The latter option is of course more work and potentially more expensive.
+
 ## Steps
 
 Here are the steps for completing the exercise prerequisites.
