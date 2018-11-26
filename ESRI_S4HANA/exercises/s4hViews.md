@@ -19,14 +19,15 @@ You might want to have some familiarity with ABAP CDS views in S/4HANA but that 
 If you want to find out more about creating your own virtual models in CDS please see [the HANA Academy playlist on ABAP CDS here](https://www.youtube.com/playlist?list=PLkzo92owKnVxO-jWmOWugBv_9WQiq8wLc). Please note that these videos were created using an earlier S/4HANA trial system on version 1510 so some workflows might be slightly different looking, but the concepts should be the same.
 
 
-
-
-## Steps
-
 ## <a name="steps"></a> Steps
 
 1. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
-1. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
+
+The first CDS view that needs to be created will include sales amounts by customer > location > product. 
+
+2. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
+
+The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. 
 
 ### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
 
