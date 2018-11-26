@@ -1,9 +1,7 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>Creating Demo ABAP CDS Views in S/4HANA</h1></td></tr>
-<tr><td><h3>Creation of EPSG (SRID 3857) Spatial System and Transform of Spatial Data</h3></td><td width=60%></br>&nbsp;Task #1</p></td></tr>
+<tr><td><h3>Creating Custom ABAP CDS Views in S/4HANA</h3></td><td width=60%></br>&nbsp;Task #1</p></td></tr>
 </table>
-
-XXXXXX need steps and video links etc.	
 
 ## Description
 
