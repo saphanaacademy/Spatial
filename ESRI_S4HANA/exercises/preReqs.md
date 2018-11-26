@@ -23,15 +23,15 @@ Here are the steps for completing the exercise prerequisites.
 
 2. (Option B) Starting an SAP Cloud Platform HANA System to Use as a Sidecar
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting up an S/4HANA Trial System](#s4htrial)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting an SAP Cloud Platform HANA System to Use as a Sidecar](#s4htrial)
 
 3. Getting an SAP Analytics Cloud (SAC) System
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting up an S/4HANA Trial System](#s4htrial)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Getting an SAP Analytics Cloud (SAC) System](#s4htrial)
 
 4. Configuring the SAC Connection to the SAP HANA Database
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting up an S/4HANA Trial System](#s4htrial)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configuring the SAC Connection to the SAP HANA Database](#s4htrial)
 
 
 ## <a name="s4htrial"></a> Starting up an S/4HANA Trial System
