@@ -3,6 +3,11 @@
 <tr><td><h3>More Help on this Exercise</h3></td><td width=60%></br>&nbsp;Development Environment</p></td></tr>
 </table>
 
+[Go Back to the Prerequisites Page](preReqs.md)
+
+[Go Back to the Main Page](../demoHowTo.md)
+
+
 ## Working with the 30-Day Trial of S/4HANA:
 
 <h4>When should I start the 30-day trial for S/4 HANA?</h4>
@@ -70,6 +75,6 @@ Please take note of any on-screen annotations added to the videos as we have not
 
 Please note that these files may be changed with any new caveats, updates or resolutions that may arise.
 
-[Go Back to the Prerequisites Page](../preReqs.md)
+[Go Back to the Prerequisites Page](preReqs.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
