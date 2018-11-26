@@ -3,9 +3,7 @@
 <tr><td><h3>More Help on this Exercise</h3></td><td width=60%></br>&nbsp;Development Environment</p></td></tr>
 </table>
 
-## Helpful hints to get you started
-
-<h3>Amazon Web Services and the 30-Day trial:</h3>
+## Working with Amazon Web Services and the 30-Day trial:
 
 <h4>When should I start the 30-day trial for S/4 HANA?</h4>
 
