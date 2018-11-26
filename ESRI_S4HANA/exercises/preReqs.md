@@ -9,7 +9,7 @@ In the next steps we will set up our development / trial environment for the exe
 
 For the HANA 'sidecar' there are two options depending on what you want to accomplish. The first option will be to emulate having a sidecar and just use the HANA database that is on the S/4HANA trial appliance. The second option will be to use a HANA database on SAP Cloud Platform. The latter option is of course more work and potentially more expensive.
 
-## Steps
+## <a name="steps"></a> Steps
 
 Here are the steps for completing the exercise prerequisites.
 
@@ -45,6 +45,7 @@ Note that the appliance Windows machine includes a configured Eclipse IDE with t
 
 For more information on getting started with the S/4HANA fully activated trial appliance please see [these videos on the SAP HANA Academy.](https://www.youtube.com/playlist?list=PLkzo92owKnVwCbYmnsFkPQ8hCyzGmXO8_)
 
+[Go Back to the List of Steps](#steps)
 
 ## <a name="hdbons4h"></a> Accessing the SAP HANA System Using the S/4HANA Trial Appliance
 
