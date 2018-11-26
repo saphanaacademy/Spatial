@@ -1,5 +1,5 @@
 <table width=100% border=>
-<tr><td colspan=2><h1>Creating Demo ABAP CDS Views in S/4HANA</h1></td></tr>
+<tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
 <tr><td><h3>Creating Custom ABAP CDS Views in S/4HANA</h3></td><td width=60%></br>&nbsp;Task #1</p></td></tr>
 </table>
 
