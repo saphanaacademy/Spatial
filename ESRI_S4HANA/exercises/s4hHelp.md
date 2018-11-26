@@ -5,9 +5,9 @@
 
 ## Helpful hints to get you started
 
-<h2>Amazon Web Services and the 30-Day trial:</h2>
+<h3>Amazon Web Services and the 30-Day trial:</h3>
 
-<h3>When should I start the 30-day trial for S/4 HANA?<h3>
+<h4>When should I start the 30-day trial for S/4 HANA?</h4>
 
 Since the 30-day clock is based on the calendar and not the usage, you should not start your instance until you are ready to start the course. Please note that the AWS instance make take some time to create, so you might want to allow for that in your planning.
 
