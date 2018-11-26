@@ -55,25 +55,25 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 2. We need to create a HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
 
-<ul><li><p>[Creation of Developer User for the SAP HANA System](hdbUser)</p></li></ul>
+* [Creation of Developer User for the SAP HANA System](hdbUser)
 
 3. The next task includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating Virtual Tables for the ABAP CDS views we created earlier.
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Setup of Smart Data Access to the S/4HANA System](exercises/sdiConfig.md)
+* [Setup of Smart Data Access to the S/4HANA System](exercises/sdiConfig.md)
 
 4. A sample database is used for this exercise and consists of US Census data as well as a table used to approimate the Longitude and Latitude of customer addresses in the S/4HANA sales data. This task will be undertaken by the technical HANA user we created earlier.
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Setup of Sample Database for the SAP HANA System](exercises/hdbData.md)
+* [Setup of Sample Database for the SAP HANA System](exercises/hdbData.md)
 
 5.
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Creation of EPSG (SRID 3857) Spatial System and Data Transform](exercises/hdbSpatial.md)
+* [Creation of EPSG (SRID 3857) Spatial System and Data Transform](exercises/hdbSpatial.md)
 
 6.
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Creation of SQL and Calculation Views on Integrated Data](exercises/hdbViews.md)
+* [Creation of SQL and Calculation Views on Integrated Data](exercises/hdbViews.md)
 
 7.
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Creation of Connection and Models and Story in SAP Analytics Cloud](exercises/sacAnalytics.md)
+* [Creation of Connection and Models and Story in SAP Analytics Cloud](exercises/sacAnalytics.md)
 
