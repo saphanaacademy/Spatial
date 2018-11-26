@@ -3,19 +3,19 @@
 <tr><td><h3>More Help on this Exercise</h3></td><td width=60%></br>&nbsp;Development Environment</p></td></tr>
 </table>
 
-## Working with Amazon Web Services and the 30-Day trial:
+## Working with the 30-Day Trial of S/4HANA:
 
 <h4>When should I start the 30-day trial for S/4 HANA?</h4>
 
 Since the 30-day clock is based on the calendar and not the usage, you should not start your instance until you are ready to start the course. Please note that the AWS instance make take some time to create, so you might want to allow for that in your planning.
 
-<h4>How long does it take to create the Amazon instance?</h4>
+<h4>How long does it take to create the Amazon (or other provider) instance?</h4>
 
 It can take up to 2 hours for AWS to create, validate and instantiate your instance for the first time. After that, it is only a few minutes to Activate your instance if you have suspended it.
 
 <h4>How much does it cost to use AWS for this course?</h4>
 
-The AWS infrastructure will run about $3.40 per hour in the US. If you kept this instance active for an entire month, it would be under $200. Please remember that the S/4 HANA license is only available for 30 days in the trial version, so if you are setting up the account just for this course, you will want to delete the AWS instance at the end of the course to stop any future billing.
+As an example, the AWS infrastructure will run about $3.40 per hour in the US. If you kept this instance active for an entire month, it would be under $200. Please remember that the S/4 HANA license is only available for 30 days in the trial version, so if you are setting up the account just for this course, you will want to delete the AWS instance at the end of the course to stop any future billing.
 
 <h4>What instance do I choose from the AWS console?</h4>
 
@@ -44,7 +44,7 @@ You simply need to log on again. The server creation process is happening at Ama
 1. If you disconnect and suspend in CAL, you will get a new IP address the next time you Activate the instance.
 
 
-## Working through the exercises, here are some helpful tips:
+## Helpful Tips for Working Through the Exercise:
 
 <h4>I am connecting to CAL with a Mac, is there anything different I need to do?</h4>
 
