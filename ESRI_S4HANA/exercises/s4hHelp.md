@@ -30,7 +30,12 @@ If you suspend your instance through the SAP Cloud Appliance Library (CAL) conso
 
 On occasion one of the servers included in the instance may not be properly initialized in AWS. This will show in a variety of errors, but is most easily spotted by having a status that does not turn to Active.  You can terminate this instance and request another instance to be created.  Note that it might take a few minutes for the terminated instance to disappear from the console and allow you to create another Trial instance in its place.
 
-<h2>Working with the SAP Cloud Appliance Library (CAL) Console:</h2>
+[Go Back to the Prerequisites Page](preReqs.md)
+
+[Go Back to the Main Page](../demoHowTo.md)
+
+
+## Working with the SAP Cloud Appliance Library (CAL) Console:
 
 <h4>My CAL console logged off while I was waiting for the AWS instance to be created. What should I do?</h4>
 
@@ -43,10 +48,6 @@ You simply need to log on again. The server creation process is happening at Ama
 1. Copy the Windows External IP Address from the list of IP Addresses, and copy that into a Remote Desktop Connection.
 1. Once the instance has fully activated in CAL, you will be able to use this Remote Desktop Connection to access the Windows server in your S/4 HANA landscape. All the work in this video set happens on this server.
 1. If you disconnect and suspend in CAL, you will get a new IP address the next time you Activate the instance.
-
-[Go Back to the Prerequisites Page](preReqs.md)
-
-[Go Back to the Main Page](../demoHowTo.md)
 
 
 ## Helpful Tips for Working Through the Exercise:
@@ -62,10 +63,6 @@ For the steps covered in our videos, we will be using a new connection for a new
 <h4>I cannot log into Eclipse SAP Logon or Fiori Launchpad with the S4H_SD_DEM user or the BPINST user.</h4>
 
 Please make sure you are using the proper case for the password: Welcome1
-
-[Go Back to the Prerequisites Page](preReqs.md)
-
-[Go Back to the Main Page](../demoHowTo.md)
 
 
 ## General Notes for Troubleshooting:  
