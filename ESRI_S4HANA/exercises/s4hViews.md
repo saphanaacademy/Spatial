@@ -3,6 +3,8 @@
 <tr><td><h3>Creating Custom ABAP CDS Views in S/4HANA</h3></td><td width=60%></br>&nbsp;Task #1, Using Eclipse IDE</p></td></tr>
 </table>
 
+<img src="../images/eclcds00.jpg">
+
 ## Description
 
 In these steps we will create two ABAP CDS views in our S/4HANA system. These custom 'z' views will combine data from several existing CDS views and will be accessed later on from our HANA database. 
@@ -150,6 +152,18 @@ left outer join I_Address
 After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
 
 <img src="../images/eclcds04a.jpg">
+
+Your new CDS view should now be ready to use. Highlight the CDS view name.
+
+<img src="../images/eclcds04b.jpg">
+
+Then right click and choose Open With > Data Preview.
+
+<img src="../images/eclcds04c.jpg">
+
+Now you should see a record set returned similar to the following.
+
+<img src="../images/eclcds04d.jpg">
 
 [Back to Steps](#steps)
 
