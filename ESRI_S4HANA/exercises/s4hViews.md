@@ -5,23 +5,35 @@
 
 ## Description
 
-In these steps we will create two ABAP CDS views in our S/4HANA system. These views will combine data from several existing CDS views and will be accessed later on from our HANA database. 
+In these steps we will create two ABAP CDS views in our S/4HANA system. These custom 'z' views will combine data from several existing CDS views and will be accessed later on from our HANA database. 
 
 One view will add address location data and product data into an existing customer sales view and the other view will have just customer location data from a customer information model. The latter view will be used later in a Calculation View that provides a location hierarchy for the SAP Analytics Cloud.
 
 
 ## Prerequisites
 
-You should have an S/4HANA fully activated trial appliance set up. This appliance will have a Windows client, accessible by Remote Desktop, with the Eclipse IDE with SAP HANA tools installed. If you have not yet done so, please see [the Prerequisites page](exercises/preReqs.md) for more information.
+You should now have an S/4HANA fully activated trial appliance activated and running. This appliance will have a Windows client, accessible by Remote Desktop, with the Eclipse IDE with SAP HANA tools installed. If you have not yet done so, please see [the Prerequisites page](exercises/preReqs.md) for more information.
 
-You might want to have some familiarity with ABAP CDS views in S/4HANA but that is not a big requirement. You don't necessarily have to create your own CDS views from the ground up as you might just wish to slightly modify / extend existing CDS views.
+You might want to have some familiarity with ABAP CDS views in S/4HANA but that is not a big requirement. When working with S/4HANA you don't necessarily have to create your own CDS views from the ground up as you might just wish to slightly modify / extend one of the many existing CDS views.
 
-If you want to find out more about creating your own virtual models in CDS please see [the HANA Academy playlist on ABAP CDS here](https://www.youtube.com/playlist?list=PLkzo92owKnVxO-jWmOWugBv_9WQiq8wLc). Please note that these videos were created using an earlier S/4HANA trial system on version 1510 so some workflows might be slightly different looking, but the concepts should be the same.
+If you want to find out more about creating your own virtual models in CDS please see [the HANA Academy playlist on ABAP CDS here](https://www.youtube.com/playlist?list=PLkzo92owKnVxO-jWmOWugBv_9WQiq8wLc). Please note that these videos were created using an earlier S/4HANA trial system (on version 1510) so some workflows might be slightly different looking, but the concepts should be the same.
 
 
 ## <a name="steps"></a> Steps
 
-There are two views that we need to create and they are based on existing S/4HANA CDS views. The first CDS view that needs to be created will include sales amounts by customer > location > product. 
+There are two views that we need to create and they are based on existing S/4HANA CDS views. Open up your Eclipse IDE (it may be named SAP Dev Tools for Eclipse on the S/4HANA trial Windows client). 
+
+If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective
+
+<img src="images/eclpersp01.jpg">
+
+Now choose Other > and select ABAP.
+
+<img src="images/eclpersp02.jpg">
+
+
+
+The first CDS view that needs to be created will include sales amounts by customer > location > product. 
 
 1. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
 
