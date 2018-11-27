@@ -46,11 +46,11 @@ And then select ABAP.
 
 <img src="../images/eclpersabap.jpg">
 
-If you are using the trial appliance you should see an existing project for the BPINST user. Right click on that project and choose Duplicate. You will see the connection info for your S/4HANA system.
+If you are using the trial appliance you should see an existing project for the BPINST user. Right click on that project and choose Duplicate. 
 
 <img src="../images/eclproj01.jpg">
 
-Click on Next and you will see a dialogue to enter in user info.
+You will see the connection info for your S/4HANA system. Click on Next and you will see a dialogue to enter in user info.
 
 <img src="../images/eclproj02.jpg">
 
