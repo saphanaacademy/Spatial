@@ -70,7 +70,7 @@ You should see a list of users similar to below. We want to use the S4H_SD_DEM d
 
 <img src="../images/s4hwelcusr.jpg">
 
-Enter the demo user info and then press Finish.
+Enter the demo user info and then press Finish. You are now ready to create ABAP CDS views in your S/4HANA system.
 
 <img src="../images/eclproj04.jpg">
 
@@ -86,7 +86,13 @@ For the full list of Roles (some of these will be Z roles specific to the trial 
 
 ### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
 
-The first CDS view that needs to be created will include sales amounts by customer > location > product. In your Eclipse ABAP project create a new CDS view with the following information.
+The first CDS view that needs to be created will include sales amounts by customer > location > product. 
+
+In your new Eclipse ABAP project for the S4H_SD_DEM user, navigate to 
+
+<img src="../images/eclcds00.jpg">
+
+create a new CDS view with the following information.
 
 ```
 Name = ZXSH_C_SALESORDERITEMFSZ
