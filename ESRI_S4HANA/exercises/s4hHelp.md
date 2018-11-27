@@ -57,21 +57,15 @@ Please make sure you are using the Microsoft Remote Desktop utility available fr
 
 <h4>When I open Eclipse on the image, it already has a connection to S4HANA using the BPINST user. Do I still need to create a new connection?</h4>
 
-For the steps covered in our videos, we will be using a new connection for a new user we will create. Following along with the videos ensures that later steps will work as described.
+For the steps covered in our videos, we will be using a new connection for a new user we will create. Following along with the exercise tasks ensures that later steps will work as described.
 
-<h4>I cannot log into SAP Logon or Fiori Launchpad with the BPINST user.</h4>
+<h4>I cannot log into Eclipse SAP Logon or Fiori Launchpad with the S4H_SD_DEM user or the BPINST user.</h4>
 
 Please make sure you are using the proper case for the password: Welcome1
 
-<h4>In the video you show using Eclipse to “Create Connection with Different User” but I don’t see that option when I do a right click on the system.  Why?</h4>
-
-Make sure that you log in to the HDB system with your Windows password for this image first, then you should get the full context menu available.
-
 ## General Notes for Troubleshooting:  
 
-Please be careful with your case. Many of the scripts and services are case-sensitive.
-
-Please take note of any on-screen annotations added to the videos as we have noted a few changes in syntax or menu options released with the latest 1610 image build since the videos were created.
+Please be careful with your case. Many of the scripts are case-sensitive.
 
 Please note that these files may be changed with any new caveats, updates or resolutions that may arise.
 
