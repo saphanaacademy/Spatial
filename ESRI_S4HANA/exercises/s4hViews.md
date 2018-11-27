@@ -34,6 +34,8 @@ There are two views that we need to create and they are based on existing S/4HAN
 
 Open up your Eclipse IDE; it may be named SAP Dev Tools for Eclipse on the S/4HANA trial Windows client. 
 
+<img src="../images/eclcds04.jpg">
+
 If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective.
 
 <img src="../images/eclpers01.jpg">
@@ -145,7 +147,7 @@ left outer join I_Address
 }
 ```
 
-<img src="../images/eclcds04.jpg">
+After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
 
 <img src="../images/eclcds04a.jpg">
 
@@ -154,13 +156,16 @@ left outer join I_Address
 
 ### <a name="cdsview2"></a> Creation of CDS View with Customer Location
 
-The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. In your Eclipse ABAP project create a new CDS view with the following information.
+The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. 
+
+<img src="../images/eclcds05.jpg">
+
+Use the same method as above to create a new CDS view Data Definition. In the dialogue enter the following information.
 
 ```
 Name = ZXSH_C_CUSTOMERGEO
 Description = Public Consumption View, Customer Location Hierarchy
 ```
-
 
 
 Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
@@ -189,6 +194,7 @@ inner join I_Address
 }
 ```
 
-<img src="../images/eclcds05.jpg">
+After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
+
 
 [Back to Steps](#steps)
