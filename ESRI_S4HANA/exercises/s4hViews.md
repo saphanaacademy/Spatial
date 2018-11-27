@@ -191,7 +191,7 @@ left outer join I_Address
 
 The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds05.jpg">
+<img src="../images/eclcds05.jpg">
 
 
 * Use the same method as above to create a new CDS view Data Definition. In the dialogue enter the following information.
