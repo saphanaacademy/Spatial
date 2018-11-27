@@ -50,17 +50,29 @@ If you are using the trial appliance you should see an existing project for the 
 
 <img src="../images/eclproj01.jpg">
 
-You will see the connection info for your S/4HANA system. Click on Next and you will see a dialogue to enter in user info.
+You will see the connection info for your S/4HANA system. 
 
 <img src="../images/eclproj02.jpg">
 
+Click on Next and you will see a dialogue to enter in user info.
 
+<img src="../images/eclproj03.jpg">
+
+If you are using the trial appliance then you will have existing demo users available for different scenarios. On your Windows client desktop you should see a shortcut for a Welcome page. If you don't see this shortcut, copy the following link into a new browser tab on your Windows client.
 
 ```
 
 file:///C:/ProgramData/WelcomePage/Welcome.html
 
 ```
+
+You should see a list of users similar to below. We want to use the S4H_SD_DEM demo user. 
+
+<img src="../images/s4hwelcusr.jpg">
+
+If you are not using the S/4HANA trial system, then you will need to have a user that has the following roles.
+
+
 
 [Back to Steps](#steps)
 
