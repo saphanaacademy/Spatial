@@ -8,7 +8,7 @@
 
 <h4>When should I start the 30-day trial for S/4 HANA?</h4>
 
-Since the 30-day clock is based on the calendar and not the usage, you should not start your instance until you are ready to start the course. Please note that the AWS instance make take some time to create, so you might want to allow for that in your planning.
+Since the 30-day clock is based on the calendar and not the usage, you should not start your instance until you are ready to start the course. Please note that the Amazon AWS (or other provider) instance make take some time to create, so you might want to allow for that in your planning.
 
 <h4>How long does it take to create the Amazon (or other provider) instance?</h4>
 
@@ -16,7 +16,9 @@ It can take up to 2 hours for AWS to create, validate and instantiate your insta
 
 <h4>How much does it cost to use AWS for this course?</h4>
 
-As an example, the AWS infrastructure will run about $3.40 per hour in the US. If you kept this instance active for an entire month, it would be under $200. Please remember that the S/4 HANA license is only available for 30 days in the trial version, so if you are setting up the account just for this course, you will want to delete the AWS instance at the end of the course to stop any future billing.
+As an example, the Amazon AWS infrastructure will cost about $3.40 per hour in the US. You may be charged a much smaller storage amount for the instance when it is not running. These usage and storage charges are from the provider e.g. Amazon and not from SAP.
+
+If you kept this instance active for an entire month, it would be under $200. Please remember that the S/4 HANA license is only available for 30 days in the trial version, so if you are setting up the account just for this course, you will want to delete the AWS instance at the end of the course to stop any future billing.
 
 <h4>What instance do I choose from the AWS console?</h4>
 
