@@ -66,13 +66,16 @@ file:///C:/ProgramData/WelcomePage/Welcome.html
 
 ```
 
-You should see a list of users similar to below. We want to use the S4H_SD_DEM demo user. 
+You should see a list of users similar to below. We want to use the S4H_SD_DEM demo user.
 
 <img src="../images/s4hwelcusr.jpg">
 
 If you are not using the S/4HANA trial system, then you will need to have a user that has the following roles.
 
 
+
+
+<img src="../images/eclproj04.jpg">
 
 [Back to Steps](#steps)
 
