@@ -3,10 +3,6 @@
 <tr><td><h3>More Help on this Exercise</h3></td><td width=60%></br>&nbsp;Development Environment</p></td></tr>
 </table>
 
-[Go Back to the Prerequisites Page](preReqs.md)
-
-[Go Back to the Main Page](../demoHowTo.md)
-
 
 ## Working with the 30-Day Trial of S/4HANA:
 
@@ -48,6 +44,10 @@ You simply need to log on again. The server creation process is happening at Ama
 1. Once the instance has fully activated in CAL, you will be able to use this Remote Desktop Connection to access the Windows server in your S/4 HANA landscape. All the work in this video set happens on this server.
 1. If you disconnect and suspend in CAL, you will get a new IP address the next time you Activate the instance.
 
+[Go Back to the Prerequisites Page](preReqs.md)
+
+[Go Back to the Main Page](../demoHowTo.md)
+
 
 ## Helpful Tips for Working Through the Exercise:
 
@@ -62,6 +62,11 @@ For the steps covered in our videos, we will be using a new connection for a new
 <h4>I cannot log into Eclipse SAP Logon or Fiori Launchpad with the S4H_SD_DEM user or the BPINST user.</h4>
 
 Please make sure you are using the proper case for the password: Welcome1
+
+[Go Back to the Prerequisites Page](preReqs.md)
+
+[Go Back to the Main Page](../demoHowTo.md)
+
 
 ## General Notes for Troubleshooting:  
 
