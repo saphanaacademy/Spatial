@@ -88,9 +88,18 @@ For the full list of Roles (some of these will be Z roles specific to the trial 
 
 The first CDS view that needs to be created will include sales amounts by customer > location > product. 
 
-In your new Eclipse ABAP project for the S4H_SD_DEM user, navigate to 
+Open your new Eclipse ABAP project for the S4H_SD_DEM user and navigate to Local Objects > S4H_SD_DEM.
 
 <img src="../images/eclcds00.jpg">
+
+Right click on the S4H_SD_DEM folder and choose New > Other ABAP Repository Object.
+
+<img src="../images/eclcds01.jpg">
+
+In the Core Data Services folder select Data Definition and then press Next.
+
+<img src="../images/eclcds02.jpg">
+
 
 create a new CDS view with the following information.
 
