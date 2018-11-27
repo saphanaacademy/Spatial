@@ -35,42 +35,44 @@ There are two views that we need to create and they are based on existing S/4HAN
 
 ### <a name="abapproj"></a> Making an ABAP Project as a User With Access to Customer Sales
 
-Open up your Eclipse IDE; it may be named SAP Dev Tools for Eclipse on the S/4HANA trial Windows client. 
+In order to create the CDS views we need to add a user based ABAP project to the Project Explorer. 
+
+* Open up your Eclipse IDE; it may be named SAP Dev Tools for Eclipse on the S/4HANA trial Windows client. 
 
 <img src="../images/eclcds04.jpg">
 
 
-If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective.
+* If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective.
 
 <img src="../images/eclpers01.jpg">
 
 
-Now choose Other.
+* Now choose Other.
 
 <img src="../images/eclpers02.jpg">
 
 
-And then select ABAP.
+* And then select ABAP.
 
 <img src="../images/eclpersabap.jpg">
 
 
-If you are using the trial appliance you should see an existing project for the BPINST user. Right click on that project and choose Duplicate. 
+* If you are using the trial appliance you should see an existing project for the BPINST user. Right click on that project and choose Duplicate. 
 
 <img src="../images/eclproj01.jpg">
 
 
-You will see the connection info for your S/4HANA system. 
+* You will see the connection info for your S/4HANA system. 
 
 <img src="../images/eclproj02.jpg">
 
 
-Click on Next and you will see a dialogue to enter in user info.
+* Click on Next and you will see a dialogue to enter in user info.
 
 <img src="../images/eclproj03.jpg">
 
 
-If you are using the trial appliance then you will have existing demo users available for different scenarios. On your Windows client desktop you should see a shortcut for a Welcome page. If you don't see this shortcut, copy the following link into a new browser tab on your Windows client.
+* If you are using the trial appliance then you will have existing demo users available for different scenarios. On your Windows client desktop you should see a shortcut for a Welcome page. If you don't see this shortcut, copy the following link into a new browser tab on your Windows client.
 
 ```
 
@@ -78,21 +80,21 @@ file:///C:/ProgramData/WelcomePage/Welcome.html
 
 ```
 
-You should see a list of users similar to below. We want to use the S4H_SD_DEM demo user.
+* You should see a list of users similar to below. We want to use the S4H_SD_DEM demo user.
 
 <img src="../images/s4hwelcusr.jpg">
 
 
-Enter the demo user info and then press Finish. You are now ready to create ABAP CDS views in your S/4HANA system.
+* Enter the demo user info and then press Finish. You are now ready to create ABAP CDS views in your S/4HANA system.
 
 <img src="../images/eclproj04.jpg">
 
 
-If you are not using the S/4HANA trial system, then you will need to have a user that has the following roles. Note that the Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
+* If you are not using the S/4HANA trial system, then you will need to have a user that has the following roles. Note that the Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 
 * SAP_BR_SALES_MANAGER
 
-For the full list of Roles (some of these will be Z roles specific to the trial appliance) [please click here.](../other/s4hSalesDemoUserRoles.csv)
+* For the full list of Roles (some of these will be Z roles specific to the trial appliance) [please click here.](../other/s4hSalesDemoUserRoles.csv)
 
 
 [Back to Steps](#steps)
@@ -102,22 +104,22 @@ For the full list of Roles (some of these will be Z roles specific to the trial 
 
 The first CDS view that needs to be created will include sales amounts by customer > location > product. 
 
-Open your new Eclipse ABAP project for the S4H_SD_DEM user and navigate to Local Objects > S4H_SD_DEM.
+* Open your new Eclipse ABAP project for the S4H_SD_DEM user and navigate to Local Objects > S4H_SD_DEM.
 
 <img src="../images/eclcds00.jpg">
 
 
-Right click on the S4H_SD_DEM folder and choose New > Other ABAP Repository Object.
+* Right click on the S4H_SD_DEM folder and choose New > Other ABAP Repository Object.
 
 <img src="../images/eclcds01.jpg">
 
 
-In the Core Data Services folder select Data Definition and then press Next.
+* In the Core Data Services folder select Data Definition and then press Next.
 
 <img src="../images/eclcds02.jpg">
 
 
-In the Data Definition dialogue, enter the following information.
+* In the Data Definition dialogue, enter the following information.
 
 ```
 Name = ZXSH_C_SALESORDERITEMFSZ
@@ -127,7 +129,7 @@ Description = Public Consumption View, Z Copy Sales Order Item
 <img src="../images/eclcds03.jpg">
 
 
-Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
+* Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
@@ -162,22 +164,22 @@ left outer join I_Address
 }
 ```
 
-After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
+* After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
 
 <img src="../images/eclcds04a.jpg">
 
 
-Your new CDS view should now be ready to use. Highlight the CDS view name.
+* Your new CDS view should now be ready to use. Highlight the CDS view name.
 
 <img src="../images/eclcds04b.jpg">
 
 
-Then right click and choose Open With > Data Preview.
+* Right click on the CDS view name and choose Open With > Data Preview.
 
 <img src="../images/eclcds04c.jpg">
 
 
-Now you should see a record set returned similar to the following.
+* Now you should see a record set returned similar to the following.
 
 <img src="../images/eclcds04d.jpg">
 
@@ -192,14 +194,14 @@ The second CDS view that needs to be created will be a customer location hierarc
 <img src="../images/eclcds05.jpg">
 
 
-Use the same method as above to create a new CDS view Data Definition. In the dialogue enter the following information.
+* Use the same method as above to create a new CDS view Data Definition. In the dialogue enter the following information.
 
 ```
 Name = ZXSH_C_CUSTOMERGEO
 Description = Public Consumption View, Customer Location Hierarchy
 ```
 
-Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
+* Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
 
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCCUSTOMERGEO'
@@ -225,7 +227,7 @@ inner join I_Address
 }
 ```
 
-After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
+* After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
 
 
 [Back to Steps](#steps)
