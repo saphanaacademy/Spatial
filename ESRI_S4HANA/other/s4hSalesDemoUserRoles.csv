@@ -1,0 +1,60 @@
+﻿@5B\QUser master record compared@,/SCWM/MENU_S4,@IC\QSingle Role@,05.10.2017,31.12.9999,Menu for Extended Warehouse Management in S/4HANA,@1G\QDirect Assignment@
+@5B\QUser master record compared@,/SRMSMC/ACTIVITY_PARTICIPANT,@IC\QSingle Role@,15.11.2017,31.12.9999,Participant in Activity,@M7\QAssignment Comes From Composite Role@
+@5B\QUser master record compared@,/SRMSMC/EVALUATION_APPRAISER,@IC\QSingle Role@,15.11.2017,31.12.9999,Appraiser,@M7\QAssignment Comes From Composite Role@
+@5B\QUser master record compared@,SAPOS_SD_LORD_ODATA_ORDER,@IC\QSingle Role@,05.10.2017,31.12.9999,OData Service for Sales Order,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAPOS_SD_LORD_ODATA_ORDER,@IC\QSingle Role@,15.11.2017,31.12.9999,OData Service for Sales Order,@M7\QAssignment Comes From Composite Role@
+@5B\QUser master record compared@,SAPOS_SD_RESOLVE_CREDIT_BLOCK,@IC\QSingle Role@,05.10.2017,31.12.9999,PFCG Role to Resolve Credit Block in SD,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAPOS_SD_RESOLVE_CREDIT_BLOCK,@IC\QSingle Role@,15.11.2017,31.12.9999,PFCG Role to Resolve Credit Block in SD,@M7\QAssignment Comes From Composite Role@
+@5B\QUser master record compared@,SAPOS_SD_SOFM_INVOICE,@IC\QSingle Role@,05.10.2017,31.12.9999,Fiori Wave2 OData Service for SOFM Invoice Issue,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAPOS_SD_SOFM_INVOICE,@IC\QSingle Role@,15.11.2017,31.12.9999,Fiori Wave2 OData Service for SOFM Invoice Issue,@M7\QAssignment Comes From Composite Role@
+@5B\QUser master record compared@,SAP_BC_SEFS_ADMIN,@IC\QSingle Role@,15.11.2017,31.12.9999,Enterprise File Search (EFS): Administration and Monitoring,@M7\QAssignment Comes From Composite Role@
+@5B\QUser master record compared@,SAP_BC_SES_ADMIN,@IC\QSingle Role@,15.11.2017,31.12.9999,Search Engine Service (SES): Administration and Monitoring,@M7\QAssignment Comes From Composite Role@
+@5B\QUser master record compared@,SAP_BR_BILLING_CLERK,@IC\QSingle Role@,05.10.2017,31.12.9999,Billing Clerk,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_BUPA_MASTER_SPECIALIST,@IC\QSingle Role@,05.10.2017,31.12.9999,Master Data Specialist - Business Partner Data,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_CREDIT_CONTROLLER,@IC\QSingle Role@,15.11.2017,31.12.9999,Credit Controller,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_EMPLOYEE,@IC\QSingle Role@,15.11.2017,31.12.9999,Employee,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_INTERNAL_SALES_REP,@IC\QSingle Role@,04.10.2017,31.12.9999,Internal Sales Representative,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_INTERNAL_SALES_REP,@IC\QSingle Role@,15.11.2017,31.12.9999,Internal Sales Representative,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_INTRASTAT_SPECIALIST,@IC\QSingle Role@,15.11.2017,31.12.9999,Intrastat Specialist,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_ORDER_FULFILLMNT_MNGR,@IC\QSingle Role@,15.11.2017,31.12.9999,Order Fulfillment Manager,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_ORDER_FULFILLMNT_SPCLST,@IC\QSingle Role@,15.11.2017,31.12.9999,Order Fulfillment Specialist,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_PRICING_SPECIALIST,@IC\QSingle Role@,15.11.2017,31.12.9999,Pricing Specialist,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_PRODMASTER_SPECIALIST,@IC\QSingle Role@,15.11.2017,31.12.9999,Master Data Specialist - Product Data,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_PRODN_SUPERVISOR_RPTV,@IC\QSingle Role@,15.11.2017,31.12.9999,Production Supervisor - Repetitive Manufacturing,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_RECEIVING_SPECIALIST,@IC\QSingle Role@,15.11.2017,31.12.9999,Receiving Specialist,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_RETURNS_REFUND_CLERK,@IC\QSingle Role@,15.11.2017,31.12.9999,Returns & Refund Clerk,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_SALES_MANAGER,@IC\QSingle Role@,15.11.2017,31.12.9999,Sales Manager,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_SALES_PROCESS_MANAGER,@IC\QSingle Role@,05.10.2017,31.12.9999,Order-to-Cash Process Manager,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_SALES_PROCESS_MANAGER,@IC\QSingle Role@,15.11.2017,31.12.9999,Order-to-Cash Process Manager,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_SET_CLERK,@IC\QSingle Role@,15.11.2017,31.12.9999,Settlement Clerk,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_SHIPPING_SPECIALIST,@IC\QSingle Role@,05.10.2017,31.12.9999,Shipping Specialist,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_SHIPPING_SPECIALIST,@IC\QSingle Role@,15.11.2017,31.12.9999,Shipping Specialist,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_WAREHOUSE_CLERK,@IC\QSingle Role@,05.10.2017,31.12.9999,Warehouse Clerk,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_BR_WAREHOUSE_CLERK,@IC\QSingle Role@,15.11.2017,31.12.9999,Warehouse Clerk,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_ESH_CR_ADMIN,@IC\QSingle Role@,15.11.2017,31.12.9999,Embedded Search: Administration and Monitoring,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_ESH_CUST_QUERY_LOG,@IC\QSingle Role@,15.11.2017,31.12.9999,Enterprise Search: Customizing Query Log,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_ESH_DISPLAY_QUERY_LOG,@IC\QSingle Role@,15.11.2017,31.12.9999,Enterprise Search: Display Query Log,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_ESH_LOCAL_ADMIN,@M7\QComposite Role@,15.11.2017,31.12.9999,Embedded Search (Composite): Administration and Monitoring,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_ESH_REORG_QUERY_LOG,@IC\QSingle Role@,15.11.2017,31.12.9999,Enterprise Search: Reorganize Query Log,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_ESH_SEARCH_CATEG,@IC\QSingle Role@,15.11.2017,31.12.9999,Enterprise Search Hub: Search filtered by Category,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_ESH_SEARCH_CDS,@IC\QSingle Role@,15.11.2017,31.12.9999,Enterprise Search: Search filtered by CDS-Connector(SAP_BASIS 751),@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_ESH_SEARCH_USER,@IC\QSingle Role@,15.11.2017,31.12.9999,Enterprise Search Hub: Search filtered by Connector,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_ESH_TRANSPORT,@IC\QSingle Role@,15.11.2017,31.12.9999,Enterprise Search: Workbench Organizer and transport system authorities,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_FND_TCR_T,@IC\QSingle Role@,15.11.2017,31.12.9999,SAP Role for FND - Transactional Apps and Fact Sheets,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_MDGA_MENU,@IC\QSingle Role@,15.11.2017,31.12.9999,Master Data Governance Analytics,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_MDG_ADMIN,@IC\QSingle Role@,15.11.2017,31.12.9999,Master Data Governance: Administrator,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_PAGEBUILDER_DISPLAY,@IC\QSingle Role@,15.11.2017,31.12.9999,Display Authorizations for CHIPs and Page Builder CKonfigurations,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_SD_SOFM_DLV_APP,@IC\QSingle Role@,15.11.2017,31.12.9999,Fiori Sales Orders Fulfillment Monitor,@1G\QDirect Assignment@
+@5B\QUser master record compared@,SAP_SD_SOFULFIL_MON_APP,@M7\QComposite Role@,15.11.2017,31.12.9999,Role for Sales Order Fullfillment Monitor Application,@1G\QDirect Assignment@
+@5B\QUser master record compared@,ZACTIVITY_MANAGER,@IC\QSingle Role@,15.11.2017,31.12.9999,Activity Manager,@1G\QDirect Assignment@
+@5B\QUser master record compared@,ZBUYER,@M7\QComposite Role@,15.11.2017,31.12.9999,Strategic Buyer,@1G\QDirect Assignment@
+@5B\QUser master record compared@,ZCATEGORY_MANAGER,@IC\QSingle Role@,15.11.2017,31.12.9999,Category Manager,@1G\QDirect Assignment@
+@5B\QUser master record compared@,ZEMPLOYEE_PROCUREMENT,@M7\QComposite Role@,15.11.2017,31.12.9999,Employee - Procurement,@1G\QDirect Assignment@
+@5B\QUser master record compared@,ZEVALUATION_APPRAISER,@IC\QSingle Role@,15.11.2017,31.12.9999,Appraiser,@1G\QDirect Assignment@
+@5B\QUser master record compared@,Z_ACTIVITY_MANAGER,@IC\QSingle Role@,15.11.2017,31.12.9999,Activity Manager,@1G\QDirect Assignment@
+@5B\QUser master record compared@,Z_CATEGORY_MANAGER,@IC\QSingle Role@,15.11.2017,31.12.9999,Category Manager,@1G\QDirect Assignment@
+@5B\QUser master record compared@,Z_CUSTOMER_RETURN,@IC\QSingle Role@,18.11.2017,31.12.9999,Z_CUSTOMER_RETURN,@1G\QDirect Assignment@
+@5B\QUser master record compared@,Z_HELP_ROLE,@IC\QSingle Role@,15.11.2017,31.12.9999,Role for Fiori Web Assistant,@1G\QDirect Assignment@
+@5B\QUser master record compared@,Z_MENU,@IC\QSingle Role@,15.11.2017,31.12.9999,Z_MENU,@1G\QDirect Assignment@
+@5B\QUser master record compared@,Z_QUESTIONNAIRE_MANAGER,@IC\QSingle Role@,15.11.2017,31.12.9999,Questionnaire Manager,@1G\QDirect Assignment@
+@5B\QUser master record compared@,Z_TRANSLATOR,@IC\QSingle Role@,15.11.2017,31.12.9999,Translator,@1G\QDirect Assignment@
