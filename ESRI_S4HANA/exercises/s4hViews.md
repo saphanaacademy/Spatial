@@ -171,7 +171,7 @@ left outer join I_Address
 
 * Your new CDS view should now be ready to use. Highlight the CDS view name.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04b.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04b1.jpg">
 
 
 * Right click on the CDS view name and choose Open With > Data Preview.
