@@ -39,12 +39,12 @@ In order to create the CDS views we need to add a user based ABAP project to the
 
 * Open up your Eclipse IDE; it may be named SAP Dev Tools for Eclipse on the S/4HANA trial Windows client. 
 
-<img src="../images/eclcds04.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04.jpg">
 
 
 * If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective.
 
-<img src="../images/eclpers01.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers01.jpg">
 
 
 * Now choose Other.
