@@ -35,9 +35,15 @@ And then select ABAP.
 
 <img src="../images/eclpersabap.jpg">
 
+```
+
+file:///C:/ProgramData/WelcomePage/Welcome.html
+
+```
+
 The first CDS view that needs to be created will include sales amounts by customer > location > product. 
 
-1. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
+2. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
 
 The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. 
 
