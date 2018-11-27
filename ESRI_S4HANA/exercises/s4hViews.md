@@ -27,11 +27,13 @@ If the ABAP Perspective is not open then go to the Window menu and choose Perspe
 
 <img src="../images/eclpersp01.jpg">
 
-Now choose Other > and select ABAP.
+Now choose Other.
 
 <img src="../images/eclpersp02.jpg">
 
+And then select ABAP.
 
+<img src="../images/eclperspabap.jpg">
 
 The first CDS view that needs to be created will include sales amounts by customer > location > product. 
 
