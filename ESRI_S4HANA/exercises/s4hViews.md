@@ -53,7 +53,7 @@ Name = ZXSH_C_SALESORDERITEMFSZ
 Description = Public Consumption View, Z Copy Sales Order Item
 ```
 
-<img src="../images/s4HpEsriDemoPics01.jpg">
+
 
 Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
 	
@@ -102,7 +102,7 @@ Name = ZXSH_C_CUSTOMERGEO
 Description = Public Consumption View, Customer Location Hierarchy
 ```
 
-<img src="../images/s4HpEsriDemoPics02.jpg">
+
 
 Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
 
