@@ -21,7 +21,24 @@ If you want to find out more about creating your own virtual models in CDS pleas
 
 ## <a name="steps"></a> Steps
 
-There are two views that we need to create and they are based on existing S/4HANA CDS views. Open up your Eclipse IDE; it may be named SAP Dev Tools for Eclipse on the S/4HANA trial Windows client. 
+There are two views that we need to create and they are based on existing S/4HANA CDS views. 
+
+The first thing we need to do is create a project in our ABAP repository.
+
+1. [Making an ABAP Project as a User With Access to Customer Sales](#abapproj)
+
+The first CDS view that needs to be created will include sales amounts by customer > location > product. 
+
+2. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
+
+The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. 
+
+3. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
+
+
+### <a name="abapproj"></a> Making an ABAP Project as a User With Access to Customer Sales
+
+Open up your Eclipse IDE; it may be named SAP Dev Tools for Eclipse on the S/4HANA trial Windows client. 
 
 If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective.
 
@@ -40,15 +57,6 @@ And then select ABAP.
 file:///C:/ProgramData/WelcomePage/Welcome.html
 
 ```
-
-The first CDS view that needs to be created will include sales amounts by customer > location > product. 
-
-2. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
-
-The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. 
-
-2. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
-
 
 ### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
 
