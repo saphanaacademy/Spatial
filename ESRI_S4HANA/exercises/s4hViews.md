@@ -104,6 +104,8 @@ file:///C:/ProgramData/WelcomePage/Welcome.html
 
 The first CDS view that needs to be created will include sales amounts by customer > location > product. 
 
+<img src="../images/eclcds04.jpg">
+
 * Open your new Eclipse ABAP project for the S4H_SD_DEM user and navigate to Local Objects > S4H_SD_DEM.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds00.jpg">
