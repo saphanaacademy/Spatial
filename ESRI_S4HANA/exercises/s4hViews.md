@@ -23,7 +23,7 @@ If you want to find out more about creating your own virtual models in CDS pleas
 
 There are two views that we need to create and they are based on existing S/4HANA CDS views. Open up your Eclipse IDE (it may be named SAP Dev Tools for Eclipse on the S/4HANA trial Windows client). 
 
-If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective
+If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective.
 
 <img src="../images/eclpers01.jpg">
 
