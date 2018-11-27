@@ -96,6 +96,8 @@ file:///C:/ProgramData/WelcomePage/Welcome.html
 
 * For the full list of Roles (some of these will be Z roles specific to the trial appliance) [please click here.](../other/s4hSalesDemoUserRoles.csv)
 
+You have now completed the step "Making an ABAP Project as a User With Access to Customer Sales".
+
 
 [Back to Steps](#steps)
 
@@ -185,6 +187,7 @@ left outer join I_Address
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04d.jpg">
 
+You have now completed the setp "Creation of CDS View with Customer Sales, Products, and Location".
 
 [Back to Steps](#steps)
 
@@ -231,9 +234,12 @@ inner join I_Address
 
 * After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
 
-You have now completed this task of "Creating Custom ABAP CDS Views in S/4HANA".
+You have now completed the step "Creation of CDS View with Customer Location". You are now down with this task of "Creating Custom ABAP CDS Views in S/4HANA".
 
+Your next task is to create a development / technical user in your HANA database. With this user you will create a new HANA schema, Remote Sources to the S/4HANA system, Calculation Views, etc.
 
-[Back to Steps](#steps)
+[Go to the Next Task: Creation of Developer User for the SAP HANA System](hdbUser)
 
 [Go Back to the Main Page](../demoHowTo.md)
+
+[Back to Steps](#steps)
