@@ -231,5 +231,9 @@ inner join I_Address
 
 * After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
 
+You have now completed this task of "Creating Custom ABAP CDS Views in S/4HANA".
+
 
 [Back to Steps](#steps)
+
+[Go Back to the Main Page](../demoHowTo.md)
