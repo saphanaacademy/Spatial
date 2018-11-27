@@ -70,7 +70,7 @@ You should see a list of users similar to below. We want to use the S4H_SD_DEM d
 
 <img src="../images/s4hwelcusr.jpg">
 
-Enter the 
+Enter the demo user info and then press Finish.
 
 <img src="../images/eclproj04.jpg">
 
