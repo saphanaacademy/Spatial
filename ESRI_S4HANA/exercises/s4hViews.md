@@ -25,15 +25,15 @@ There are two views that we need to create and they are based on existing S/4HAN
 
 If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective
 
-<img src="../images/eclpersp01.jpg">
+<img src="../images/eclpers01.jpg">
 
 Now choose Other.
 
-<img src="../images/eclpersp02.jpg">
+<img src="../images/eclpers02.jpg">
 
 And then select ABAP.
 
-<img src="../images/eclperspabap.jpg">
+<img src="../images/eclpersabap.jpg">
 
 The first CDS view that needs to be created will include sales amounts by customer > location > product. 
 
