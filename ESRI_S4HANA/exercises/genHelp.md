@@ -3,6 +3,10 @@
 <tr><td><h3>More Help and FAQ for this Exercise</h3></td><td width=60%></br>&nbsp;Development Environment</p></td></tr>
 </table>
 
+## Description
+
+In this page you can find out more info on using the trial images provided through the SAP Cloud Appliance Library. You can also find more info on working through this exercise and troubleshooting some issues you may encounter.
+
 <img src="../images/s4hcalsolns.jpg">
 
 
