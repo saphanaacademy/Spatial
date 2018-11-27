@@ -47,7 +47,7 @@ Here are the knowledge prerequisites for this exercise.
 
 ## More Help & FAQ
 
-For more info on using the S/4HANA trial and the SAP Cloud Appliance Library please see [this help page.](s4hHelp.md)
+For more info on using the S/4HANA trial and the SAP Cloud Appliance Library please see [this help page.](exercises/genHelp.md)
 
 
 ## <a name="tasks"></a> Tasks
