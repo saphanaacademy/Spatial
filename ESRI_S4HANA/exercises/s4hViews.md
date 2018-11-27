@@ -101,14 +101,14 @@ In the Core Data Services folder select Data Definition and then press Next.
 <img src="../images/eclcds02.jpg">
 
 
-create a new CDS view with the following information.
+In the Data Definition dialogue, enter the following information.
 
 ```
 Name = ZXSH_C_SALESORDERITEMFSZ
 Description = Public Consumption View, Z Copy Sales Order Item
 ```
 
-
+<img src="../images/eclcds03.jpg">
 
 Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
 	
@@ -144,6 +144,10 @@ left outer join I_Address
     I_Address.PostalCode
 }
 ```
+
+<img src="../images/eclcds04.jpg">
+
+<img src="../images/eclcds04a.jpg">
 
 [Back to Steps](#steps)
 
@@ -184,5 +188,7 @@ inner join I_Address
    I_Address.PostalCode as LHPostalCode
 }
 ```
+
+<img src="../images/eclcds05.jpg">
 
 [Back to Steps](#steps)
