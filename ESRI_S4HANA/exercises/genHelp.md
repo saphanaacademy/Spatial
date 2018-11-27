@@ -3,6 +3,8 @@
 <tr><td><h3>More Help and FAQ for this Exercise</h3></td><td width=60%></br>&nbsp;Development Environment</p></td></tr>
 </table>
 
+<img src="../images/s4hcalsolns.jpg">
+
 
 ## Working with the 30-Day Trial of S/4HANA:
 
