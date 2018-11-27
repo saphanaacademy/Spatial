@@ -92,7 +92,7 @@ file:///C:/ProgramData/WelcomePage/Welcome.html
 
 * If you are not using the S/4HANA trial system, then you will need to have a user that has the following roles. Note that the Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 
-* SAP_BR_SALES_MANAGER
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SAP_BR_SALES_MANAGER
 
 * For the full list of Roles (some of these will be Z roles specific to the trial appliance) [please click here.](../other/s4hSalesDemoUserRoles.csv)
 
