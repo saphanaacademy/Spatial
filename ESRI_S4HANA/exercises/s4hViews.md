@@ -25,11 +25,11 @@ There are two views that we need to create and they are based on existing S/4HAN
 
 If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective
 
-<img src="images/eclpersp01.jpg">
+<img src="../images/eclpersp01.jpg">
 
 Now choose Other > and select ABAP.
 
-<img src="images/eclpersp02.jpg">
+<img src="../images/eclpersp02.jpg">
 
 
 
@@ -51,7 +51,7 @@ Name = ZXSH_C_SALESORDERITEMFSZ
 Description = Public Consumption View, Z Copy Sales Order Item
 ```
 
-<img src="images/s4HpEsriDemoPics01.jpg">
+<img src="../images/s4HpEsriDemoPics01.jpg">
 
 Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
 	
@@ -100,7 +100,7 @@ Name = ZXSH_C_CUSTOMERGEO
 Description = Public Consumption View, Customer Location Hierarchy
 ```
 
-<img src="images/s4HpEsriDemoPics02.jpg">
+<img src="../images/s4HpEsriDemoPics02.jpg">
 
 Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
 
