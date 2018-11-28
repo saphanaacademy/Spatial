@@ -159,7 +159,7 @@ left outer join I_Address
     I_Address.District,
     I_Address.Region,
     I_Address.County,
-    I_Address.PostalCode
+    left(I_Address.PostalCode,5) as PostalCode
 }
 ```
 
@@ -223,7 +223,7 @@ inner join I_Address
    I_Address.Region as LHRegion,
    I_Address.County as LHCounty,
    I_Address.Country as LHCountry,
-   I_Address.PostalCode as LHPostalCode
+   left(I_Address.PostalCode,5) as PostalCode
 }
 ```
 
