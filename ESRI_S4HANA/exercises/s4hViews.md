@@ -118,7 +118,7 @@ The first CDS view that needs to be created will include sales amounts by custom
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds02.jpg">
 
 
-* In the Data Definition dialogue, enter the following information.
+* In the Data Definition dialogue, enter the following information. Afterwards press Finish.
 
 ```
 Name = ZXSH_C_SALESORDERITEMFSZ
@@ -128,7 +128,7 @@ Description = Public Consumption View, Z Copy Sales Order Item
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds03.jpg">
 
 
-* Copy the following code into the view editor.
+* Replace the default code in the view editor with the following code.
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
@@ -194,14 +194,14 @@ The second CDS view that needs to be created will be a customer location hierarc
 <img src="../images/eclcds05.jpg">
 
 
-* Use the same method as above to create a new CDS view Data Definition. In the dialogue enter the following information.
+* Use the same method as above to create a new CDS view Data Definition. In the dialogue enter the following information and press Finish.
 
 ```
 Name = ZXSH_C_CUSTOMERGEO
 Description = Public Consumption View, Customer Location Hierarchy
 ```
 
-* Copy the following code into the view editor.
+* Replace the default code in the view editor with the following code.
 
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCCUSTOMERGEO'
