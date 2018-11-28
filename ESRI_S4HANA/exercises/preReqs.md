@@ -79,6 +79,8 @@ XXXXXX Instructions Coming Soon
 
 XXXXXX Instructions Coming Soon
 
+You have now completed the Prerequisites for this exercise.
+
 [Go to Task 1: Creation of CDS Views in S/4HANA](../exercises/s4hViews.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
