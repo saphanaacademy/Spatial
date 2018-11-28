@@ -12,7 +12,7 @@ In the next steps we will create a technical HANA database user that has the rig
 
 ## Prerequisites
 
-You will need the Eclipse IDE with SAP HANA tools installed. If you are using the S/4HANA trial appliance then this IDE will be set up already on the Windows client.
+You should have completed all of the exercise [Prerequisites](../preReqs.md). You should have completed [Task 1: Creation of CDS Views in S/4HANA using the Eclipse IDE.](..exercises/s4hViews.md)
 
 
 ## Steps
