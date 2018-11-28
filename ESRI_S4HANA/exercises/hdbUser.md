@@ -64,3 +64,5 @@ GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE ON SCHEMA HACKT28 to _SYS_REPO WIT
 ```
 
 [Go Back to the Main Page](../demoHowTo.md)
+
+[Go Back Up to the List of Steps](#steps)
