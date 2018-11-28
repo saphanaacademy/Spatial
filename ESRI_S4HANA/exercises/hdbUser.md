@@ -54,6 +54,8 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 Note that you are logged in as a System user as this is a demo exercise. It is a best practice to use it only to create users with less privileges and then deactivate the System user. Please go to help.sap.com and search on "SAP HANA Security" for more information on these topics. 
 
+[Go Back Up to the List of Steps](#steps)
+
 ### <a name="hdbdev"></a> Creating the Development User with a Script
 
 * As you are now connected to your HANA database you should also see your S/4HANA / ERP schema. Note that you will not be modifying or adding to this schema in any way in the HANA development parts of this exercise. If you were to expand this schema and then right click on the Views folder to add a Filter of ZXSH then you would see the views you created earlier.
@@ -104,6 +106,8 @@ GRANT REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_
 ```
 
 You now have created a development user, HACKT28 with a password of Initial1 that doesn't expire. We disabled the "password lifetime" as this is a demo user. Note the options that we granted the new user including the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. We also created a development package for the new user and granted the necessary rights to the repository to the user.
+
+[Go Back Up to the List of Steps](#steps)
 
 
 * Run this as HACKT28
