@@ -3,11 +3,11 @@
 <tr><td><h3>Creation of Development User for the SAP HANA System</h3></td><td width=60%></br>&nbsp;Task #2, Using Eclipse IDE, HANA Development Perspective</p></td></tr>
 </table>
 
-XXXXXX need steps and video links etc.	
+
 
 ## Description
 
-In the next steps we will create a technical HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
+In the next steps you will create a technical HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
 
 
 ## Prerequisites
@@ -17,7 +17,27 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## Steps
 
+You will need to use the HANA Development Perspective in Eclipse as an admin user. This admin user will have the rights to create the new development user that will complete a lot of the upcoming tasks in the HANA environment. 
+
+1. [Making an ABAP Project as a User With Access to Customer Sales](#abapproj)
+
+1. [Making an ABAP Project as a User With Access to Customer Sales](#abapproj)
+
+1. [Making an ABAP Project as a User With Access to Customer Sales](#abapproj)
+
+
+
 1. In Eclipse, go to the Window menu > Perspective > Open Perspective >  SAP HANA Development Console (if you don't see it in this options list then choose Other > SAP HANA Development.
+
+2. 
+
+
+
+### <a name="abapproj"></a> Making an ABAP Project as a User With Access to Customer Sales
+
+* If you don't see an ABAP shortcut then click on the Open Perspective shortcut to get the full list. (Perspectives are also accessible through the Window menu > Perspective > Open Perspective > Other.)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers04.jpg">
 
 
 
