@@ -53,7 +53,7 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab6.jpg">
 
-*
+* Paste in the following code into the new SQL Console and then press the Execute button or your F8 key. If you get a warning about running the code you can close it.
 
 ```
 CREATE USER HACKT28 PASSWORD Initial1;
@@ -77,6 +77,9 @@ GRANT REPO.READ, REPO.EDIT_NATIVE_OBJECTS, REPO.ACTIVATE_NATIVE_OBJECTS, REPO.MA
 GRANT REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_IMPORTED_PACKAGES 
 	ON "HACKT28" TO HACKT28;
 ```
+
+You now have created a development user, HACKT28 with a password of Initial1 that doesn't expire. We disabled the "password lifetime" as this is a demo user. Note the options that we granted the new user including the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. We also created a development package for the new user and granted the necessary rights to the repository to the user.
+
 
 * Run this as HACKT28
 
