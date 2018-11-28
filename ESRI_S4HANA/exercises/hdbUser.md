@@ -19,25 +19,20 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 You will need to use the HANA Development Perspective in Eclipse as an admin user. This admin user will have the rights to create the new development user that will complete a lot of the upcoming tasks in the HANA environment. 
 
-1. [Making an ABAP Project as a User With Access to Customer Sales](#abapproj)
+1. [Logging into HANA as an Admin User](#hdbadmin)
 
-1. [Making an ABAP Project as a User With Access to Customer Sales](#abapproj)
+1. [Creating the Development User with a Script](#hdbdev)
 
-1. [Making an ABAP Project as a User With Access to Customer Sales](#abapproj)
-
-
-
-1. In Eclipse, go to the Window menu > Perspective > Open Perspective >  SAP HANA Development Console (if you don't see it in this options list then choose Other > SAP HANA Development.
-
-2. 
+1. [Granting Rights to the Developmnent User's Project](#hdbrepo)
 
 
+### <a name="hdbadmin"></a> Logging into HANA as an Admin User
 
-### <a name="abapproj"></a> Making an ABAP Project as a User With Access to Customer Sales
-
-* If you don't see an ABAP shortcut then click on the Open Perspective shortcut to get the full list. (Perspectives are also accessible through the Window menu > Perspective > Open Perspective > Other.)
+* In Eclipse click on the Open Perspective shortcut to get the full list of Perspectives. (Perspectives are also accessible through the Window menu > Perspective > Open Perspective > Other.)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers04.jpg">
+
+* Select the SAP HANA Development Perspective. Note that there are a couple other Perspectives that you could use for the next tasks such as the SAP HANA Admin Perspective. However you are also going to be creating some HANA Calculation Views so this Perspective is a good catch-all for our HANA related tasks.
 
 
 
