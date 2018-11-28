@@ -53,7 +53,7 @@ Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 
 Note that the appliance Windows machine includes a configured Eclipse IDE with the needed tools for ABAP CDS development installed. If you are interested in learning more about how to set up your own Eclipse environment, please see the downloads and instructions for ABAP and HANA tools for Eclipse at https://tools.hana.ondemand.com/
 
-[Go Back to the List of Steps](#steps)
+[Go Back Up to the List of Steps](#steps)
 
 ## <a name="hdbons4h"></a> (Option A) Accessing the SAP HANA System Using the S/4HANA Trial Appliance
 
@@ -61,24 +61,24 @@ If you want to save some time and money associated with creating a HANA 'sidecar
 
 To access the HANA database on your S/4HANA system, you will not have to follow any additional steps for Option A or Option B below as this will be covered later in the task "Creation of Developer User for the SAP HANA System". Please note that there are still additional prerequisites below Option B related to the SAP Analytics Cloud.
 
-[Go Back to the List of Steps](#steps)
+[Go Back Up to the List of Steps](#steps)
 
 ## <a name="hdbonscp"></a> (Option B) Starting an SAP Cloud Platform HANA System to Use as a Sidecar
 
 XXXXXX Instructions Coming Soon
 
-[Go Back to the List of Steps](#steps)
+[Go Back Up to the List of Steps](#steps)
 
 ## <a name="sac"></a> Getting an SAP Analytics Cloud (SAC) System
 
 XXXXXX Instructions Coming Soon
 
-[Go Back to the List of Steps](#steps)
+[Go Back Up to the List of Steps](#steps)
 
 ## <a name="sactohdb"></a> Configuring the SAC Connection to the SAP HANA Database
 
 XXXXXX Instructions Coming Soon
 
-[Go Back to the List of Steps](#steps)
-
 [Go Back to the Main Page](../demoHowTo.md)
+
+[Go Back Up to the List of Steps](#steps)
