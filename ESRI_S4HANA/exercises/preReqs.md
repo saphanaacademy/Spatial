@@ -79,6 +79,8 @@ XXXXXX Instructions Coming Soon
 
 XXXXXX Instructions Coming Soon
 
+[Go to Task 2: Creation of Developer User for the SAP HANA System](exercises/hdbUser.md)
+
 [Go Back to the Main Page](../demoHowTo.md)
 
 [Go Back Up to the List of Steps](#steps)
