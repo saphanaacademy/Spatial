@@ -24,7 +24,7 @@ If you want to find out more about creating your own virtual models in CDS pleas
 
 ## <a name="steps"></a> Steps
 
-There are two views that you need to create and they are based on existing S/4HANA CDS views. The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. Before we create those views, we need to create a project in our ABAP repository.
+There are two views that you need to create and they are based on existing S/4HANA CDS views. ABAP CDS is a combination of simple SQL and CDS annotations. In this case the new views will just combine other existing views using joins. Before you create those views, you need to create a project in our ABAP repository.
 
 1. [Making an ABAP Project as a User With Access to Customer Sales](#abapproj)
 
