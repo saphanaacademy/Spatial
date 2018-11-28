@@ -42,19 +42,14 @@ In order to create the CDS views we need to add a user based ABAP project to the
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04.jpg">
 
 
-* If the ABAP Perspective is not open then go to the Window menu and choose Perspective > and then Open Perspective.
+* If the ABAP Perspective is not opened by default then check for a toolbar shortcut to open the ABAP perspective.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers01.jpg">
-
-
-* Now choose Other.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers02.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers03.jpg">
 
 
-* And then select ABAP.
+* If you don't see an ABAP shortcut then click on the Open Perspective shortcut to get the full list. (Perspectives are also accessible through the Window menu > Perspective > Open Perspective > Other.)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpersabap.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpes04.jpg">
 
 
 * If you are using the trial appliance you should see an existing project for the BPINST user. Right click on that project and choose Duplicate. 
