@@ -229,7 +229,7 @@ inner join I_Address
 
 * Press the Activate button.
 
-You have now completed the step "Creation of CDS View with Customer Location". You are now down with this task of "Creating Custom ABAP CDS Views in S/4HANA".
+You have now completed the step "Creation of CDS View with Customer Location" and are down with the whole task of "Creating Custom ABAP CDS Views in S/4HANA".
 
 Your next task is to create a development / technical user in your HANA database. With this user you will create a new HANA schema, Remote Sources to the S/4HANA system, Calculation Views, etc.
 
