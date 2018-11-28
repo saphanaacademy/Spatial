@@ -57,7 +57,15 @@ Note that you are logged in as a System user as this is a demo exercise. It is a
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab6.jpg">
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab7.jpg">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr1.jpg">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2.jpg">
+
 * Paste in the following code into the new SQL Console and then press the Execute button or your F8 key. If you get a warning about running the code you can close it.
+
+
 
 ```
 CREATE USER HACKT28 PASSWORD Initial1;
