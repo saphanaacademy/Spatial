@@ -12,8 +12,7 @@ In the next steps you will create a technical HANA database user that has the ri
 
 ## Prerequisites
 
-You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 1: Creation of CDS Views in S/4HANA using the Eclipse IDE.](../exercises/s4hViews.md)
-
+You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 1: Creation of CDS Views in S/4HANA](../exercises/s4hViews.md) using the Eclipse IDE.
 
 ## Steps
 
