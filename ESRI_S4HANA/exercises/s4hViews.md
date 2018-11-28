@@ -118,7 +118,7 @@ The first CDS view that needs to be created will include sales amounts by custom
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds02.jpg">
 
 
-* In the Data Definition dialogue, enter the following information. NOTE: Please change the "SH" in ZXSH to match your namespace.
+* In the Data Definition dialogue, enter the following information.
 
 ```
 Name = ZXSH_C_SALESORDERITEMFSZ
@@ -128,7 +128,7 @@ Description = Public Consumption View, Z Copy Sales Order Item
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds03.jpg">
 
 
-* Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
+* Copy the following code into the view editor.
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
@@ -163,7 +163,7 @@ left outer join I_Address
 }
 ```
 
-* After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
+* Now press the Activate button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04a.jpg">
 
@@ -201,7 +201,7 @@ Name = ZXSH_C_CUSTOMERGEO
 Description = Public Consumption View, Customer Location Hierarchy
 ```
 
-* Copy the following code into the view editor. You can substitute the "SH" in ZXSH to match your namespace.
+* Copy the following code into the view editor.
 
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCCUSTOMERGEO'
@@ -227,7 +227,7 @@ inner join I_Address
 }
 ```
 
-* After you have changed the instances of "SH" in your code to match your namespace, press the Activate button.
+* Press the Activate button.
 
 You have now completed the step "Creation of CDS View with Customer Location". You are now down with this task of "Creating Custom ABAP CDS Views in S/4HANA".
 
