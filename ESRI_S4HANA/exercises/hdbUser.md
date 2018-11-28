@@ -49,6 +49,8 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab5.jpg">
 
+### <a name="hdbdev"></a> Creating the Development User with a Script
+
 * You should now be connected to your HANA database. Note that you should also see your S/4HANA / ERP schema. You will not be modifying or adding to this schema in any way in the HANA development parts of this exercise. If you were to expand this schema and then right click on the Views folder to add a Filter of ZXSH then you would see the views you created earlier.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab6.jpg">
