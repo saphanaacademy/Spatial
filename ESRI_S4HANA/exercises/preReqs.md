@@ -57,9 +57,9 @@ Note that the appliance Windows machine includes a configured Eclipse IDE with t
 
 ## <a name="hdbons4h"></a> (Option A) Accessing the SAP HANA System Using the S/4HANA Trial Appliance
 
-If you've followed the above step you will already have an Eclipse IDE to use for most of the other tasks in this exercise. To access the HANA database on your S/4HANA system,
+If you want to save some time and money associated with creating a HANA sidecar (e.g. in SAP Cloud Platform) you can mimic having a HANA sidecar by using the HANA database in your S/4HANA appliance. 
 
-XXXXXX Instructions Coming Soon
+To access the HANA database on your S/4HANA system, you will not have to follow any additional steps for Option A or Option B below as this will be covered later in the task "Creation of Developer User for the SAP HANA System". Please note that there are still additional prerequisites below Option B.
 
 [Go Back to the List of Steps](#steps)
 
