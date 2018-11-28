@@ -99,7 +99,7 @@ file:///C:/ProgramData/WelcomePage/Welcome.html
 You have now completed the step "Making an ABAP Project as a User With Access to Customer Sales".
 
 
-[Back to Steps](#steps)
+[Go Back Up to the List of Steps](#steps)
 
 
 ### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
@@ -189,7 +189,7 @@ left outer join I_Address
 
 You have now completed the setp "Creation of CDS View with Customer Sales, Products, and Location".
 
-[Back to Steps](#steps)
+[Go Back Up to the List of Steps](#steps)
 
 
 ### <a name="cdsview2"></a> Creation of CDS View with Customer Location
@@ -242,4 +242,4 @@ Your next task is to create a development / technical user in your HANA database
 
 [Go Back to the Main Page](../demoHowTo.md)
 
-[Back to Steps](#steps)
+[Go Back Up to the List of Steps](#steps)
