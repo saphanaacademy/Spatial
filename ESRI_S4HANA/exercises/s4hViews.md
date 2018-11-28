@@ -118,7 +118,7 @@ The first CDS view that needs to be created will include sales amounts by custom
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds02.jpg">
 
 
-* In the Data Definition dialogue, enter the following information.
+* In the Data Definition dialogue, enter the following information. NOTE: Please change the "SH" in ZXSH to match your namespace.
 
 ```
 Name = ZXSH_C_SALESORDERITEMFSZ
