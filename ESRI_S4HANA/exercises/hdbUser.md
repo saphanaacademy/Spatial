@@ -146,11 +146,14 @@ When our development user designs Calculation Views they need to be activated in
 
 *
 
+```
+GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE 
+ON SCHEMA HACKT28 to _SYS_REPO WITH GRANT OPTION;
+```
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr5.jpg">
 
-```
-GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE ON SCHEMA HACKT28 to _SYS_REPO WITH GRANT OPTION;
-```
+You have now completed the step "Granting Rights to the Development User's Project" and are done with the whole task of "Creation of Developer User for the SAP HANA System".
 
 [Go to Task 3: Setup of Smart Data Access to the S/4HANA System](sdiConfig.md)
 
