@@ -1,6 +1,6 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
-<tr><td><h3>Setup of Remote Connection and Virtual Tables for the S/4HANA System/h3></td><td width=60%></br>&nbsp;Task #3, Using the Data Provisioning Agent & the Eclipse IDE, HANA Development Perspective</p></td></tr>
+<tr><td><h3>Setup of Remote Connection and Virtual Tables for S/4HANA\</h3></td><td width=60%></br>&nbsp;Task #3, Using the Data Provisioning Agent & the Eclipse IDE, HANA Development Perspective</p></td></tr>
 </table>
 
 ### <a name="remotecon"></a> 
