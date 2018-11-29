@@ -25,7 +25,7 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 1. [Creating the Development User with a Script](#hdbdev)
 
-1. [Granting Rights to the Developmnent User's Project](#hdbrepo)
+1. [Granting Rights to the Development User's Project](#hdbrepo)
 
 
 ### <a name="hdbadmin"></a> Logging into HANA as an Admin User
@@ -120,6 +120,7 @@ You now have created a development user, HACKT28 with a password of Initial1 tha
 
 [Go Back Up to the List of Steps](#steps)
 
+### <a name="hdbrepo"></a> Granting Rights to the Development User's Project
 
 * Run this as HACKT28
 
