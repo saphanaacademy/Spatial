@@ -3,7 +3,26 @@
 <tr><td><h3>Setup of Remote Connection and Virtual Tables for S/4HANA</h3></td><td width=60%></br>&nbsp;Task #3, Using Data Provisioning &  Eclipse HANA Development</p></td></tr>
 </table>
 
-### <a name="remotecon"></a> 
+## Description
+
+This includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating Virtual Tables for the ABAP CDS views we created earlier.
+
+<img src="../images/XXXXXX.jpg">
+
+## Prerequisites
+
+## Steps
+
+You will need first install the Data Provisioning Agent from tools.hana.ondemand.com and then register your HANA system. In the HANA Development Perspective in Eclipse you will create the Remote Source and add the Virtual Tables.
+
+1. [Logging into HANA as an Admin User](#hdbadmin)
+
+1. [Creating the Development User with a Script](#hdbdev)
+
+1. [Granting Rights to the Development User's Project](#hdbrepo)
+
+
+### <a name="hdbadmin"></a> Logging into HANA as an Admin User
 
 In order to connect your SAP HANA system to your S/4HANA system you need to first set up the Data Provisioning Agent.  
 https://tools.hana.ondemand.com/ > click on the Cloud Integration tab > scroll down to the Data Integration Downloads section.
