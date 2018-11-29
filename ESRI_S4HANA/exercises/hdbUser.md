@@ -54,6 +54,8 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 Note that you are logged in as a System user as this is a demo exercise. It is a best practice to use it only to create users with less privileges and then deactivate the System user. Please go to help.sap.com and search on "SAP HANA Security" for more information on these topics. 
 
+* If you didn't see a System user connection in the Systems panel, then 
+
 [Go Back Up to the List of Steps](#steps)
 
 ### <a name="hdbdev"></a> Creating the Development User with a Script
