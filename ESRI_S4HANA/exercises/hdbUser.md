@@ -136,11 +136,11 @@ One more step in readying the development user's HANA environment is to grant ac
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr1.jpg">
 
-* Enter in HACKT28 and the password you used in the "Create User" script earlier.
+* Enter in HACKT28 and the password you used in the "Create User" script earlier and press Finish.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr2.jpg">
 
-*
+* You can now the HACKT28's schema and self-named project that were made with the "Create User" script. We will be using these later to add our tables and Calculation Views.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr3.jpg">
 
