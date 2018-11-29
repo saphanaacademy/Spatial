@@ -46,27 +46,32 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab4.jpg">
 
-* Right click on the System user connection and choose Log On.
+* Right click on the System user connection and choose "Log On".
 
 * The System user has the same password that you use in your Windows remote connection. This is the password that you created when creating the trial solution in the SAP Cloud Appliance Library. To avoid the logon step the next time make sure that the "Store user name and password..." option is selected.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab5.jpg">
 
-* If you didn't see a System user connection in the Systems panel, then right click anywhere in that panel and choose Add System.
+* If you didn't see a System user connection in the Systems panel, then right click anywhere in that panel and choose "Add System".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab7.jpg">
 
-* If you are using the S/4HANA trial then add the following information.
+* If you are using the S/4HANA trial then add the following information and then click on "Next".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/hdbnewcon1.jpg">
 
-* Note that the aliases for the S/4HANA appliance can be found in the hosts file on your Windows client. In a File Explorer go to this folder: C:\Windows\System32\drivers\etc
+* Note that the aliases for the S/4HANA appliance can be found in the hosts file on your Windows client. If you want to have a look at this, in the Windows' File Explorer go to the folder path shown below.
+
+```
+C:\Windows\System32\drivers\etc
+
+```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/hosts1.jpg">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/hosts2.jpg">
 
-* Add the SYSTEM user and password where the password is the one you created in the Cloud Appliance Library and is the same one for the Windows client administrator login.
+* Add the SYSTEM user and password where the password is the one you created in the Cloud Appliance Library and is the same one for the Windows client administrator login. Then click on "Finish".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/hdbnewcon2.jpg">
 
@@ -82,11 +87,11 @@ As you are now connected to your HANA database you should also see your S/4HANA 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab6.jpg">
 
-* If you were to expand this schema and then right click on the Views folder to add a Filter of ZXSH then you would see the views you created earlier. You will not be able to preview the data from these views in this perspective as the system user although you can look at their Create Statements via right clicking and selecting Open Definition. This is due to S/4HANA security vs. that of the HANA database.
+* If you were to expand this schema and then right click on the Views folder to add a Filter of ZXSH then you would see the views you created earlier. You will not be able to preview the data from these views in this perspective as the system user although you can look at their "Create Statements" via right clicking and selecting "Open Definition". This is due to S/4HANA security vs. that of the HANA database.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbviews.jpg">
 
-* Right click on the HDB (SYSTEM) Catalog and choose Open SQL Console.
+* Right click on the HDB (SYSTEM) Catalog and choose "Open SQL Console".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr1.jpg">
 
@@ -124,11 +129,9 @@ As previously mentioned, please go to help.sap.com and search on "SAP HANA Secur
 
 ### <a name="hdbrepo"></a> Granting Rights to the Development User's Project
 
-One more step in readying the development user's HANA environment is to grant access to HACKT28's development repo to the _SYS_REPO user. This is a technical owner which owns all of the objects in the repository. 
+One more step in readying the development user's HANA environment is to grant access to HACKT28's development repo to the _SYS_REPO user. This is a technical owner which owns all of the objects in the repository. When our development user designs Calculation Views they need to be activated in order to be used as run-time repository objects. Therefore if you don't do this particular task then when you try to activate your Calculation Views you will get an error. If you want more info on this topic go to help.sap.com and search on "_sys_repo authorization".
 
-When our development user designs Calculation Views they need to be activated in order to be used as run-time repository objects. In other words, if you don't do this particular task then when you activate your Calculation Views you will get an error. If you want more info on this topic go to help.sap.com and search on "_sys_repo authorization".
-
-* 
+* You need to first add a system connection for the HACKT28 user. Right click on the existing SYSTEM user's connection and choose "Add System with Different User".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr1.jpg">
 
@@ -144,14 +147,18 @@ When our development user designs Calculation Views they need to be activated in
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr4.jpg">
 
-*
+* Copy the following code and paste it into the SQL Console. 
 
 ```
 GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE 
 ON SCHEMA HACKT28 to _SYS_REPO WITH GRANT OPTION;
 ```
 
+* Press the Executive button or your F8 key. If you get a warning about running the code you can close it.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr5.jpg">
+
+The _SYS_REPO will now have access to the Calculation Views that you will create later on. 
 
 You have now completed the step "Granting Rights to the Development User's Project" and are done with the whole task of "Creation of Developer User for the SAP HANA System".
 
