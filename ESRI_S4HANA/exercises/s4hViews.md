@@ -233,7 +233,7 @@ You have now completed the step "Creation of CDS View with Customer Location" an
 
 Your next task is to create a development / technical user in your HANA database. With this user you will create a new HANA schema, Remote Sources to the S/4HANA system, Calculation Views, etc.
 
-[Go to Task 2: Creation of Developer User for the SAP HANA System](../exercises/hdbUser.md)
+[Go to Task 2: Creation of Developer User for the SAP HANA System](hdbUser.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
