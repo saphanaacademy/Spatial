@@ -140,7 +140,7 @@ One more step in readying the development user's HANA environment is to grant ac
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr2.jpg">
 
-* You can now the HACKT28's schema and self-named project that were made with the "Create User" script. We will be using these later to add our tables and Calculation Views.
+* You can now see the HACKT28's schema and self-named project that were made with the "Create User" script. We will be using these later to add our tables and Calculation Views.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr3.jpg">
 
