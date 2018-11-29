@@ -144,7 +144,7 @@ One more step in readying the development user's HANA environment is to grant ac
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr3.jpg">
 
-*
+* Right click on the HACKT28 system and choose "Open SQL Console".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr4.jpg">
 
