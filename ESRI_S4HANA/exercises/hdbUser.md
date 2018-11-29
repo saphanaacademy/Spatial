@@ -134,7 +134,7 @@ When our development user designs Calculation Views they need to be activated in
 GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE ON SCHEMA HACKT28 to _SYS_REPO WITH GRANT OPTION;
 ```
 
-[Go to Task 3: Setup of Smart Data Access to the S/4HANA System](../sdiConfig.md)
+[Go to Task 3: Setup of Smart Data Access to the S/4HANA System](../exercises/sdiConfig.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
