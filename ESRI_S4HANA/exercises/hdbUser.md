@@ -94,7 +94,7 @@ As you are now connected to your HANA database you should also see your S/4HANA 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr1.jpg">
 
-* Paste in the following code into the new SQL Console. First change "XXXXXX" to the desired password and then press the Execute button or your F8 key. If you get a warning about running the code you can close it.
+* Paste in the following code into the new SQL Console. First change "XXXXXX" to the desired password and then press the Execute button or your F8 key. If you get a warning about running the code then click on Yes to continue.
 
 ```
 CREATE USER HACKT28 PASSWORD XXXXXX;
@@ -155,7 +155,7 @@ GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE
 ON SCHEMA HACKT28 to _SYS_REPO WITH GRANT OPTION;
 ```
 
-* Press the Executive button or your F8 key. If you get a warning about running the code you can close it.
+* Press the Executive button or your F8 key. If you get a warning about running the code then click on Yes to continue.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr5.jpg">
 
