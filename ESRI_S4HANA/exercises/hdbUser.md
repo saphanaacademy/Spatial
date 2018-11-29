@@ -60,7 +60,7 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/hdbnewcon1.jpg">
 
-* Note that the aliases for the S/4HANA appliance can be found in the hosts file on your Windows client. If you want to have a look at this, in the Windows' File Explorer go to the folder path shown below.
+* Note that the aliases for the S/4HANA appliance can be found in the hosts file on your Windows client. If you want to have a look at this, in the Windows' File Explorer go to the folder path shown below and open the Hosts file in Notepad.
 
 ```
 C:\Windows\System32\drivers\etc
