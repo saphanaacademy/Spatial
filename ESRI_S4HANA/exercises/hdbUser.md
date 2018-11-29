@@ -95,10 +95,10 @@ As you are now connected to your HANA database you should also see your S/4HANA 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr1.jpg">
 
-* Paste in the following code into the new SQL Console and then press the Execute button or your F8 key. If you get a warning about running the code you can close it.
+* Paste in the following code into the new SQL Console. First change "XXXXXX" to the desired password and then press the Execute button or your F8 key. If you get a warning about running the code you can close it.
 
 ```
-CREATE USER HACKT28 PASSWORD Initial1;
+CREATE USER HACKT28 PASSWORD XXXXXX;
 ALTER USER HACKT28 DISABLE PASSWORD LIFETIME;
 
 GRANT CREATE REMOTE SOURCE TO HACKT28;
@@ -121,7 +121,7 @@ GRANT REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2.jpg">
 
-You now have created a development user, HACKT28 with a password of Initial1 that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. Note the options that we granted the new user including the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. We also created a development package for the new user and granted the necessary rights to the repository to the user.
+You now have created a development user, HACKT28 with a password that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. Note the options that we granted the new user including the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. We also created a development package for the new user and granted the necessary rights to the repository to the user.
 
 As previously mentioned, please go to help.sap.com and search on "SAP HANA Security" for more information on these topics. 
 
@@ -131,11 +131,11 @@ As previously mentioned, please go to help.sap.com and search on "SAP HANA Secur
 
 One more step in readying the development user's HANA environment is to grant access to HACKT28's development repo to the _SYS_REPO user. This is a technical owner which owns all of the objects in the repository. When our development user designs Calculation Views they need to be activated in order to be used as run-time repository objects. Therefore if you don't do this particular task then when you try to activate your Calculation Views you will get an error. If you want more info on this topic go to help.sap.com and search on "_sys_repo authorization".
 
-* You need to first add a system connection for the HACKT28 user. Right click on the existing SYSTEM user's connection and choose "Add System with Different User".
+* You need to first add a HANA system connection for the HACKT28 user. Right click on the existing SYSTEM user's connection and choose "Add System with Different User".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr1.jpg">
 
-*
+* Enter in HACKT28 and the password you used in the "Create User" script earlier.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbdevusr2.jpg">
 
