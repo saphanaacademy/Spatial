@@ -116,17 +116,25 @@ GRANT REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2.jpg">
 
-You now have created a development user, HACKT28 with a password of Initial1 that doesn't expire. We disabled the "password lifetime" as this is a demo user. Note the options that we granted the new user including the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. We also created a development package for the new user and granted the necessary rights to the repository to the user.
+You now have created a development user, HACKT28 with a password of Initial1 that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. Note the options that we granted the new user including the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. We also created a development package for the new user and granted the necessary rights to the repository to the user.
+
+As previously mentioned, please go to help.sap.com and search on "SAP HANA Security" for more information on these topics. 
 
 [Go Back Up to the List of Steps](#steps)
 
 ### <a name="hdbrepo"></a> Granting Rights to the Development User's Project
 
-* Run this as HACKT28
+One more step in readying the development user's HANA environment is to grant access to HACKT28's development repo to the _SYS_REPO user. This is a technical owner which owns all of the objects in the repository. 
+
+When our development user designs Calculation Views they need to be activated in order to be used as run-time repository objects. In other words, if you don't do this particular task then when you activate your Calculation Views you will get an error. If you want more info on this topic go to help.sap.com and search on "_sys_repo authorization".
+
+* 
 
 ```
 GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE ON SCHEMA HACKT28 to _SYS_REPO WITH GRANT OPTION;
 ```
+
+[Go to Task 3: Setup of Smart Data Access to the S/4HANA System](../sdiConfig.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
