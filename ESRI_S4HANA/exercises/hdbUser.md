@@ -64,7 +64,6 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 ```
 C:\Windows\System32\drivers\etc
-
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/hosts1.jpg">
@@ -77,7 +76,7 @@ C:\Windows\System32\drivers\etc
 
 Note that you are logged in as a System user as this is a demo exercise. It is a best practice to use it only to create users with less privileges and then deactivate the System user. Please go to help.sap.com and search on "SAP HANA Security" for more information on these topics. 
 
-You have now completed this step.
+You have now completed the step "Logging into HANA as an Admin User".
 
 [Go Back Up to the List of Steps](#steps)
 
@@ -124,6 +123,8 @@ GRANT REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_
 You now have created a development user, HACKT28 with a password that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. Note the options that we granted the new user including the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. We also created a development package for the new user and granted the necessary rights to the repository to the user.
 
 As previously mentioned, please go to help.sap.com and search on "SAP HANA Security" for more information on these topics. 
+
+You have now completed the step "Creating the Development User with a Script".
 
 [Go Back Up to the List of Steps](#steps)
 
