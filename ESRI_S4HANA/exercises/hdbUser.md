@@ -30,7 +30,7 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 ### <a name="hdbadmin"></a> Logging into HANA as an Admin User
 
-* In Eclipse click on the Open Perspective shortcut to get the full list of Perspectives. (Perspectives are also accessible through the Window menu > Perspective > Open Perspective > Other.)
+* In Eclipse click on the Open Perspective shortcut to get the full list of Perspectives. Perspectives are also accessible through the Window menu > Perspective > Open Perspective > Other.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers04.jpg">
 
