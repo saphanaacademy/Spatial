@@ -51,7 +51,7 @@ The S/4HANA trial system can be found at the [SAP Cloud Appliance Library.](http
 Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 * SAP_BR_SALES_MANAGER
 
-Note that the appliance Windows machine includes a configured Eclipse IDE with the needed tools for ABAP CDS development installed. If you are interested in learning more about how to set up your own Eclipse environment, please see the downloads and instructions for ABAP and HANA tools for Eclipse at https://tools.hana.ondemand.com/
+Note that the appliance Windows machine includes a configured Eclipse IDE with the needed tools for ABAP CDS development installed. If you are interested in learning more about how to set up your own Eclipse environment, please see the downloads and instructions for ABAP and HANA tools for Eclipse at [tools.hana.ondemand](https://tools.hana.ondemand.com) > ABAP & HANA tabs.
 
 [Go Back Up to the List of Steps](#steps)
 
