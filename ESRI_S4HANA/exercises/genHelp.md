@@ -5,7 +5,7 @@
 
 ## Description
 
-In this page you can find out more info on using the trial images provided through the SAP Cloud Appliance Library. You can also find more info on working through this exercise and troubleshooting some issues you may encounter.
+In this page you can find out more info on using the trial images provided through the SAP Cloud Appliance Library. You can also find more info on working through this exercise. You will also find notes on how to find more help and links to videos etc. throughout the exercise.
 
 <img src="../images/s4hcalsolns.jpg">
 
