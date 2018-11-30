@@ -31,8 +31,8 @@ In this exercise / demo, you’ll learn how to integrate S/4HANA and ESRI GIS da
   
 Here is a list of the equipment prerequisites for this exercise. A link to the prerequisites page is further below.
 
-* A fully activated S/4HANA on premise trial system (or a non-production / development S/4HANA system)
-* An SAP HANA system (for this exercise we can use the HANA database on (a) S/4HANA or (b) in SAP Cloud Platform)
+* A fully activated S/4HANA on premise trial system
+* An SAP HANA system: for this exercise we can use the HANA database on (a) S/4HANA or (b) in SAP Cloud Platform
 * An SAP Analytics Cloud (SAC) account
 
 Here are the knowledge prerequisites for this exercise.
