@@ -72,6 +72,8 @@ C:\Windows\System32\drivers\etc
 
 Note that you are logged in as a System user as this is a demo exercise. It is a best practice to use it only to create users with less privileges and then deactivate the System user. Please go to help.sap.com and search on "SAP HANA Security" for more information on these topics. 
 
+Also note that we are not providing direct links to help.sap.com pages in this exercise as those urls are subject to change.
+
 You have now completed the step "Logging into HANA as an Admin User".
 
 [Go Back Up to the List of Steps](#steps)
