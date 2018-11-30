@@ -28,7 +28,7 @@ You will need first install and configure the Data Provisioning Agent on the tri
 
 In order to connect your SAP HANA system to your S/4HANA system you need to first set up the Data Provisioning Agent.  
 
-* Go to tools.hana.ondemand.com > then click on the "Cloud Integration" tab > and scroll down to the "Data Integration Downloads" section
+* Go to [tools.hana.ondemand](https://tools.hana.ondemand.com) where you can find a lot of the tools you'll need for SAP development > then click on the "Cloud Integration" tab > and scroll down to the "Data Integration Downloads" section
 
 * If you are using the S/4HANA trial then you will want to download the SDI Data Provisioning Agent for Windows.
 
