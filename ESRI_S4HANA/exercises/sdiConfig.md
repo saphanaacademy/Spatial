@@ -5,7 +5,7 @@
 
 ## Description
 
-This includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating Virtual Tables for the ABAP CDS views we created earlier.
+A connection needs to be made between the HANA database and the S/4HANA system. SAP's Smart Data Access will be used to virtualize the ABAP CDS view data in the target HANA database.
 
 <img src="../images/XXXXXX.jpg">
 
