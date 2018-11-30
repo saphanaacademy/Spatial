@@ -29,9 +29,9 @@ In this exercise / demo, you’ll learn how to integrate S/4HANA and ESRI GIS da
 
 ## Prerequisites
   
-Here is a list of the equipment prerequisites for this exercise. A link to the prerequisites page is further below.
+Here is a list of the equipment prerequisites for this exercise. A link to the prerequisites page is farther below.
 
-* A fully activated S/4HANA on premise trial system
+* A fully activated S/4HANA on-premise trial system
 * An SAP HANA system: for this exercise we can use the HANA database on (a) S/4HANA or (b) in SAP Cloud Platform
 * An SAP Analytics Cloud (SAC) account
 
@@ -46,18 +46,18 @@ Here are the knowledge prerequisites for this exercise.
 
 ## More Help & FAQ
 
-For more info on using the S/4HANA trial and the SAP Cloud Appliance Library please see [this help page.](exercises/genHelp.md)
+For more info on this exercise, using the S/4HANA trial and the SAP Cloud Appliance Library please see [this help page.](exercises/genHelp.md)
 
 
 ## <a name="tasks"></a> Tasks
 
-After you've completed the prerequisites there are a number of main tasks to complete. Some of these tasks will consist of running code in the Eclipse IDE with SAP tools. The Eclipse IDE is installed on the Windows client of the S/4HANA trial appliance. You will also need to import several HANA pieces like a sample database and some SQL and Calculation Vews.
+After you've completed the prerequisites there are a number of main tasks to complete. Some of these tasks will consist of running code in the Eclipse IDE with SAP tools. The Eclipse IDE is installed on the Windows client of the S/4HANA trial appliance. You will also need to import several HANA pieces like a sample database and some Calculation Vews.
 
-1. You need to create two ABAP CDS views in our S/4HANA system. The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component.
+1. You need to create two ABAP CDS views in our S/4HANA system. The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in SAC for the mapping component.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 1: Creation of CDS Views in S/4HANA](exercises/s4hViews.md)
 
-2. You need to create a HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
+2. You need to create a HANA database user that has the rights to create Remote Sources and tables, import objects, create Calculation Views, etc.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 2: Creation of Developer User for the SAP HANA System](exercises/hdbUser.md)
 
