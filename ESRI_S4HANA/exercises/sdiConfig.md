@@ -27,7 +27,9 @@ You will need first install and configure the Data Provisioning Agent on the tri
 In order to connect your SAP HANA system to your S/4HANA system you need to first set up the Data Provisioning Agent.  
 https://tools.hana.ondemand.com/ > click on the Cloud Integration tab > scroll down to the Data Integration Downloads section.
 
-* Note that this download is only for dev/testing purposes. Please contact your SAP representative for licensing of this product on a production system.
+* Note that this download is only for dev/testing purposes. Please contact your SAP representative should you need to license this product on a production system.
+
+<img src="../images/XXXXXX.jpg">
 
 https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
