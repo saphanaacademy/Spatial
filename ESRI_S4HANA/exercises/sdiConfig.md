@@ -11,6 +11,8 @@ A connection needs to be made between the HANA database and the S/4HANA system. 
 
 ## Prerequisites
 
+You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 2: Creation of Development User for the SAP HANA System](../exercises/hdbUser.md) using the Eclipse IDE.
+
 ## Steps
 
 You will need first install and configure the Data Provisioning Agent on the trial appliance's Windows client and then work in the Eclipse HANA Development Perspective to activate and configure the Smart Data Access components.
