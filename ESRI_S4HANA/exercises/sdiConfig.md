@@ -5,7 +5,7 @@
 
 ## Description
 
-A connection needs to be made between the HANA database and the S/4HANA system. SAP's Smart Data Access will be used to virtualize the ABAP CDS view data in the target HANA database.
+A connection needs to be made between the HANA database and the S/4HANA system. Afterwards, data from the ABAP CDS views will be virtualized in the target HANA database.
 
 <img src="../images/XXXXXX.jpg">
 
@@ -13,16 +13,16 @@ A connection needs to be made between the HANA database and the S/4HANA system. 
 
 ## Steps
 
-You will need first install the Data Provisioning Agent from tools.hana.ondemand.com and then register your HANA system. In the HANA Development Perspective in Eclipse you will create the Remote Source and add the Virtual Tables.
+You will need first install and configure the Data Provisioning Agent on the trial appliance's Windows client and then work in the Eclipse HANA Development Perspective to activate and configure the Smart Data Access components.
 
-1. [Logging into HANA as an Admin User](#hdbadmin)
+1. [Installing the Data Provisioning Agent](#sdidpa)
 
-1. [Creating the Development User with a Script](#hdbdev)
+1. [Activating the Data Provisioning Server in HANA](#sdihdps)
 
-1. [Granting Rights to the Development User's Project](#hdbrepo)
+1. [Creating a Remote Source and Virtual Tables](#sdarsvt)
 
 
-### <a name="hdbadmin"></a> Logging into HANA as an Admin User
+### <a name="sdidpa"></a> Installing the Data Provisioning Agent
 
 In order to connect your SAP HANA system to your S/4HANA system you need to first set up the Data Provisioning Agent.  
 https://tools.hana.ondemand.com/ > click on the Cloud Integration tab > scroll down to the Data Integration Downloads section.
@@ -32,6 +32,16 @@ https://tools.hana.ondemand.com/ > click on the Cloud Integration tab > scroll d
 https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
 SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
+
+
+### <a name="sdihdps"></a> Activating the Data Provisioning Server in HANA
+
+
+### <a name="sdarsvt"></a> Creating a Remote Source and Virtual Tables
+
+
+
+
 
 [Go to Task 4: Setup of Sample Database for the SAP HANA System](hdbData.md)
 
