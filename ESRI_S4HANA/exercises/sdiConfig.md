@@ -41,18 +41,18 @@ In order to connect your SAP HANA system to your S/4HANA system you need to firs
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i)	Save sapcar.exe to your Downloads directory.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii)	Create a file named SAPCAR_e.BAT in the Downloads directory with the following contents.
 
-```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```
 SAPCAR.EXE -xvf %1, -R ".\sapcar_out"
 Pause
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii)	Right click on the sar file and change the Open With dialogue so that all "sar" files point to the .bat file.
 
-<img src="../images/sapcar1.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sapcar1.jpg">
 
 * Now double-click on your sapcar.sar file and you should be prompted to extract the contents. You should see a new sapcar_out folder and the extracted contents inside. You may have to double-click on the file once more for this to happen.
 
-<img src="../images/sapcar2.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sapcar2.jpg">
 
 https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
