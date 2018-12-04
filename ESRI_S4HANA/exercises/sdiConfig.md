@@ -107,13 +107,15 @@ HANA Agent Admin Password:  <your hackt28 user password>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4b.jpg">
 
-* In the Register Agent dialogue fill in the Agent Name and leave the Host Name default entry.
+* In the Register Agent dialogue fill in the Agent Name and leave the default entry for the Agent Hostname.
 
 ```
 Agent Name: DPAgent
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4c.jpg">
+
+* Press the Register button.
 
 * Once the Agent is regsitered you need to register the Adapter that you need to connect to your S/4HANA system. Select the ABAP Adapter and then click on the Register Adapter button. 
 
