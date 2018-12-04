@@ -117,7 +117,7 @@ Agent Name: DPAgent
 
 * Press the Register button.
 
-* Now that the Agent is regsitered with your HANA system you need to register the Adapter that you need to connect to your S/4HANA system. Select the ABAP Adapter and then click on the Register Adapter button. 
+* Now that the Agent is regsitered with your HANA system you need to register the Adapter that will later be used to connect to your S/4HANA system's ABAP data dictionary objects. Select the ABAP Adapter and then click on the Register Adapter button. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4d.jpg">
 
