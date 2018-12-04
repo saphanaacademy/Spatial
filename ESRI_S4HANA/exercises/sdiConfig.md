@@ -36,8 +36,10 @@ In order to connect your SAP HANA system to your S/4HANA system you need to firs
 
 * The Data Provisioning Agent is a .SAR file so you will need to download sapcar.exe. Go to [help.sap.com](http://help.sap.com) and search on "sapcar" and you should see a link to "Installing the SAPCAR Utility".
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i)	Copy sapcar.exe to your system directory\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii)	Create a file SAPCAR_e.BAT with the following contents\
+* For an easy way to use sapcar, taken from the blog post [here](https://blogs.sap.com/2012/04/12/easier-way-to-extract-sar-and-car-files-with-sapcar-under-windows/), use the following steps:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i)	Save sapcar.exe to your Downloads directory\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii)	Create a file SAPCAR_e.BAT in the Downloads directory with the following contents
 
 ```
 SAPCAR.EXE -xvf %1, -R ".\sapcar_out"
@@ -45,7 +47,7 @@ Pause
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii)	Save the batch file to the same directory as sapcar.exe\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv)	Right click on any sar file and change the file Properties so that it and other sars point to the .bat file\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv)	Right click on any sar file and change the file Properties so that it and other sars point to the .bat file
 
 <img src="../images/sapcar1.jpg">
 
@@ -53,7 +55,6 @@ Pause
 
 <img src="../images/sapcar2.jpg">
 
-https://blogs.sap.com/2012/04/12/easier-way-to-extract-sar-and-car-files-with-sapcar-under-windows/
 
 
 https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
