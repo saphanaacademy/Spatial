@@ -19,7 +19,7 @@ First you will need to install and configure the Data Provisioning Agent on the 
 
 1. [Installing the Data Provisioning Agent](#sdidpa)
 
-1. [Activating the Data Provisioning Server in HANA](#sdihdps)
+1. [Configuring the Data Provisioning Agent](#sdihdps)
 
 1. [Creating a Remote Source and Virtual Tables](#sdarsvt)
 
@@ -72,6 +72,12 @@ Password:  <your Windows administrator password>
 
 * After filling in the above info, click Next and then Install and then Finish when you get a success message.
 
+Your are now done the step "Installing the Data Provisioning Agent".
+
+[Go Back Up to the List of Steps](#steps)
+
+### <a name="sdihdps"></a> Configuring the Data Provisioning Agent
+
 * Click on the Windows icon in the lower left of your desktop client and then type "dpa" and then open the "SAP HANA Data Provisioning Agent...".
 
 * The DPA Configuration dialogue should now be open. Click the "Connect to HANA" button. 
@@ -111,14 +117,13 @@ HANA Agent Admin Password:  <your hackt28 user password>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4d.jpg">
 
-You are now done the step "Activating the Data Provisioning Server in HANA".
+You are now done the step "Configuring the Data Provisioning Agent".
 
 For more info on installing and configuring the Data Provisioning Agent, go to https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
 [Go Back Up to the List of Steps](#steps)
 
 
-### <a name="sdihdps"></a> Activating the Data Provisioning Server in HANA
 
 
 [Go Back Up to the List of Steps](#steps)
