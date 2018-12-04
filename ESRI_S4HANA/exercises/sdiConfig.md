@@ -72,7 +72,7 @@ Password:          <your Windows administrator password>
 
 * After filling in the above info, click Next and then Install and then Finish when you get a success message.
 
-* Click on the Windows icon in the lower left of your desktop client and then type "dpa" and then open the SAP HANA Data Provisioning Agent.
+* Click on the Windows icon in the lower left of your desktop client and then type "dpa" and then open the "SAP HANA Data Provisioning Agent...".
 
 https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
