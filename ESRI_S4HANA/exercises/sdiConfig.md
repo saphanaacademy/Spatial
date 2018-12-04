@@ -58,18 +58,17 @@ https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation a
 
 SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
 
+[Go Back Up to the List of Steps](#steps)
 
 ### <a name="sdihdps"></a> Activating the Data Provisioning Server in HANA
 
+[Go Back Up to the List of Steps](#steps)
 
 ### <a name="sdarsvt"></a> Creating a Remote Source and Virtual Tables
-
-
-
 
 
 [Go to Task 4: Setup of Sample Database for the SAP HANA System](hdbData.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
-[Back to Steps](#steps)
+[Go Back Up to the List of Steps](#steps)
