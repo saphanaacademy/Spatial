@@ -15,7 +15,7 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## Steps
 
-You will need first install and configure the Data Provisioning Agent on the trial appliance's Windows client and then work in the Eclipse HANA Development Perspective to activate and configure the Smart Data Access components.
+First you will need to install and configure the Data Provisioning Agent on the trial appliance's Windows client and then work in the Eclipse HANA Development Perspective to activate and configure the Smart Data Access components.
 
 1. [Installing the Data Provisioning Agent](#sdidpa)
 
