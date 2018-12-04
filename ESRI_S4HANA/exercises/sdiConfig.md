@@ -107,10 +107,10 @@ HANA Agent Admin Password:  <your hackt28 user password>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4b.jpg">
 
-* In the Register Agent dialogue fill in the following info.
+* In the Register Agent dialogue fill in the Agent Name.
 
 ```
-
+Agent Name: DPAgent
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4c.jpg">
