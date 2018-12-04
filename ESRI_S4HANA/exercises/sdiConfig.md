@@ -173,14 +173,12 @@ Password: (see further below if you forgot this)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource04.jpg">
 
-* Click on the "Test Connection" button.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource05.jpg">
-
 * You should hopefully get a successful connection to your S/4HANA system.
 
+If you want to find more info on using Data Provisioning with the ABAP Adapter, please see the HANA++ Academy video [here.](https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s)
 
-SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
+* XXXXXX virtual table stuff
+
 
 You have now completed "Creating a Remote Source and Virtual Tables"  and are done with the whole task of "Setup of Remote Connection and Virtual Tables for S/4HANA".
 
