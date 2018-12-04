@@ -62,9 +62,9 @@ Pause
 Agent Unique Name: DPAgent
 
 Domain\Username:   <your host name>\administrator  
-  - where your host name is found via the Command Prompt > hostname
+  - where your host name is found via the Windows Command Prompt > hostname
   
-Password:          your Windows administrator logon password 
+Password:          <your Windows administrator password>
   - the password you used when you created the S/4HANA trial)
 ```
 
