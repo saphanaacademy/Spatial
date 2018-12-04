@@ -127,11 +127,6 @@ For more info on installing and configuring the Data Provisioning Agent, go to h
 
 [Go Back Up to the List of Steps](#steps)
 
-
-
-
-[Go Back Up to the List of Steps](#steps)
-
 ### <a name="sdarsvt"></a> Creating a Remote Source and Virtual Tables
 
 
