@@ -78,6 +78,8 @@ You are now done the step "Installing the Data Provisioning Agent". The next ste
 
 ### <a name="sdihdps"></a> Configuring the Data Provisioning Agent
 
+The Data Provisioning Agent must now be connected to and then registered with your HANA system. Data adapters must also be registered with the HANA system and in this case it will be the ABAP Adapter.
+
 * Click on the Windows icon in the lower left of your desktop client and then type "dpa" and then open the "SAP HANA Data Provisioning Agent...".
 
 * The DPA Configuration dialogue should now be open. Click the "Connect to HANA" button. 
