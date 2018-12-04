@@ -131,6 +131,10 @@ For more info on installing and configuring the Data Provisioning Agent, go to [
 
 ### <a name="sdarsvt"></a> Creating a Remote Source and Virtual Tables
 
+Now that you have the Data Provisioning Agent set up and configured, the next step will be to make the connection from your HANA system to your S/4HANA's ABAP data dictionary objects. 
+
+* Go back to your Eclipse IDE and then to the HANA Development Perspective. Right click on the system connection you made earlier for the HACKT28 user.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource01.jpg">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource02.jpg">
