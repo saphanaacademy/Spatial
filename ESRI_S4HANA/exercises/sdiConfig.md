@@ -95,13 +95,19 @@ HANA Agent Admin Password:  <your hackt28 user password>
 
 * After you've entered the above info press the Connect button.
 
-* You should now see the connection info for your HAAN system. Now click on the Register Agent button.
+* You should now see the connection info for your HANA system. Now click on the Register Agent button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4b.jpg">
 
-* Once the Agent is regsitered you need to register the Adapter that you need to connect to your S/4HANA system. Select the ABAP Adapter and then click on the Register Adapter button. 
+* In the Register Agent dialogue fill in the following info.
+
+```
+
+```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4c.jpg">
+
+* Once the Agent is regsitered you need to register the Adapter that you need to connect to your S/4HANA system. Select the ABAP Adapter and then click on the Register Adapter button. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4d.jpg">
 
