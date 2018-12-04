@@ -58,7 +58,11 @@ Pause
 
 * Click Next to accept the first dialogue options and in the second dialogue use the following information.
 
-
+```
+<your host name>\administrator  
+  where your host name is found in the Command Prompt > hostname
+DPAgent
+```
 
 https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
