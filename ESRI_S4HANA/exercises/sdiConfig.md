@@ -146,25 +146,28 @@ Source Location: this should default to DPAgent
 
 Application Server: vhcals4hci (this S4H server name is from your Windows hosts file)
 Client: 100 (used earlier when you made a connection to our S4 system)
-Instance: 00 (also used earlier)
+Instance Number: 00 (also used earlier)
 
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource02.jpg">
 
-* Scroll down to the Credentials section.
+* Scroll down to the Credentials section. Enter the following info:
 
 ```
 Credentials Mode: select Technical User
 
 User Name: S4H_SD_DEM (see below...this is the sales module demo user that you used earlier)
-User Password: (see below)
+User Password: (see further below if you forgot this)
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource03.jpg">
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/s4hwelcusr.jpg">
 
 * Click on the "Save this editor" button. If you get an error related to a blank password, go back to the Credentials section and make sure that the User Password input is not selected...i.e. click on the User Name input instead.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource03.jpg">
+
 
 * Click on the "Test Connection" button.
 
