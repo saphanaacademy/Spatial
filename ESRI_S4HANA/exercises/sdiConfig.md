@@ -70,6 +70,10 @@ Password:          <your Windows administrator password>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa1.jpg">
 
+* After filling in the above info, click Next and then Install and then Finish when you get a success message.
+
+* Click on the Windows icon in the lower left of your desktop client and then type "dpa" and then open the SAP HANA Data Provisioning Agent.
+
 https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
 SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
