@@ -56,7 +56,7 @@ Pause
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sapcar2.jpg">
 
-* Click Next to accept the first dialogue options and in the second dialogue use the following information.
+* Click Next to accept the first dialogue options / Define Dataprovagent Properties and in the second dialogue use the following information.
 
 ```
 Agent Unique Name:  DPAgent
