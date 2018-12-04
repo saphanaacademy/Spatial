@@ -125,7 +125,7 @@ Agent Name: DPAgent
 
 You have now completed the step "Configuring the Data Provisioning Agent".
 
-For more info on installing and configuring the Data Provisioning Agent, go to [help.sap.com](help.sap.com) > search for HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
+For more info on installing and configuring the Data Provisioning Agent, go to [help.sap.com](https://help.sap.com) > search for HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
 [Go Back Up to the List of Steps](#steps)
 
