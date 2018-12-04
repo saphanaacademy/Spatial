@@ -65,7 +65,7 @@ Domain\Username:  <your host name>\administrator
   - where your host name is found via the Windows Command Prompt > hostname
   
 Password:  <your Windows administrator password>
-  - the password you used when you created the S/4HANA trial)
+  - the password you used when you created the S/4HANA trial
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa1.jpg">
@@ -98,7 +98,7 @@ HANA Agent Admin User:  hackt28
   - this is the HANA development user we created earlier
  
 HANA Agent Admin Password:  <your hackt28 user password>
-  - the password you used in the script when you created the hackt28 user)
+  - the password you used in the script when you created the hackt28 user
 ```
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa3.jpg">
