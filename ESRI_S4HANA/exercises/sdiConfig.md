@@ -72,7 +72,7 @@ Password:  <your Windows administrator password>
 
 * After filling in the above info, click Next > and then Install > and then Finish when you get a success message.
 
-You are now done the step "Installing the Data Provisioning Agent". The next step is to configure the DPA connection to your HANA system.
+You have now completed the step "Installing the Data Provisioning Agent". The next step is to configure the DPA connection to your HANA system.
 
 [Go Back Up to the List of Steps](#steps)
 
@@ -121,7 +121,7 @@ Agent Name: DPAgent
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4d.jpg">
 
-You are now done the step "Configuring the Data Provisioning Agent".
+You have now completed the step "Configuring the Data Provisioning Agent".
 
 For more info on installing and configuring the Data Provisioning Agent, go to https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
@@ -137,7 +137,9 @@ For more info on installing and configuring the Data Provisioning Agent, go to h
 
 SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
 
+You have now completed "Creating a Remote Source and Virtual Tables"  and are done with the whole task of "Setup of Remote Connection and Virtual Tables for S/4HANA".
 
+Your next task is to set up a sample database in your HANA system.  The database consists of US Census data as well as a table used to approximate the Longitude and Latitude of customer addresses in the S/4HANA sales data.
 
 [Go to Task 4: Setup of Sample Database for the SAP HANA System](hdbData.md)
 
