@@ -59,9 +59,11 @@ Pause
 * Click Next to accept the first dialogue options and in the second dialogue use the following information.
 
 ```
-<your host name>\administrator  
+Agent Unique Name:  DPAgent
+Domain\Username:   <your host name>\administrator  
   - where your host name is found via the Command Prompt > hostname
-DPAgent
+Password:           your Windows administrator logon password 
+  - the password you used when you created the S/4HANA trial)
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa1.jpg">
