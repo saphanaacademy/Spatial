@@ -80,12 +80,13 @@ Password:  <your Windows administrator password>
 
 ```
 HANA Hostname:  vhcalhdbdb 
-  - where your host name is found via the Windows Command Prompt > hostname
+  - remember that this name is in the Windows hosts file that we looked at in an earlier task
  
 HANA Agent Admin User:  hackt28 
+  - this is the HANA development user we created earlier
  
-Password:  <your hackt28 user password>
-  - the password you used when you created the hackt28 user)
+HANA Agent Admin Password:  <your hackt28 user password>
+  - the password you used in the script when you created the hackt28 user)
 ```
  
 
