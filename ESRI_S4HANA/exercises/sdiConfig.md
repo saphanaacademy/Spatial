@@ -157,25 +157,27 @@ Instance Number: 00 (also used earlier)
 ```
 Credentials Mode: select Technical User
 
-User Name: S4H_SD_DEM (see below...this is the sales module demo user that you used earlier)
-User Password: (see further below if you forgot this)
+SAP Credentials
+
+Username: S4H_SD_DEM (see below...this is the sales module demo user that you used earlier)
+Password: (see further below if you forgot this)
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource03.jpg">
+
+* This is the S/4HANA sales demo user that you will want to make the connection with.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/s4hwelcusr.jpg">
 
 * Click on the "Save this editor" button. If you get an error related to a blank password, go back to the Credentials section and make sure that the User Password input is not selected...i.e. click on the User Name input instead.
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource04.jpg">
 
 * Click on the "Test Connection" button.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource04.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource05.jpg">
 
 * You should hopefully get a successful connection to your S/4HANA system.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource05.jpg">
 
 
 SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
