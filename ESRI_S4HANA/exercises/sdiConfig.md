@@ -81,6 +81,8 @@ Password:  <your Windows administrator password>
 ```
 HANA Hostname:  vhcalhdbdb 
   - remember that this name is in the Windows hosts file that we looked at in an earlier task
+  
+HANA Port:  30215  
  
 HANA Agent Admin User:  hackt28 
   - this is the HANA development user we created earlier
@@ -89,19 +91,33 @@ HANA Agent Admin Password:  <your hackt28 user password>
   - the password you used in the script when you created the hackt28 user)
 ```
  
+<img src="../images/XXXXXX.jpg">
 
+* After you've entered the above info press the Connect button.
 
-https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
+* You should now see the connection info for your HAAN system. Now click on the Register Agent button.
 
-SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
+<img src="../images/XXXXXX.jpg">
+
+* Once the Agent is regsitered you need to register the Adapter that you need to connect to your S/4HANA system. Select the ABAP Adapter and then click on the Register Adapter button. 
+
+You are now done the step "Activating the Data Provisioning Server in HANA".
+
+For more info on installing and configuring the Data Provisioning Agent, go to https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
 [Go Back Up to the List of Steps](#steps)
 
+
 ### <a name="sdihdps"></a> Activating the Data Provisioning Server in HANA
+
 
 [Go Back Up to the List of Steps](#steps)
 
 ### <a name="sdarsvt"></a> Creating a Remote Source and Virtual Tables
+
+
+SDI ABAP Adapter https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s
+
 
 
 [Go to Task 4: Setup of Sample Database for the SAP HANA System](hdbData.md)
