@@ -39,7 +39,7 @@ In order to connect your SAP HANA system to your S/4HANA system you need to firs
 * For an easy way to use sapcar use the following steps taken from the very handy blog post [here](https://blogs.sap.com/2012/04/12/easier-way-to-extract-sar-and-car-files-with-sapcar-under-windows/):
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i)	Save sapcar.exe to your Downloads directory.\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii)	Create a file named SAPCAR_e.BAT in the Downloads directory with the following contents.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii)	In Notepad create a file named SAPCAR_e.BAT in the Downloads directory with the following contents.
 
 ```
 SAPCAR.EXE -xvf %1, -R ".\sapcar_out"
