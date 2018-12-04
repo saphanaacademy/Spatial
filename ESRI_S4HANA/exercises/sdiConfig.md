@@ -70,9 +70,9 @@ Password:  <your Windows administrator password>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa1.jpg">
 
-* After filling in the above info, click Next and then Install and then Finish when you get a success message.
+* After filling in the above info, click Next > and then Install > and then Finish when you get a success message.
 
-You are now done the step "Installing the Data Provisioning Agent".
+You are now done the step "Installing the Data Provisioning Agent". The next step is to register the DPA with your HANA system.
 
 [Go Back Up to the List of Steps](#steps)
 
