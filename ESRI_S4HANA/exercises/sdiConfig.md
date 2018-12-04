@@ -36,16 +36,16 @@ In order to connect your SAP HANA system to your S/4HANA system you need to firs
 
 * The Data Provisioning Agent is a .SAR file so you will need to download sapcar.exe. Go to [help.sap.com](http://help.sap.com) and search on "sapcar" and you should see a link to "Installing the SAPCAR Utility".
 
-i)	Copy sapcar.exe to your system directory
-ii)	Create a file SAPCAR_e.BAT with the following contents
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i)	Copy sapcar.exe to your system directory
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii)	Create a file SAPCAR_e.BAT with the following contents
 
 ```
 SAPCAR.EXE -xvf %1, -R ".\sapcar_out"
 Pause
 ```
 
-iii)	Save the batch file to the same directory as sapcar.exe
-iv)	Right click on any sar file and change the file Properties so that it and other sars (not affiliated with the respiratory syndrome) point to the .bat file
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii)	Save the batch file to the same directory as sapcar.exe
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv)	Right click on any sar file and change the file Properties so that it and other sars (not affiliated with the respiratory syndrome) point to the .bat file
 
 <img src="../images/sapcar1.jpg">
 
