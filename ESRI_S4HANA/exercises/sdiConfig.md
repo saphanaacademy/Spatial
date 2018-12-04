@@ -50,7 +50,7 @@ Pause
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sapcar1.jpg">
 
-* Now double-click on your sapcar.sar file and you should be prompted to extract the contents. You should see a new sapcar_out folder and the extracted contents inside. You may have to double-click on the file once more for this to happen.
+* Now double-click on your sapcar.sar file. You should see a new sapcar_out folder and the extracted contents inside. You may have to double-click on the file once more for this to happen.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sapcar2.jpg">
 
