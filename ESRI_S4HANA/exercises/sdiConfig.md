@@ -76,7 +76,7 @@ Password:  <your Windows administrator password>
 
 * The DPA Configuration dialogue should now be open. Click the "Connect to HANA" button. 
 
-<img src="../images/XXXXXX.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa2.jpg">
 
 ```
 HANA Hostname:  vhcalhdbdb 
@@ -91,15 +91,23 @@ HANA Agent Admin Password:  <your hackt28 user password>
   - the password you used in the script when you created the hackt28 user)
 ```
  
-<img src="../images/XXXXXX.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa3.jpg">
 
 * After you've entered the above info press the Connect button.
 
 * You should now see the connection info for your HAAN system. Now click on the Register Agent button.
 
-<img src="../images/XXXXXX.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4.jpg">
 
 * Once the Agent is regsitered you need to register the Adapter that you need to connect to your S/4HANA system. Select the ABAP Adapter and then click on the Register Adapter button. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4a.jpg">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4b.jpg">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4c.jpg">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa4d.jpg">
 
 You are now done the step "Activating the Data Provisioning Server in HANA".
 
