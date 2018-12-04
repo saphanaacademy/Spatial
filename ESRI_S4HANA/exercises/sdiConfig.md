@@ -133,7 +133,7 @@ For more info on installing and configuring the Data Provisioning Agent, go to [
 
 Now that you have the Data Provisioning Agent set up and configured, the next step will be to make the connection from your HANA system to your S/4HANA's ABAP data dictionary objects. 
 
-* Go back to your Eclipse IDE and then to the HANA Development Perspective. Right click on the system connection you made earlier for the HACKT28 user > open the Provisioning folder > right click on Remote Sources > select New Remote Source.
+* Go back to your Eclipse IDE and then to the SAP HANA Development Perspective. Right click on the system connection you made earlier for the HACKT28 user > open the Provisioning folder > right click on Remote Sources > select New Remote Source.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdirs1.jpg">
 
