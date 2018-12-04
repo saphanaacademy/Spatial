@@ -133,15 +133,44 @@ For more info on installing and configuring the Data Provisioning Agent, go to [
 
 Now that you have the Data Provisioning Agent set up and configured, the next step will be to make the connection from your HANA system to your S/4HANA's ABAP data dictionary objects. 
 
-* Go back to your Eclipse IDE and then to the HANA Development Perspective. Right click on the system connection you made earlier for the HACKT28 user.
+* Go back to your Eclipse IDE and then to the HANA Development Perspective. Right click on the system connection you made earlier for the HACKT28 user > open the Provisioning folder > right click on Remote Sources > select New Remote Source.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource01.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdirs1.jpg">
+
+* Enter the following info into the Remote Source dialogue:
+
+```
+Source Name: RS_Abap_S4H
+Adapter Name: scroll to the bottom and select ABAP Adapter
+Source Location: this should default to DPAgent
+
+Application Server: vhcals4hci (this S4H server name is from your Windows hosts file)
+Client: 100 (used earlier when you made a connection to our S4 system)
+Instance: 00 (also used earlier)
+
+```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource02.jpg">
 
+* Scroll down to the Credentials section.
+
+```
+Credentials Mode: select Technical User
+
+User Name: S4H_SD_DEM (see below...this is the sales module demo user that you used earlier)
+User Password: (see below)
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/s4hwelcusr.jpg">
+
+* Click on the "Save this editor" button. If you get an error related to a blank password, go back to the Credentials section and make sure that the User Password input is not selected...i.e. click on the User Name input instead.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource03.jpg">
 
+* Click on the "Test Connection" button.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource04.jpg">
+
+* You should hopefully get a successful connection to your S/4HANA system.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource05.jpg">
 
