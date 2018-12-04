@@ -26,7 +26,7 @@ First you will need to install and configure the Data Provisioning Agent on the 
 
 ### <a name="sdidpa"></a> Installing the Data Provisioning Agent
 
-In order to connect your SAP HANA system to your S/4HANA system you need to first set up the Data Provisioning Agent.  
+In order to connect your SAP HANA system to your S/4HANA system you need to first set up the Data Provisioning Agent. The Data Provisioning Agent provides secure connectivity between the SAP HANA database and your on-premise, adapter-based sources.
 
 * Go to [tools.hana.ondemand](https://tools.hana.ondemand.com) where you can find a lot of the tools you'll need for SAP development > then click on the "Cloud Integration" tab > and scroll down to the "Data Integration Downloads" section.
 
