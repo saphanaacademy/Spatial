@@ -41,7 +41,7 @@ In order to connect your SAP HANA system to your S/4HANA system you need to firs
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i)	Save sapcar.exe to your Downloads directory.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii)	Create a file named SAPCAR_e.BAT in the Downloads directory with the following contents.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```
+```
 SAPCAR.EXE -xvf %1, -R ".\sapcar_out"
 Pause
 ```
