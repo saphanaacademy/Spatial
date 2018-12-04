@@ -59,12 +59,12 @@ Pause
 * Click Next to accept the first dialogue options and in the second dialogue use the following information.
 
 ```
-Agent Unique Name: DPAgent
+Agent Unique Name:  DPAgent
 
-Domain\Username:   <your host name>\administrator  
+Domain\Username:  <your host name>\administrator  
   - where your host name is found via the Windows Command Prompt > hostname
   
-Password:          <your Windows administrator password>
+Password:  <your Windows administrator password>
   - the password you used when you created the S/4HANA trial)
 ```
 
@@ -73,6 +73,22 @@ Password:          <your Windows administrator password>
 * After filling in the above info, click Next and then Install and then Finish when you get a success message.
 
 * Click on the Windows icon in the lower left of your desktop client and then type "dpa" and then open the "SAP HANA Data Provisioning Agent...".
+
+* The DPA Configuration dialogue should now be open. Click the "Connect to HANA" button. 
+
+<img src="../images/XXXXXX.jpg">
+
+```
+HANA Hostname:  vhcalhdbdb 
+  - where your host name is found via the Windows Command Prompt > hostname
+ 
+HANA Agent Admin User:  hackt28 
+ 
+Password:  <your hackt28 user password>
+  - the password you used when you created the hackt28 user)
+```
+ 
+
 
 https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
