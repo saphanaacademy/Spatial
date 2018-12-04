@@ -60,7 +60,7 @@ Pause
 
 ```
 <your host name>\administrator  
-  where your host name is found in the Command Prompt > hostname
+  - where your host name is found via the Command Prompt > hostname
 DPAgent
 ```
 
