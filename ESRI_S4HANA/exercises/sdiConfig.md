@@ -86,6 +86,8 @@ The Data Provisioning Agent must now be connected to and then registered with yo
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdidpa2.jpg">
 
+* Use the following information to fill out the connection dialogue:
+
 ```
 HANA Hostname:  vhcalhdbdb 
   - remember that this name is in the Windows hosts file that we looked at in an earlier task
