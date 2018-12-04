@@ -72,7 +72,7 @@ Password:  <your Windows administrator password>
 
 * After filling in the above info, click Next and then Install and then Finish when you get a success message.
 
-Your are now done the step "Installing the Data Provisioning Agent".
+You are now done the step "Installing the Data Provisioning Agent".
 
 [Go Back Up to the List of Steps](#steps)
 
