@@ -48,15 +48,11 @@ Pause
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii)	Right click on the sar file and change the Open With dialogue so that all "sar" files point to the .bat file.\
 
-* Now double-click on your sapcar sar file (you may have to do this twice) and you should be prompted to extract the contents and then you should see a new sapcar_out folder and the extracted contents inside.
-
 <img src="../images/sapcar1.jpg">
 
-
+* Now double-click on your sapcar.sar file and you should be prompted to extract the contents and then you should see a new sapcar_out folder and the extracted contents inside. You may have to double-click on the file once more for this to happen.
 
 <img src="../images/sapcar2.jpg">
-
-
 
 https://help.sap.com/viewer/p/HANA_SMART_DATA_INTEGRATION > in the Intallation and Upgrade section > click on the Installation and Configuration Guide
 
