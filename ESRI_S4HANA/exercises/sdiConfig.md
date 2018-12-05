@@ -38,7 +38,7 @@ In order to connect your SAP HANA system to your S/4HANA system you need to firs
 
 * The Data Provisioning Agent is a .SAR archive file so you will need to download sapcar.exe to extract it. Go to [help.sap.com](https://help.sap.com/viewer/search?q=sapcar) and search on "sapcar" and you should see a link to "Installing the SAPCAR Utility".
 
-* For an easy way to use sapcar follow the steps below from the blog post [here](https://blogs.sap.com/2012/04/12/easier-way-to-extract-sar-and-car-files-with-sapcar-under-windows/):
+* If you download a lot of SAP products, then for an easy way to use sapcar follow the steps below from the blog post [here](https://blogs.sap.com/2012/04/12/easier-way-to-extract-sar-and-car-files-with-sapcar-under-windows/):
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i)	Save sapcar.exe to your Downloads directory.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii)	In Notepad create a file named SAPCAR_e.BAT in the Downloads directory with the following contents.
@@ -142,7 +142,7 @@ Now that you have the Data Provisioning Agent set up and configured, the next st
 * Enter the following info into the Remote Source dialogue:
 
 ```
-Source Name: RS_Abap_S4H
+Source Name: RS_Abap_S4H (where RS is for Remote Source)
 Adapter Name: scroll to the bottom and select ABAP Adapter
 Source Location: this should default to DPAgent
 
@@ -183,30 +183,31 @@ You have now completed the step "Creating a Remote Source to the S/4HANA System"
 
 ### <a name="sdarsvt"></a> Creating Virtual Tables of the ABAP CDS Views
 
-* XXXXXX virtual table stuff
+Now that your HANA system is connected to our S/4HANA system the next step is to add Virtual Tables to our HANA system. Those tables will be based on the two ABAP CDS views that we created earlier.
+
+* If you look in your Remote Sources folder (you might need to right click on the parent Provisioning folder and choose Refresh) you will now see the RS_Abap_S4H Remote Source. The easiest way to find the "Z" views that we created in S/4HANA will be in the "ABAP Tables by table name" folder.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt1.jpg">
 
-*
+* Open the "ABAP Tables by table name" folder and then go to the "Z" folder where you'll find your "ZXSH..." CDS views.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt2.jpg">
 
-*
+* Select both views and then choose "Add as Virtual Table".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt3.jpg">
 
-*
+* Change the Table Names Prefix to "VT_RS_Abap_S4H_" so that the naming convention is Virtual Table > Remote Source. Press the Create button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt4.jpg">
 
-*
+* After you press the Create button go back to your HACKT28 schema > then open the Tables folder > and you'll see your two new virtual tables. As mentioned previously, the data is not materialized in HANA as these are virtual tables to the S/4HANA system. At the time and date of creation for this exercise (Wednesday December 5, 2018 @ 09:26 PST) there is no real time row-level replication for ABAP CDS views through HANA SDI.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt5.jpg">
 
-*
+* If you right click on one of the views and choose "Open Data Preview" you will see the live data from the S/4HANA system connecting as the S4H_SD_DEM sales demo user. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt6.jpg">
-
 
 You have now completed "Creating Virtual Tables of the ABAP CDS Views" and are done with the whole task of "Setup of Remote Connection and Virtual Tables for S/4HANA".
 
