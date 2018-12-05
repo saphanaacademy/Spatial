@@ -70,9 +70,9 @@ C:\Windows\System32\drivers\etc
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/hdbnewcon2.jpg">
 
-Note that you are logged in as a System user as this is a demo exercise. It is a best practice to use it only to create users with less privileges and then deactivate the System user. Please go to help.sap.com and search on "SAP HANA Security" for more information on these topics. 
+Note that you are logged in as a System user as this is a demo exercise. It is a best practice to use it only to create users with less privileges and then deactivate the System user. Please go to [help.sap.com](https://help.sap.com/viewer/search?q=SAP%20HANA%20Security%20Guide) and search on "SAP HANA Security Guide" for more information on these topics. 
 
-Also note that we are not providing direct links to help.sap.com pages in this exercise as those urls are subject to change.
+Also note that we are not providing direct links to help.sap.com pages in this exercise as the final direct urls are subject to change. Sorry about that.
 
 You have now completed the step "Logging into HANA as an Admin User".
 
@@ -120,7 +120,7 @@ GRANT REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_
 
 You now have created a development user, HACKT28 with a password that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. Note the options that we granted the new user including the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. We also created a development package for the new user and granted the necessary rights to the repository to the user.
 
-As previously mentioned, please go to help.sap.com and search on "SAP HANA Security" for more information on these topics. 
+As previously mentioned, please go to [help.sap.com](https://help.sap.com/viewer/search?q=SAP%20HANA%20Security%20Guide) and search in "SAP HANA Security Guide" for more information on these topics. 
 
 You have now completed the step "Creating the Development User with a Script".
 
@@ -128,7 +128,7 @@ You have now completed the step "Creating the Development User with a Script".
 
 ### <a name="hdbrepo"></a> Granting Rights to the Development User's Project
 
-One more step in readying the development user's HANA environment is to grant access to HACKT28's development repo to the _SYS_REPO user. This is a technical owner which owns all of the objects in the repository. When our development user designs Calculation Views they need to be activated in order to be used as run-time repository objects. Therefore if you don't do this particular task then when you try to activate your Calculation Views you will get an error. If you want more info on this topic go to help.sap.com and search on "_sys_repo authorization".
+One more step in readying the development user's HANA environment is to grant access to HACKT28's development repo to the _SYS_REPO user. This is a technical owner which owns all of the objects in the repository. When our development user designs Calculation Views they need to be activated in order to be used as run-time repository objects. Therefore if you don't do this particular task then when you try to activate your Calculation Views you will get an error. If you want more info on this topic go to [help.sap.com](https://help.sap.com/viewer/search?q=_sys_repo%20authorization) and search on "_sys_repo authorization".
 
 * You need to first add a HANA system connection for the HACKT28 user. Right click on the existing SYSTEM user's connection and choose "Add System with Different User".
 
