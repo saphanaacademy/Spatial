@@ -7,7 +7,7 @@
 
 A connection needs to be made between the HANA database and the S/4HANA system. Afterwards, data from the ABAP CDS views will be virtualized in the target HANA database.
 
-<img src="../images/XXXXXX.jpg">
+<img src="../images/sdivt6.jpg">
 
 ## Prerequisites
 
