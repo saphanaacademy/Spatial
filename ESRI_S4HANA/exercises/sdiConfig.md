@@ -21,7 +21,9 @@ First you will need to install and configure the Data Provisioning Agent on the 
 
 1. [Configuring the Data Provisioning Agent](#sdihdps)
 
-1. [Creating a Remote Source and Virtual Tables](#sdarsvt)
+1. [Creating a Remote Source to the S/4HANA System](#sdars)
+
+1. [Creating Virtual Tables of the ABAP CDS Views](#sdarsvt)
 
 
 ### <a name="sdidpa"></a> Installing the Data Provisioning Agent
@@ -129,7 +131,7 @@ For more info on installing and configuring the Data Provisioning Agent, go to [
 
 [Go Back Up to the List of Steps](#steps)
 
-### <a name="sdarsvt"></a> Creating a Remote Source and Virtual Tables
+### <a name="sdars"></a> Creating a Remote Source to the S/4HANA System
 
 Now that you have the Data Provisioning Agent set up and configured, the next step will be to make the connection from your HANA system to your S/4HANA's ABAP data dictionary objects. 
 
@@ -173,9 +175,13 @@ Password: (see further below if you forgot this)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/stepsRemoteSource04.jpg">
 
-* You should hopefully get a successful connection to your S/4HANA system.
+* You should hopefully have a successful connection to your S/4HANA system. 
 
-If you want to find more info on using Data Provisioning with the ABAP Adapter, please see the HANA++ Academy video [here.](https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s)
+You have now completed the step "Creating a Remote Source to the S/4HANA System". If you want to find more info on using Data Provisioning with the ABAP Adapter, please see the HANA++ Academy video [here.](https://www.youtube.com/watch?v=ZNr7xc3FHm0&list=PLkzo92owKnVwQ_preA3cxlQjn_v3W0Eh5&index=52&t=0s)
+
+[Go Back Up to the List of Steps](#steps)
+
+### <a name="sdarsvt"></a> Creating Virtual Tables of the ABAP CDS Views
 
 * XXXXXX virtual table stuff
 
@@ -202,7 +208,7 @@ If you want to find more info on using Data Provisioning with the ABAP Adapter, 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt6.jpg">
 
 
-You have now completed "Creating a Remote Source and Virtual Tables"  and are done with the whole task of "Setup of Remote Connection and Virtual Tables for S/4HANA".
+You have now completed "Creating Virtual Tables of the ABAP CDS Views" and are done with the whole task of "Setup of Remote Connection and Virtual Tables for S/4HANA".
 
 Your next task is to set up a sample database in your HANA system.  The database consists of US Census data as well as a table used to approximate the Longitude and Latitude of customer addresses in the S/4HANA sales data.
 
