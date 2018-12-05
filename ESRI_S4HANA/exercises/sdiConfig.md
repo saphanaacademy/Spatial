@@ -179,6 +179,28 @@ If you want to find more info on using Data Provisioning with the ABAP Adapter, 
 
 * XXXXXX virtual table stuff
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt1.jpg">
+
+*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt2.jpg">
+
+*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt3.jpg">
+
+*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt4.jpg">
+
+*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt5.jpg">
+
+*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt6.jpg">
+
 
 You have now completed "Creating a Remote Source and Virtual Tables"  and are done with the whole task of "Setup of Remote Connection and Virtual Tables for S/4HANA".
 
