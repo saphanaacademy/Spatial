@@ -36,7 +36,7 @@ In order to connect your SAP HANA system to your S/4HANA system you need to firs
 
 * Note that this download is only for dev/testing purposes. Please contact your SAP representative should you need to license this product on a production system.
 
-* The Data Provisioning Agent is a .SAR archive file so you will need to download sapcar.exe to extract it. Go to [help.sap.com](http://help.sap.com) and search on "sapcar" and you should see a link to "Installing the SAPCAR Utility".
+* The Data Provisioning Agent is a .SAR archive file so you will need to download sapcar.exe to extract it. Go to [help.sap.com](https://help.sap.com/viewer/search?q=sapcar) and search on "sapcar" and you should see a link to "Installing the SAPCAR Utility".
 
 * For an easy way to use sapcar follow the steps below from the blog post [here](https://blogs.sap.com/2012/04/12/easier-way-to-extract-sar-and-car-files-with-sapcar-under-windows/):
 
@@ -127,7 +127,7 @@ Agent Name: DPAgent
 
 You have now completed the step "Configuring the Data Provisioning Agent".
 
-For more info on installing and configuring the Data Provisioning Agent, go to [help.sap.com](https://help.sap.com) > search for "HANA_SMART_DATA_INTEGRATION" > click on the link for "SAP HANA Smart Data Integration and SAP HANA Smart Data Quality" > look in the "Intallation and Upgrade" section > click on the "Installation and Configuration Guide".
+For more info on installing and configuring the Data Provisioning Agent, go to [help.sap.com](https://help.sap.com/viewer/search?q=HANA_SMART_DATA_INTEGRATION) > search for "HANA_SMART_DATA_INTEGRATION" > click on the link for "SAP HANA Smart Data Integration and SAP HANA Smart Data Quality" > look in the "Intallation and Upgrade" section > click on the "Installation and Configuration Guide".
 
 [Go Back Up to the List of Steps](#steps)
 
