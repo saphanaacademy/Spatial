@@ -13,20 +13,11 @@ In the next steps we will import a sample database for the HANA database. This t
 
 You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 3: Setup of Smart Data Access to the S/4HANA System](sdiConfig.md) using Data Provisioning and the Eclipse IDE.
 
-------------
---
+```
 -- import csv files for census and centroid tables
---
-------------
-
--- see file that has csv files as opposed to binaries (binaries are causing errors)
-
 ```
 
-
-
-In the next steps you will create a technical HANA database user that has the rights to create remote connections and tables, import objects, create Calculation Views, etc.
-
+see file that has csv files as opposed to binaries (binaries are causing errors)
 
 ## Steps
 
