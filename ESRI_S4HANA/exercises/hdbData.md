@@ -28,17 +28,34 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 ### <a name="hdbdimp"></a> Import Sample Data into HANA
 
-* Copy the [URL for the sample data download from here.](https://goo.gl/k9ydJV)
+* Copy the [link address for the sample data download from here.](https://goo.gl/k9ydJV) and download the .zip file and extract the contents.
 
-* In Eclipse make sure that you're in the SAP HANA Development perspective.
+* Go to Eclipse using the SAP HANA Development perspective.
 
 
 
 import csv files for census and centroid tables
 
 
+*
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers04.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp1.jpg">
+
+*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp2.jpg">
+
+*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp3.jpg">
+
+*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp4.jpg">
+
+*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp5.jpg">
 
 
 data changes "HACKT28"."GEOCODE" table
