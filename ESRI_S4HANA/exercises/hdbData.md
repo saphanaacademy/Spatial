@@ -17,16 +17,18 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 You will need to use the HANA Development Perspective in Eclipse as an admin user. This admin user will have the rights to create the new development user that will complete a lot of the upcoming tasks in the HANA environment. 
 
-1. [Import Sample Data into HANA](#hdbdimp)
+1. [Import of Sample Data into HANA](#hdbdimp)
 
-2. [Creating HANA Spatial-Type Columns](#hdbdstc)
+2. [Creation of HANA Spatial-Type Columns](#hdbdstc)
 
 3. [Creation of EPSG (SRID 3857) Spatial System](#hdbdess) 
  
 4. Data Transform
  
 
-### <a name="hdbdimp"></a> Import Sample Data into HANA
+### <a name="hdbdimp"></a> Import of Sample Data into HANA
+
+There are two tables of sample data that will be imported into your HANA system. One table is a US Census table and the other table will be used to perform a simple geocoding of the customer addresses from the S/4HANA system. The geocoding in this case is approximating the location using the centroid of its zipcode approximation.
 
 * Copy the [link address for the sample data download from here.](https://goo.gl/k9ydJV) and download the .zip file and extract the contents.
 
@@ -46,13 +48,13 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp4a.jpg">
 
-* After you press "Finish" you will most likely need to right click on your Tables folder > and choose Refresh. If you choose "Open Data Preview" for the Geocode table then you should see that there are two columns (they are decimal type) for longitude and latitude. In the next steps you will be creating spatial-type columns, in your new tables, based on these columns.
+* After you press "Finish" you will most likely need to right click on your Tables folder and choose Refresh. Now if you choose "Open Data Preview" for the Geocode table then you should see that there are two columns (they are decimal type) for longitude and latitude. In the next steps you will be creating spatial-type columns, in your new tables, based on these columns.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp5.jpg">
 
 [Go Back Up to the List of Steps](#steps)
 
-### <a name="hdbdstc"></a> Creating HANA Spatial-Type Columns
+### <a name="hdbdstc"></a> Creation of HANA Spatial-Type Columns
 
 data changes "HACKT28"."GEOCODE" table
 
