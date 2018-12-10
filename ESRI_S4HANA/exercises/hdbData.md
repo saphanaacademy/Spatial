@@ -62,12 +62,6 @@ The existing decimal data could of course be converted directly into EPSG after 
 *
 
 ```
-SELECT * FROM  "HACKT28"."GEOCODE";
-```
-
-*
-
-```
 SELECT  
 	"ZIPCODE", 
 	"COORDINATES_LON",
