@@ -71,9 +71,9 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 5. XXXXXX
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 6: Creation of SQL and Calculation Views on Integrated Data](exercises/hdbViews.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of SQL and Calculation Views on Integrated Data](exercises/hdbViews.md)
 
 6. XXXXXX
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 7: Creation of Connection and Models and Story in SAP Analytics Cloud](exercises/sacAnalytics.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 6: Creation of Connection and Models and Story in SAP Analytics Cloud](exercises/sacAnalytics.md)
 
