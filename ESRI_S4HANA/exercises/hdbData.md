@@ -57,9 +57,15 @@ There are two tables of sample data that will be imported into your HANA system.
 
 data changes "HACKT28"."GEOCODE" table
 
+*
+
 ```
 SELECT * FROM  "HACKT28"."GEOCODE";
+```
 
+*
+
+```
 SELECT  
 	"ZIPCODE", 
 	"COORDINATES_LON",
@@ -69,15 +75,26 @@ SELECT
 	ST_GeomFromText( 'Point(' || "COORDINATES_LON" || ' ' || "COORDINATES_LAT" || ')', 1000004326 ).ST_AsWKT() 
 		as "POINT_TEXT"
 FROM "HACKT28"."GEOCODE"; 
+```
 
+*
+
+```
 ALTER TABLE "HACKT28"."GEOCODE"
 ADD ("ZIPCODE_WGSP4326" ST_POINT(1000004326));
+```
 
+*
+
+```
 UPDATE "HACKT28"."GEOCODE"
 SET "ZIPCODE_WGSP4326" = 
- 	ST_GeomFromText( 'Point(' || "COORDINATES_LON" || ' ' || "COORDINATES_LAT" || ')', 1000004326 )
-;
- 
+ 	ST_GeomFromText( 'Point(' || "COORDINATES_LON" || ' ' || "COORDINATES_LAT" || ')', 1000004326 );
+```
+
+*
+
+```
 SELECT * FROM  "HACKT28"."GEOCODE";
 ```
 
@@ -85,18 +102,6 @@ SELECT * FROM  "HACKT28"."GEOCODE";
 data changes "HACKT28"."CENSUS" table
 
 ```
-SELECT * FROM "HACKT28"."CENSUS";
-
-SELECT  
-	"CENSUS_GEO_ID",
-	"COORDINATES_LON",
-	"COORDINATES_LAT",
-	ST_GeomFromText( 'Point(' || "COORDINATES_LON" || ' ' || "COORDINATES_LAT" || ')', 1000004326 ) 
-		as "POINT_BINARY",
-	ST_GeomFromText( 'Point(' || "COORDINATES_LON" || ' ' || "COORDINATES_LAT" || ')', 1000004326 ).ST_AsWKT() 
-		as "POINT_TEXT"
-FROM "HACKT28"."CENSUS";
-
 ALTER TABLE "HACKT28"."CENSUS"
 ADD ("CENSUS_GEO_WGSP4326" ST_POINT(1000004326));
 
