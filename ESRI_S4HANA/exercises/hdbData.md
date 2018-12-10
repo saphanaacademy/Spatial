@@ -55,7 +55,9 @@ There are two tables of sample data that will be imported into your HANA system.
 
 ### <a name="hdbdstc"></a> Creation of HANA Spatial-Type Columns
 
-data changes "HACKT28"."GEOCODE" table
+Using the Geocode table as an example, you will add a new spatial-type column and then populate that column by converting the longitude and latitude decimal type columns. Note that this new column will be a planar type spatial column with a system type ID Of 1000004326. The system that you will use in SAP Analytics Cloud exercise is EPSG 3857 and this system needs to be added to HANA. 
+
+The existing decimal data could of course be converted directly into EPSG after adding that system, so the next sub-steps are just to give a quick overview of converting existing data and then using spatial data transforms later on. 
 
 *
 
