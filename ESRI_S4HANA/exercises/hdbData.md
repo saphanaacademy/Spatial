@@ -75,16 +75,16 @@ SELECT
 FROM "HACKT28"."GEOCODE"; 
 ```
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat01.jpg">
 
-
-*
+* Given that you can use spatial type functions in HANA to construct spatial data on the fly, this is of course not considered a best practice. The best practice is to store your spatial data in HANA as the desired spatial type. One of the reasons to do this is of course for performance. If you run the next bit of code you will add a new Spatial Type column to your Geocode table. This new column will have a spatial type of 1000004326 which is a planar type as opposed to a spheroid type. Each system will have its own advantages and disadvantages such as the planar type may run some calculations faster but distances between points may not be as accurate as a spheroidal system. 
 
 ```
 ALTER TABLE "HACKT28"."GEOCODE"
 ADD ("ZIPCODE_WGSP4326" ST_POINT(1000004326));
 ```
 
-*
+* After running the above Alter Table code, run the Update code below which will populate the Geocode table's new spatial type column. Note that the ST_GeomFromText function syntax is the same as what you ran earlier.
 
 ```
 UPDATE "HACKT28"."GEOCODE"
@@ -97,7 +97,7 @@ SET "ZIPCODE_WGSP4326" =
 ```
 SELECT * FROM  "HACKT28"."GEOCODE";
 ```
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat02.jpg">
 
 data changes "HACKT28"."CENSUS" table
 
