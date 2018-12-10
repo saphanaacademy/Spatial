@@ -100,7 +100,7 @@ SELECT * FROM "HACKT28"."GEOCODE";
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat02.jpg">
 
-* The second table that you will add a spatial column to is a Census table that has socio-economic statistics aggregated at the zipcode level. This table will be used to supply statistical data within a radius from each customer location. Copy the syntax below and run the entire code block. After a bit and after scrolling to the far right of the table you will see that the Census table has a new spatial column that has been populated with the same conversion method you used before.
+* The second table that you will add a spatial column to is a Census table that has socio-economic statistics aggregated at the zipcode level. This table will be used to supply statistical data within a radius from each customer location. Copy the syntax below and run the entire code block. After a bit and after scrolling to the far right of the table you will see that the Census table has a new spatial column (Census_Geo_WBSP4326) that has been populated with the same conversion method you used before.
 
 ```
 ALTER TABLE "HACKT28"."CENSUS"
