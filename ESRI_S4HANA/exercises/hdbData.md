@@ -5,7 +5,7 @@
 
 ## Description
 
-In the next steps we will import a sample database for the HANA database. This task will be undertaken by the technical HANA user we created earlier.
+In the next steps we will import and configure a sample database for the HANA database. Existing data will be transformed into spatial-type data that can be consumed later in the SAP Analytics Cloud. This task will be undertaken by the technical HANA user we created earlier.
 
 <img src="../images/XXXXXX.jpg">
 
@@ -24,6 +24,11 @@ see file that has csv files as opposed to binaries (binaries are causing errors)
 You will need to use the HANA Development Perspective in Eclipse as an admin user. This admin user will have the rights to create the new development user that will complete a lot of the upcoming tasks in the HANA environment. 
 
 1. [Logging into HANA as an Admin User](#hdbadmin)
+
+2. Creation of EPSG (SRID 3857) Spatial System 
+ 
+3. Data Transform
+ 
 
 ### <a name="hdbadmin"></a> Logging into HANA as an Admin User
 
