@@ -30,14 +30,7 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 * Copy the [link address for the sample data download from here.](https://goo.gl/k9ydJV) and download the .zip file and extract the contents.
 
-* Go to Eclipse using the SAP HANA Development perspective.
-
-
-
-import csv files for census and centroid tables
-
-
-*
+* Go to Eclipse using the SAP HANA Development perspective and right click on the HACKT28 schema in your HACKT28 user's connection. Choose "Import".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp1.jpg">
 
