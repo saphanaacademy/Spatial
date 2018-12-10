@@ -124,11 +124,15 @@ At the time of writing of this exercise, SAP HANA had a limited number of spatia
 
 Some popular web mapping and visualization applications such as Google Earth, Bing Maps, and ArcGIS Online, use this system that is based on a spherical model of the Earth. As mentioned earlier, each system has their advantages and disadvantages. This model ignores flattening at the Earth's poles which can lead to errors of up to 800m in position but it also allows for faster projections.
 
-as HACKT28 run the following syntax
+* As HACKT28 run the following syntax in your SQL Console.
 
 ```
 SELECT * FROM "SYS"."ST_SPATIAL_REFERENCE_SYSTEMS";
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat04.jpg">
+
+
 
 ```
 CREATE SPATIAL REFERENCE SYSTEM "WGS 84 / Pseudo-Mercator" IDENTIFIED BY 3857
@@ -147,6 +151,9 @@ TRANSFORM DEFINITION '+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x
 
 SELECT * FROM "SYS"."ST_SPATIAL_REFERENCE_SYSTEMS";
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat05.jpg">
+
 
 [Go Back Up to the List of Steps](#steps)
 
