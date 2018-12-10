@@ -59,7 +59,9 @@ Using the Geocode table as an example, you will add a new spatial-type column an
 
 The existing decimal data could of course be converted directly into EPSG after adding that system, so the next minor steps are just to give a quick overview of converting longitude latitude data into an existing spatial system (planar 1000004326) in HANA. 
 
-*
+Earlier you previewed the Geocode table and saw the decimal type columns. Those coordinates represent the centroid for the corresponding zipcode. Please note that these zipcode coordinates are only approximated using publicly available census tract data.
+
+* If you want to convert two numeric columns on the fly into a spatial point, the ST_GeomFromText function can be used. Open a new SQL Console from your HACKT28 schema and then run the following code in the Console. The Point_Binary column shows what the conversion looks like in a raw format and the Point_Text shows what it looks like after converting this to a "well known text" format.
 
 ```
 SELECT  
@@ -72,6 +74,8 @@ SELECT
 		as "POINT_TEXT"
 FROM "HACKT28"."GEOCODE"; 
 ```
+
+
 
 *
 
