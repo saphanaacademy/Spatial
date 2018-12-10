@@ -67,17 +67,13 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 4. A sample database is used for this exercise and consists of US Census data as well as a table used to approximate the Longitude and Latitude of customer addresses in the S/4HANA sales data. This task will be undertaken by the technical HANA user we created earlier.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 4: Setup of Sample Database for the SAP HANA System](exercises/hdbData.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 4: Setup of Sample Spatial Data for the SAP HANA System](exercises/hdbData.md)
 
 5. XXXXXX
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of EPSG (SRID 3857) Spatial System and Data Transform](exercises/hdbSpatial.md)
-
-6. XXXXXX
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 6: Creation of SQL and Calculation Views on Integrated Data](exercises/hdbViews.md)
 
-7. XXXXXX
+6. XXXXXX
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 7: Creation of Connection and Models and Story in SAP Analytics Cloud](exercises/sacAnalytics.md)
 
