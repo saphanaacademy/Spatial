@@ -5,7 +5,7 @@
 
 ## Description
 
-In the next steps we will import and configure a sample database for the HANA database. Existing data will be transformed into spatial-type data that can be consumed later in the SAP Analytics Cloud. This task will be undertaken by the technical HANA user we created earlier.
+In the next steps we will import and configure a sample database for the HANA database. Existing data will be transformed into spatial-type data that can be consumed later in the SAP Analytics Cloud. 
 
 <img src="../images/XXXXXX.jpg">
 
@@ -15,7 +15,7 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## Steps
 
-You will need to use the HANA Development Perspective in Eclipse as an admin user. This admin user will have the rights to create the new development user that will complete a lot of the upcoming tasks in the HANA environment. 
+You will need to use the HANA Development Perspective in Eclipse as the HACKT28 user. Data in the form of a .csv Export from HANA will be imported into your HANA system.  In several steps the data will be readied so that Calculation Views with HANA Spatial features can be built against the new tables and the virtualized S/4HANA data.
 
 1. [Import of Sample Data into HANA](#hdbdimp)
 
@@ -25,7 +25,6 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
  
 4. [Transform of HANA Spatial Data into EPSG Type](#hdbdetss)
  
-
 ### <a name="hdbdimp"></a> Import of Sample Data into HANA
 
 There are two tables of sample data that will be imported into your HANA system. One table is a US Census table and the other table will be used to perform a simple geocoding of the customer addresses from the S/4HANA system. The geocoding in this case is approximating the location using the centroid of its zipcode approximation.
@@ -55,8 +54,6 @@ There are two tables of sample data that will be imported into your HANA system.
 [Go Back Up to the List of Steps](#steps)
 
 ### <a name="hdbdstc"></a> Creation of HANA Spatial-Type Columns
-
-
 
 data changes "HACKT28"."GEOCODE" table
 
