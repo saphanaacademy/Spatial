@@ -47,7 +47,7 @@ There are two tables of sample data that will be imported into your HANA system.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp4a.jpg">
 
-* After you press "Finish" you will most likely need to right click on your Tables folder and choose Refresh. Now if you choose "Open Data Preview" for the Geocode table then you should see that there are two columns (they are decimal type) for longitude and latitude. In the next steps you will be creating spatial-type columns, in your new tables, based on these columns.
+* After you press "Finish" you will most likely need to right click on your Tables folder and choose Refresh. Now if you choose "Open Data Preview" for the Geocode table then you should see that there are two columns (they are decimal type) for longitude and latitude. In the next steps you will be creating Spatial-type columns, in your new tables, based on these columns.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp5.jpg">
 
@@ -55,9 +55,9 @@ There are two tables of sample data that will be imported into your HANA system.
 
 ### <a name="hdbdstc"></a> Creation of HANA Spatial-Type Columns
 
-Using the Geocode table as an example, you will add a new spatial-type column and then populate that column by converting the longitude and latitude decimal type columns. Note that this new column will be a planar type spatial column with a system type ID Of 1000004326. The system that you will use in SAP Analytics Cloud exercise is EPSG 3857 and this system needs to be added to HANA. 
+Using the Geocode table as an example, you will add a new spatial-type column and then populate that column by converting the longitude and latitude decimal type columns. Note that this new column will be a planar type spatial column with a system ID Of 1000004326. The system that you will use in SAP Analytics Cloud exercise is EPSG 3857 and this system needs to be added to HANA. 
 
-The existing decimal data could of course be converted directly into EPSG after adding that system, so the next minor steps are just to give a quick overview of converting longitude latitude data into an existing spatial system (planar 1000004326) in HANA. 
+The existing decimal data could of course be converted directly into EPSG after adding that system, so the next minor steps are just to give a quick overview of converting longitude latitude data into an existing spatial system (planar WGS84 1000004326) in HANA. 
 
 Earlier you previewed the Geocode table and saw the decimal type columns. Those coordinates represent the centroid for the corresponding zipcode. Please note that these zipcode coordinates are only approximated using publicly available census tract data.
 
@@ -84,7 +84,7 @@ ALTER TABLE "HACKT28"."GEOCODE"
 ADD ("ZIPCODE_WGSP4326" ST_POINT(1000004326));
 ```
 
-* After running the above Alter Table code, run the Update code below which will populate the Geocode table's new spatial type column. Note that the ST_GeomFromText function syntax is the same as what you ran earlier.
+* After running the above "alter table" code, run the "update" code below which will populate the Geocode table's new spatial type column. Note that the ST_GeomFromText function syntax is the same as what you ran earlier.
 
 ```
 UPDATE "HACKT28"."GEOCODE"
@@ -92,14 +92,15 @@ SET "ZIPCODE_WGSP4326" =
  	ST_GeomFromText( 'Point(' || "COORDINATES_LON" || ' ' || "COORDINATES_LAT" || ')', 1000004326 );
 ```
 
-*
+* Run the following "select" statement and you will now see the Geocode table with its new spatial data corresponding to the longitude and latitude of the zipcode centroid.
 
 ```
-SELECT * FROM  "HACKT28"."GEOCODE";
+SELECT * FROM "HACKT28"."GEOCODE";
 ```
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat02.jpg">
 
-data changes "HACKT28"."CENSUS" table
+* The second table that you will add a spatial column to is a Census table that has socio-economic statistics aggregated at the zipcode level. This table will be used to supply statistical data within a radius from each customer location. Copy the syntax below and run the entire code block. After a bit and after scrolling to the far right of the table you will see that the Census table has a new spatial column that has been populated with the same conversion method you used before.
 
 ```
 ALTER TABLE "HACKT28"."CENSUS"
@@ -111,6 +112,8 @@ SET "CENSUS_GEO_WGSP4326" =
  	
 SELECT * FROM "HACKT28"."CENSUS"; 
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat03.jpg">
 
 [Go Back Up to the List of Steps](#steps)
 
