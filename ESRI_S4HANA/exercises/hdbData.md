@@ -23,7 +23,7 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 3. [Creation of EPSG (SRID 3857) Spatial System](#hdbdess) 
  
-4. Data Transform
+4. [Transform of HANA Spatial Data into EPSG Type](#hdbdetss)
  
 
 ### <a name="hdbdimp"></a> Import of Sample Data into HANA
@@ -55,6 +55,8 @@ There are two tables of sample data that will be imported into your HANA system.
 [Go Back Up to the List of Steps](#steps)
 
 ### <a name="hdbdstc"></a> Creation of HANA Spatial-Type Columns
+
+
 
 data changes "HACKT28"."GEOCODE" table
 
@@ -140,6 +142,10 @@ TRANSFORM DEFINITION '+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x
 
 SELECT * FROM "SYS"."ST_SPATIAL_REFERENCE_SYSTEMS";
 ```
+
+[Go Back Up to the List of Steps](#steps)
+
+### <a name="hdbdetss"></a> Transform of HANA Spatial Data into EPSG Type
 
 spatial changes "HACKT28"."GEOCODE" table
 
