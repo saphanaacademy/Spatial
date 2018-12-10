@@ -34,17 +34,17 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp1.jpg">
 
-*
+* Browse to the Windows folder where you extracted the data and select the folder one level up from the "index" folder. Press the "Next" button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp2.jpg">
 
-*
+* Add both of the Catalog Objects. These are both tables that were exported from a HANA database. Press the "Next" button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp3.jpg">
 
-*
+* In this case the only required option is to choose to import the data and you can increase the number of threads used for the import if you wish. This particular data import is not that large. Note that if you are using a production based system and want to find out more about data imports / loads then please see [the blog post here.](https://blogs.saphana.com/2013/04/07/best-practices-for-sap-hana-data-loads/)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp4.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp4a.jpg">
 
 *
 
