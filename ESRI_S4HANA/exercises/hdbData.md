@@ -120,17 +120,17 @@ SELECT * FROM "HACKT28"."CENSUS";
 
 ### <a name="hdbdess"></a> Creation of EPSG (SRID 3857) Spatial System
 
-adding new spatial system to hana
+At the time of writing of this exercise, SAP HANA had a limited number of spatial systems installed by default and the type EPSG 3857 was not one of those. In this step this spatial system will be added to HANA. 
 
-* Some popular web mapping and visualization applications such as Google Earth, Bing Maps, and ArcGIS Online, use a spatial reference system with a Mercator projection that is based on a spherical model of the Earth. This spherical model ignores the flattening at the Earth's poles and can lead to errors of up to 800m in position and up to 0.7 percent in scale, but it also allows applications to perform projections more efficiently.
-
-* In the past, commercial applications assigned SRID 900913 to this spatial reference system. However, EPSG has since released this projection as SRID 3857
+Some popular web mapping and visualization applications such as Google Earth, Bing Maps, and ArcGIS Online, use this system that is based on a spherical model of the Earth. As mentioned earlier, each system has their advantages and disadvantages. This model ignores flattening at the Earth's poles which can lead to errors of up to 800m in position but it also allows for faster projections.
 
 as HACKT28 run the following syntax
 
 ```
 SELECT * FROM "SYS"."ST_SPATIAL_REFERENCE_SYSTEMS";
+```
 
+```
 CREATE SPATIAL REFERENCE SYSTEM "WGS 84 / Pseudo-Mercator" IDENTIFIED BY 3857
 TYPE PLANAR
 SNAP TO GRID 1e-4
