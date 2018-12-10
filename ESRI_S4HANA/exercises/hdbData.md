@@ -46,7 +46,7 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp4a.jpg">
 
-* After you press "Finish" you will most likely need to right click on your Tables folder > and choose Refresh. If you choose "Open Data Preview" for the Geocode table then you should see that there are two columns (they are decimal type) for longitude and latitude. In the next steps we will be creating spatial type columns, in our new tables, based on these columns.
+* After you press "Finish" you will most likely need to right click on your Tables folder > and choose Refresh. If you choose "Open Data Preview" for the Geocode table then you should see that there are two columns (they are decimal type) for longitude and latitude. In the next steps you will be creating spatial-type columns, in your new tables, based on these columns.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp5.jpg">
 
