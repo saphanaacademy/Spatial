@@ -13,26 +13,30 @@ In the next steps we will import and configure a sample database for the HANA da
 
 You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 3: Setup of Smart Data Access to the S/4HANA System](sdiConfig.md) using Data Provisioning and the Eclipse IDE.
 
-```
--- import csv files for census and centroid tables
-```
-
-see file that has csv files as opposed to binaries (binaries are causing errors)
-
 ## Steps
 
 You will need to use the HANA Development Perspective in Eclipse as an admin user. This admin user will have the rights to create the new development user that will complete a lot of the upcoming tasks in the HANA environment. 
 
-1. [Logging into HANA as an Admin User](#hdbadmin)
+1. [Import Sample Data into HANA](#hdbdimp)
 
-2. Creation of EPSG (SRID 3857) Spatial System 
+2. 
+
+3. Creation of EPSG (SRID 3857) Spatial System 
  
-3. Data Transform
+4. Data Transform
  
 
-### <a name="hdbadmin"></a> Logging into HANA as an Admin User
+### <a name="hdbdimp"></a> Import Sample Data into HANA
 
-* In Eclipse click on the Open Perspective shortcut to get the full list of Perspectives. Perspectives are also accessible through the Window menu > Perspective > Open Perspective > Other.
+* Copy the [URL for the sample data download from here.](https://goo.gl/k9ydJV)
+
+* In Eclipse make sure that you're in the SAP HANA Development perspective.
+
+
+
+import csv files for census and centroid tables
+
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers04.jpg">
 
