@@ -213,7 +213,7 @@ You have now completed the step "Creating Virtual Tables of the ABAP CDS Views" 
 
 Your next task is to set up a sample database in your HANA system.  The database consists of US Census data as well as a table used to approximate the Longitude and Latitude of customer addresses in the S/4HANA sales data.
 
-[Go to Task 4: Setup of Sample Database for the SAP HANA System](hdbData.md)
+[Go to Task 4: Setup of Sample Spatial Database for the SAP HANA System](hdbData.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
