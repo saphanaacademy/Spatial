@@ -50,6 +50,7 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp5.jpg">
 
+[Go Back Up to the List of Steps](#steps)
 
 ### <a name="hdbdstc"></a> Creating HANA Spatial-Type Columns
 
@@ -104,6 +105,9 @@ SET "CENSUS_GEO_WGSP4326" =
  	
 SELECT * FROM "HACKT28"."CENSUS"; 
 ```
+
+[Go Back Up to the List of Steps](#steps)
+
 
 ### <a name="hdbdess"></a> Creation of EPSG (SRID 3857) Spatial System
 
