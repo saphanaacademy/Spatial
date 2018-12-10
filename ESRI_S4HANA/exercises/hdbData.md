@@ -19,9 +19,9 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 1. [Import Sample Data into HANA](#hdbdimp)
 
-2. 
+2. [Creating HANA Spatial-Type Columns](#hdbdstc)
 
-3. Creation of EPSG (SRID 3857) Spatial System 
+3. [Creation of EPSG (SRID 3857) Spatial System](#hdbdess) 
  
 4. Data Transform
  
@@ -50,6 +50,8 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp5.jpg">
 
+
+### <a name="hdbdstc"></a> Creating HANA Spatial-Type Columns
 
 data changes "HACKT28"."GEOCODE" table
 
@@ -102,6 +104,8 @@ SET "CENSUS_GEO_WGSP4326" =
  	
 SELECT * FROM "HACKT28"."CENSUS"; 
 ```
+
+### <a name="hdbdess"></a> Creation of EPSG (SRID 3857) Spatial System
 
 adding new spatial system to hana
 
