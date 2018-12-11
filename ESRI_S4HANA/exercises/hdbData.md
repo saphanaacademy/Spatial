@@ -81,7 +81,7 @@ FROM "HACKT28"."GEOCODE";
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat01.jpg">
 
-* Given that you can use spatial type functions in HANA to construct spatial data on the fly, this is of course not considered a best practice. The best practice is to store your spatial data in HANA as the desired spatial type. One of the reasons to do this is of course for performance. If you run the next bit of code you will add a new Spatial Type column to your Geocode table. This new column will have a spatial type of 1000004326 which is a planar type as opposed to a spheroid type. Each system will have its own advantages and disadvantages such as the planar type may run some calculations faster but distances between points may not be as accurate as a spheroidal system. 
+* Given that you can use spatial type functions in HANA to construct spatial data on the fly, this is not considered a best practice. The best practice is to store your spatial data in HANA as the desired spatial type. One of the reasons to do this is of course for performance. If you run the next bit of code you will add a new Spatial Type column to your Geocode table. This new column will have a spatial type of 1000004326 which is a planar type as opposed to a spheroid type. Each system will have its own advantages and disadvantages such as the planar type may run some calculations faster but distances between points may not be as accurate as some spheroidal systems. 
 
 ```
 ALTER TABLE "HACKT28"."GEOCODE"
@@ -138,7 +138,7 @@ SELECT * FROM "SYS"."ST_SPATIAL_REFERENCE_SYSTEMS";
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat04.jpg">
 
-* As the HACKT28 user run the following Create Spatial Reference System syntax in your SQL Console. You should now have the WGS 84 / Pseudo-Mercator system available. 
+* As the HACKT28 user run the following Create Spatial Reference System syntax in your SQL Console. 
 
 ```
 CREATE SPATIAL REFERENCE SYSTEM "WGS 84 / Pseudo-Mercator" IDENTIFIED BY 3857
@@ -158,6 +158,8 @@ TRANSFORM DEFINITION '+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x
 SELECT * FROM "SYS"."ST_SPATIAL_REFERENCE_SYSTEMS";
 ```
 
+* The WGS 84 / Pseudo-Mercator (3857) system should be available. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat05.jpg">
 
 You have now completed the step "Creation of EPSG (SRID 3857) Spatial System".
@@ -166,9 +168,9 @@ You have now completed the step "Creation of EPSG (SRID 3857) Spatial System".
 
 ### <a name="hdbdetss"></a> Transform of HANA Spatial Data into EPSG Type
 
-In this major step you will add new spatial columns to the two tables were those columns use new EPSG 3857 system that was just added. You will also use the ST_Transform HANA Spatial function which will transform existing WGS84 1000004326 spatial data into 3857.
+In this major step you will add new spatial columns to the two tables, where those new columns will use the EPSG 3857 system that was just added. You will also use the ST_Transform HANA Spatial function which will transform existing WGS84 1000004326 spatial data into 3857.
 
-* To see how the ST_Transform function works, run the following code in a SQL Console as the HACKT28 user. Note that there are two columns using the transform where the first returns the binary data and the second returns the transformed data as well known text.
+* To see how the ST_Transform function works, run the following code in a SQL Console as the HACKT28 user. 
 
 ```
 SELECT  
@@ -181,6 +183,8 @@ SELECT
 	"ZIPCODE_WGSP4326".ST_Transform(3857).ST_AsWKT()
 FROM "HACKT28"."GEOCODE"; 
 ```
+
+* Note that there are two columns using the transform where the first returns the binary data and the second returns the transformed data as well known text.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat06.jpg">
 
