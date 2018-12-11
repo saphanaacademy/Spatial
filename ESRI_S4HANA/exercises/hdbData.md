@@ -239,7 +239,7 @@ You have now completed the step "Creation of EPSG (SRID 3857) Spatial System" an
 
 Your next task is to create Calculation Views on combined S/4HANA and Census data.
 
-[Go to Task 5: Creation of EPSG (SRID 3857) Spatial System and Data Transform](hdbSpatial.md)
+[Go to Task 5: Creation of SQL and Calculation Views on Integrated Data](hdbViews.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
