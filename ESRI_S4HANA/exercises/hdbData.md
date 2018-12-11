@@ -188,7 +188,7 @@ FROM "HACKT28"."GEOCODE";
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat06.jpg">
 
-* Similar to what you did earlier to add in a new spatial column, copy the code below and run it in your SQL Console. This time the new spatial column will have an SRS ID of 3857 and the ST_Transform function is used instead of ST_GeomFromText which was used on the two decimal columns.
+* Similar to what you did earlier to add in a new spatial column, copy the code below and run it in your SQL Console. This time the new spatial column will have an SRS ID of 3857 and the ST_Transform function is used instead of ST_GeomFromText which was used earlier on the two decimal columns.
 
 
 ```
@@ -223,7 +223,7 @@ SELECT * FROM "HACKT28"."CENSUS";
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat08.jpg">
 
-If you want to redo the above parts of the exercise, the following syntax will remove the different objects you created.
+If you want to redo the above parts of the exercise for practice, the following syntax will remove the different objects you created.
 
 * The following syntax, when uncommented, removes the new columns from the two tables.
 
