@@ -1,7 +1,26 @@
+<table width=100% border=>
+<tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
+<tr><td><h3>Creation of HANA Calculation Views on Integrated Data</h3></td><td width=60%></br>&nbsp;Task #4, Using Eclipse IDE, HANA Development Perspective</p></td></tr>
+</table>
 
-### Creation of SQL and Calculation Views on Integrated Data
+## Description
 
-XXXXXX need steps and video links etc.	
+In the next steps you will ######
+
+<img src="../images/######.jpg">
+
+## Prerequisites
+
+You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 3: Setup of Smart Data Access to the S/4HANA System](sdiConfig.md) using Data Provisioning and the Eclipse IDE.
+
+## Steps
+
+######
+
+1. [######](#hdbdimp)
+
+
+### <a name="hdbdimp"></a> Import of Sample Data into HANA
 
 ```
 -- run as HACKT28 to create 3 sql views
@@ -105,6 +124,12 @@ left outer join "HACKT28"."GEOZIPCODECENTROID" T1
 select * from "HACKT28"."SV_ZXSHCSLSORDITFSZ_HDBGEOZIPCODECENTROID";
 ```
 
-	
+You have now completed the step "######" and are done with the whole task of "######".
+
+Your next task is to ######.
+
+[Go to Task 6: ######](.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
+
+[Go Back Up to the List of Steps](#steps)
