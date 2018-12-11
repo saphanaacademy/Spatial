@@ -65,11 +65,11 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 3: Setup of Smart Data Access to the S/4HANA System](exercises/sdiConfig.md)
 
-4. A sample database is used for this exercise and consists of US Census data as well as a table used to approximate the Longitude and Latitude of customer addresses in the S/4HANA sales data. This task will be undertaken by the technical HANA user we created earlier.
+4. A sample database is used for this exercise and consists of US Census data as well as a table used to approximate the Longitude and Latitude of customer addresses in the S/4HANA sales data. Existing data will be transformed into HANA spatial type data.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 4: Setup of Sample Spatial Data for the SAP HANA System](exercises/hdbData.md)
 
-5. XXXXXX
+5. New HANA Calculation Views will be built that combine the S/4HANA customer sales data with the Census data. The views will also utilize HANA Spatial functionality. These views will be consumed in the SAP Analytics Cloud where one view is used in a map location hierarchy.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of HANA Calculation Views on Integrated Data](exercises/hdbViews.md)
 
