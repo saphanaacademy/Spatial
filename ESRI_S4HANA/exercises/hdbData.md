@@ -173,6 +173,8 @@ SELECT
 FROM "HACKT28"."GEOCODE"; 
 ```
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat06.jpg">
+
 *
 
 
@@ -191,20 +193,11 @@ SET "ZIPCODE_EPSG3857" =
 SELECT * FROM "HACKT28"."GEOCODE";
 ```
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat07.jpg">
 
 spatial changes "HACKT28"."CENSUS" table
 
 ```
-SELECT  
-	"CENSUS_GEO_ID",
-	"COORDINATES_LON",
-	"COORDINATES_LAT",
-	"CENSUS_GEO_WGSP4326",
-	"CENSUS_GEO_WGSP4326".ST_Transform(3857),
-	"CENSUS_GEO_WGSP4326".ST_AsWKT(),
-	"CENSUS_GEO_WGSP4326".ST_Transform(3857).ST_AsWKT()
-FROM "HACKT28"."CENSUS";
-
 ALTER TABLE "HACKT28"."CENSUS"
 ADD ("CENSUS_GEO_EPSG3857" ST_POINT(3857));
 
@@ -214,6 +207,8 @@ SET "CENSUS_GEO_EPSG3857" =
 	
 SELECT * FROM "HACKT28"."CENSUS";
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat08.jpg">
 
  misc SQL syntax
 
