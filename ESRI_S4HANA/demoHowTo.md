@@ -4,7 +4,7 @@
 </table>
 
 ## Description
-In this exercise / demo, you’ll learn how to integrate S/4HANA and ESRI GIS data at the data level. This integrated data can be consumed in SAP Analytics Cloud.
+In this exercise / demo, you’ll learn how to integrate S/4HANA (on-premise) and ESRI GIS data at the data level. This integrated data will be consumed in SAP Analytics Cloud.
 
 <img src="images/s4HpEsriDemoSAC01.jpg">
 
@@ -22,7 +22,7 @@ In this exercise / demo, you’ll learn how to integrate S/4HANA and ESRI GIS da
 
 ## Target group
 
-* People interested in learning about extending S/4HANA with ESRI spatial data 
+* People interested in learning about extending S/4HANA (on-premise) with ESRI spatial data 
 * People interested in extending S/4HANA with a HANA sidecar
 * Data analysts and developers
 
