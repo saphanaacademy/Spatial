@@ -124,7 +124,7 @@ At the time of writing of this exercise, SAP HANA had a limited number of spatia
 
 Some web mapping and visualization applications such as Google Earth, Bing Maps, and ArcGIS Online, use this system that is based on a spherical model of the Earth. As mentioned earlier, each system has advantages and disadvantages. This one ignores flattening at the Earth's poles which can lead to errors of up to 800m in position but it also allows for faster projections.
 
-* As the HACKT28 user run the following syntax in your SQL Console. You should have several Spatial Reference Systems including the WGS84 (4326 spheroid, 1000004326 planar) in your HANA system. World Geodedic System 84 is used for Global Positioning System / GPS. For more info see this [blog on Spatial Reference Systems.](https://developers.sap.com/tutorials/hana-spatial-intro6-srs.html
+* As the HACKT28 user run the following syntax in your SQL Console. You should have several Spatial Reference Systems including the WGS84 (4326 spheroid, 1000004326 planar) in your HANA system. World Geodedic System 84 is used for Global Positioning System / GPS. For more info see this [blog on Spatial Reference Systems.](https://developers.sap.com/tutorials/hana-spatial-intro6-srs.html)
 
 ```
 SELECT * FROM "SYS"."ST_SPATIAL_REFERENCE_SYSTEMS";
