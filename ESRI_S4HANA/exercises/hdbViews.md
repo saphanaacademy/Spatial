@@ -11,16 +11,16 @@ In the next steps you will ######
 
 ## Prerequisites
 
-You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 3: Setup of Smart Data Access to the S/4HANA System](sdiConfig.md) using Data Provisioning and the Eclipse IDE.
+You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 4: Setup of Sample Spatial Data for the SAP HANA System](hdbData.md) using the Eclipse IDE.
 
 ## Steps
 
 ######
 
-1. [######](#hdbdimp)
+1. [######](#######)
 
 
-### <a name="hdbdimp"></a> ######
+### <a name="######"></a> ######
 
 ```
 -- run as HACKT28 to create 3 sql views
