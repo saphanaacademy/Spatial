@@ -5,7 +5,7 @@
 
 ## Description
 
-In the next steps you will ######
+In the next steps you will two new Calculation Views. One view will combine the S/4HANA customer sales data with the Census data and will be used to build out a story in the SAP Analytics Cloud. The second view will be used in a location hierarchy for a location map.  
 
 <img src="../images/######.jpg">
 
