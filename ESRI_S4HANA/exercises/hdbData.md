@@ -5,7 +5,7 @@
 
 ## Description
 
-In the next steps you will import and configure a sample database for the HANA database. Existing data will be transformed into spatial-type data that can be consumed later in the SAP Analytics Cloud. 
+In the next steps you will import and configure a sample set of tables for the HANA database. Numeric columns consisting of longitudes and latitudes will be transformed into spatial-type data that can be consumed later in the SAP Analytics Cloud. 
 
 <img src="../images/dataspat08.jpg">
 
@@ -15,7 +15,7 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## Steps
 
-You will need to use the HANA Development Perspective in Eclipse as the HACKT28 user. Data in the form of a .csv Export from HANA will be imported into your HANA system.  In several steps the data will be readied so that Calculation Views with HANA Spatial features can be built against the new tables and the virtualized S/4HANA data.
+You will need to use the HANA Development Perspective in Eclipse as the HACKT28 user. Data in the form of a .csv export from HANA will be imported into your database.  In several steps the data will be readied so that Calculation Views with HANA Spatial features can be built against the new tables and the virtualized S/4HANA data.
 
 1. [Import of Sample Data into HANA](#hdbdimp)
 
@@ -27,11 +27,11 @@ You will need to use the HANA Development Perspective in Eclipse as the HACKT28 
  
 ### <a name="hdbdimp"></a> Import of Sample Data into HANA
 
-There are two tables of sample data that will be imported into your HANA system. One table is a US Census table and the other table will be used to perform a simple geocoding of the customer addresses from the S/4HANA system. The geocoding in this case is approximating the location using the centroid of its zipcode approximation.
+There are two tables of sample data that will be imported into your HANA system. One table is a US Census table and the other table will be used to perform a simple geocoding of the customer addresses from the S/4HANA system. The geocoding in this case is approximating the location using the centroid of its zipcode approximation so it is useful from a "how to" / demo perspective but not for accuracy. If you are interested in more information on geocoding please go to [help.sap.com] and search on "geocode".(https://help.sap.com/viewer/search?q=geocode)
 
-* Copy the [link address for the sample data download from here.](https://goo.gl/k9ydJV) and download the .zip file and extract the contents.
+* Copy the [link address for the sample data download from here](https://goo.gl/k9ydJV) and download the .zip file and extract the contents.
 
-* Go to Eclipse using the SAP HANA Development perspective and right click on the HACKT28 schema in your HACKT28 user's connection. Choose "Import".
+* Go to Eclipse > SAP HANA Development perspective > and right click on the HACKT28 schema in your HACKT28 user's connection. Choose "Import".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp1.jpg">
 
@@ -47,7 +47,7 @@ There are two tables of sample data that will be imported into your HANA system.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp4a.jpg">
 
-* After you press "Finish" you will most likely need to right click on your Tables folder and choose Refresh. Now if you choose "Open Data Preview" for the Geocode table then you should see that there are two columns (they are decimal type) for longitude and latitude. In the next steps you will be creating Spatial-type columns, in your new tables, based on these columns.
+* After you press "Finish" you will most likely need to right click on your Tables folder and choose Refresh. Now if you choose "Open Data Preview" for the Geocode table then you should see that there are two columns (they are decimal type) for longitude and latitude. In the next steps you will be creating spatial-type columns in your new tables, based on these columns.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp5.jpg">
 
@@ -57,7 +57,7 @@ You have now completed the step "Import of Sample Data into HANA".
 
 ### <a name="hdbdstc"></a> Creation of HANA Spatial-Type Columns
 
-Using the Geocode table as an example, you will add a new spatial-type column and then populate that column by converting the longitude and latitude decimal type columns. Note that this new column will be a planar type spatial column with a system ID Of 1000004326. The system that you will use in SAP Analytics Cloud exercise is EPSG 3857 and this system needs to be added to HANA. 
+Using the Geocode table as an example, you will add a new spatial-type column and then populate that column by converting the longitude and latitude decimal type columns. Note that this new column will be a planar type spatial column with a system ID of 1000004326. The system that you will use in SAP Analytics Cloud exercise is EPSG 3857 and this system needs to be added to HANA. 
 
 The existing decimal data could of course be converted directly into EPSG after adding that system, so the next minor steps are just to give a quick overview of converting longitude latitude data into an existing spatial system (planar WGS84 1000004326) in HANA. 
 
