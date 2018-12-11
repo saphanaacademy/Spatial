@@ -7,7 +7,7 @@
 
 In the next steps we will import and configure a sample database for the HANA database. Existing data will be transformed into spatial-type data that can be consumed later in the SAP Analytics Cloud. 
 
-<img src="../images/XXXXXX.jpg">
+<img src="../images/dataspat08.jpg">
 
 ## Prerequisites
 
@@ -50,6 +50,8 @@ There are two tables of sample data that will be imported into your HANA system.
 * After you press "Finish" you will most likely need to right click on your Tables folder and choose Refresh. Now if you choose "Open Data Preview" for the Geocode table then you should see that there are two columns (they are decimal type) for longitude and latitude. In the next steps you will be creating Spatial-type columns, in your new tables, based on these columns.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataimp5.jpg">
+
+You have now completed the step "Import of Sample Data into HANA".
 
 [Go Back Up to the List of Steps](#steps)
 
@@ -115,6 +117,8 @@ SELECT * FROM "HACKT28"."CENSUS";
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat03.jpg">
 
+You have now completed the step "Creation of HANA Spatial-Type Columns".
+
 [Go Back Up to the List of Steps](#steps)
 
 
@@ -124,7 +128,7 @@ At the time of writing of this exercise, SAP HANA had a limited number of spatia
 
 Some web mapping and visualization applications such as Google Earth, Bing Maps, and ArcGIS Online, use this system that is based on a spherical model of the Earth. As mentioned earlier, each system has advantages and disadvantages. This one ignores flattening at the Earth's poles which can lead to errors of up to 800m in position but it also allows for faster projections.
 
-* As the HACKT28 user run the following syntax in your SQL Console. You should have several Spatial Reference Systems including the WGS84 (4326 spheroid, 1000004326 planar) in your HANA system. World Geodedic System (WGS) 84 SRS 4326 is used for Global Positioning System / GPS. For more info see this [tutorial on Spatial Reference Systems.](https://developers.sap.com/tutorials/hana-spatial-intro6-srs.html)
+* As the HACKT28 user run the following syntax in your SQL Console. You should have several Spatial Reference Systems including the WGS84 (4326 spheroid, 1000004326 planar) in your HANA system. World Geodedic System (WGS) 84 SRS 4326 is used for Global Positioning System / GPS. Note that SRS 0 is a Cartesian system. For more info see this [tutorial on Spatial Reference Systems.](https://developers.sap.com/tutorials/hana-spatial-intro6-srs.html)
 
 ```
 SELECT * FROM "SYS"."ST_SPATIAL_REFERENCE_SYSTEMS";
@@ -153,6 +157,8 @@ SELECT * FROM "SYS"."ST_SPATIAL_REFERENCE_SYSTEMS";
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat05.jpg">
+
+You have now completed the step "Creation of EPSG (SRID 3857) Spatial System".
 
 [Go Back Up to the List of Steps](#steps)
 
@@ -209,10 +215,9 @@ SELECT * FROM "HACKT28"."CENSUS";
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat08.jpg">
 
- misc SQL syntax
+If you want to redo the above parts of the exercise, the following syntax will remove the different objects you created.
 
-
--- drop statements to remove new columns from tables
+* The following syntax is the drop statements to remove the new columns from the two tables.
 
 ```
 /*
@@ -224,11 +229,15 @@ drop "CENSUS_GEO_WGSP4326", "CENSUS_GEO_EPSG3857");
 */
 ```
 
-drop statement for 3857 srid
+* The following is the drop statement for the WGS 84 / Pseudo-Mercator spatial system.
 
 ```
 --DROP SPATIAL REFERENCE SYSTEM "WGS 84 / Pseudo-Mercator";
 ```
+
+You have now completed the step "Creation of EPSG (SRID 3857) Spatial System" and are done with the whole task of "Setup of Sample Spatial Data for the SAP HANA System".
+
+Your next task is to create Calculation Views on combined S/4HANA and Census data.
 
 [Go to Task 5: Creation of EPSG (SRID 3857) Spatial System and Data Transform](hdbSpatial.md)
 
