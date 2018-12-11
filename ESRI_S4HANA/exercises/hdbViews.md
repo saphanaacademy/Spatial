@@ -20,7 +20,7 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 1. [######](#hdbdimp)
 
 
-### <a name="hdbdimp"></a> Import of Sample Data into HANA
+### <a name="hdbdimp"></a> ######
 
 ```
 -- run as HACKT28 to create 3 sql views
