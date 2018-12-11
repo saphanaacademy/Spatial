@@ -5,7 +5,7 @@
 
 ## Description
 
-In the next steps we will import and configure a sample database for the HANA database. Existing data will be transformed into spatial-type data that can be consumed later in the SAP Analytics Cloud. 
+In the next steps you will import and configure a sample database for the HANA database. Existing data will be transformed into spatial-type data that can be consumed later in the SAP Analytics Cloud. 
 
 <img src="../images/dataspat08.jpg">
 
@@ -164,7 +164,9 @@ You have now completed the step "Creation of EPSG (SRID 3857) Spatial System".
 
 ### <a name="hdbdetss"></a> Transform of HANA Spatial Data into EPSG Type
 
-spatial changes "HACKT28"."GEOCODE" table
+In this major step you will add new spatial columns to the two tables were those columns use new EPSG 3857 system that was just added. You will also use the ST_Transform HANA Spatial function which will transform existing WGS84 1000004326 spatial data into 3857.
+
+* To see how the ST_Transform function works, run the following code in a SQL Console as the HACKT28 user. Note that there are two columns using the transform where the first returns the binary data and the second returns the transformed data as well known text.
 
 ```
 SELECT  
@@ -180,7 +182,7 @@ FROM "HACKT28"."GEOCODE";
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat06.jpg">
 
-*
+* Similar to what you did earlier to add in a new spatial column, copy the code below and run it in your SQL Console. This time the new spatial column will have an SRS ID of 3857 and the ST_Transform function is used instead of ST_GeomFromText which was used on the two decimal columns.
 
 
 ```
@@ -192,7 +194,7 @@ SET "ZIPCODE_EPSG3857" =
 	"ZIPCODE_WGSP4326".ST_Transform(3857);
 ```	
 
-*
+* Now run the following "select" statement. As mentioned earlier, there are spatial functions that can construct spatial data such as points on the fly. However, it is often better to store data as the desired spatial type in HANA to take advantage of better performance. In the case of this exercise, there is a planar WGS84 column that will not end up being used later on. It was added to this exercise only to show usage of a default spatial system in HANA and how to transform from this existing system.
 
 ```	
 SELECT * FROM "HACKT28"."GEOCODE";
@@ -200,7 +202,7 @@ SELECT * FROM "HACKT28"."GEOCODE";
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/dataspat07.jpg">
 
-spatial changes "HACKT28"."CENSUS" table
+* To accomplish the same goal with the Census table, run the following code in your SQL Console. Scroll to the far right of the results to see the new 3857 column.
 
 ```
 ALTER TABLE "HACKT28"."CENSUS"
