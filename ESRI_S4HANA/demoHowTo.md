@@ -71,7 +71,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 5. XXXXXX
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of SQL and Calculation Views on Integrated Data](exercises/hdbViews.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of HANA Calculation Views on Integrated Data](exercises/hdbViews.md)
 
 6. XXXXXX
 
