@@ -217,7 +217,7 @@ SELECT * FROM "HACKT28"."CENSUS";
 
 If you want to redo the above parts of the exercise, the following syntax will remove the different objects you created.
 
-* The following syntax is the drop statements to remove the new columns from the two tables.
+* The following syntax removes the new columns from the two tables.
 
 ```
 /*
@@ -229,7 +229,7 @@ drop "CENSUS_GEO_WGSP4326", "CENSUS_GEO_EPSG3857");
 */
 ```
 
-* The following is the drop statement for the WGS 84 / Pseudo-Mercator spatial system.
+* The following removes the WGS 84 / Pseudo-Mercator Spatial Reference System.
 
 ```
 --DROP SPATIAL REFERENCE SYSTEM "WGS 84 / Pseudo-Mercator";
