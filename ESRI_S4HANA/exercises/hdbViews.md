@@ -1,6 +1,6 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
-<tr><td><h3>Creation of HANA Calculation Views on Integrated Data</h3></td><td width=60%></br>&nbsp;Task #4, Using Eclipse IDE, HANA Development Perspective</p></td></tr>
+<tr><td><h3>Creation of HANA Calculation Views on Integrated Data</h3></td><td width=60%></br>&nbsp;Task #5, Using Eclipse IDE, HANA Development Perspective</p></td></tr>
 </table>
 
 ## Description
@@ -124,11 +124,11 @@ left outer join "HACKT28"."GEOZIPCODECENTROID" T1
 select * from "HACKT28"."SV_ZXSHCSLSORDITFSZ_HDBGEOZIPCODECENTROID";
 ```
 
-You have now completed the step "######" and are done with the whole task of "######".
+You have now completed the step "######" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
 
-Your next task is to ######.
+Your next task is to create a Connection, Models and a Story in SAP Analytics Cloud
 
-[Go to Task 6: ######](.md)
+[Go to Task 6: Creation of Connection and Models and Story in SAP Analytics Cloud](sacAnalytics.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
