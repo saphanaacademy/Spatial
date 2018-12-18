@@ -32,7 +32,7 @@ In this exercise / demo, you’ll learn how to integrate S/4HANA (on-premise) an
 Here is a list of the equipment prerequisites for this exercise. A link to the prerequisites page is farther below.
 
 * A fully activated S/4HANA on-premise trial system
-* An SAP HANA system: for this exercise you can use the HANA database on (a) S/4HANA or (b) in SAP Cloud Platform
+* An SAP HANA system (for this exercise you will use the HANA database on S/4HANA to emulate having a separate system)
 * An SAP Analytics Cloud (SAC) account
 
 Here are the knowledge prerequisites for this exercise.
@@ -57,7 +57,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 1: Creation of CDS Views in S/4HANA](exercises/s4hViews.md)
 
-2. You need to create a HANA database user that has the rights to create Remote Sources and tables, import objects, create Calculation Views, etc.
+2. You need to create a HANA database user that has the rights to create Remote Sources and tables, import objects, create Calculation Views, etc. As mentioned in the Prerequisites section, you will use the HANA database on your S/4HANA trial system to emulate having a separate HANA database. This will save you some time and perhaps money associated with readying a development HANA system for this exercise.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 2: Creation of Developer User for the SAP HANA System](exercises/hdbUser.md)
 
