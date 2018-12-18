@@ -201,7 +201,7 @@ Name = ZXSH_C_CUSTOMERGEO
 Description = Public Consumption View, Customer Location Hierarchy
 ```
 
-* Replace the default code in the view editor with the following code.
+* Replace the default code in the view editor with the following code. Note that in this case aliases are being used for the view output. This is very important as this view will be later used in the SAP Analytics Cloud for a Location Dimension. The field names in the Location Dimension must be different than the field names in the other view to avoid errors. Of course you can always rename those fields later on when you are using the HANA Modeling tool.
 
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCCUSTOMERGEO'
@@ -223,7 +223,7 @@ inner join I_Address
    I_Address.Region as LHRegion,
    I_Address.County as LHCounty,
    I_Address.Country as LHCountry,
-   left(I_Address.PostalCode,5) as PostalCode
+   left(I_Address.PostalCode,5) as LHPostalCode
 }
 ```
 
