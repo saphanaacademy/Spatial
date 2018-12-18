@@ -57,7 +57,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 1: Creation of CDS Views in S/4HANA](exercises/s4hViews.md)
 
-2. You need to create a HANA database user that has the rights to create Remote Sources and tables, import objects, create Calculation Views, etc. As mentioned in the Prerequisites section, you will use the HANA database on your S/4HANA trial system to emulate having a separate HANA database. This will save you some time and perhaps money associated with readying a development HANA system for this exercise.
+2. You need to create a HANA database user that has the rights to create Remote Sources and tables, import objects, create Calculation Views, etc. As mentioned in the Prerequisites section, you will use the HANA database on your S/4HANA trial system to emulate having a separate HANA database / HANA sidecar. This will save you some time and perhaps money associated with readying a development HANA system for this exercise.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 2: Creation of Developer User for the SAP HANA System](exercises/hdbUser.md)
 
