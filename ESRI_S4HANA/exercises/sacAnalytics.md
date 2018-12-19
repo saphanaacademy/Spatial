@@ -27,6 +27,20 @@ Once the connection between SAC & HANA is established a Model (including a Locat
 
 The first step will involve downloading and configuring Apache HTTP Server to be used as a reverse proxy. Please note that the following steps should not be done on a production environment as these are done knowing that a trial S/4HANA environment is used. If you are looking for info on how to set up the connection for a production environmnet then please consult [help.sap.com with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA)
 
+* On the Windows client of your S/4HANA system do a browser search for "apache http server download" and in the "Download - The Apache HTTP Server Project" results > click on the Microsoft Windows link.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox01.jpg">
+
+* Choose the "Apache Lounge" as the distributor option for the binary installer. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox02.jpg">
+
+* Choose the latest Win64 option to download.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox03.jpg">
+
+
+
 ```
 code block
 ```
