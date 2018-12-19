@@ -22,7 +22,6 @@ Once the connection between SAC & HANA is established a Model (including a Locat
 1. [Setup of Reverse Proxy Server on the Windows Client](#revproxy)
 1. [######](#   )
 
-
 ### <a name="revproxy"></a> Setup of Reverse Proxy Server on the Windows Client
 
 The first step will involve downloading and configuring Apache HTTP Server to be used as a reverse proxy. Please note that the following steps should not be done on a production environment as these are done knowing that a trial S/4HANA environment is used. If you are looking for info on how to set up the connection for a production environmnet then please consult [help.sap.com with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA)
@@ -39,7 +38,11 @@ The first step will involve downloading and configuring Apache HTTP Server to be
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox03.jpg">
 
+* Go to your downloads folder and extract the "httpd-2..." archive to a folder of "d:\apache" with the "Show extracted files..." option.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox04.jpg">
+
+* In the "D:\apache\Apache24\conf" directory choose to open the "http.conf" file with Notepad.
 
 ```
 code block
@@ -48,9 +51,6 @@ code block
 You have now completed the step "Setup of Reverse Proxy Server on the Windows Client".
 
 [Go Back Up to the List of Steps](#steps)
-
-
-
 
 You have now completed the step "######" and are done with the whole task of "Creation of Connection and Models and Story in SAP Analytics Cloud". You have also completed the entire exercise...congratulations!
 
