@@ -20,6 +20,7 @@ A connection must be made between your SAP HANA database and the SAP Analytics C
 Once the connection between SAC & HANA is established a Model (including a Location Dimension) will be created in SAC as well as a Story which will feature a map.
 
 1. [Setup of Reverse Proxy Server on the Windows Client](#revproxy)
+1. [######](#   )
 
 
 ### <a name="revproxy"></a> Setup of Reverse Proxy Server on the Windows Client
@@ -27,6 +28,13 @@ Once the connection between SAC & HANA is established a Model (including a Locat
 ```
 code block
 ```
+
+You have now completed the step "Setup of Reverse Proxy Server on the Windows Client".
+
+[Go Back Up to the List of Steps](#steps)
+
+
+
 
 You have now completed the step "######" and are done with the whole task of "Creation of Connection and Models and Story in SAP Analytics Cloud". You have also completed the entire exercise...congratulations!
 
