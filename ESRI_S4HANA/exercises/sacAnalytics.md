@@ -15,12 +15,14 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## Steps
 
-A connection must be made between your SAP HANA database and the SAP Analytics Cloud. In order to establish the sharing of objects from HANA, you must do so with either [CORS (Cross-Origin Resource Sharing) or via a reverse proxy.](https://blogs.sap.com/2017/12/29/creating-sap-analytics-cloud-live-connection-to-sap-hana-database-on-sap-cloud-platform/)
+A connection must be made between your SAP HANA database and the SAP Analytics Cloud. In order to establish the sharing of objects from HANA with SAC, you must do so with either [CORS (Cross-Origin Resource Sharing) or via a reverse proxy.](https://blogs.sap.com/2017/12/29/creating-sap-analytics-cloud-live-connection-to-sap-hana-database-on-sap-cloud-platform/) In this exercise a reverse proxy will be set up and then later a "Path" connection will be used in SAC. The reverse proxy is used for several reasons including ease of setup and avoiding any self-signed certificate issues (as you're using the S/4HANA trial image) and the proxy will allow for a quick additional connection to S/4HANA resources (CDS views) in SAC.
 
-1. [######](#######)
+Once the connection between SAC & HANA is established a Model (including a Location Dimension) will be created in SAC as well as a Story which will feature a map.
+
+1. [Setup of Reverse Proxy Server on the Windows Client](#revproxy)
 
 
-### <a name="######"></a> ######
+### <a name="revproxy"></a> Setup of Reverse Proxy Server on the Windows Client
 
 ```
 code block
