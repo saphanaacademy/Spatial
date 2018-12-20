@@ -26,7 +26,7 @@ Once the connection between SAC & HANA is established a Model, including a Locat
 
 The first step will involve downloading and configuring Apache HTTP Server to be used as a reverse proxy. Please note that the following steps should not be done on a production environment as these are done knowing that a trial S/4HANA environment is used. If you are looking for info on how to set up the connection for a production environmnet then please consult [help.sap.com with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA)
 
-* On the Windows client of your S/4HANA system do a browser search for "apache http server download" and in the "Download - The Apache HTTP Server Project" results > click on the Microsoft Windows link.
+* On the Windows client of your S/4HANA system do a browser search for "apache http server download" and in the "Download - The Apache HTTP Server Project" result click on the Microsoft Windows link.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox01.jpg">
 
@@ -43,6 +43,17 @@ The first step will involve downloading and configuring Apache HTTP Server to be
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox04.jpg">
 
 * In the "D:\apache\Apache24\conf" directory choose to open the "http.conf" file with Notepad.
+* Find the ServerRoot variable and change it so that it uses your install path, e.g. d:/apache/Apache24".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox05.jpg">
+
+* You will need the external IP address of the Windows client machine. To get this go back to CAL.SAP.com and then open your instance and go to the Info section and find the "Windows Remote Desktop External IP Address". You need the external IP address as the proxy server will be accessed later by SAC when making your Connection.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox06.jpg">
+
+* Go back to the http.conf file. Find the ServerName variable, and uncomment the line if necessary. Change the value to the external IP address you got from CAL.SAP.com.
+
+
 
 ```
 code block
