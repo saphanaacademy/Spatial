@@ -47,13 +47,20 @@ The first step will involve downloading and configuring Apache HTTP Server to be
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox05.jpg">
 
-* You will need the external IP address of the Windows client machine. To get this go back to CAL.SAP.com and then open your instance and go to the Info section and find the "Windows Remote Desktop External IP Address". You need the external IP address as the proxy server will be accessed later by SAC when making your Connection.
+* You will need the external IP address of the Windows client machine that you are using for your Remote Desktop.
+* Go back to the http.conf file. Find the ServerName variable, and uncomment the line if necessary. Change the value to the external IP address you got from CAL.SAP.com.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox06.jpg">
 
-* Go back to the http.conf file. Find the ServerName variable, and uncomment the line if necessary. Change the value to the external IP address you got from CAL.SAP.com.
+######
 
+port 443 must be opened in firewall
 
+To open a port in the Windows firewall for TCP access
+On the Start menu, click Run, type WF.msc, and then click OK.
+In the Windows Firewall with Advanced Security, in the left pane, right-click Inbound Rules, and then click New Rulein the action pane (upper right corner).
+
+######
 
 ```
 code block
