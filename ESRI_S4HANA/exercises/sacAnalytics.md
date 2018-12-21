@@ -54,20 +54,22 @@ The first step will involve downloading and configuring Apache HTTP Server to be
 
 ######
 
-port 443 (& optional 44301) must be opened in firewall
+* port 443 (& optional 44301) must be opened in firewall
 
 To open a port in the Windows firewall for TCP access
 On the Start menu, click Run, type WF.msc, and then click OK.
 In the Windows Firewall with Advanced Security, in the left pane, right-click Inbound Rules, and then click New Rulein the action pane (upper right corner).
 
-# test local https://localhost/s4h/sap/bw/ina/GetServerInfo
-# test external https://vhcals4hci.dummy.nodomain/s4h/sap/bw/ina/GetServerInfo
 
 
-ina config...if necessary???
+* ina config...if necessary???
 
 http://vhcalhdbdb.dummy.nodomain:8002/sap/hana/xs/admin/#/package/sap.bc.ina.service
 
+
+
+* moving certificates
+https://www.digicert.com/move-certificate-to-another-certificate-store.htm
 
 
 ######
