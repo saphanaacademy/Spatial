@@ -60,6 +60,13 @@ To open a port in the Windows firewall for TCP access
 On the Start menu, click Run, type WF.msc, and then click OK.
 In the Windows Firewall with Advanced Security, in the left pane, right-click Inbound Rules, and then click New Rulein the action pane (upper right corner).
 
+
+ina config
+
+http://vhcalhdbdb.dummy.nodomain:8002/sap/hana/xs/admin/#/package/sap.bc.ina.service
+
+
+
 ######
 
 ```
