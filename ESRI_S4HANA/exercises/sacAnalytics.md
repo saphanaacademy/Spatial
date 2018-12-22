@@ -66,7 +66,21 @@ In the Windows Firewall with Advanced Security, in the left pane, right-click In
 
 http://vhcalhdbdb.dummy.nodomain:8002/sap/hana/xs/admin/#/package/sap.bc.ina.service
 
-
+* use sql console instead of above
+```
+UPDATE "_SYS_XS"."RUNTIME_CONFIGURATION" 
+SET "CONFIGURATION" = ' {"cors":{
+	"enabled":true,
+	"allowOrigin":["https://sha.us2.sapanalytics.cloud"],
+	"exposeHeaders":["x-csrf-token"],
+	"allowHeaders":["accept-language",
+	"x-sap-cid","x-request-with",
+	"x-csrf-token","content-type",
+	"authorization","accept"],
+	"allowMethods":["GET","HEAD","POST","OPTIONS"],
+	"maxAge":3600}}' 
+WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
+```
 
 * moving certificates
 https://www.digicert.com/move-certificate-to-another-certificate-store.htm
