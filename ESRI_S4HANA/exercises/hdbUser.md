@@ -42,7 +42,11 @@ You will need to use the HANA Development Perspective in Eclipse as an admin use
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab4.jpg">
 
-* Right click on the System user connection and choose "Log On".
+* If you're using a later version such as the SAP S/4HANA 1809, Fully-Activated Appliance then you might see a couple of system user connections, one for the system database and one for the tenant database. The tenant connection is the one you'll be interested in for these steps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab4a.jpg">
+
+* Right click on the System user (tenant) connection and choose "Log On".
 
 * The System user has the same password that you use in your Windows remote connection. This is the password that you created when creating the trial solution in the SAP Cloud Appliance Library. To avoid the logon step the next time make sure that the "Store user name and password..." option is selected.
 
