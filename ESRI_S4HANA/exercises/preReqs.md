@@ -21,51 +21,39 @@ For more info on using the S/4HANA trial and the SAP Cloud Appliance Library and
 
 Here are the steps for completing the exercise prerequisites.
 
-1. It is highly recommenced that this exercise be done on a trial S/4HANA system as this is a technical / 'how to' demo. This demo also uses customer sales CDS views. On a trial system these views would only return several hundred records vs. what is on a production system. If you do insist on using your shop's development system, then you will need to filter your final custom CDS views so that a much smaller / sample record set is returned. Creating the custom views will be covered later on.
+1. You will need to activate a trial S/4HANA System in CAL.SAP.com. This exercise should not be done on a production system.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting up an S/4HANA Trial System](#s4htrial)
 
-2. (Option A) Accessing the SAP HANA System Using the S/4HANA Trial Appliance
+2. There are some additional setup steps for the S/4HANA trial appliance which include installation third party software installations.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Accessing the SAP HANA System Using the S/4HANA Trial Appliance](#hdbons4h)
-
-2. (Option B) Starting an SAP Cloud Platform HANA System to Use as a Sidecar
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Starting an SAP Cloud Platform HANA System to Use as a Sidecar](#hdbonscp)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Additional Setup for the S/4HANA Trial Appliance](#s4hsetup)
 
 3. Getting an SAP Analytics Cloud (SAC) System
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Getting an SAP Analytics Cloud (SAC) System](#sac)
 
-4. Configuring the SAC Connection to the SAP HANA Database
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configuring the SAC Connection to the SAP HANA Database](#sactohdb)
-
-
 ## <a name="s4htrial"></a> Starting up an S/4HANA Trial System
 
-For information on getting started with the S/4HANA fully activated trial in the SAP Cloud Appliance Library please see [these videos on the SAP HANA Academy.](https://www.youtube.com/playlist?list=PLkzo92owKnVwCbYmnsFkPQ8hCyzGmXO8_)  Note that these videos are for the 1610 version of S/4HANA on premise but the setup steps in the videos should be applicable to a later version such as 1709.
+It is highly recommenced that this exercise be done on a trial S/4HANA system as this is a technical / 'how to' demo. This demo also uses customer sales CDS views. On a trial system these views would only return several hundred records vs. what is on a production system. If you do insist on using your shop's development system, then you will need to filter your final custom CDS views so that a much smaller / sample record set is returned. Creating the custom views will be covered later on.
 
-The S/4HANA trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions/614183a7-11c6-4030-9908-81b6eab86d54) If you are using the trial appliance then the appropriate user for this exercise in later tasks is S4H_SD_DEM. Please see the Welcome page on the Windows Remote Desktop included with the appliance. 
+For information on getting started with the S/4HANA fully activated trial in the SAP Cloud Appliance Library please see [these videos on the SAP HANA Academy.](https://www.youtube.com/playlist?list=PLkzo92owKnVwCbYmnsFkPQ8hCyzGmXO8_)  Note that these videos are for the 1610 version of S/4HANA on premise but the setup steps in the videos should be applicable to a later version such as 1809.
 
-Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
-* SAP_BR_SALES_MANAGER
+The S/4HANA trial system can be found at the [SAP Cloud Appliance Library.](https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions) and entering a search of "https://cal.sap.com/console/tenant_5XPSH094G71U#/solutions". You should see an entries such as "SAP S/4HANA 1809, Fully-Activated Appliance" where the "fully activated appliance" is already configured with users, content, etc.
+
+NOTE: when you go through the steps of activating the appliance please ensure that you Store and Save / download the PEM file for the appliance. You will need this later on.
+
+[Go Back Up to the List of Steps](#steps)
+
+## <a name="s4hsetup"></a> Additional Setup for the S/4HANA Trial Appliance
+
+After your appliance has fully started (usually takes about 90 minutes) please see the Welcome page on the Windows Remote client included with the appliance. Note that the appropriate user for this exercise in later S/4HANA tasks is S4H_SD_DEM. Business Roles for the S/4HANA technical user (S4H_SD_DEM) include the SAP_BR_SALES_MANAGER role.
 
 Note that the appliance Windows machine includes a configured Eclipse IDE with the needed tools for ABAP CDS development installed. If you are interested in learning more about how to set up your own Eclipse environment, please see the downloads and instructions for ABAP and HANA tools for Eclipse at [tools.hana.ondemand](https://tools.hana.ondemand.com) > HANA tab.
 
-[Go Back Up to the List of Steps](#steps)
+* You will need to install the Chrome browser on the Windows Remote client as you will be using the SAP Analytics Cloud amongst other things that work better on Chrome.
 
-## <a name="hdbons4h"></a> (Option A) Accessing the SAP HANA System Using the S/4HANA Trial Appliance
-
-If you want to save some time and money associated with creating a HANA 'sidecar' database (e.g. HANA as a database in SAP Cloud Platform) you can emulate having one by using the HANA database in your S/4HANA appliance. The Remote Source that you will set up later will simply point to the same machine.
-
-To access the HANA database on your S/4HANA system, you will not have to follow any additional steps for Option A or Option B below as this will be covered later in the task "Creation of Developer User for the SAP HANA System". Please note that there are still additional prerequisites below Option B related to the SAP Analytics Cloud.
-
-[Go Back Up to the List of Steps](#steps)
-
-## <a name="hdbonscp"></a> (Option B) Starting an SAP Cloud Platform HANA System to Use as a Sidecar
-
-XXXXXX Instructions Coming Soon
+* You will need to [download and install WinSCP](https://winscp.net/eng/download.php) on the Windows Remote client. This will be used in the process of adding an additional component to your HANA system.
 
 [Go Back Up to the List of Steps](#steps)
 
@@ -73,11 +61,6 @@ XXXXXX Instructions Coming Soon
 
 XXXXXX Instructions Coming Soon
 
-[Go Back Up to the List of Steps](#steps)
-
-## <a name="sactohdb"></a> Configuring the SAC Connection to the SAP HANA Database
-
-XXXXXX Instructions Coming Soon
 
 You have now completed the Prerequisites for this exercise.
 
