@@ -27,48 +27,47 @@ Once the connection between SAC & HANA is established a Model, including a Locat
 
 The first step will involve configuring the WinSCP that was downloaded and installed in the Prerequisite section.
 
+* Open up WinSCP and enter the following information into the main dialogue.
+
+``
+Host Name: vhcalhdbdb.dummy.nodomain
+User Name: root
+``
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp1.jpg">
 
-in winscp dialogue
-	host name: vhcalhdbdb.dummy.nodomain
-	user name: root
-press advanced button
+* Press the "Advanced" button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp2.jpg">
 
-press authentication
-press the browse button in the private key file
+* Click on "Authentication".
+* Press the browse button for the Private Key file.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp3.jpg">
 
-in the file type select All Private Key Files
-browse to where you stored your pem file, select it, and press Open.
+* In the file type select "All Private Key Files".
+* Browse to where you stored your pem file in the Prerequisites, select it, and press Open.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp4.jpg">
 
-press OK to convert the open ssh private key to a putty format.
+* Press OK to convert the Open SSH Private Key to a Putty (ppk) format.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp5.jpg"> 
 
-for the password enter the main password that you used when you created your appliance in cal.
-press OK
+* For the Password enter the main password that you used when you created your appliance in CAL.SAP.com and press OK.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp6.jpg">
 
-press the save button to save the ppk file to the same directory as your original pem file.
-you should get a succesful message. press the ok button to close this message.
-press the OK button on the advanced site settings dialogue.
+* Press the Save button to save the ppk file to the same directory as your original pem file.
+* You should get a successful message. Press the OK button to close this message and then press the OK button to close the Advanced Site settings dialogue.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp7.jpg">
 
-in the main winscp dialogue press the save button the OK button to accept the default name.
-press the login button and you should see a warning about connecting to an unknown server.
-press Yes to ignore the error.
+* In the main WinSCP dialogue press the Save button and then the OK button to accept the default name.
+* Press the "Login" button and you should see a warning about connecting to an unknown server. Press Yes to ignore the error.
+* Enter the password you used earlier and then press OK. You should now be connected to the file system of the Linux machine hosting your S/4HANA system.
 
-enter the password you used earlier and then press OK
-you should now be connected to the linux machine running your s4hana application.
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp1.jpg">
 
 
 
