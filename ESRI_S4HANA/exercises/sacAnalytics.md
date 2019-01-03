@@ -19,9 +19,12 @@ A connection must be made between your SAP HANA database and the SAP Analytics C
 
 Once the connection between SAC & HANA is established a Model, including a Location Dimension, will be created in SAC as well as a Story which will feature a map.
 
+1. [Dowloading the SAP HANA EPM-MDS Plugin](#epmmds)
 1. [Connecting WinSCP to the S/4HANA Appliance's Linux File System](#winscp)
 
 1. [######](#   )
+
+### <a name="epmmds"></a> owloading the SAP HANA EPM-MDS Plugin
 
 ### <a name="winscp"></a> Connecting WinSCP to the S/4HANA Appliance's Linux File System
 
