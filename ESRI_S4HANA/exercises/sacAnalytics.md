@@ -13,22 +13,30 @@ In the next steps you will set up a connection between your SAP HANA database an
 
 You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 5: Creation of HANA Calculation Views on Integrated Data](hdbViews.md) using the Eclipse IDE.
 
+## Warnings
+
+During the installation process for the SAP HANA EPM-MDS plugin your HANA system will be stopped and started.
+
 ## <a name="steps"></a> Steps
 
 A connection must be made between your SAP HANA database and the SAP Analytics Cloud. In order to establish the sharing of objects from HANA with SAC, you must do so with either [CORS (Cross-Origin Resource Sharing) or via a reverse proxy.](https://blogs.sap.com/2017/12/29/creating-sap-analytics-cloud-live-connection-to-sap-hana-database-on-sap-cloud-platform/) In this exercise you will set up CORS and then later a "Direct" connection will be used in SAC.
 
 Once the connection between SAC & HANA is established a Model, including a Location Dimension, will be created in SAC as well as a Story which will feature a map.
 
-1. [Dowloading the SAP HANA EPM-MDS Plugin](#epmmds)
+1. [Downloading the SAP HANA EPM-MDS Plugin](#epmmds)
 1. [Connecting WinSCP to the S/4HANA Appliance's Linux File System](#winscp)
-
 1. [######](#   )
 
-### <a name="epmmds"></a> owloading the SAP HANA EPM-MDS Plugin
+### <a name="epmmds"></a> Downloading the SAP HANA EPM-MDS Plugin
+
+The first step will be to download the EPM-MDS plugin which will facilitate a connection between the SAP Analytics Cloud and SAP HANA Calculation Views. At this time (January 3rd 2019 at 06:56 AM PST) and as per [this SAP KBA](https://apps.support.sap.com/sap/support/knowledge/public/en/2536153) this plugin is not installed by default on HANA 2.0.
+
+* To download the plugin go to [Support.SAP.com](https://launchpad.support.sap.com/#/softwarecenter/search/SAP%2520HANA%2520EPM-MDS) and then you should see results for SAP HANA EPM-MDS.
+* Select SAP HANA EPM-MDS 1.0
 
 ### <a name="winscp"></a> Connecting WinSCP to the S/4HANA Appliance's Linux File System
 
-The first step will involve configuring the WinSCP that was downloaded and installed in the Prerequisite section.
+This step will involve using WinSCP which was downloaded and installed in the Prerequisite section. It will be used to transfer the EPM-MDS plugin from the Windows desktop client to the S/4HANA machine's file system.
 
 * Open up WinSCP and enter the following information into the main dialogue.
 
