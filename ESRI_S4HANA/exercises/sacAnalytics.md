@@ -125,7 +125,9 @@ You have now completed the step "Connecting WinSCP to the S/4HANA Appliance's Li
 
 ### <a name="epmmdsinst"></a> Installing the SAP HANA EPM-MDS Plugin
 
-* On your Windows desktop enter the following into a Chrome browser window.
+In this step you will use the HANA Lifecycle Manager (LCM) to install the EPM-MDS plugin you copied to your Linux file system earlier.
+
+* On your Windows desktop copy the following URL into a Chrome browser window.
 
 ```
 URL: https://vhcalhdbdb.dummy.nodomain:1129/lmsl/HDBLCM/HDB/index.html#
@@ -133,6 +135,11 @@ URL: https://vhcalhdbdb.dummy.nodomain:1129/lmsl/HDBLCM/HDB/index.html#
 User: hdbadm (a user with the necessary rights for HANA updates, installations, service restarts, etc.)
 Password: the main password you used when the S/4HANA trial appliance was created
 ```
+
+* You should get a "Your connection is not private" warning. Click on the "Advanced" button and then on "Proceed to vhcalhdbdb.dummy.nodomain (unsafe)". 
+* Enter the user and password combo from the code block above.
+
+
 
 
 
