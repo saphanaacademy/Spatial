@@ -240,16 +240,11 @@ SET "CONFIGURATION" = ' {"cors":{
 WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 ```
 
+You have now completed the step "Configuring Cross Origin Resource Sharing, CORS" and are done with the whole task of "Setup of the SAP HANA System for Resource Sharing". 
 
-######
+Your next task is to configure the SAP HANA system so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
-```
-code block
-```
-
-
-
-You have now completed the step "######" and are done with the whole task of "Creation of Connection and Models and Story in SAP Analytics Cloud". You have also completed the entire exercise...congratulations!
+[Go to Task 7: Creation of Models and Story in SAP Analytics Cloud](sacAnalytics.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
