@@ -15,7 +15,7 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## Warnings
 
-During the installation process for the SAP HANA EPM-MDS plugin your HANA system will be stopped and started.
+During the installation process for the SAP HANA EPM-MDS plugin your HANA system will be stopped and started automatically.
 
 ## <a name="steps"></a> Steps
 
@@ -134,8 +134,6 @@ You have now completed the step "Downloading the SAP HANA EPM-MDS Plugin".
 
 [Go Back Up to the List of Steps](#steps)
 
-
-
 ### <a name="epmmdsinst"></a> Installing the SAP HANA EPM-MDS Plugin
 
 In this step you will use the HANA Lifecycle Manager (LCM) to install the EPM-MDS plugin you copied to your Linux file system earlier.
@@ -150,11 +148,41 @@ Password: the main password you used when the S/4HANA trial appliance was create
 ```
 
 * You should get a "Your connection is not private" warning. Click on the "Advanced" button and then on "Proceed to vhcalhdbdb.dummy.nodomain (unsafe)". 
+
 * Enter the user and password combo from the code block above.
 
+* Click on the tile named "Install or Update Additional Components.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst1.jpg">
 
+* Click on the "Add Software Components" button.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst2.jpg">
+
+* Navigate to the "/usr/tmp/SAP_HANA_EPM-MDS" or the directory where you copied the EPM-MDS folder and contents.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst3.jpg">
+
+* Press OK to close this dialogue and then press the "Add" button.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst4.jpg">
+
+* You should see that the EPM-MDS component is recognized.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst5.jpg">
+
+* Press Next and then check "Install SAP HANA EPM-MDS" and press Next.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst6.jpg">
+
+* Enter the HDBADM user password (same one as before) and press Next again.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst7.jpg">
+
+* Note the warning "During update the SAP HANA Database System will be restarted" and then press the "Update" button.
+* You should see a progress screen similar to below. If not, please go back to the WinSCP steps and ensure that you set the permissions for the folder as required.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst8.jpg">
 
 
 
