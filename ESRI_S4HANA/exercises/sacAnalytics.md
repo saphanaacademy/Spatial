@@ -123,10 +123,19 @@ You have now completed the step "Connecting WinSCP to the S/4HANA Appliance's Li
 
 [Go Back Up to the List of Steps](#steps)
 
+### <a name="epmmdsinst"></a> Installing the SAP HANA EPM-MDS Plugin
 
-1. [Installing the SAP HANA EPM-MDS Plugin](#epmmdsinst)
+* On your Windows desktop enter the following into a Chrome browser window.
 
-https://vhcalhdbdb.dummy.nodomain:1129/lmsl/HDBLCM/HDB/index.html#
+```
+URL: https://vhcalhdbdb.dummy.nodomain:1129/lmsl/HDBLCM/HDB/index.html#
+
+User: hdbadm (a user with the necessary rights for HANA updates, installations, service restarts, etc.)
+Password: the main password you used when the S/4HANA trial appliance was created
+```
+
+
+
 
 
 * xxxxxxxxxxxxxxxxxx
