@@ -201,7 +201,15 @@ Password: the main password you used when the S/4HANA trial appliance was create
 
 * After several minutes you should see a screen like the one below.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst8.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst9.jpg">
+
+* If you now go back to the following URL, logging in as the HACKT28 user, you should see a full server info page.
+
+```
+https://vhcalhdbdb.dummy.nodomain:4302/sap/bc/ina/service/v2/GetServerInfo
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst9b.jpg">
 
 You have now completed the step "Installing the SAP HANA EPM-MDS Plugin".
 
