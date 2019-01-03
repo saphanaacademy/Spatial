@@ -37,7 +37,7 @@ The first step will be to download the EPM-MDS plugin which will facilitate a co
 ```
 URL: https://vhcalhdbdb.dummy.nodomain:4302/sap/bc/ina/service/v2/GetServerInfo
 
-Return: {"Messages":[{"Number":42001,"Type":2,"Text":"InformationAccess Service GetServerInfo is not available. Install the SAP HANA EPM-MDS plugin."}]}
+Returned: {"Messages":[{"Number":42001,"Type":2,"Text":"InformationAccess Service GetServerInfo is not available. Install the SAP HANA EPM-MDS plugin."}]}
 ```
 
 * To download the plugin go to [Support.SAP.com](https://launchpad.support.sap.com/#/softwarecenter/search/SAP%2520HANA%2520EPM-MDS) and then you should see results for SAP HANA EPM-MDS.
@@ -129,31 +129,7 @@ User Name: root
 
 If you are looking for info on how to set up the connection for a production environmnet then please consult [help.sap.com with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA)
 
-* On the Windows client of your S/4HANA system do a browser search for "apache http server download" and in the "Download - The Apache HTTP Server Project" result click on the Microsoft Windows link.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox01.jpg">
-
-* Choose the "Apache Lounge" as the distributor option for the binary installer. 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox02.jpg">
-
-* Choose the latest Win64 option to download.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox03.jpg">
-
-* Go to your downloads folder and extract the "httpd-2..." archive to a folder of "d:\apache" with the "Show extracted files..." option.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox04.jpg">
-
-* In the "D:\apache\Apache24\conf" directory choose to open the "http.conf" file with Notepad.
-* Find the ServerRoot variable and change it so that it uses your install path, e.g. d:/apache/Apache24".
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox05.jpg">
-
-* You will need the external IP address of the Windows client machine that you are using for your Remote Desktop.
-* Go back to the http.conf file. Find the ServerName variable, and uncomment the line if necessary. Change the value to the external IP address you got from CAL.SAP.com.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/revprox06.jpg">
 
 ######
 
@@ -185,17 +161,12 @@ SET "CONFIGURATION" = ' {"cors":{
 WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 ```
 
-* moving certificates
-https://www.digicert.com/move-certificate-to-another-certificate-store.htm
-
 
 ######
 
 ```
 code block
 ```
-
-You have now completed the step "Setup of Reverse Proxy Server on the Windows Client".
 
 [Go Back Up to the List of Steps](#steps)
 
