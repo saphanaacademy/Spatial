@@ -35,9 +35,9 @@ The first step will involve configuring the WinSCP that was downloaded and insta
 
 
 ////////////////////////////////////////////
-/
-/ OLD Section
-/
+///
+///  OLD Section
+///
 ///////////////////////////////////////////
 
 
