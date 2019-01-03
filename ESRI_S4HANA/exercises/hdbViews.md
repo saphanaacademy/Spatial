@@ -130,9 +130,9 @@ select * from "HACKT28"."SV_ZXSHCSLSORDITFSZ_HDBGEOZIPCODECENTROID";
 
 You have now completed the step "######" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
 
-Your next task is to create a Connection, Models and a Story in SAP Analytics Cloud
+Your next task is to s
 
-[Go to Task 6: Creation of Connection and Models and Story in SAP Analytics Cloud](sacAnalytics.md)
+[Go to Task 6: Setup of HANA for Resource Sharing](hdbCORS.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
