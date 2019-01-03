@@ -55,6 +55,8 @@ Note that the appliance Windows machine includes a configured Eclipse IDE with t
 
 * You will need to [download and install WinSCP](https://winscp.net/eng/download.php) on the Windows Remote client. This will be used in the process of adding an additional component to your HANA system.
 
+* The pem file that was created and saved when the S/4HANA trial solution was created should be copied and saved to the Documents folder in the Windows Desktop client.
+
 [Go Back Up to the List of Steps](#steps)
 
 ## <a name="sac"></a> Getting an SAP Analytics Cloud (SAC) System
