@@ -199,7 +199,7 @@ Password: the main password you used when the S/4HANA trial appliance was create
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst8.jpg">
 
-* After several minutes you should see a screen like the one below.
+* After several minutes you should see a screen like the one below. This installation was successful and all of the HANA services have been restarted.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst9.jpg">
 
