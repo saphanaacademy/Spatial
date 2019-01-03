@@ -139,7 +139,7 @@ Owner: hdbadm [####]
 Check "Set group, owner and permissions recursively". 
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp9a.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp9b.jpg">
 
 
 Note that there are of course other ways to get components over to your HANA system and extract them. This was hopefully the easiest way given your trial appliance environment.
