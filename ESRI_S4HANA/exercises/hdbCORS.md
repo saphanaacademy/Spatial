@@ -1,6 +1,6 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
-<tr><td><h3>Setup of HANA for Resource Sharing</h3></td><td width=60%></br>&nbsp;Task #6, WinSCP and Eclipse IDE
+<tr><td><h3>Setup of the SAP HANA System for Resource Sharing</h3></td><td width=60%></br>&nbsp;Task #6, WinSCP and Eclipse IDE
 </table>
 
 ## Description
