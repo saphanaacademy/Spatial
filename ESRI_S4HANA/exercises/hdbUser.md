@@ -109,8 +109,6 @@ GRANT IMPORT TO HACKT28;
 GRANT CONTENT_ADMIN TO HACKT28;
 GRANT MODELING TO HACKT28;
 
-INSERT INTO _SYS_REPO.PACKAGE_CATALOG(PACKAGE_ID, SRC_SYSTEM, SRC_TENANT, DESCRIPTION, RESPONSIBLE, IS_STRUCTURAL) 
-	VALUES ('HACKT28','HDB','','HACKT28','HACKT28',0);
 GRANT EXECUTE ON REPOSITORY_REST TO HACKT28;
 GRANT EXECUTE ON GRANT_ACTIVATED_ROLE TO HACKT28;
 GRANT EXECUTE ON REVOKE_ACTIVATED_ROLE TO HACKT28;
@@ -124,9 +122,11 @@ CALL "GRANT_ACTIVATED_ROLE"('sap.bc.ina.service.v2.userRole::INA_USER', 'HACKT28
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2a.jpg">
 
-* Note that the CALL to the GRANT_ACTIVATED_ROLE procedure which adds an important role for this exercise. This call will assign a role to the HACKT28 user to use a live connection from the SAP Analytics Cloud to the SAP HANA database. This role is required in addition to the usual roles and authorizations that are granted to users for data access purposes.
+* You now have created a development user, HACKT28 with a password that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. 
 
-You now have created a development user, HACKT28 with a password that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. Note the other options that we granted the new user including the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. We also created a development package for the new user and granted the necessary rights to the repository to the user.
+* The other options that you granted the new user include the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. You also granted the necessary rights to the repository to the user.
+
+* Note that the CALL to the GRANT_ACTIVATED_ROLE procedure. This call will assign a role to the HACKT28 user to use a live connection from the SAP Analytics Cloud to the SAP HANA database. This role is required in addition to the usual roles and authorizations that are granted to users for data access purposes.
 
 As previously mentioned, please go to [help.sap.com](https://help.sap.com/viewer/search?q=SAP%20HANA%20Security%20Guide) and search in "SAP HANA Security Guide" for more information on these topics. 
 
