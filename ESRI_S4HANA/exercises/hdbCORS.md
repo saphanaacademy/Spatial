@@ -1,11 +1,11 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
-<tr><td><h3>Creation of Connection and Models and Story in SAP Analytics Cloud</h3></td><td width=60%></br>&nbsp;Task #6, WinSCP, Eclipse IDE, & SAP Analytics Cloud</p></td></tr>
+<tr><td><h3>Setup of HANA for Resource Sharing</h3></td><td width=60%></br>&nbsp;Task #6, WinSCP, Eclipse IDE, & SAP Analytics Cloud</p></td></tr>
 </table>
 
 ## Description
 
-In the next steps you will set up a connection between your SAP HANA database and the SAP Analytics Cloud. Afterwards you will work in SAC to create analytics based on live data from that connection.
+In the next steps you will configure SAP so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
 <img src="../images/######.jpg">
 
