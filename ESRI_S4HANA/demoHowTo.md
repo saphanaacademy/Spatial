@@ -73,7 +73,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of HANA Calculation Views on Integrated Data](exercises/hdbViews.md)
 
-6. XXXXXX
+6. The SAP HANA system must be configured so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. An additional component will be installed on HANA and then Cross Origin Resource Sharing will be configured.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 6: Setup of HANA for Resource Sharing](exercises/hdbCORS.md)
 
