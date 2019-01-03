@@ -132,7 +132,7 @@ You have now completed the step "######" and are done with the whole task of "Cr
 
 Your next task is to configure the SAP HANA system so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
-[Go to Task 6: Setup of HANA for Resource Sharing](hdbCORS.md)
+[Go to Task 6: Setup of the SAP HANA System for Resource Sharing](hdbCORS.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
