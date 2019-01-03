@@ -122,7 +122,7 @@ GRANT REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_
 CALL "GRANT_ACTIVATED_ROLE"('sap.bc.ina.service.v2.userRole::INA_USER', 'HACKT28');	
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2a.jpg">
 
 * Note that the CALL to the GRANT_ACTIVATED_ROLE procedure which adds an important role for this exercise. This call will assign a role to the HACKT28 user to use a live connection from the SAP Analytics Cloud to the SAP HANA database. This role is required in addition to the usual roles and authorizations that are granted to users for data access purposes.
 
