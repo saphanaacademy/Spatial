@@ -31,6 +31,14 @@ You have now completed the step "XXXXX".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp1.jpg">
 
+######
+
+* port 443 (& optional 44301) must be opened in firewall
+
+To open a port in the Windows firewall for TCP access
+On the Start menu, click Run, type WF.msc, and then click OK.
+In the Windows Firewall with Advanced Security, in the left pane, right-click Inbound Rules, and then click New Rulein the action pane (upper right corner).
+
 
 You have now completed the step "######" and are done with the whole task of "Creation of Connection and Models and Story in SAP Analytics Cloud". You have also completed the entire exercise...congratulations!
 
