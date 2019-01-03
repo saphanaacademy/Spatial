@@ -24,12 +24,26 @@ A connection must be made between your SAP HANA database and the SAP Analytics C
 Once the connection between SAC & HANA is established a Model, including a Location Dimension, will be created in SAC as well as a Story which will feature a map.
 
 1. [Downloading the SAP HANA EPM-MDS Plugin](#epmmds)
+1. [Installing the SAP HANA EPM-MDS Plugin](#epmmds)
 1. [Connecting WinSCP to the S/4HANA Appliance's Linux File System](#winscp)
 1. [######](#   )
 
 ### <a name="epmmds"></a> Downloading the SAP HANA EPM-MDS Plugin
 
 The first step will be to download the EPM-MDS plugin which will facilitate a connection between the SAP Analytics Cloud and SAP HANA Calculation Views. At this time (January 3rd 2019 at 06:56 AM PST) and as per [this SAP KBA](https://apps.support.sap.com/sap/support/knowledge/public/en/2536153) this plugin is not installed by default on HANA 2.0.
+
+* To first check to verify thta the EPM-MDS plugin is not installed, open the url below in your Windows desktop client and log in as your HACKT28 user. You assigned this user the rights for this in an earlier lesson.
+
+```
+https://vhcalhdbdb.dummy.nodomain:4302/sap/bc/ina/service/v2/GetServerInfo
+```
+
+* You should get this message. 
+
+```
+{"Messages":[{"Number":42001,"Type":2,"Text":"InformationAccess Service GetServerInfo is not available. Install the SAP HANA EPM-MDS plugin."}]}
+```
+
 
 * To download the plugin go to [Support.SAP.com](https://launchpad.support.sap.com/#/softwarecenter/search/SAP%2520HANA%2520EPM-MDS) and then you should see results for SAP HANA EPM-MDS.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds1.jpg">
