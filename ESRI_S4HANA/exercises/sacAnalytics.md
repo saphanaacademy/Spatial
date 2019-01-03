@@ -11,7 +11,7 @@ In the next steps you will set up a connection between your SAP HANA database an
 
 ## Prerequisites
 
-You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 6: Setup of HANA for Resource Sharing](hdbCORS.md) using WinSCP and the Eclipse IDE.
+You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 6: Setup of the SAP HANA System for Resource Sharing](hdbCORS.md) using WinSCP and the Eclipse IDE.
 
 ## <a name="steps"></a> Steps
 
