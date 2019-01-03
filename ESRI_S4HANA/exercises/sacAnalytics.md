@@ -64,7 +64,7 @@ User Name: root
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp7.jpg">
 
-* Press the "Login" button and you should see a warning about connecting to an unknown server. Press Yes to ignore the error.
+* Press the "Login" button and then press "Yes" to ignore any warning about connecting to an unknown server.
 * Enter the password you used earlier and then press OK. You should now be connected to the file system of the Linux machine hosting your S/4HANA system.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp8.jpg">
