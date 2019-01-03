@@ -41,20 +41,19 @@ User Name: root
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp2.jpg">
 
-* Press the browse button for the "Private key file".
+* Press the browse button for the "Private key file" and navigate to where you stored your pem file in the Prerequisites.
+* In the file type select "All Private Key Files".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp3.jpg">
 
-* In the file type select "All Private Key Files".
-* Browse to where you stored your pem file in the Prerequisites, select it, and press Open.
+* Select your pem file and press Open.
+* Press OK to convert the Open SSH Private Key to a Putty (ppk) format.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp4.jpg">
 
-* Press OK to convert the Open SSH Private Key to a Putty (ppk) format.
+* For the Password enter the main password that you used when you created your appliance in CAL.SAP.com and press OK.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp5.jpg"> 
-
-* For the Password enter the main password that you used when you created your appliance in CAL.SAP.com and press OK.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp6.jpg">
 
