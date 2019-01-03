@@ -127,6 +127,20 @@ SELECT version FROM m_database;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds5.jpg">
 
 * Drag the entire SAP_HANA_EPM-MDS folder over to the "tmp" folder. 
+* Right click on the folder in the "usr > tmp" directory and choose properties.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp8.jpg">
+
+* Ensure that you change the properties similar to the following.
+```
+Group: sapsys [####]
+Owner: hdbadm [####]
+
+Check "Set group, owner and permissions recursively". 
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp9.jpg">
+
 
 Note that there are of course other ways to get components over to your HANA system and extract them. This was hopefully the easiest way given your trial appliance environment.
 
