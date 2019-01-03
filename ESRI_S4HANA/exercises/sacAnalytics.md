@@ -47,11 +47,21 @@ SELECT version FROM m_database;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds3.jpg">
 
+* Download the appropriate plugin version and ensure that the file (.sar) is in the same directory where you created your "SAPCAR_e.BAT" file. This was done when you worked on the Smart Data Access workflows.
+* Double click on the .sar file and you should have an extracted folder in your "sapcar_out" folder.
 
-   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds4.jpg">
+
+* Go back to your WinSCP tool and then navigate in the left panel to where you extracted your .sar file. Navigate in the right panel to the "<root> > usr > var" folder (you may need to go up one folder first) where you might see some other HANA addons or updates.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds5.jpg">
+
+* Drag the folder over. Note that there are of course other ways to get components over to your HANA system and extract them...this will hopefully be the easiest way given your trial appliance environment.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds1.jpg">
+	
+
+
 
 ### <a name="winscp"></a> Connecting WinSCP to the S/4HANA Appliance's Linux File System
 
