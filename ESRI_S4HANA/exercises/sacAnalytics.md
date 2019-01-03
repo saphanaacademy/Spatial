@@ -60,10 +60,10 @@ User Name: root
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp6.jpg">
 
 * You should get a successful message. Press the OK button to close this message and then press the OK button to close the Advanced Site settings dialogue.
+* In the main WinSCP dialogue press the Save button and then the OK button to accept the default name.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp7.jpg">
 
-* In the main WinSCP dialogue press the Save button and then the OK button to accept the default name.
 * Press the "Login" button and you should see a warning about connecting to an unknown server. Press Yes to ignore the error.
 * Enter the password you used earlier and then press OK. You should now be connected to the file system of the Linux machine hosting your S/4HANA system.
 
