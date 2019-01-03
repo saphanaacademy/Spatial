@@ -32,7 +32,26 @@ Once the connection between SAC & HANA is established a Model, including a Locat
 The first step will be to download the EPM-MDS plugin which will facilitate a connection between the SAP Analytics Cloud and SAP HANA Calculation Views. At this time (January 3rd 2019 at 06:56 AM PST) and as per [this SAP KBA](https://apps.support.sap.com/sap/support/knowledge/public/en/2536153) this plugin is not installed by default on HANA 2.0.
 
 * To download the plugin go to [Support.SAP.com](https://launchpad.support.sap.com/#/softwarecenter/search/SAP%2520HANA%2520EPM-MDS) and then you should see results for SAP HANA EPM-MDS.
-* Select SAP HANA EPM-MDS 1.0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds1.jpg">
+
+* Select SAP HANA EPM-MDS 1.0 and you should see a cornucopia of download options. In this case you do not want to download the latest release as they are geared to a specific release of HANA.
+* To get your HANA version, one way is to open up a SQL Console as your HACKT28 user and run the following SQL code.
+
+```
+SELECT version FROM m_database;
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds2.jpg">
+
+* Using the example above the plugin should be for HANA 2.0 Rev 32.0.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds3.jpg">
+
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds1.jpg">
 
 ### <a name="winscp"></a> Connecting WinSCP to the S/4HANA Appliance's Linux File System
 
