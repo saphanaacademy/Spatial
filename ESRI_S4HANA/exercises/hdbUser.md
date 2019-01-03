@@ -118,6 +118,9 @@ GRANT REPO.EDIT_IMPORTED_OBJECTS, REPO.ACTIVATE_IMPORTED_OBJECTS, REPO.MAINTAIN_
 	ON "HACKT28" TO HACKT28;
 	
 CALL "GRANT_ACTIVATED_ROLE"('sap.bc.ina.service.v2.userRole::INA_USER', 'HACKT28');	
+
+CALL "GRANT_ACTIVATED_ROLE"('sap.hana.xs.admin.roles::RuntimeConfAdministrator', 'HACKT28'); 
+CALL "GRANT_ACTIVATED_ROLE"('sap.hana.xs.admin.roles::SAMLViewer', 'HACKT28');
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2a.jpg">
@@ -126,9 +129,11 @@ CALL "GRANT_ACTIVATED_ROLE"('sap.bc.ina.service.v2.userRole::INA_USER', 'HACKT28
 
 * The other options that you granted the new user include the ability to create Remote Sources and administer Adapters. These are important for making the connection between the S/4HANA system and the HANA database. The user can also do modeling tasks as well as create other content. You also granted the necessary rights to the repository to the user which are needed for saving and activating Calculation Views.
 
-* Note that the CALL to the GRANT_ACTIVATED_ROLE procedure. This call will assign a role to the HACKT28 user to use a live connection from the SAP Analytics Cloud to the SAP HANA database. This role is required in addition to the usual roles and authorizations that are granted to users for data access purposes.
+* Note the CALL to the GRANT_ACTIVATED_ROLE procedures. The first "INA_USER" call will assign a role to the HACKT28 user to use a live connection from the SAP Analytics Cloud to the SAP HANA database. This role is required in addition to the usual roles and authorizations that are granted to users for data access purposes.
 
-As previously mentioned, please go to [help.sap.com](https://help.sap.com/viewer/search?q=SAP%20HANA%20Security%20Guide) and search in "SAP HANA Security Guide" for more information on these topics. 
+* The other CALLs are so that the HACKT28 user can access a web based admin tool and make changes to the HANA Info Access (InA) service. Cross Origin Resource Sharing (CORS) changes need to be done so that the SAP Analytics Cloud has access to HANA resources such as Calculation Views. This is covered further in Task 6: Setup of the SAP HANA System for Resource Sharing.
+
+As previously mentioned, please go to [help.sap.com](https://help.sap.com/viewer/search?q=SAP%20HANA%20Security%20Guide) and search in "SAP HANA Security Guide" for more information on user security topics. 
 
 You have now completed the step "Creating the Development User with a Script".
 
