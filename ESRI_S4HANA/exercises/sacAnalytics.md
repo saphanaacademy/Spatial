@@ -27,18 +27,57 @@ Once the connection between SAC & HANA is established a Model, including a Locat
 
 The first step will involve configuring the WinSCP that was downloaded and installed in the Prerequisite section.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp1.jpg">
+
+in winscp dialogue
+	host name: vhcalhdbdb.dummy.nodomain
+	user name: root
+press advanced button
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp2.jpg">
+
+press authentication
+press the browse button in the private key file
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp3.jpg">
+
+in the file type select All Private Key Files
+browse to where you stored your pem file, select it, and press Open.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp4.jpg">
+
+press OK to convert the open ssh private key to a putty format.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp5.jpg"> 
+
+for the password enter the main password that you used when you created your appliance in cal.
+press OK
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp6.jpg">
+
+press the save button to save the ppk file to the same directory as your original pem file.
+you should get a succesful message. press the ok button to close this message.
+press the OK button on the advanced site settings dialogue.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp7.jpg">
+
+in the main winscp dialogue press the save button the OK button to accept the default name.
+press the login button and you should see a warning about connecting to an unknown server.
+press Yes to ignore the error.
+
+enter the password you used earlier and then press OK
+you should now be connected to the linux machine running your s4hana application.
 
 
 
 
 
 
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xx
-xx   OLD Section
-xx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+* xxxxxxxxxxxxxxxxxx
+*
+* OLD Section
+*
+* xxxxxxxxxxxxxxxxxx
 
 If you are looking for info on how to set up the connection for a production environmnet then please consult [help.sap.com with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA)
 
