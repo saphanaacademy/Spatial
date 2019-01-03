@@ -27,7 +27,7 @@ Once the connection between SAC & HANA is established a Model, including a Locat
 1. [Downloading the SAP HANA EPM-MDS Plugin](#epmmds)
 1. [Connecting WinSCP to the S/4HANA Appliance's Linux File System](#winscp)
 1. [Installing the SAP HANA EPM-MDS Plugin](#epmmdsinst)
-1. [Configuring Cross Origin Resource Sharing aka CORS](#cors)
+1. [Configuring Cross Origin Resource Sharing, CORS](#cors)
 
 ### <a name="epmmdstest"></a> Checking to see if the SAP HANA EPM-MDS Plugin is Already Installed
 
@@ -199,6 +199,16 @@ Password: the main password you used when the S/4HANA trial appliance was create
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst8.jpg">
 
+* After several minutes you should see a screen like the one below.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmdsinst8.jpg">
+
+You have now completed the step "Installing the SAP HANA EPM-MDS Plugin".
+
+[Go Back Up to the List of Steps](#steps)
+
+
+### <a name="cors"></a> Configuring Cross Origin Resource Sharing, CORS
 
 
 * xxxxxxxxxxxxxxxxxx
