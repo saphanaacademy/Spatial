@@ -124,7 +124,7 @@ CALL "GRANT_ACTIVATED_ROLE"('sap.bc.ina.service.v2.userRole::INA_USER', 'HACKT28
 
 * You now have created a development user, HACKT28 with a password that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. 
 
-* The other options that you granted the new user include the ability to create Remote Sources and administer adapters. The user can also do modeling tasks as well as create other content. You also granted the necessary rights to the repository to the user.
+* The other options that you granted the new user include the ability to create Remote Sources and administer Adapters. These are important for making the connection between the S/4HANA system and the HANA database. The user can also do modeling tasks as well as create other content. You also granted the necessary rights to the repository to the user which are needed for saving and activating Calculation Views.
 
 * Note that the CALL to the GRANT_ACTIVATED_ROLE procedure. This call will assign a role to the HACKT28 user to use a live connection from the SAP Analytics Cloud to the SAP HANA database. This role is required in addition to the usual roles and authorizations that are granted to users for data access purposes.
 
