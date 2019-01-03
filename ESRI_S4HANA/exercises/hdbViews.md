@@ -130,7 +130,7 @@ select * from "HACKT28"."SV_ZXSHCSLSORDITFSZ_HDBGEOZIPCODECENTROID";
 
 You have now completed the step "######" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
 
-Your next task is to s
+Your next task is to configure the SAP HANA system so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
 [Go to Task 6: Setup of HANA for Resource Sharing](hdbCORS.md)
 
