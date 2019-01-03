@@ -24,8 +24,8 @@ A connection must be made between your SAP HANA database and the SAP Analytics C
 Once the connection between SAC & HANA is established a Model, including a Location Dimension, will be created in SAC as well as a Story which will feature a map.
 
 1. [Downloading the SAP HANA EPM-MDS Plugin](#epmmds)
-1. [Installing the SAP HANA EPM-MDS Plugin](#epmmds)
 1. [Connecting WinSCP to the S/4HANA Appliance's Linux File System](#winscp)
+1. [Installing the SAP HANA EPM-MDS Plugin](#epmmdsinst)
 1. [######](#   )
 
 ### <a name="epmmds"></a> Downloading the SAP HANA EPM-MDS Plugin
@@ -61,16 +61,17 @@ SELECT version FROM m_database;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds4.jpg">
 
-* Go back to your WinSCP tool and then navigate in the left panel to where you extracted your .sar file. Navigate in the right panel to the "<root> > usr > var" folder (you may need to go up one folder first) where you might see some other HANA addons or updates.
+* Go back to your WinSCP tool and then navigate in the left panel to where you extracted your .sar file. Navigate in the right panel to the "<root> > usr > tmp" folder (you may need to go up one folder first) where you might see some other HANA addons or updates.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds5.jpg">
 
-* Drag the folder over. Note that there are of course other ways to get components over to your HANA system and extract them...this will hopefully be the easiest way given your trial appliance environment.
+* Drag the entire SAP_HANA_EPM-MDS folder over to the "tmp" folder. 
 
+Note that there are of course other ways to get components over to your HANA system and extract them. This was hopefully the easiest way given your trial appliance environment.
 
-	
+You have now completed the step "Downloading the SAP HANA EPM-MDS Plugin".
 
-
+[Go Back Up to the List of Steps](#steps)
 
 ### <a name="winscp"></a> Connecting WinSCP to the S/4HANA Appliance's Linux File System
 
@@ -118,7 +119,14 @@ User Name: root
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp8.jpg">
 
+You have now completed the step "Connecting WinSCP to the S/4HANA Appliance's Linux File System".
 
+[Go Back Up to the List of Steps](#steps)
+
+
+1. [Installing the SAP HANA EPM-MDS Plugin](#epmmdsinst)
+
+https://vhcalhdbdb.dummy.nodomain:1129/lmsl/HDBLCM/HDB/index.html#
 
 
 * xxxxxxxxxxxxxxxxxx
@@ -168,7 +176,7 @@ WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 code block
 ```
 
-[Go Back Up to the List of Steps](#steps)
+
 
 You have now completed the step "######" and are done with the whole task of "Creation of Connection and Models and Story in SAP Analytics Cloud". You have also completed the entire exercise...congratulations!
 
