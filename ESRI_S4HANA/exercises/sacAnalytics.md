@@ -37,10 +37,10 @@ User Name: root
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp1.jpg">
 
 * Press the "Advanced" button.
+* Click on "Authentication".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp2.jpg">
 
-* Click on "Authentication".
 * Press the browse button for the Private Key file.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp3.jpg">
