@@ -122,7 +122,7 @@ SELECT version FROM m_database;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds4.jpg">
 
-* Go back to your WinSCP tool and then navigate in the left panel to where you extracted your .sar file. Navigate in the right panel to the "<root> > usr > tmp" folder (you may need to go up one folder first) where you might see some other HANA addons or updates.
+* Go back to your WinSCP tool and then navigate in the left panel to where you extracted your .sar file. Navigate in the right panel to the "root > usr > tmp" folder (you may need to go up one folder first) where you might see some other HANA addons or updates.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds5.jpg">
 
