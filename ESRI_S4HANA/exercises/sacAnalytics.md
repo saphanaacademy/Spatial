@@ -23,16 +23,17 @@ A connection must be made between your SAP HANA database and the SAP Analytics C
 
 Once the connection between SAC & HANA is established a Model, including a Location Dimension, will be created in SAC as well as a Story which will feature a map.
 
+1. [Checking to see if the SAP HANA EPM-MDS Plugin is Already Installed](#epmmdstest)
 1. [Downloading the SAP HANA EPM-MDS Plugin](#epmmds)
 1. [Connecting WinSCP to the S/4HANA Appliance's Linux File System](#winscp)
 1. [Installing the SAP HANA EPM-MDS Plugin](#epmmdsinst)
 1. [######](#   )
 
-### <a name="epmmds"></a> Downloading the SAP HANA EPM-MDS Plugin
+### <a name="epmmdstest"></a> Checking to see if the SAP HANA EPM-MDS Plugin is Already Installed
 
-The first step will be to download the EPM-MDS plugin which will facilitate a connection between the SAP Analytics Cloud and SAP HANA Calculation Views. At this time (January 3rd 2019 at 06:56 AM PST) and as per [this SAP KBA](https://apps.support.sap.com/sap/support/knowledge/public/en/2536153) this plugin is not installed by default on HANA 2.0.
+In this exercise, you will most likely need to download the EPM-MDS plugin which will facilitate a connection between the SAP Analytics Cloud and SAP HANA Calculation Views. At this time (January 3rd 2019 at 06:56 AM PST) and as per [this SAP KBA](https://apps.support.sap.com/sap/support/knowledge/public/en/2536153) this plugin is not installed by default on HANA 2.0.
 
-* To first check to verify thta the EPM-MDS plugin is not installed, open the url below in your Windows desktop client and log in as your HACKT28 user. You assigned this user the rights for this in an earlier lesson.
+To first check to verify thta the EPM-MDS plugin is not installed, open the url below in your Windows desktop client and log in as your HACKT28 user. You assigned this user the rights for this in an earlier lesson.
 
 ```
 URL: https://vhcalhdbdb.dummy.nodomain:4302/sap/bc/ina/service/v2/GetServerInfo
@@ -40,38 +41,10 @@ URL: https://vhcalhdbdb.dummy.nodomain:4302/sap/bc/ina/service/v2/GetServerInfo
 Returned: {"Messages":[{"Number":42001,"Type":2,"Text":"InformationAccess Service GetServerInfo is not available. Install the SAP HANA EPM-MDS plugin."}]}
 ```
 
-* To download the plugin go to [Support.SAP.com](https://launchpad.support.sap.com/#/softwarecenter/search/SAP%2520HANA%2520EPM-MDS) and then you should see results for SAP HANA EPM-MDS.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds1.jpg">
-
-* Select SAP HANA EPM-MDS 1.0 and you should see a cornucopia of download options. In this case you do not want to download the latest release as they are geared to a specific release of HANA.
-* To get your HANA version, one way is to open up a SQL Console as your HACKT28 user and run the following SQL code.
-
-```
-SELECT version FROM m_database;
-```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds2.jpg">
-
-* Using the example above the plugin should be for HANA 2.0 Rev 32.0.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds3.jpg">
-
-* Download the appropriate plugin version and ensure that the file (.sar) is in the same directory where you created your "SAPCAR_e.BAT" file. This was done when you worked on the Smart Data Access workflows.
-* Double click on the .sar file and you should have an extracted folder in your "sapcar_out" folder.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds4.jpg">
-
-* Go back to your WinSCP tool and then navigate in the left panel to where you extracted your .sar file. Navigate in the right panel to the "<root> > usr > tmp" folder (you may need to go up one folder first) where you might see some other HANA addons or updates.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds5.jpg">
-
-* Drag the entire SAP_HANA_EPM-MDS folder over to the "tmp" folder. 
-
-Note that there are of course other ways to get components over to your HANA system and extract them. This was hopefully the easiest way given your trial appliance environment.
-
-You have now completed the step "Downloading the SAP HANA EPM-MDS Plugin".
-
-[Go Back Up to the List of Steps](#steps)
+If the above message is not returned and you do in fact get a whole bunch of server info back then please proceed to the
+* XXXXXXXXXXX
+* XXXXXXXXXX
+* XXXXXXXXXXX
 
 ### <a name="winscp"></a> Connecting WinSCP to the S/4HANA Appliance's Linux File System
 
@@ -122,6 +95,47 @@ User Name: root
 You have now completed the step "Connecting WinSCP to the S/4HANA Appliance's Linux File System".
 
 [Go Back Up to the List of Steps](#steps)
+
+### <a name="epmmds"></a> Downloading the SAP HANA EPM-MDS Plugin
+
+The next step will be to download the EPM-MDS plugin which, as mentioned earlier, will facilitate a connection between the SAP Analytics Cloud and SAP HANA Calculation Views. 
+
+
+
+* To download the plugin go to [Support.SAP.com](https://launchpad.support.sap.com/#/softwarecenter/search/SAP%2520HANA%2520EPM-MDS) and then you should see results for SAP HANA EPM-MDS.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds1.jpg">
+
+* Select SAP HANA EPM-MDS 1.0 and you should see a cornucopia of download options. In this case you do not want to download the latest release as they are geared to a specific release of HANA.
+* To get your HANA version, one way is to open up a SQL Console as your HACKT28 user and run the following SQL code.
+
+```
+SELECT version FROM m_database;
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds2.jpg">
+
+* Using the example above the plugin should be for HANA 2.0 Rev 32.0.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds3.jpg">
+
+* Download the appropriate plugin version and ensure that the file (.sar) is in the same directory where you created your "SAPCAR_e.BAT" file. This was done when you worked on the Smart Data Access workflows.
+* Double click on the .sar file and you should have an extracted folder in your "sapcar_out" folder.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds4.jpg">
+
+* Go back to your WinSCP tool and then navigate in the left panel to where you extracted your .sar file. Navigate in the right panel to the "<root> > usr > tmp" folder (you may need to go up one folder first) where you might see some other HANA addons or updates.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds5.jpg">
+
+* Drag the entire SAP_HANA_EPM-MDS folder over to the "tmp" folder. 
+
+Note that there are of course other ways to get components over to your HANA system and extract them. This was hopefully the easiest way given your trial appliance environment.
+
+You have now completed the step "Downloading the SAP HANA EPM-MDS Plugin".
+
+[Go Back Up to the List of Steps](#steps)
+
+
 
 ### <a name="epmmdsinst"></a> Installing the SAP HANA EPM-MDS Plugin
 
