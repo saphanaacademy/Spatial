@@ -15,7 +15,9 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## Warnings
 
-During the installation process for the SAP HANA EPM-MDS plugin your HANA system will be stopped and started automatically.
+During the installation process for the SAP HANA EPM-MDS plugin your HANA system will be stopped and started automatically. 
+
+This exercise is aimed at users who will connect their SAP Analytics Cloud tenant to an S/4HANA trial appliance. If you are a HANA administrator setting up a connection to a production system then please consult [help.sap.com with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA)
 
 ## <a name="steps"></a> Steps
 
@@ -217,27 +219,6 @@ You have now completed the step "Installing the SAP HANA EPM-MDS Plugin".
 
 
 ### <a name="cors"></a> Configuring Cross Origin Resource Sharing, CORS
-
-
-* xxxxxxxxxxxxxxxxxx
-*
-* OLD Section
-*
-* xxxxxxxxxxxxxxxxxx
-
-If you are looking for info on how to set up the connection for a production environmnet then please consult [help.sap.com with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA)
-
-
-
-######
-
-* port 443 (& optional 44301) must be opened in firewall
-
-To open a port in the Windows firewall for TCP access
-On the Start menu, click Run, type WF.msc, and then click OK.
-In the Windows Firewall with Advanced Security, in the left pane, right-click Inbound Rules, and then click New Rulein the action pane (upper right corner).
-
-
 
 * ina config...if necessary???
 
