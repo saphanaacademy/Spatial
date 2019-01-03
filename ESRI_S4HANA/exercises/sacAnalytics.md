@@ -34,14 +34,11 @@ The first step will involve configuring the WinSCP that was downloaded and insta
 
 
 
-////////////////////////////////////////////
-///
-///  OLD Section
-///
-///////////////////////////////////////////
-
-
-
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xx
+xx   OLD Section
+xx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 If you are looking for info on how to set up the connection for a production environmnet then please consult [help.sap.com with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA)
 
