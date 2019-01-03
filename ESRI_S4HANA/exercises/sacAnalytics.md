@@ -141,8 +141,9 @@ Check "Set group, owner and permissions recursively".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp9b.jpg">
 
+* Press OK to close the Properties dialogue.
 
-Note that there are of course other ways to get components over to your HANA system and extract them. This was hopefully the easiest way given your trial appliance environment.
+Note that there are of course other ways to get components and updates over to your HANA system and extract them. This was hopefully the easiest way given that you are using an S/4HANA trial appliance environment.
 
 You have now completed the step "Downloading the SAP HANA EPM-MDS Plugin".
 
