@@ -55,9 +55,10 @@ User Name: root
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp5.jpg"> 
 
+* Press the Save button to save the ppk file to the same directory as your original pem file.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp6.jpg">
 
-* Press the Save button to save the ppk file to the same directory as your original pem file.
 * You should get a successful message. Press the OK button to close this message and then press the OK button to close the Advanced Site settings dialogue.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp7.jpg">
