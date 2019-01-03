@@ -30,8 +30,8 @@ The first step will involve configuring the WinSCP that was downloaded and insta
 * Open up WinSCP and enter the following information into the main dialogue.
 
 ``
-Host Name: vhcalhdbdb.dummy.nodomain
-/User Name: root
+Host Name: vhcalhdbdb.dummy.nodomain\
+User Name: root
 ``
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp1.jpg">
