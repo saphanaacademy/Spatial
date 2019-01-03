@@ -5,7 +5,7 @@
 
 ## Description
 
-In the next steps you will configure SAP so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
+In the next steps you will configure the SAP HANA system so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
 <img src="../images/######.jpg">
 
@@ -21,7 +21,7 @@ During the installation process for the SAP HANA EPM-MDS plugin your HANA system
 
 A connection must be made between your SAP HANA database and the SAP Analytics Cloud. In order to establish the sharing of objects from HANA with SAC, you must do so with either [CORS (Cross-Origin Resource Sharing) or via a reverse proxy.](https://blogs.sap.com/2017/12/29/creating-sap-analytics-cloud-live-connection-to-sap-hana-database-on-sap-cloud-platform/) In this exercise you will set up CORS and then later a "Direct" connection will be used in SAC.
 
-Once the connection between SAC & HANA is established a Model, including a Location Dimension, will be created in SAC as well as a Story which will feature a map.
+An additional component will be installed on HANA and then Cross Origin Resource Sharing will be configured.
 
 1. [Checking to see if the SAP HANA EPM-MDS Plugin is Already Installed](#epmmdstest)
 1. [Downloading the SAP HANA EPM-MDS Plugin](#epmmds)
