@@ -79,5 +79,5 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 7. XXXXXX
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 7: Creation of Models and Story in SAP Analytics Cloud](exercises/sacAnalytics.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 7: Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud](exercises/sacAnalytics.md)
 
