@@ -53,7 +53,7 @@ You have now completed the step "Checking to see if the SAP HANA EPM-MDS Plugin 
 
 ### <a name="winscp"></a> Connecting WinSCP to the S/4HANA Appliance's Linux File System
 
-This step will involve using WinSCP which was downloaded and installed in the Prerequisite section. It will be used to transfer the EPM-MDS plugin from the Windows desktop client to the S/4HANA machine's file system.
+This step will involve using WinSCP which was downloaded and installed in the [Prerequisites](../exercises/preReqs.md). It will be used to transfer the EPM-MDS plugin from the Windows desktop client to the S/4HANA machine's file system.
 
 * Open up WinSCP and enter the following information into the main dialogue.
 
