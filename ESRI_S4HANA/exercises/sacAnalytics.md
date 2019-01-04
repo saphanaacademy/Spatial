@@ -1,6 +1,6 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
-<tr><td><h3>Creation of Models and Story in SAP Analytics Cloud</h3></td><td width=60%></br>&nbsp;Task #7, SAP Analytics Cloud</p></td></tr>
+<tr><td><h3>Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud</h3></td><td width=60%></br>&nbsp;Task #7, SAP Analytics Cloud</p></td></tr>
 </table>
 
 ## Description
@@ -17,11 +17,11 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 XXXXXX
 
-1. [XXXXXX](#epmmdstest)
+1. [XXXXXX](#xxxxxx)
 
-### <a name="epmmdstest"></a> Checking to see if the SAP HANA EPM-MDS Plugin is Already Installed
+### <a name="xxxxxx"></a> XXXXXX
 
-In this exercise, 
+In this exercise, you will create a Direct Connection between your HANA database and SAC. This is possible as in the last task you enabled Cross Origin Resource Sharing (CORS) in your HANA system.
 
 
 You have now completed the step "XXXXX". 
@@ -40,7 +40,9 @@ On the Start menu, click Run, type WF.msc, and then click OK.
 In the Windows Firewall with Advanced Security, in the left pane, right-click Inbound Rules, and then click New Rulein the action pane (upper right corner).
 
 
-You have now completed the step "######" and are done with the whole task of "Creation of Connection and Models and Story in SAP Analytics Cloud". You have also completed the entire exercise...congratulations!
+You have now completed the step "######" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". 
+
+You have also completed the entire exercise...congratulations!
 
 [Go Back to the Main Page](../demoHowTo.md)
 
