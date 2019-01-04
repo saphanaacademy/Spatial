@@ -17,19 +17,41 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 XXXXXX
 
-1. [XXXXXX](#xxxxxx)
+1. [Creating a Live Direct Data Connection to SAP HANA](#xxxxxx)
 
 ### <a name="xxxxxx"></a> XXXXXX
 
 In this exercise, you will create a Direct Connection between your HANA database and SAC. This is possible as in the last task you enabled Cross Origin Resource Sharing (CORS) in your HANA system.
 
+* Log into your SAP Analytics Cloud (SAC) tenant and press the "Main Menu" button and choose the "Connection" option.
 
-You have now completed the step "XXXXX". 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac01.jpg">
+
+* Add a new Connection choosing Live Data Connection > SAP HANA.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac02.jpg">
+
+* In the New Live Connection dialogue use the following info.
+
+```
+Connection Type: Direct
+Host: vhcalhdbdb.dummy.nodomain
+HTTPS Port: 4302
+Authentication Method: User Name and Password
+User Name: hackt28
+Password: the one that you gave to your HACKT28 user
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac03.jpg">
+
+* Press the OK button. You should get an error message to check your CORS settings or your credentials. Although these 
+
+You have now completed the step "Creating a Live Direct Data Connection to SAP HANA". 
 
 [Go Back Up to the List of Steps](#steps)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp1.jpg">
+
 
 ######
 
