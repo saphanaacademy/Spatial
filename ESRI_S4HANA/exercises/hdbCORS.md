@@ -17,7 +17,7 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 During the installation process for the SAP HANA EPM-MDS plugin your HANA system will be stopped and started automatically. 
 
-This exercise is aimed at users who will connect their SAP Analytics Cloud tenant to an S/4HANA trial appliance. If you are a HANA administrator setting up a connection to a production system then please consult [help.sap.com with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA)
+This exercise is aimed at users who will connect their SAP Analytics Cloud tenant to an S/4HANA trial appliance. If you are a HANA administrator setting up a connection to a production system then please consult [help.sap.com](https://help.sap.com/viewer/search?q=SAP%20Analytics%20Cloud%20Live%20Data%20Connections%20to%20SAP%20HANA) with a search on "SAP Analytics Cloud Live Data Connections to SAP HANA".
 
 ## <a name="steps"></a> Steps
 
