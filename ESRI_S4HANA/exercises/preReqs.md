@@ -13,7 +13,7 @@ You will need an S/4HANA system, access to the SAP Analytics Cloud, and some add
 
 ## More Help & FAQ
 
-For more info on using the S/4HANA trial and the SAP Cloud Appliance Library and completing this exercise, please see [this help page.](genHelp.md)
+For more info on using the S/4HANA trial and the SAP Cloud Appliance Library, and for more help while working on this exercise, please see [this help page.](genHelp.md)
 
 ## <a name="steps"></a> Steps
 
