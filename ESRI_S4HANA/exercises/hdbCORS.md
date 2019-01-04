@@ -107,7 +107,8 @@ The next step will be to download the EPM-MDS plugin which, as mentioned earlier
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds1.jpg">
 
 * Select SAP HANA EPM-MDS 1.0 and you should see a cornucopia of download options. In this case you do not want to download the latest release as they are geared to a specific release of HANA.
-* To get your HANA version, one way is to open up a SQL Console as your HACKT28 user and run the following SQL code.
+
+* To get your HANA version, one way is to go to your Eclipse IDE and in the SAP HANA Development Perspective open up a SQL Console as your HACKT28 user. Run the following SQL code.
 
 ```
 SELECT version FROM m_database;
@@ -220,11 +221,27 @@ You have now completed the step "Installing the SAP HANA EPM-MDS Plugin".
 
 ### <a name="cors"></a> Configuring Cross Origin Resource Sharing, CORS
 
-* ina config...if necessary???
+When the HACKT28 user was created certain rights were granted so that user can connect to an admin tool and make changes to the HANA Info Access (InA) service. Cross Origin Resource Sharing (CORS) changes need to be done so that the SAP Analytics Cloud has access to HANA resources such as Calculation Views.
 
-http://vhcalhdbdb.dummy.nodomain:8002/sap/hana/xs/admin/#/package/sap.bc.ina.service
+* Open the following URL in the Windows client browser and log in as the HACKT28 user. 
 
-* use sql console instead of above
+```
+URL: http://vhcalhdbdb.dummy.nodomain:8002/sap/hana/xs/admin/#/package/sap.bc.ina.service
+User: hackt28
+``
+
+* Click on CORS. Note that this has not been configured. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors1.jpg">
+
+* As there can be issues with this interface at times we will not be using this tool for this exercise but will be using a SQL Console instead. Please don't close this tool as you'll need to check it again in a bit.
+
+* If you want to find out more about setting up CORS using the web based tool please go to [help.SAP.com](https://help.sap.com/viewer/search?q=Live%20Data%20Connection%20to%20SAP%20HANA%20Using%20a%20Direct%20Connection%20and%20SSO) with a search on "Live Data Connection to SAP HANA Using a Direct Connection and SSO". 
+
+* Go to your Eclipse IDE and in the SAP HANA Development perspective open up a SQL Console for the HACKT28 user. Execute the following code.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXxxxx
+
 ```
 UPDATE "_SYS_XS"."RUNTIME_CONFIGURATION" 
 SET "CONFIGURATION" = ' {"cors":{
@@ -239,6 +256,14 @@ SET "CONFIGURATION" = ' {"cors":{
 	"maxAge":3600}}' 
 WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 ```
+
+* You should get a message stating that the CORS configuration was updated.
+
+* Go back to the web based admin tool you had opened earlier and click on the "Refresh All" button.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors2.jpg">
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXxxxx
 
 You have now completed the step "Configuring Cross Origin Resource Sharing, CORS" and are done with the whole task of "Setup of the SAP HANA System for Resource Sharing". 
 
