@@ -35,7 +35,7 @@ An additional component will be installed on HANA and then Cross Origin Resource
 
 In this exercise, you will most likely need to download the EPM-MDS plugin which will facilitate a connection between the SAP Analytics Cloud and SAP HANA Calculation Views. At this time (January 3rd 2019 at 06:56 AM PST) and as per [this SAP KBA](https://apps.support.sap.com/sap/support/knowledge/public/en/2536153) this plugin is not installed by default on HANA 2.0.
 
-To first check to verify thta the EPM-MDS plugin is not installed, open the url below in your Windows desktop client and log in as your HACKT28 user. You assigned this user the rights for this in an earlier lesson.
+To first check to verify thta the EPM-MDS plugin is not installed, go to your Windows desktop client, open the url below in Chrome, and log in as your HACKT28 user. You assigned HACKT28 the appropriate rights for this in an earlier lesson.
 
 ```
 URL: https://vhcalhdbdb.dummy.nodomain:4302/sap/bc/ina/service/v2/GetServerInfo
