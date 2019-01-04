@@ -7,7 +7,7 @@
 
 In the next steps you will configure the SAP HANA system so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
-<img src="../images/######.jpg">
+<img src="../images/cors3jpg">
 
 ## Prerequisites
 
@@ -240,16 +240,16 @@ User: hackt28
 
 * If you want to find out more about setting up CORS using the web based tool please go to [help.SAP.com](https://help.sap.com/viewer/search?q=Live%20Data%20Connection%20to%20SAP%20HANA%20Using%20a%20Direct%20Connection%20and%20SSO) with a search on "Live Data Connection to SAP HANA Using a Direct Connection and SSO". 
 
-* Go to your Eclipse IDE and in the SAP HANA Development perspective open up a SQL Console for the HACKT28 user. Execute the following code.
+* Go to your Eclipse IDE and in the SAP HANA Development perspective open up a SQL Console for the HACKT28 user. Copy in the code from the block below.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXxxxx
+* NOTE: You will need to change the "XXX.XXX" in "XXX.XXX.sapanalytics.cloud" to your SAC account and tenant location. After making the change Execute (F8) the code.
 
 ```
 UPDATE "_SYS_XS"."RUNTIME_CONFIGURATION" 
-SET "CONFIGURATION" = ' {
+SET "CONFIGURATION" = '{
 	"cors":{
 		"enabled":true,
-		"allowOrigin":["https://sha.us2.sapanalytics.cloud"],
+		"allowOrigin":["https://XXX.XXX.sapanalytics.cloud"],
 		"exposeHeaders":["x-csrf-token"],
 		"allowHeaders":["accept-language","x-sap-cid","x-request-with","x-csrf-token","content-type","authorization","accept"],
 		"allowMethods":["GET","HEAD","POST","OPTIONS"],
@@ -259,13 +259,15 @@ SET "CONFIGURATION" = ' {
 WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 ```
 
-* You should get a message stating that the CORS configuration was updated.
-
-* Go back to the web based admin tool you had opened earlier and click on the "Refresh All" button.
+* You should get a Statement that the CORS configuration was updated.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors2.jpg">
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXxxxx
+* Go back to the web based admin tool you had opened earlier and reload the page and click on CORS again. You should see that CORS is enabled and that the required headers and methods have been allowed.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors3.jpg">
+
+
 
 You have now completed the step "Configuring Cross Origin Resource Sharing, CORS" and are done with the whole task of "Setup of the SAP HANA System for Resource Sharing". 
 
