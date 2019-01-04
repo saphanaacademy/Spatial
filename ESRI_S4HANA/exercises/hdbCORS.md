@@ -43,9 +43,11 @@ URL: https://vhcalhdbdb.dummy.nodomain:4302/sap/bc/ina/service/v2/GetServerInfo
 Returned: {"Messages":[{"Number":42001,"Type":2,"Text":"InformationAccess Service GetServerInfo is not available. Install the SAP HANA EPM-MDS plugin."}]}
 ```
 
-You have now completed the step "Checking to see if the SAP HANA EPM-MDS Plugin is Already Installed". If you do get the above message returned then please proceed to the next step.
+If you get the above message returned then please proceed to the next step as you need to download and install the HANA EPM-MDS plugin.
 
-If the above message is not returned and you do in fact get a whole bunch of server info back then please proceed to the later step [Configuring Cross Origin Resource Sharing, CORS](#cors).
+If the above message is not returned, and you do in fact get a whole bunch of server info back, then please proceed to the later step [Configuring Cross Origin Resource Sharing, CORS](#cors).
+
+You have now completed the step "Checking to see if the SAP HANA EPM-MDS Plugin is Already Installed". 
 
 [Go Back Up to the List of Steps](#steps)
 
