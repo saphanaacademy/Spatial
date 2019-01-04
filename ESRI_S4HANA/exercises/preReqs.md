@@ -9,8 +9,6 @@ In the next steps you will set up your development environment for the exercise.
 
 You will need an S/4HANA system, access to the SAP Analytics Cloud, and some additional third-party products.
 
-For the HANA 'sidecar' there are two options depending on what you want to accomplish. The first option will be to emulate having a sidecar and just use the HANA database that is on the S/4HANA trial appliance. The second option will be to use a HANA database on SAP Cloud Platform. The latter option is of course more work and potentially more expensive.
-
 <img src="../images/cal1.jpg">  
 
 ## More Help & FAQ
