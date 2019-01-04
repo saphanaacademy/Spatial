@@ -273,7 +273,7 @@ You have now completed the step "Configuring Cross Origin Resource Sharing, CORS
 
 Your next task is to configure the SAP HANA system so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
-[Go to Task 7: Creation of Models and Story in SAP Analytics Cloud](sacAnalytics.md)
+[Go to Task 7: Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud](sacAnalytics.md)
 
 [Go Back to the Main Page](../demoHowTo.md)
 
