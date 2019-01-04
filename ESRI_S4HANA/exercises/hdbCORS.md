@@ -7,7 +7,7 @@
 
 In the next steps you will configure the SAP HANA system so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
-<img src="../images/cors3.jpg">
+<img src="../images/cors3a.jpg">
 
 ## Prerequisites
 
@@ -261,11 +261,11 @@ WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 
 * You should get a Statement that the CORS configuration was updated.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors2.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors2a.jpg">
 
 * Go back to the web based admin tool you had opened earlier and reload the page and click on CORS again. You should see that CORS is enabled and that the required headers and methods have been allowed.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors3.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors3a.jpg">
 
 
 
