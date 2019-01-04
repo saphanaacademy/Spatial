@@ -19,6 +19,8 @@ In this exercise the HANA database that is part of the S/4HANA appliance is util
 
 This exercise involves the use of different SAP products that require specific licenses in a non-trial scenario. Please contact your Account Executive or Partner Manager for any licensing information.
 
+There are costs associated with running the trial S/4HANA system and those will come from the landscape providers. More information is provided in the videos which are referenced below.
+
 ## More Help & FAQ
 
 For more info on using the S/4HANA trial and the SAP Cloud Appliance Library, and for more help while working on this exercise, please see [this help page.](genHelp.md)
