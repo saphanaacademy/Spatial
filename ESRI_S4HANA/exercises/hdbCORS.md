@@ -228,7 +228,7 @@ When the HACKT28 user was created certain rights were granted so that user can c
 ```
 URL: http://vhcalhdbdb.dummy.nodomain:8002/sap/hana/xs/admin/#/package/sap.bc.ina.service
 User: hackt28
-``
+```
 
 * Click on CORS. Note that this has not been configured. 
 
