@@ -234,7 +234,9 @@ User: hackt28
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors1.jpg">
 
-* As there can be issues with this interface at times we will not be using this tool for this exercise but will be using a SQL Console instead. Please don't close this tool as you'll need to check it again in a bit.
+* As there can be issues with this interface at times we will not be using this tool for this exercise but will be using a SQL Console instead. Please don't close this tool as you'll need to check it again in a bit. 
+
+* Please [this KBA](https://apps.support.sap.com/sap/support/knowledge/preview/en/2655556) if you want more information on the potential web based admin tool issue.
 
 * If you want to find out more about setting up CORS using the web based tool please go to [help.SAP.com](https://help.sap.com/viewer/search?q=Live%20Data%20Connection%20to%20SAP%20HANA%20Using%20a%20Direct%20Connection%20and%20SSO) with a search on "Live Data Connection to SAP HANA Using a Direct Connection and SSO". 
 
