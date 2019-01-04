@@ -15,7 +15,7 @@ You will need an S/4HANA system, access to the SAP Analytics Cloud, and some add
 
 This exercise should not be done on a production system. You will need to activate a trial S/4HANA System in CAL.SAP.com. 
 
-In this exercise the HANA database that is part of the S/4HANA appliance is utilized to emulate having a HANA 'sidecar' database. This is only done to make this exercise easier and more cost effective and is not a recommendation.
+In this exercise the HANA database that is part of the S/4HANA appliance is utilized to emulate a separate HANA database. This is only done to make this exercise easier and more cost effective and is not a recommendation.
 
 This exercise involves the use of different SAP products that require specific licenses in a non-trial scenario. Please contact your Account Executive or Partner Manager for any licensing information.
 
