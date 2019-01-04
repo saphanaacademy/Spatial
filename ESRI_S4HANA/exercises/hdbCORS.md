@@ -7,7 +7,7 @@
 
 In the next steps you will configure the SAP HANA system so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
-<img src="../images/cors3jpg">
+<img src="../images/cors3.jpg">
 
 ## Prerequisites
 
