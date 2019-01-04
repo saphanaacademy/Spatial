@@ -246,16 +246,16 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXxxxx
 
 ```
 UPDATE "_SYS_XS"."RUNTIME_CONFIGURATION" 
-SET "CONFIGURATION" = ' {"cors":{
-	"enabled":true,
-	"allowOrigin":["https://sha.us2.sapanalytics.cloud"],
-	"exposeHeaders":["x-csrf-token"],
-	"allowHeaders":["accept-language",
-	"x-sap-cid","x-request-with",
-	"x-csrf-token","content-type",
-	"authorization","accept"],
-	"allowMethods":["GET","HEAD","POST","OPTIONS"],
-	"maxAge":3600}}' 
+SET "CONFIGURATION" = ' {
+	"cors":{
+		"enabled":true,
+		"allowOrigin":["https://sha.us2.sapanalytics.cloud"],
+		"exposeHeaders":["x-csrf-token"],
+		"allowHeaders":["accept-language","x-sap-cid","x-request-with","x-csrf-token","content-type","authorization","accept"],
+		"allowMethods":["GET","HEAD","POST","OPTIONS"],
+		"maxAge":3600
+	}
+}' 
 WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 ```
 
