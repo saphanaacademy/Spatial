@@ -228,7 +228,7 @@ When the HACKT28 user was created certain rights were granted so that user can c
 * Open the following URL in the Windows client browser and log in as the HACKT28 user. 
 
 ```
-URL: http://vhcalhdbdb.dummy.nodomain:8002/sap/hana/xs/admin/#/package/sap.bc.ina.service
+URL: http://vhcalhdbdb.dummy.nodomain:8002/sap/hana/xs/admin/#/package/sap.bc.ina.service.v2
 User: hackt28
 ```
 
@@ -248,15 +248,13 @@ User: hackt28
 
 ```
 UPDATE "_SYS_XS"."RUNTIME_CONFIGURATION" 
-SET "CONFIGURATION" = '{
-	"cors":{
-		"enabled":true,
-		"allowOrigin":["https://XXX.XXX.sapanalytics.cloud"],
-		"exposeHeaders":["x-csrf-token"],
-		"allowHeaders":["accept-language","x-sap-cid","x-request-with","x-csrf-token","content-type","authorization","accept"],
-		"allowMethods":["GET","HEAD","POST","OPTIONS"],
-		"maxAge":3600
-	}
+SET "CONFIGURATION" = ' {"cors":{
+	"enabled":true,
+	"allowOrigin":["https://XXX.XXX.sapanalytics.cloud"],
+	"exposeHeaders":["x-csrf-token"],
+	"allowHeaders":["accept-language","x-sap-cid","x-request-with","x-csrf-token","content-type","authorization","accept"],
+	"allowMethods":["GET","HEAD","POST","OPTIONS"],
+	"maxAge":3600}
 }' 
 WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 ```
@@ -265,11 +263,9 @@ WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors2a.jpg">
 
-* Go back to the web based admin tool you had opened earlier and reload the page and click on CORS again. You should see that CORS is enabled and that the required headers and methods have been allowed.
+* Go back to the web based admin tool you had opened earlier and reload the page and click on CORS again. You might need to highlight the URL in your browser and press Enter to get the page to properly reload. You should see that CORS is enabled and that the required headers and methods have been allowed.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors3a.jpg">
-
-
 
 You have now completed the step "Configuring Cross Origin Resource Sharing, CORS" and are done with the whole task of "Setup of the SAP HANA System for Resource Sharing". 
 
