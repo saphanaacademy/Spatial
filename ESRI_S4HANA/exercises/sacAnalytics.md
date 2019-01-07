@@ -68,7 +68,9 @@ Password: the one that you gave to your HACKT28 user
 
 
 
-
+XXXXXX
+* ensure that ports 8002 and 4302 are open in cal
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac06.jpg">
 
 You have now completed the step "Creating a Live Direct Data Connection to SAP HANA". 
 
