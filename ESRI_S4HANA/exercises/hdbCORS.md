@@ -79,7 +79,7 @@ User Name: root
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp4.jpg">
 
-* For the Password enter the main password that you used when you created your appliance in CAL.SAP.com and press OK.
+* If you created a password for your .pem file when you created your appliance in CAL.SAP.com then enter that password and press OK.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/winscp5.jpg"> 
 
