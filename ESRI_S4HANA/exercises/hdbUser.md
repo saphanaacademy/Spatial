@@ -126,7 +126,7 @@ CALL "GRANT_ACTIVATED_ROLE"('sap.hana.xs.admin.roles::RuntimeConfAdministrator',
 CALL "GRANT_ACTIVATED_ROLE"('sap.hana.xs.admin.roles::SAMLViewer', 'HACKT28');
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2n.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2b.jpg">
 
 * You now have created a development user, HACKT28 with a password that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. You have created a development package for the HACKT28 user. Note that on some versions you may get a "Unique Constraint" error on the "Insert Into" statement regarding the package.
 
