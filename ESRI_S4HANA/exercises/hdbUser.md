@@ -96,7 +96,7 @@ As you are now connected to your HANA database you should also see your S/4HANA 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr1.jpg">
 
-* Paste in the following code into the new SQL Console. First change "XXXXXX" to the desired password and then press the Execute button or your F8 key. If you get a warning about running the code then click on Yes to continue.
+* Paste in the following code into the new SQL Console. First change "XXXXXX" to the desired password and then press the Execute button or your F8 key.
 
 ```
 CREATE USER HACKT28 PASSWORD XXXXXX;
@@ -128,7 +128,7 @@ CALL "GRANT_ACTIVATED_ROLE"('sap.hana.xs.admin.roles::SAMLViewer', 'HACKT28');
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbusr2b.jpg">
 
-* You now have created a development user, HACKT28 with a password that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. You have created a development package for the HACKT28 user. Note that on some versions you may get a "Unique Constraint" error on the "Insert Into" statement regarding the package.
+* You now have created a development user, HACKT28 with a password that doesn't expire or need to be changed when that user first logs on. We disabled the "password lifetime" as this is a demo user. You have created a development package for the HACKT28 user.
 
 * The other options that you granted the new user include the ability to create Remote Sources and administer Adapters. These are important for making the connection between the S/4HANA system and the HANA database. The user can also do modeling tasks as well as create other content. You also granted the necessary rights to the repository to the user which are needed for saving and activating Calculation Views.
 
