@@ -263,7 +263,7 @@ WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors2a.jpg">
 
-* Go back to the web based admin tool you had opened earlier and reload the page and click on CORS again. You might need to highlight the URL in your browser and press Enter to get the page to properly reload. You should see that CORS is enabled and that the required headers and methods have been allowed.
+* Go back to the web based admin tool you had opened earlier and reload the page and click on CORS again. You might need to wait a minute or two and then highlight the URL in your browser and press Enter to get the see the updated CORS configuration information. You should see that CORS is enabled and that the required headers and methods have been allowed.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors3a.jpg">
 
