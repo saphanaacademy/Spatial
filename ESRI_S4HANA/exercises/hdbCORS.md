@@ -242,8 +242,6 @@ User: hackt28
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors1b_reset.jpg">
 
-* If you want to find out more about setting up CORS using the web based tool please go to [help.SAP.com](https://help.sap.com/viewer/search?q=Live%20Data%20Connection%20to%20SAP%20HANA%20Using%20a%20Direct%20Connection%20and%20SSO) with a search on "Live Data Connection to SAP HANA Using a Direct Connection and SSO". 
-
 * Go to your Eclipse IDE and in the SAP HANA Development perspective open up a SQL Console for the HACKT28 user. Copy in the code from the block below.
 
 * NOTE: You will need to change the "XXX.XXX" in "XXX.XXX.sapanalytics.cloud" to your SAC account and tenant location. After making the change Execute (F8) the code.
@@ -268,6 +266,8 @@ WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 * Go back to the web based admin tool you had opened earlier and reload the page and click on CORS again. You might need to wait a minute or two and then highlight the URL in your browser and press Enter to get the see the updated CORS configuration information. You should see that CORS is enabled and that the required headers and methods have been allowed.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors3a.jpg">
+
+* If you want to find out more about setting up CORS using the web based tool please go to [help.SAP.com](https://help.sap.com/viewer/search?q=Live%20Data%20Connection%20to%20SAP%20HANA%20Using%20a%20Direct%20Connection%20and%20SSO) with a search on "Live Data Connection to SAP HANA Using a Direct Connection and SSO". 
 
 You have now completed the step "Configuring Cross Origin Resource Sharing, CORS" and are done with the whole task of "Setup of the SAP HANA System for Resource Sharing". 
 
