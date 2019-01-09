@@ -69,15 +69,19 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 4: Setup of Sample Spatial Data for the SAP HANA System](exercises/hdbData.md)
 
-5. New HANA Calculation Views will be built that combine the remote S/4HANA customer sales data with the local Census data. The views will also utilize HANA Spatial functionality. These views will be consumed in the SAP Analytics Cloud where one view is used in a map location hierarchy.
+5. WORK IN PROGRESS
+
+New HANA Calculation Views will be built that combine the remote S/4HANA customer sales data with the local Census data. The views will also utilize HANA Spatial functionality. These views will be consumed in the SAP Analytics Cloud where one view is used in a map location hierarchy.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of HANA Calculation Views on Integrated Data](exercises/hdbViews.md)
 
-6. The SAP HANA system must be configured so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. An additional component will be installed on HANA and then Cross Origin Resource Sharing will be configured.
+6. WORK IN PROGRESS  
+
+The SAP HANA system must be configured so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. An additional component will be installed on HANA and then Cross Origin Resource Sharing will be configured.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 6: Setup of the SAP HANA System for Resource Sharing](exercises/hdbCORS.md)
 
-7. XXXXXX
+7. WORK IN PROGRESS
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 7: Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud](exercises/sacAnalytics.md)
 
