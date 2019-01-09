@@ -263,11 +263,11 @@ WHERE "PACKAGE_ID" = 'sap.bc.ina.service.v2';
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors2a.jpg">
 
-* Go back to the web based admin tool you had opened earlier and reload the page and click on CORS again. You might need to wait a minute or two and then highlight the URL in your browser and press Enter to get the see the updated CORS configuration information. You should see that CORS is enabled and that the required headers and methods have been allowed.
+* Go back to the web based admin tool you had opened earlier and reload the page and click on CORS again. You should see that CORS is enabled and that the required headers and methods have been allowed.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors3a.jpg">
 
-* If you want to find out more about setting up CORS using the web based tool please go to [help.SAP.com](https://help.sap.com/viewer/search?q=Live%20Data%20Connection%20to%20SAP%20HANA%20Using%20a%20Direct%20Connection%20and%20SSO) with a search on "Live Data Connection to SAP HANA Using a Direct Connection and SSO". 
+* If you want to find out more about setting up CORS and using the web based tool please go to [help.SAP.com](https://help.sap.com/viewer/search?q=Live%20Data%20Connection%20to%20SAP%20HANA%20Using%20a%20Direct%20Connection%20and%20SSO) with a search on "Live Data Connection to SAP HANA Using a Direct Connection and SSO". 
 
 You have now completed the step "Configuring Cross Origin Resource Sharing, CORS" and are done with the whole task of "Setup of the SAP HANA System for Resource Sharing". 
 
