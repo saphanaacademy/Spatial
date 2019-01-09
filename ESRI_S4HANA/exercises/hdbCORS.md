@@ -234,13 +234,13 @@ User: hackt28
 
 * Click on CORS. Note that this has not been configured. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors1.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors1a.jpg">
 
 * As there can be issues with this interface at times we will not be using this tool for this exercise but will be using a SQL Console instead. 
 
 * Before moving on to the next step, press the Reset button in the lower right of this admin page and then press the OK button. Please don't close this tool yet as you'll want to check it again in a bit. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors1a.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/cors1b_reset.jpg">
 
 * Please see [this KBA](https://apps.support.sap.com/sap/support/knowledge/preview/en/2655556) if you want more information on the potential web based admin tool issue.
 
