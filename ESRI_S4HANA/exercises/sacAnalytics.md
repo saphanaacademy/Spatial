@@ -57,11 +57,10 @@ This step is only necessary if you get an error when trying to connect to your H
 * The help page mentions a certificate issue. If you are using an S/4HANA trial then it will have self-signed certificates and you've probably already seen some warnings whilst using some of the SAP HANA tools in Chrome. 
 * One additional issue (at the time that this exercise was written, January 4, 2019 at 1:56 PM, PST) is that you don't get an option to ignore the certificate warnings in the SAC connection like you do in the HANA web based tools you've been using.
 * Here are some things that you can do to try to resolve the issue:
-
-a) Update your Chrome browser by going to the "Customize and Control Chrome" menu (the 3 vertical dots in the top right) and choose Help > About Google Chrome.
-b) Press the Windows button in the lower left of your Windows Desktop client and type in "Internet Options". Go to the Security tab > Trusted Sites > Sites and make sure your host name is added: "https://vhcalhdbdb.dummy.nodomain" and retry the connection.
-c) Close Chrome and then go to the Windows button and type Run and then enter "chrome -–ignore-certificate-errors" and retry the connection.
-d) As a last resort (and this is only for those using a trial appliance) use a brute force method and reboot your entire S/4HANA trial system in CAL and retry the connection.
+  - Update your Chrome browser by going to the "Customize and Control Chrome" menu (the 3 vertical dots in the top right) and choose Help > About Google Chrome.
+  - Press the Windows button in the lower left of your Windows Desktop client and type in "Internet Options". Go to the Security tab > Trusted Sites > Sites and make sure your host name is added: "https://vhcalhdbdb.dummy.nodomain" and retry the connection.
+  - Close Chrome and then go to the Windows button and type Run and then enter "chrome -–ignore-certificate-errors" and retry the connection.
+  - As a last resort (and, please, this is only for those using a trial appliance) use a brute force method and reboot your entire S/4HANA trial system in CAL and retry the connection.
 
 
 You have now completed the step "Creating a Live Direct Data Connection to SAP HANA". 
