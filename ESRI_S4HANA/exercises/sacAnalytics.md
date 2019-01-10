@@ -17,10 +17,11 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 Now that the HANA resources (Calculation Views etc.) have been made available by setting up Cross Origin Resource Sharing (CORS) you can make a Connection in SAC to the HANA database on your trial system. This will be a "Direct" connection using the HACKT28 technical user and will be on live data. 
 
-Afterwards you will create a couple of models: one for the Location Dimension to be used in a map and one for the main analytics. After creating the models you can start designing your analytics.
+Afterwards you will create a model based on the combined S/4HANA and census data. A Location Dimension will also be added to the model so that a map can be added to your analytic story. 
 
 1. [Creating a Live Direct Data Connection to SAP HANA](#saccon)
 1. [Troubleshooting a Connection Error from SAC to HANA](#sacconts)
+1. [Creating a SAC Data Model with a Location Dimension](#sacmod)
 
 ### <a name="saccon"></a> Creating a Live Direct Data Connection to SAP HANA
 
@@ -71,14 +72,9 @@ You have now completed the step "Creating a Live Direct Data Connection to SAP H
 
 [Go Back Up to the List of Steps](#steps)
 
-######
+### <a name="sacmod"></a> Creating a SAC Data Model with a Location Dimension
 
-* port 443 (& optional 44301) must be opened in firewall
-
-To open a port in the Windows firewall for TCP access
-On the Start menu, click Run, type WF.msc, and then click OK.
-In the Windows Firewall with Advanced Security, in the left pane, right-click Inbound Rules, and then click New Rule in the action pane (upper right corner).
-
+* 
 
 You have now completed the step "######" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". 
 
