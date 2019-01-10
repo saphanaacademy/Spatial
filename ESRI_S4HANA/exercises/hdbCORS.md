@@ -118,11 +118,11 @@ SELECT version FROM m_database;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds2.jpg">
 
-* Using the example above the plugin should be for HANA 2.0 Rev 32.0.
+* Using the example above the plugin should be for HANA 2.0 Rev 32.0. Note that there may be several downloads (different releases) for your HANA Revision. You should be able to use the latest one as long as you match the version and revision of your HANA system.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds3.jpg">
 
-* Download the appropriate plugin version and ensure that the file (.sar) is in the same directory where you created your "SAPCAR_e.BAT" file. This was done when you worked on the Smart Data Access workflows.
+* Download the appropriate plugin version and ensure that the file (.sar) is in the same directory where you created your "SAPCAR_e.BAT" file. This batch file was used when you worked on the Smart Data Access workflows.
 * Double click on the .sar file and you should have an extracted folder in your "sapcar_out" folder.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/epmmds4.jpg">
