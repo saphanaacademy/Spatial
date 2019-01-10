@@ -250,7 +250,7 @@ User: hackt28
 UPDATE "_SYS_XS"."RUNTIME_CONFIGURATION" 
 SET "CONFIGURATION" = ' {"cors":{
 	"enabled":true,
-	"allowOrigin":["https://sha.us2.sapanalytics.cloud"],
+	"allowOrigin":["https://XXX.XXX.sapanalytics.cloud"],
 	"exposeHeaders":["x-csrf-token"],
 	"allowHeaders":["accept-language","x-sap-cid","x-request-with","x-csrf-token","content-type","authorization","accept"],
 	"allowMethods":["GET","HEAD","POST","OPTIONS"],
