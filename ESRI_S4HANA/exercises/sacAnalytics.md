@@ -68,13 +68,18 @@ This step is only necessary if you get an error when trying to connect to your H
   - Close Chrome and then go to the Windows button and type Run and then enter "chrome -–ignore-certificate-errors" and retry the connection.
   - As a last resort (and, please, this is only for those using a trial appliance) use a brute force method and reboot your entire S/4HANA trial system in CAL and retry the connection. This has worked as a last resort on 1709 & 1809 systems.
 
-You have now completed the step "Creating a Live Direct Data Connection to SAP HANA". 
 
 [Go Back Up to the List of Steps](#steps)
 
 ### <a name="sacmod"></a> Creating a SAC Data Model with a Location Dimension
 
 * 
+
+You have now completed the step "Creating a Live Direct Data Connection to SAP HANA". 
+
+### <a name="######"></a> ######
+
+
 
 You have now completed the step "######" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". 
 
