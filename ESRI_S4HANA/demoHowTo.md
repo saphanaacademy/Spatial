@@ -17,7 +17,7 @@ In this exercise / demo, you’ll learn how to integrate S/4HANA (on-premise) an
 * Virtual Tables of the S/4HANA CDS views are created
 * In HANA the virtual tables from the S/4HANA data are combined with spatial tables in calculation views for consumption
 
-<img src="images/s4HpEsriDemoArch.jpg">  
+<img src="images/s4HpEsriDemoArcha.jpg">  
 
 
 ## Target group
