@@ -15,7 +15,9 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## <a name="steps"></a> Steps
 
-XXXXXX
+Now that the HANA resources (Calculation Views etc.) have been made available by setting up Cross Origin Resource Sharing (CORS) you can make a Connection in SAC to the HANA database on your trial system. This will be a "Direct" connection using the HACKT28 technical user and will be on live data. 
+
+Afterwards you will create a couple of models: one for the Location Dimension to be used in a map and one for the main analytics. After creating the models you can start designing your analytics.
 
 1. [Creating a Live Direct Data Connection to SAP HANA](#saccon)
 1. [Troubleshooting a Connection Error from SAC to HANA](#sacconts)
