@@ -17,17 +17,14 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 XXXXXX
 
-1. [Creating a Live Direct Data Connection to SAP HANA](#xxxxxx)
+1. [Creating a Live Direct Data Connection to SAP HANA](#saccon)
+1. [Troubleshooting a Connection Error from SAC to HANA](#sacconts)
 
-### <a name="xxxxxx"></a> XXXXXX
+### <a name="saccon"></a> Creating a Live Direct Data Connection to SAP HANA
 
 In this exercise, you will create a Direct Connection between your HANA database and SAC. This is possible as in the last task you enabled Cross Origin Resource Sharing (CORS) in your HANA system.
 
-* First you will need to get the external IP address for your SAP S/4HANA & SAP HANA DB in your trial appliance.
-* Log into [CAL.SAP.com](https://cal.sap.com) > go to Instances > click on your S/4HANA trial appliance > click on "Info".
-* To get the external IP address you'll probably have to click on "More" and find "SAP S/4HANA...External IP Address".
-
-* Log into your SAP Analytics Cloud (SAC) tenant (using Chrome) and press the "Main Menu" button and choose the "Connection" option.
+* Log into your SAP Analytics Cloud (SAC) tenant (using Chrome as currently it's the only fully supported browser for SAC) and press the "Main Menu" button and choose the "Connection" option.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac01.jpg">
 
@@ -39,38 +36,34 @@ In this exercise, you will create a Direct Connection between your HANA database
 
 ```
 Connection Type: Direct
-Host: the External IP Address for your SAP S/4HANA 1809 & SAP HANA DB (from CAL.SAP.com > Instances > yours > Info > IP Addresses)
+Host: vhcalhdbdb.dummy.nodomain
 HTTPS Port: 4302
 Authentication Method: User Name and Password
 User Name: hackt28
 Password: the one that you gave to your HACKT28 user
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac03.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac03a.jpg">
 
-* Press the OK button. You should get an error message to check your CORS settings or your credentials. There is a link to open up a "Troubleshoot" page.
+* Press the OK button. You might get an error message to check your CORS settings or an error mentiong SSL or your credentials. If you do see an error and have entered the correct info into the connection dialogue then please go to the next step. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac04.jpg">
 
-* The help page mentions a certificate issue. If you are using an S/4HANA trial then it will have self-signed certificates and you've seen some warnings whilst using some of the SAP HANA tools in Chrome. The issue here (at the time that this exercise was written, January 4, 2019 at 1:56 PM, PST) is that you don't get an option to ignore the certificate warnings in the SAC connection.
-* Without closing the New Live HANA Connection dialogue, open up a new tab in Chrome. 
-* In the new tab put in the URL for getting the server info that you used before but substitute vhcalhdbdb.dummy.nodomain for the external IP address from your S/4HANA machine.
+### <a name="sacconts"></a> Troubleshooting a Connection Error from SAC to HANA
 
-```
-URL: https://###.###.###.###:4302/sap/bc/ina/service/v2/GetServerInfo
-Name: hackt28
-Password: the one that you gave to your HACKT28 user
-```
+This step is only necessary if you get an error when trying to connect to your HANA system from SAC. Please note that after a lot of testing, the later releases of the S/4HANA trial (e.g. >= 1809 U32) seem to have less connection issues than previous versions such as the 1709 versions.
 
-* You should see a "Your connection is not private" warning. Click the "Advanced" button and then click on the "Proceed to..." link.
-* There will be a "Not Secure" warning in the top left of the page. Click on that warning.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac04.jpg">
+* In the error that you got, there is a link to open up a "Troubleshoot" page.
+* The help page mentions a certificate issue. If you are using an S/4HANA trial then it will have self-signed certificates and you've probably already seen some warnings whilst using some of the SAP HANA tools in Chrome. 
+* One additional issue (at the time that this exercise was written, January 4, 2019 at 1:56 PM, PST) is that you don't get an option to ignore the certificate warnings in the SAC connection like you do in the HANA web based tools you've been using.
+* Here are some things that you can do to try to resolve the issue:
 
+a. Press the Windows button in the lower left of your Windows Desktop client and type in "Internet Options". Go to the Security tab > Trusted Sites > Sites and make sure your host name is added: "https://vhcalhdbdb.dummy.nodomain" and retry the connection.
+a. Close Chrome and then go to the Windows button and type Run and then enter "chrome -–ignore-certificate-errors" and retry the connection.
+a. Reboot your entire S/4HANA trial system in CAL and retry the connection.
 
 
-XXXXXX
-* ensure that ports 8002 and 4302 are open in cal
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac06.jpg">
+
 
 You have now completed the step "Creating a Live Direct Data Connection to SAP HANA". 
 
