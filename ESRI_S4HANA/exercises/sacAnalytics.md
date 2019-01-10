@@ -7,7 +7,7 @@
 
 In the next steps you will set up a connection between your SAP HANA database and the SAP Analytics Cloud. Afterwards you will work in SAC to create analytics based on live data from that connection.
 
-<img src="../images/######.jpg">
+<img src="../images/s4HpEsriDemoSAC01.jpg">
 
 ## Prerequisites
 
