@@ -3,7 +3,15 @@
 <tr><td><h3>Creation of HANA Calculation Views on Integrated Data</h3></td><td width=60%></br>&nbsp;Task #5, Using Eclipse IDE, HANA Development Perspective</p></td></tr>
 </table>
 
+
+## *****************************************
+
 ## NOTE > THIS TASK IS A WORK IN PROGRESS
+
+## *****************************************
+
+
+
 
 ## Description
 
