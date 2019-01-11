@@ -3,6 +3,8 @@
 <tr><td><h3>Creation of HANA Calculation Views on Integrated Data</h3></td><td width=60%></br>&nbsp;Task #5, Using Eclipse IDE, HANA Development Perspective</p></td></tr>
 </table>
 
+## NOTE > THIS TASK IS A WORK IN PROGRESS
+
 ## Description
 
 In the next steps you will two new Calculation Views. One view will combine the S/4HANA customer sales data with the Census data and will be used to build out a story in the SAP Analytics Cloud. The second view will be used in a location hierarchy for a location map.  
