@@ -3,22 +3,15 @@
 <tr><td><h3>Creation of HANA Calculation Views on Integrated Data</h3></td><td width=60%></br>&nbsp;Task #5, Using Eclipse IDE, HANA Development Perspective</p></td></tr>
 </table>
 
-
-
-
 ## *****************************************
 
 ## NOTE > THIS TASK IS A WORK IN PROGRESS
 
 ## *****************************************
 
-
-
-
-
 ## Description
 
-In the next steps you will two new Calculation Views. One view will combine the S/4HANA customer sales data with the Census data and will be used to build out a story in the SAP Analytics Cloud. The second view will be used in a location hierarchy for a location map.  
+When using a live Connection to HANA from the SAP Analytics Cloud, Calculation Views will be used for the data semantic layer. It is best to create any aggregation and formulae at this database level in order to have the best performance. When a map is required in a Story in SAC, an additional Calculation View will be created to act as a geographical hierarchy. 
 
 <img src="../images/######.jpg">
 
@@ -28,118 +21,36 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## Steps
 
-######
+In the next steps you will two new Calculation Views. One view will combine the S/4HANA customer sales data with the Census data and will be used to build out a story in the SAP Analytics Cloud. The second view will be used in a location hierarchy for a map. These views will share a common location ID and in the case of this example, the Address ID from the S/4HANA customer data.
 
-1. [######](#######)
-
-
-### <a name="######"></a> ######
-
-```
--- run as HACKT28 to create 3 sql views
-
--- these sql views will be accessed later in the calculation views
--- we're using sql views as we need to modify a postal code field from s4hana
--- this postal code is used in joins in the calculation views and therefore is modified beforehand
-
----------------
---
--- sql view SV_ZXSHCCUSTOMERGEO
---
----------------
-
-CREATE VIEW "HACKT28"."SV_ZXSHCCUSTOMERGEO" AS 
-select
-	 T0."LHCUSTOMER",
-	 T0."LHADDRESSID",
-	 T0."LHADDRESSTIMEZONE",
-	 T0."LHCITYNAME",
-	 T0."LHDISTRICT",
-	 T0."LHREGION",
-	 T0."LHCOUNTY",
-	 T0."LHCOUNTRY",
-	 case when instr(T0."LHPOSTALCODE", '-') > 0 
-		then left(T0."LHPOSTALCODE", instr(T0."LHPOSTALCODE", '-')-1) 
-		else T0."LHPOSTALCODE" 
-	 	end as LHPOSTALCODE 
-from "HACKT28"."VT_RS_Abap_S4H_ZXSHCCUSTOMERGEO" T0;
-
-select * from "HACKT28"."SV_ZXSHCCUSTOMERGEO";
-
-You have now completed the step "######".
-
-[Go Back Up to the List of Steps](#steps)
+1. [Creation of a Location Dimension View](#cvLocDim)
 
 
----------------
---
--- sql view SV_ZXSHCSLSORDITFSZ
---
----------------
+### <a name="cvLocDim"></a> Creation of a Location Dimension View
 
-CREATE VIEW "HACKT28"."SV_ZXSHCSLSORDITFSZ" AS 
-select
-	 "T0"."MANDT" ,
-	 "T0"."CUSTOMER" ,
-	 "T0"."CUSTOMERNAME" ,
-	 "T0"."SALESORDER" ,
-	 "T0"."REQUESTEDDELIVERYDATE" ,
-	 "T0"."SALESORDERITEM" ,
-	 "T0"."SALESORDERITEMTEXT" ,
-	 "T0"."NETAMOUNT" ,
-	 "T0"."TRANSACTIONCURRENCY" ,
-	 "T0"."REQUESTEDQUANTITY" ,
-	 "T0"."ADDRESSID" ,
-	 "T0"."ADDRESSTIMEZONE" ,
-	 "T0"."CITYNAME" ,
-	 "T0"."DISTRICT" ,
-	 "T0"."REGION" ,
-	 "T0"."COUNTY" ,
-	 "T0"."POSTALCODE" ,
-	 case when instr(T0."POSTALCODE", '-') > 0 
-		then left(T0."POSTALCODE", instr(T0."POSTALCODE", '-')-1) 
-		else T0."POSTALCODE" 
-	 	end as POSTALCODELINK 
-from "HACKT28"."VT_RS_Abap_S4H_ZXSHCSLSORDITFSZ" T0;
+The first Calculation View that you will create will be fairly simple but is a necessary step to have a map in SAC. This view will bring in data via the ZXSH_C_CUSTOMERGEO ABAP CDS view that was built earlier on.
 
-select * from "HACKT28"."SV_ZXSHCSLSORDITFSZ";
+* In your HACKT28 connection to your HANA system right click on the Content Folder and choose New > Package.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview01.jpg">
+
+* The new package must be named SAP_BOC_SPATIAL as this is the folder that will be searched when creating a Location Dimension later on in SAC.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview02.jpg">
+
+* Right click on the new spatial package and choose New (the 2nd New) > Calculation View.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview03.jpg">
+
+* Enter "CV_S4H_CUSTOMERLOCATION" as the name and change the "Data Category" to Dimension. Press Finish.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview04.jpg">
+
+* JOIN object...
+
+* Open up the Catalog folder of your HACKT28 system connection, open up Tables, and drag the virtual table "VT_RS_Abap_S4H_ZXSHCSLSORDITFSZ..." over to your new view's Projection dialogue.
 
 
----------------
---
--- sql view SV_ZXSHCSLSORDITFSZ_HDBGEOZIPCODECENTROID
---
----------------
-
-CREATE VIEW "HACKT28"."SV_ZXSHCSLSORDITFSZ_HDBGEOZIPCODECENTROID" AS 
-select
-	 "T0"."MANDT" ,
-	 "T0"."CUSTOMER" ,
-	 "T0"."CUSTOMERNAME" ,
-	 "T0"."SALESORDER" ,
-	 "T0"."REQUESTEDDELIVERYDATE" ,
-	 "T0"."SALESORDERITEM" ,
-	 "T0"."SALESORDERITEMTEXT" ,
-	 "T0"."NETAMOUNT" ,
-	 "T0"."TRANSACTIONCURRENCY" ,
-	 "T0"."REQUESTEDQUANTITY" ,
-	 "T0"."ADDRESSID" ,
-	 "T0"."ADDRESSTIMEZONE" ,
-	 "T0"."CITYNAME" ,
-	 "T0"."DISTRICT" ,
-	 "T0"."REGION" ,
-	 "T0"."COUNTY" ,
-	 "T0"."POSTALCODE" ,
-	 "T0"."POSTALCODELINK" ,
-	 "T1"."ZIPCODE" ,
-	 "T1"."ZIPCENTROID" ,
-	 "T1"."ZIPCENTROID3857" 
-from "HACKT28"."SV_ZXSHCSLSORDITFSZ" T0 
-left outer join "HACKT28"."GEOZIPCODECENTROID" T1 
-	on T0."POSTALCODELINK" = T1."ZIPCODE";
-
-select * from "HACKT28"."SV_ZXSHCSLSORDITFSZ_HDBGEOZIPCODECENTROID";
-```
 
 You have now completed the step "######" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
 
