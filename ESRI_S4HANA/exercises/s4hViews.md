@@ -53,6 +53,9 @@ In order to create the CDS views we need to add a user based ABAP project to the
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclproj01.jpg">
 
+* If you get a "Problem Occurred" error then press OK to ignore it. If you had already opened your SAP GUI (via the SAP Logon application on your Windows Desktop client) then you probably would not see this.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sapgui1.jpg">
 
 * You will see the connection info for your S/4HANA system. 
 
