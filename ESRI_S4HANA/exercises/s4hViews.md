@@ -48,7 +48,6 @@ In order to create the CDS views we need to add a user based ABAP project to the
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclpers04.jpg">
 
-
 * If you are using the trial appliance you should see an existing project for the BPINST user. Right click on that project and choose Duplicate. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclproj01.jpg">
@@ -61,11 +60,9 @@ In order to create the CDS views we need to add a user based ABAP project to the
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclproj02.jpg">
 
-
 * Click on Next and you will see a dialogue to enter in user info. Don't enter anything right now as you will want to get a user for sales data on your S/4HANA system
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclproj03.jpg">
-
 
 * If you are using the trial appliance then you will have existing demo users available for different scenarios. On your Windows client desktop you should see a shortcut for a Welcome page. If you don't see this shortcut, copy the following link into a new browser tab on your Windows client.
 
@@ -79,11 +76,9 @@ file:///C:/ProgramData/WelcomePage/Welcome.html
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/s4hwelcusr.jpg">
 
-
 * Enter the demo user info and then press Finish. You are now ready to create ABAP CDS views in your S/4HANA system.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclproj04.jpg">
-
 
 * If you are not using the S/4HANA trial system, then you will need to have a user that has the following roles. Note that the Business Roles for the S/4HANA technical user (S4H_SD_DEM) include:
 
@@ -93,9 +88,7 @@ file:///C:/ProgramData/WelcomePage/Welcome.html
 
 You have now completed the step "Making an ABAP Project as a User With Access to Customer Sales".
 
-
 [Go Back Up to the List of Steps](#steps)
-
 
 ### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
 
@@ -108,15 +101,13 @@ The first CDS view that needs to be created will include sales amounts by custom
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds00.jpg">
 
 
-* Right click on the S4H_SD_DEM folder and choose New > Other ABAP Repository Object. Note that on later or updated Eclipse IDE's (i.e. with a later version of the ABAP development tools) the menu item might be named "ABAP Repsitory Object".
+* Right click on the S4H_SD_DEM folder and choose New > Other ABAP Repository Object.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds01.jpg">
-
 
 * In the Core Data Services folder select Data Definition and then press Next.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds02.jpg">
-
 
 * In the Data Definition dialogue, enter the following information. Afterwards press Finish.
 
@@ -126,7 +117,6 @@ Description = Public Consumption View, Z Copy Sales Order Item
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds03.jpg">
-
 
 * Replace the default code in the view editor with the following code.
 	
