@@ -29,7 +29,7 @@ You will need to use the HANA Development Perspective in Eclipse as the HACKT28 
 
 There are two tables of sample data that will be imported into your HANA system. One table is a US Census table and the other table will be used to perform a simple geocoding of the customer addresses from the S/4HANA system. The geocoding in this case is approximating the location using the centroid of its zipcode approximation so it is useful from a "how to" / demo perspective but not for accuracy. If you are interested in more information on geocoding please go to [help.sap.com] and search on "geocode".(https://help.sap.com/viewer/search?q=geocode)
 
-* Copy the [link address for the sample data download from here](https://goo.gl/k9ydJV) and download the .zip file and extract the contents.
+* Copy [this address for the sample data](https://goo.gl/k9ydJV) and download the .zip file and extract the contents.
 
 * Go to Eclipse > SAP HANA Development perspective > and right click on the HACKT28 schema in your HACKT28 user's connection. Choose "Import".
 
