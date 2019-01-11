@@ -3,6 +3,12 @@
 <tr><td><h3>Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud</h3></td><td width=60%></br>&nbsp;Task #7, SAP Analytics Cloud</p></td></tr>
 </table>
 
+## *****************************************
+
+## NOTE > THIS TASK IS A WORK IN PROGRESS
+
+## *****************************************
+
 ## Description
 
 In the next steps you will set up a connection between your SAP HANA database and the SAP Analytics Cloud. Afterwards you will work in SAC to create analytics based on live data from that connection.
