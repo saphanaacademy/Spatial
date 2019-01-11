@@ -100,7 +100,6 @@ The first CDS view that needs to be created will include sales amounts by custom
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds00.jpg">
 
-
 * Right click on the S4H_SD_DEM folder and choose New > Other ABAP Repository Object.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds01.jpg">
@@ -118,7 +117,7 @@ Description = Public Consumption View, Z Copy Sales Order Item
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds03.jpg">
 
-* Replace the default code in the view editor with the following code. 
+* Replace the default code in the view editor with the following code. As mentioned this view will return customer info as well as product sales info and location data. Note that this location data is not geo-coded with longitude & latitude data. This will be handled later in the SAP HANA database.
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
