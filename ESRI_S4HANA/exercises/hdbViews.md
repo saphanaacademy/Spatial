@@ -63,7 +63,8 @@ The first Calculation View that you will create will be fairly simple but is a n
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview08.jpg">
 
-
+* need to alter table for joins to s4 data
+###### alter table "HACKT28"."GEOCODE" alter (ZIPCODE NVARCHAR(20)); ######
 
 You have now completed the step "######" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
 
