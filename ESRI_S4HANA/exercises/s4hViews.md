@@ -62,7 +62,7 @@ In order to create the CDS views we need to add a user based ABAP project to the
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclproj02.jpg">
 
 
-* Click on Next and you will see a dialogue to enter in user info.
+* Click on Next and you will see a dialogue to enter in user info. Don't enter anything right now as you will want to get a user for sales data on your S/4HANA system
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclproj03.jpg">
 
