@@ -118,7 +118,7 @@ Description = Public Consumption View, Z Copy Sales Order Item
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds03.jpg">
 
-* Replace the default code in the view editor with the following code.
+* Replace the default code in the view editor with the following code. 
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
@@ -153,20 +153,21 @@ left outer join I_Address
 }
 ```
 
+* Look at the "define view" code and note that this CDS View is joining 3 existing CDS Views. If you are familiar with ABAP CDS then you might be familiar with using "associations" as opposed to joins. Joins were chosen in this case as a new virtual data model is not being built from the basic level views up; instead a new custom or "Z" view is built using existing S/4HANA views. Note that it is not recommended to alter existing ABAP CDS views. Please see the reference to the HANA++ Academy videos on CDS should you wish to learn how to build your own virtual data model or your own ABAP CDS views.
+
+* Also note the line / annotation for 'clent handling' in the top block of code that deals with the overall view semantics. This is an important annotation so that the proper client session is used; in cases where existing views are used to create custom "Z" views if this annotation is not used then an empty record set may be returned in the data.
+
 * Now press the Activate button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04a.jpg">
-
 
 * Your new CDS view should now be ready to use. Highlight the CDS view name.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04b1.jpg">
 
-
 * Right click on the CDS view name and choose Open With > Data Preview.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04c.jpg">
-
 
 * Now you should see a record set returned similar to the following.
 
@@ -182,7 +183,6 @@ You have now completed the setp "Creation of CDS View with Customer Sales, Produ
 The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. 
 
 <img src="../images/eclcds05.jpg">
-
 
 * Use the same method as above to create a new CDS view Data Definition. In the dialogue enter the following information and press Finish.
 
