@@ -108,7 +108,7 @@ The first CDS view that needs to be created will include sales amounts by custom
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds00.jpg">
 
 
-* Right click on the S4H_SD_DEM folder and choose New > Other ABAP Repository Object.
+* Right click on the S4H_SD_DEM folder and choose New > Other ABAP Repository Object. Note that on later or updated Eclipse IDE's (i.e. with a later version of the ABAP development tools) the menu item might be named "ABAP Repsitory Object".
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds01.jpg">
 
