@@ -52,7 +52,7 @@ The first Calculation View that you will create will be fairly simple but is a n
 
 * If you have not used the HANA modeling tool before you need to hover your cursor over the new Join object in the canvas and you will see an arrow that will be used to connect the Join to the Projection.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview06.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview06a.jpg">
 
 * Drag the arrow from the Join to the bottom of the Projection.
 
