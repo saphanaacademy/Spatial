@@ -73,9 +73,9 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Task 5: Coming Soon]
 
-6. WORK IN PROGRESS The SAP HANA system must be configured so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. An additional component will be installed on HANA and then Cross Origin Resource Sharing will be configured.
+6. The SAP HANA system must be configured so that resources like Calculation Views are available to be consumed on the SAP Analytics Cloud. An additional component will be installed on HANA and then Cross Origin Resource Sharing will be configured.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Task 6: Coming Soon]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Task 6: Setup of the SAP HANA System for Resource Sharing](exercises/hdbCORS.md)
 
 7. WORK IN PROGRESS  Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud
 
