@@ -125,7 +125,17 @@ The next step is to create another HANA Calculation View that combines the remot
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview17.jpg">
 
+* As the name for the left table is quite lengthy, press the Maximize button for this dialogue so that you can see a menu for the Right Table.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview18.jpg">
+
+* For the Right Table choose the GEOCODE table.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview19.jpg">
+
+* Drag the Postal Code field from the bottom of the Left table onto the ZipCode field of the Right Table. Change the Join Type to "Inner" and the Cardinality to "1..1" as there be only 1 ZipCode per PostalCode match.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview20.jpg">
 
 
 You have now completed the step "Creating the Combined Data View" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
