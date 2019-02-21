@@ -21,7 +21,7 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 ## Steps
 
-In the next steps you will two new Calculation Views. One view will combine the S/4HANA customer sales data with the Census data and will be used to build out a story in the SAP Analytics Cloud. The second view will be used in a location hierarchy for a map. These views will share a common location ID and in the case of this example, the Address ID from the S/4HANA customer data.
+In the next steps you will two new Calculation Views. One view will combine the S/4HANA customer sales data with the Census data and will be used to build out a story in the SAP Analytics Cloud. The second view will be used in a location hierarchy for a map. These views will be linked later in the SAP Analytics Cloud using the postal code columns.
 
 1. [Altering the Geo-Coding Table](#cvAltTab)
 1. [Creating a Location Dimension View](#cvLocDim)
@@ -40,7 +40,7 @@ alter table "HACKT28"."GEOCODE" alter (ZIPCODE NVARCHAR(20));
 
 ### <a name="cvLocDim"></a> Creating a Location Dimension View
 
-The first Calculation View that you will create will be fairly simple but is a necessary step to have a map in SAC. This view will bring in data via the GEOCODE table that was imported earlier.
+The first Calculation View that you will create will be fairly simple but is a necessary step to have a map in SAC. This view will bring in data via the GEOCODE table that was imported earlier. For each postal code (ZipCode) there will be a Spatial Type Column in particular ST_Point. This point will be used to mark a bubble on the map analytic.
 
 * In your HACKT28 connection to your HANA system right click on the Content Folder and choose New > Package.
 
