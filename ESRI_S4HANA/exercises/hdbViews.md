@@ -23,12 +23,23 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 In the next steps you will two new Calculation Views. One view will combine the S/4HANA customer sales data with the Census data and will be used to build out a story in the SAP Analytics Cloud. The second view will be used in a location hierarchy for a map. These views will share a common location ID and in the case of this example, the Address ID from the S/4HANA customer data.
 
+1. [Alteration of Geo-Coding Table](#cvAltTab)
 1. [Creation of a Location Dimension View](#cvLocDim)
 
+### <a name="cvAltTab"></a> Alteration of Geo-Coding Table
+
+Currently the ZipCode field of the GEOCODE table is a numeric data type. The PostalCode field from the S/4HANA virtual table is a text data type. In order for us to join the two in a Calculation View, a quick alter table statement must be run.
+
+* Open up a new SQL console as your HACKT28 user in the Eclipse SAP HANA Development perspective.
+* Paste in the following code and press the Execute button or your F8 key.
+
+```
+alter table "HACKT28"."GEOCODE" alter (ZIPCODE NVARCHAR(20)); 
+```
 
 ### <a name="cvLocDim"></a> Creation of a Location Dimension View
 
-The first Calculation View that you will create will be fairly simple but is a necessary step to have a map in SAC. This view will bring in data via the ZXSH_C_CUSTOMERGEO ABAP CDS view that was built earlier on.
+The first Calculation View that you will create will be fairly simple but is a necessary step to have a map in SAC. This view will bring in data via the GEOCODE table that was imported earlier.
 
 * In your HACKT28 connection to your HANA system right click on the Content Folder and choose New > Package.
 
@@ -68,12 +79,18 @@ Now that this first location view has been saved to your HANA Repository, you ne
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview08n.jpg">
 
+* Search on "cv_s4h" for your new Calculation View, select the view's parent object, and then press the OK button.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview09n.jpg">
+
+* In the privileges panel choose "Select" and then press your F8 key or the "Deploy" button near the top right in Eclipse.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview10n.jpg">
 
 
 
 
 
-###### alter table "HACKT28"."GEOCODE" alter (ZIPCODE NVARCHAR(20)); ######
 
 You have now completed the step "######" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
 
