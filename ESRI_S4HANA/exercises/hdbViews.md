@@ -23,10 +23,11 @@ You should have completed all of the exercise [Prerequisites](../exercises/preRe
 
 In the next steps you will two new Calculation Views. One view will combine the S/4HANA customer sales data with the Census data and will be used to build out a story in the SAP Analytics Cloud. The second view will be used in a location hierarchy for a map. These views will share a common location ID and in the case of this example, the Address ID from the S/4HANA customer data.
 
-1. [Alteration of Geo-Coding Table](#cvAltTab)
-1. [Creation of a Location Dimension View](#cvLocDim)
+1. [Altering the Geo-Coding Table](#cvAltTab)
+1. [Creating a Location Dimension View](#cvLocDim)
+1. [Assigning Rights to the Location Dimension View](#cvLocDimRights)
 
-### <a name="cvAltTab"></a> Alteration of Geo-Coding Table
+### <a name="cvAltTab"></a> Altering the Geo-Coding Table
 
 Currently the ZipCode field of the GEOCODE table is a numeric data type. The PostalCode field from the S/4HANA virtual table is a text data type. In order for us to join the two in a Calculation View, a quick alter table statement must be run.
 
@@ -37,7 +38,7 @@ Currently the ZipCode field of the GEOCODE table is a numeric data type. The Pos
 alter table "HACKT28"."GEOCODE" alter (ZIPCODE NVARCHAR(20)); 
 ```
 
-### <a name="cvLocDim"></a> Creation of a Location Dimension View
+### <a name="cvLocDim"></a> Creating a Location Dimension View
 
 The first Calculation View that you will create will be fairly simple but is a necessary step to have a map in SAC. This view will bring in data via the GEOCODE table that was imported earlier.
 
@@ -68,6 +69,8 @@ The first Calculation View that you will create will be fairly simple but is a n
 * Press the "Save and Activate" button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview07n.jpg">
+
+### <a name="cvLocDimRights"></a> Assigning Rights to the Location Dimension View
 
 Now that this first location view has been saved to your HANA Repository, you need to assign access rights to your HACKT28 user. This must be done by a user with the appropriate rights and not the HACKT28 user...i.e. users typically can't assign rights to themselves. For this particular step you can use the System user for the HANA database on your S/4HANA trial.
 
