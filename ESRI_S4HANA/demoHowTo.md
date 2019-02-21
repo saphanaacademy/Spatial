@@ -69,7 +69,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 4: Setup of Sample Spatial Data for the SAP HANA System](exercises/hdbData.md)
 
-5. New HANA Calculation Views will be built that combine the remote S/4HANA customer sales data with the local Census data. The views will also utilize HANA Spatial functionality. These views will be consumed in the SAP Analytics Cloud where one view is used in a map location hierarchy.
+5. New HANA Calculation Views will be built that combine the remote S/4HANA customer sales data with the local Census data. One view will also feature a HANA Spatial Join. These views will be consumed in the SAP Analytics Cloud where one view is used in a map location hierarchy.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of HANA Calculation Views on Integrated Data](exercises/hdbViews.md.md)
 
