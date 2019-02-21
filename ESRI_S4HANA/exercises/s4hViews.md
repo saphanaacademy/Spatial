@@ -88,9 +88,9 @@ You have now completed the step "Making an ABAP Project as a User With Access to
 
 [Go Back Up to the List of Steps](#steps)
 
-### <a name="cdsview1"></a> Creation of CDS View with Customer Sales, Products, and Location
+### <a name="cdsview1"></a> Creation of CDS View with Customer Sales and Location
 
-The first CDS view that needs to be created will include sales amounts by customer > location > product. 
+The first CDS view that needs to be created will include sales amounts by customer and location. 
 
 <img src="../images/eclcds04.jpg">
 
@@ -115,7 +115,7 @@ Description = Public Consumption View, Z Copy Sales Order Item
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds03.jpg">
 
-* Replace the default code in the view editor with the following code. As mentioned this view will return customer info as well as product sales info and location data. Note that this location data is not geo-coded with longitude & latitude data. This will be handled later in the SAP HANA database.
+* Replace the default code in the view editor with the following code. As mentioned this view will return customer info as well as product sales info and location data. Note that this location data is not geo-coded with longitude & latitude data. This will be handled later in the SAP HANA database using a simple lookup table.
 	
 ```
 @AbapCatalog.sqlViewName: 'ZXSHCSLSORDITFSZ'
@@ -171,7 +171,7 @@ left outer join I_Address
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04d.jpg">
 
-You have now completed the setp "Creation of CDS View with Customer Sales and Location" and are done with the whole task of "Creating Custom ABAP CDS Views in S/4HANA".
+You have now completed the setp "Creation of CDS View with Customer Sales and Location" and are done with the whole task of "Creating a Custom ABAP CDS View in S/4HANA".
 
 Your next task is to create a development / technical user in your HANA database. With this user you will create a new HANA schema, Remote Sources to the S/4HANA system, Calculation Views, etc.
 
