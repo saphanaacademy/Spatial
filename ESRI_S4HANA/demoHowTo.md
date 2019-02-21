@@ -15,8 +15,8 @@ In this exercise / demo, you’ll learn how to integrate S/4HANA (on-premise) an
 * The Data Provisioning Agent is installed and the ABAP adapter is registered with the SAP HANA system
 * A Remote Connection is made from the HANA system to the S/4HANA system
 * A Virtual Table of the S/4HANA CDS view is created
-* In HANA the Virtual Table from the S/4HANA data is combined in a Calculation View with a census table that has Spatial Type data
-* A Location Dimension view is created in HANA to provide geo-coding
+* In HANA the Virtual Table is combined in a Calculation View with a HANA table that has Spatial Type data
+* A Location Dimension view is created in HANA to provide geo-coding using a simple lookup table
 * These Calculation Views are consumed in the SAP Analytics Cloud where a map analytic is created using the Spatial Type data
 
 <img src="images/s4HpEsriDemoArchc.jpg">  
