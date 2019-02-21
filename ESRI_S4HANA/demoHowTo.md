@@ -53,15 +53,15 @@ For more info on this exercise, using the S/4HANA trial and the SAP Cloud Applia
 
 After you've completed the prerequisites there are a number of main tasks to complete. Some of these tasks will consist of running code in the Eclipse IDE with SAP tools. The Eclipse IDE is installed on the Windows client of the S/4HANA trial appliance. You will also need to import several HANA pieces like a sample database and some Calculation Vews.
 
-1. You need to create two ABAP CDS views in our S/4HANA system. The first CDS view that needs to be created will include sales amounts by customer > location > product. The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in SAC for the mapping component.
+1. You need to create a ABAP CDS view in your S/4HANA system. This view will include sales amounts by customer > location > product. This view does not have geo-coded data but will provide a postal code which will later be geo-coded in HANA.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 1: Creation of CDS Views in S/4HANA](exercises/s4hViews.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 1: Creation of a CDS View in S/4HANA](exercises/s4hViews.md)
 
 2. You need to create a HANA database user that has the rights to create Remote Sources and tables, import objects, create Calculation Views, etc. As mentioned in the Prerequisites section, you will use the HANA database on your S/4HANA trial system to emulate having a separate HANA database / HANA sidecar. This will save you some time and perhaps money associated with readying a development HANA system for this exercise.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 2: Creation of Developer User for the SAP HANA System](exercises/hdbUser.md)
 
-3. The next task includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating Virtual Tables for the ABAP CDS views we created earlier.
+3. The next task includes installing the Data Provisioning Agent, activating HANA's Data Provisioning server, creating a Virtual Table for the ABAP CDS view we created earlier.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 3: Setup of Smart Data Access to the S/4HANA System](exercises/sdiConfig.md)
 
