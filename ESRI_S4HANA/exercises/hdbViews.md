@@ -101,9 +101,34 @@ Now that this first location view has been saved to your HANA Repository, you ne
 
 The next step is to create another HANA Calculation View that combines the remote data from your S/4HANA system with the data from the Census table you imported before. This particular view will use a spatial join between the two tables where the view will aggregate Census data within a specified distance of an S4H customer location.
 
-* Go to your HACKT28 system connection and open up the Content folder and you should see a HACKT28 package that was created at the time the HACKT28 user was made.
+* Go to your HACKT28 system connection and open up the Content folder and you should see a HACKT28 package that was created at the time the HACKT28 user was made. Right click on this package and choose New > Calculation View.
 
-You have now completed the step "######" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview12.jpg">
+
+* Assign the view a name of CV_S4H_SALES_HDB_DEMOGRAPHICS and press the Finish button noting that the Data is CUBE. This view will consist of both dimensions and measures as opposed to the Location Dimension view from before.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview13.jpg">
+
+* In the modeler drag a "Join" Node onto the modeler canvas.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview14.jpg">
+
+* From your HACKT28 system > Tables drag your "VT_RS_Abap_S4H_ZXSHCSLSORDITFSZ..." table onto the new Join_1 Node.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview15.jpg">
+
+* Also drag the GEOCODE table into the same Join Node.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview16.jpg">
+
+* In the modeler Details pane right click on the visible table and choose "Create Join".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview17.jpg">
+
+
+
+
+You have now completed the step "Creating the Combined Data View" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
 
 Your next task is to configure the SAP HANA system so that resources like Calculation Views can be consumed on the SAP Analytics Cloud. 
 
