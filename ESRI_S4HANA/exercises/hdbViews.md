@@ -11,7 +11,7 @@
 
 ## Description
 
-When using a live Connection to HANA from the SAP Analytics Cloud, Calculation Views will be used for the data semantic layer. It is best to create any aggregation and formulae at this database level in order to have the best performance. When a map is required in a Story in SAC, an additional Calculation View will be created to act as a geographical hierarchy. 
+When using a live Connection to HANA from the SAP Analytics Cloud, Calculation Views will be used for the data semantic layer. It is best to create any aggregation and formulae at this database level in order to have the best performance. When a map is required in a Story in SAC, an additional Calculation View will be created to act as a geographical hierarchy / Location Dimension. 
 
 <img src="../images/######.jpg">
 
@@ -46,24 +46,27 @@ The first Calculation View that you will create will be fairly simple but is a n
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview04.jpg">
 
-* In the modeller Scenario panel drag a "Join" object over to the canvas.
+* In the modeller Scenario panel drag your CENSUS table from your HACKT28 schema into the Projection drop area.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview05.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview05n.jpg">
 
-* If you have not used the HANA modeling tool before you need to hover your cursor over the new Join_1 object in the canvas and you will see an arrow that will be used to connect the Join to the Projection.
+* Select all of the columns in the table, right click, and then choose "Add to Output".
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview06b.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview06n.jpg">
 
-* Drag the arrow from  Join_1 to the bottom of the Projection.
+* Press the "Save and Activate" button.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview07.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview07n.jpg">
 
-* Open up the Catalog folder of your HACKT28 system connection, open up Tables, and drag the "GEOCODE" table to the Join_1 dialogue.
-* Now drag the virtual table "VT_RS_Abap_S4H_ZXSHCSLSORDITFSZ..." over to your new view's Join dialogue.
+* Now that this first location view has been saved to your HANA Repository, you need to assign access rights to your HACKT28 user. Open up the Security folder for your HDB System and then Users and then open up the HACKT28 user. Go to the Object Privileges tab and press the plus button.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview08.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview08n.jpg">
 
-* need to alter table for joins to s4 data
+
+
+
+
+
 ###### alter table "HACKT28"."GEOCODE" alter (ZIPCODE NVARCHAR(20)); ######
 
 You have now completed the step "######" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
