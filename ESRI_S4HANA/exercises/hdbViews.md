@@ -58,7 +58,13 @@ The first Calculation View that you will create will be fairly simple but is a n
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview07n.jpg">
 
-* Now that this first location view has been saved to your HANA Repository, you need to assign access rights to your HACKT28 user. Open up the Security folder for your HDB System and then Users and then open up the HACKT28 user. Go to the Object Privileges tab and press the plus button.
+Now that this first location view has been saved to your HANA Repository, you need to assign access rights to your HACKT28 user. This must be done by a user with the appropriate rights and not the HACKT28 user...i.e. users typically can't assign rights to themselves. For this particular step you can use the System user for the HANA database on your S/4HANA trial.
+
+* In the Eclipse System panel, log onto your HDB System using the password that you used when you created the S/4H solution.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview08n0.jpg">
+
+* Open up the Security folder for your HDB System and then Users and then open up the HACKT28 user. Go to the Object Privileges tab and press the plus button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview08n.jpg">
 
