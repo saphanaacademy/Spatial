@@ -11,11 +11,13 @@ In this exercise / demo, you’ll learn how to integrate S/4HANA (on-premise) an
 
 ## Overview
 
-* In S/4HANA CDS views are created to combine customer sales, product, and location information
+* In S/4HANA a CDS view is created to combine customer, sales, and location information
 * The Data Provisioning Agent is installed and the ABAP adapter is registered with the SAP HANA system
 * A Remote Connection is made from the HANA system to the S/4HANA system
-* Virtual Tables of the S/4HANA CDS views are created
-* In HANA the virtual tables from the S/4HANA data are combined with spatial tables in calculation views for consumption
+* A Virtual Table of the S/4HANA CDS view is created
+* In HANA the Virtual Table from the S/4HANA data is combined in a Calculation View with a census table that has Spatial Type data
+* A Location Dimension view is created in HANA to provide geo-coding
+* These Calculation Views are consumed in the SAP Analytics Cloud where a map analytic is created using the Spatial Type data
 
 <img src="images/s4HpEsriDemoArchc.jpg">  
 
@@ -53,7 +55,7 @@ For more info on this exercise, using the S/4HANA trial and the SAP Cloud Applia
 
 After you've completed the prerequisites there are a number of main tasks to complete. Some of these tasks will consist of running code in the Eclipse IDE with SAP tools. The Eclipse IDE is installed on the Windows client of the S/4HANA trial appliance. You will also need to import several HANA pieces like a sample database and some Calculation Vews.
 
-1. You need to create a ABAP CDS view in your S/4HANA system. This view will include sales amounts by customer > location > product. This view does not have geo-coded data but will provide a postal code which will later be geo-coded in HANA.
+1. You need to create a ABAP CDS view in your S/4HANA system. This view will include sales amounts by customer and location. This view does not have geo-coded data but will provide a postal code which will later be geo-coded in HANA.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 1: Creation of a CDS View in S/4HANA](exercises/s4hViews.md)
 
