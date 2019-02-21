@@ -26,6 +26,7 @@ In the next steps you will two new Calculation Views. One view will combine the 
 1. [Altering the Geo-Coding Table](#cvAltTab)
 1. [Creating a Location Dimension View](#cvLocDim)
 1. [Assigning Rights to the Location Dimension View](#cvLocDimRights)
+1. [Creating the Combined Data View](#cvComDat)
 
 ### <a name="cvAltTab"></a> Altering the Geo-Coding Table
 
@@ -33,6 +34,8 @@ Currently the ZipCode field of the GEOCODE table is a numeric data type. The Pos
 
 * Open up a new SQL console as your HACKT28 user in the Eclipse SAP HANA Development perspective.
 * Paste in the following code and press the Execute button or your F8 key.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview11.jpg">
 
 ```
 alter table "HACKT28"."GEOCODE" alter (ZIPCODE NVARCHAR(20)); 
@@ -94,8 +97,11 @@ Now that this first location view has been saved to your HANA Repository, you ne
 
 [Go Back Up to the List of Steps](#steps)
 
+### <a name="cvComDat"></a> Creating the Combined Data View
 
+The next step is to create another HANA Calculation View that combines the remote data from your S/4HANA system with the data from the Census table you imported before. This particular view will use a spatial join between the two tables where the view will aggregate Census data within a specified distance of an S4H customer location.
 
+* Go to your HACKT28 system connection and open up the Content folder and you should see a HACKT28 package that was created at the time the HACKT28 user was made.
 
 You have now completed the step "######" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
 
