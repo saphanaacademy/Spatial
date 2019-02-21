@@ -17,7 +17,7 @@ When using a live Connection to HANA from the SAP Analytics Cloud, Calculation V
 
 ## Prerequisites
 
-You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 4: Setup of Sample Spatial Data for the SAP HANA System](hdbData.md) using the Eclipse IDE.
+You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 4: Setup of Sample Spatial Data for the SAP HANA System](hdbData.md) using the Eclipse IDE. If you want more information on the steps to create a map in the SAP Analytics Cloud [please see here.](https://www.sapanalytics.cloud/guided_playlists/creating-geo-map/)
 
 ## Steps
 
@@ -40,7 +40,7 @@ alter table "HACKT28"."GEOCODE" alter (ZIPCODE NVARCHAR(20));
 
 ### <a name="cvLocDim"></a> Creating a Location Dimension View
 
-The first Calculation View that you will create will be fairly simple but is a necessary step to have a map in SAC. This view will bring in data via the GEOCODE table that was imported earlier. For each postal code (ZipCode) there will be a Spatial Type Column in particular ST_Point. This point will be used to mark a bubble on the map analytic.
+The first Calculation View that you will create will be fairly simple but is a necessary step to have a map in SAC. This view will bring in data via the GEOCODE table that was imported earlier. For each postal code (ZipCode) there will be a Spatial Type Column, in particular ST_Point. This point will be used to mark a bubble on the map analytic.
 
 * In your HACKT28 connection to your HANA system right click on the Content Folder and choose New > Package.
 
