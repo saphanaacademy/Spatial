@@ -3,17 +3,11 @@
 <tr><td><h3>Creation of HANA Calculation Views on Integrated Data</h3></td><td width=60%></br>&nbsp;Task #5, Using Eclipse IDE, HANA Development Perspective</p></td></tr>
 </table>
 
-## *****************************************
-
-## NOTE > THIS TASK IS A WORK IN PROGRESS
-
-## *****************************************
-
 ## Description
 
 When using a live Connection to HANA from the SAP Analytics Cloud, Calculation Views will be used for the data semantic layer. It is best to create any aggregation and formulae at this database level in order to have the best performance. When a map is required in a Story in SAC, an additional Calculation View will be created to act as a geographical hierarchy / Location Dimension. 
 
-<img src="../images/######.jpg">
+<img src="../images/calcview34.jpg">
 
 ## Prerequisites
 
@@ -192,19 +186,17 @@ The next step is to create another HANA Calculation View that combines the remot
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview31.jpg">
 
+* Press the "Save and Activate" button to save this Calculation View to the HANA Repository.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview32.jpg">
 
+* Press the "Data Preview" button.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview33.jpg">
 
+* Now click on the Raw Data tab and you will see the combined S/4HANA sales data with the HDB Census data. Based on the workflow, the Population_Total is a Spatial Type aggregation using a 500 meter radius that you entered in the Create Join dialogue.
 
-
-
-
-
-
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview34.jpg">
 
 You have now completed the step "Creating the Combined Data View" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
 
