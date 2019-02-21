@@ -148,8 +148,9 @@ left outer join I_Address
     I_Address.District,
     I_Address.Region,
     I_Address.County,
-    left(I_Address.PostalCode,5) as PostalCode
+    I_Address.PostalCode
 }
+
 ```
 
 * Look at the "define view" code and note that this CDS View is joining 3 existing CDS Views. If you are familiar with ABAP CDS then you might be familiar with using "associations" as opposed to joins. Joins were chosen in this case as a new virtual data model is not being built from the basic level views up; instead a new custom or "Z" view is built using existing S/4HANA views. Note that it is not recommended to alter existing ABAP CDS views. Please see the reference to the HANA++ Academy videos on CDS should you wish to learn how to build your own virtual data model or your own ABAP CDS views.
