@@ -71,7 +71,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 5. New HANA Calculation Views will be built that combine the remote S/4HANA customer sales data with the local Census data. One view will also feature a HANA Spatial Join. These views will be consumed in the SAP Analytics Cloud where one view is used in a map location hierarchy.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of HANA Calculation Views on Integrated Data](exercises/hdbViews.md.md)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 5: Creation of HANA Calculation Views on Integrated Data](exercises/hdbViews.md)
 
 6. The SAP HANA system must be configured so that resources like Calculation Views are available to be consumed on the SAP Analytics Cloud. An additional component will be installed on HANA and then Cross Origin Resource Sharing will be configured.
 
