@@ -153,6 +153,27 @@ The next step is to create another HANA Calculation View that combines the remot
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview22.jpg">
 
+* Drag your CENSUS table onto the Join_2 node.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview23.jpg">
+
+* Now with the focus on the Join_2 Node, right click on the Join_1 object in the Details pane and choose "Create Join".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview24.jpg">
+
+* In the Create Join dialogue change the Right Table to the Census table. 
+* Drag the Left Table (Join_1) ZipCode_EPSG3857 field onto the Right Table (Census) Census_Geo_EPSG3857 field.
+* Change the Spatial Properties Predicate to "Within Distance".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview24.jpg">
+
+* Click on the Distance button and input 500. This will create a select Census data radius of 500 meters from each S4H customer location. Meters would be the default distance unit for the 3857 Spatial System you created earlier.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview24.jpg">
+
+* Press OK to accept the Distance input and press OK to close the Create Join dialogue.
+
+
 
 
 
