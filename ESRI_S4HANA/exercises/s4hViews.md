@@ -1,14 +1,14 @@
 <table width=100% border=>
 <tr><td colspan=2><h1>How to Extend S/4HANA with HANA Spatial and SAC</h1></td></tr>
-<tr><td><h3>Creating Custom ABAP CDS Views in S/4HANA</h3></td><td width=60%></br>&nbsp;Task #1, Using Eclipse IDE, ABAP Perspective</p></td></tr>
+<tr><td><h3>Creating a Custom ABAP CDS View in S/4HANA</h3></td><td width=60%></br>&nbsp;Task #1, Using Eclipse IDE, ABAP Perspective</p></td></tr>
 </table>
 
  
 ## Description
 
-In these steps you will create two ABAP CDS views in our S/4HANA system. These custom 'z' views will combine data from several existing CDS views and will be accessed later on from your HANA database. 
+In these steps you will create an ABAP CDS view in our S/4HANA system. This custom 'z' view will combine data from several existing CDS views and will be accessed later on from your HANA database. 
 
-One view will add address location data and product data into an existing customer sales view and the other view will have just customer location data from a customer information model. The latter view will be used later in a Calculation View that provides a location hierarchy for the SAP Analytics Cloud.
+This view will add address location data into an existing customer sales view and the other view will have just customer location data from a customer information model. The latter view will be used later in a Calculation View that provides a location hierarchy for the SAP Analytics Cloud.
 
 <img src="../images/eclcds04.jpg">
 
@@ -24,13 +24,11 @@ If you want to find out more about creating your own virtual models in CDS pleas
 
 ## <a name="steps"></a> Steps
 
-There are two views that you need to create and they are based on existing S/4HANA CDS views. ABAP CDS is a combination of simple SQL and CDS annotations. In this case the new views will just combine other existing views using joins. Before you create those views, you need to create a project in our ABAP repository.
+The CDS view that you need to create will be based on existing S/4HANA CDS views. ABAP CDS is a combination of simple SQL and CDS annotations. In this case the new view will just combine other existing views using joins. Before you create this view, you need to create a project in our ABAP repository.
 
 1. [Making an ABAP Project as a User With Access to Customer Sales](#abapproj)
 
-2. [Creation of CDS View with Customer Sales, Products, and Location in S/4HANA](#cdsview1)
-
-3. [Creation of CDS View with Customer Location Data in S/4HANA](#cdsview2)
+2. [Creation of CDS View with Customer Sales and Location in S/4HANA](#cdsview1)
 
 
 ### <a name="abapproj"></a> Making an ABAP Project as a User With Access to Customer Sales
@@ -173,53 +171,7 @@ left outer join I_Address
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclcds04d.jpg">
 
-You have now completed the setp "Creation of CDS View with Customer Sales, Products, and Location".
-
-[Go Back Up to the List of Steps](#steps)
-
-
-### <a name="cdsview2"></a> Creation of CDS View with Customer Location
-
-The second CDS view that needs to be created will be a customer location hierarchy. This hierarchical data will be used later on in the SAP Analytics Cloud for the mapping component. 
-
-<img src="../images/eclcds05.jpg">
-
-* Use the same method as above to create a new CDS view Data Definition. In the dialogue enter the following information and press Finish.
-
-```
-Name = ZXSH_C_CUSTOMERGEO
-Description = Public Consumption View, Customer Location Hierarchy
-```
-
-* Replace the default code in the view editor with the following code. Note that in this case aliases are being used for the view output. This is very important as this view will be later used in the SAP Analytics Cloud for a Location Dimension. The field names in the Location Dimension must be different than the field names in the other view to avoid errors. Of course you can always rename those fields later on when you are using the HANA Modeling tool.
-
-```
-@AbapCatalog.sqlViewName: 'ZXSHCCUSTOMERGEO'
-@ClientHandling.algorithm: #SESSION_VARIABLE
-@AbapCatalog.compiler.compareFilter: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
-@EndUserText.label: 'customer geo data for location hierarchy'
-@VDM.viewType: #CONSUMPTION
-
-define view ZXSH_C_CUSTOMERGEO as select from I_Customer 
-inner join I_Address
-    on I_Customer.AddressID = I_Address.AddressID
-{
-   I_Customer.Customer as LHCustomer,
-   I_Address.AddressID as LHAddressID, 
-   I_Address.AddressTimeZone as LHAddressTimeZone, 
-   I_Address.CityName as LHCityName,
-   I_Address.District as LHDistrict,
-   I_Address.Region as LHRegion,
-   I_Address.County as LHCounty,
-   I_Address.Country as LHCountry,
-   left(I_Address.PostalCode,5) as LHPostalCode
-}
-```
-
-* Press the Activate button.
-
-You have now completed the step "Creation of CDS View with Customer Location" and are done with the whole task of "Creating Custom ABAP CDS Views in S/4HANA".
+You have now completed the setp "Creation of CDS View with Customer Sales and Location" and are done with the whole task of "Creating Custom ABAP CDS Views in S/4HANA".
 
 Your next task is to create a development / technical user in your HANA database. With this user you will create a new HANA schema, Remote Sources to the S/4HANA system, Calculation Views, etc.
 
