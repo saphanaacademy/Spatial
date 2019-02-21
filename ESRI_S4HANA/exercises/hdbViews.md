@@ -172,7 +172,25 @@ The next step is to create another HANA Calculation View that combines the remot
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview26.jpg">
 
 * Press OK to accept the Distance input and press OK to close the Create Join dialogue.
+* With Join_2 still selected in the canvas, right click on the Join_1 output table, select the CustomerName, NetAmount and PostalCode fields. Right click and choose "Add To Output".
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview27.jpg">
+
+* Scroll to the Census output table and note that there a lot of different measures that you could use for this Calculation View. For the sake of simplicity in this workflow right click on Population_Total and choose "Add To Output".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview28.jpg">
+
+* Select the Aggregation Node and then select CustomerName and PostalCode, right click and choose "Add To Output".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview29.jpg">
+
+* Now select NetAmount and Population_Total, right click, but this time choose "Add As Aggregated Column".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview30.jpg">
+
+* Click on the Semantics Node and you should see results like below with two columns marked with an Aggregation type of Sum.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview31.jpg">
 
 
 
