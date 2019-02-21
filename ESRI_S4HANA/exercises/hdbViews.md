@@ -133,9 +133,38 @@ The next step is to create another HANA Calculation View that combines the remot
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview19.jpg">
 
-* Drag the Postal Code field from the bottom of the Left table onto the ZipCode field of the Right Table. Change the Join Type to "Inner" and the Cardinality to "1..1" as there be only 1 ZipCode per PostalCode match.
+* Drag the Postal Code field from the bottom of the Left table onto the ZipCode field of the Right Table. Change the Join Type to "Inner" and the Cardinality to "1..1" as there be only 1 ZipCode per PostalCode match. Press the OK button to close this dialogue.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview20.jpg">
+
+* In the Details pane select the CustomerName, NetAmount, and PostalCode fields. Right click and choose "Add to Output".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview21a.jpg">
+
+* Scroll the Details pain to the GeoCode table, then right click on the ZipCode_EPSG3857 field and choose "Add to Output".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview21b.jpg">
+
+* Drag another Join Node onto your modeler canvas. click on Join_1 and you should see an arrow at the right. Grab that arrow and drag it to the new Join_2.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview21.jpg">
+
+* Click on Join_2 and drag its connection arrow to the Aggregation Node.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview22.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 You have now completed the step "Creating the Combined Data View" and are done with the whole task of "Creation of HANA Calculation Views on Integrated Data".
