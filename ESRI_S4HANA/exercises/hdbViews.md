@@ -70,6 +70,8 @@ The first Calculation View that you will create will be fairly simple but is a n
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview07n.jpg">
 
+[Go Back Up to the List of Steps](#steps)
+
 ### <a name="cvLocDimRights"></a> Assigning Rights to the Location Dimension View
 
 Now that this first location view has been saved to your HANA Repository, you need to assign access rights to your HACKT28 user. This must be done by a user with the appropriate rights and not the HACKT28 user...i.e. users typically can't assign rights to themselves. For this particular step you can use the System user for the HANA database on your S/4HANA trial.
@@ -90,7 +92,7 @@ Now that this first location view has been saved to your HANA Repository, you ne
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/calcview10n.jpg">
 
-
+[Go Back Up to the List of Steps](#steps)
 
 
 
