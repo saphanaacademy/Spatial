@@ -55,7 +55,7 @@ For more info on this exercise, using the S/4HANA trial and the SAP Cloud Applia
 
 After you've completed the prerequisites there are a number of main tasks to complete. Some of these tasks will consist of running code in the Eclipse IDE with SAP tools. The Eclipse IDE is installed on the Windows client of the S/4HANA trial appliance. You will also need to import several HANA pieces like a sample database and some Calculation Vews.
 
-1. You need to create a ABAP CDS view in your S/4HANA system. This view will include sales amounts by customer and location. This view does not have geo-coded data but will provide a postal code which will later be geo-coded in HANA.
+1. You need to create an ABAP CDS view in your S/4HANA system. This view will include sales amounts by customer and location. This view does not have geo-coded data but will provide a postal code which will later be geo-coded in HANA.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Go to Task 1: Creation of a CDS View in S/4HANA](exercises/s4hViews.md)
 
