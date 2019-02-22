@@ -190,12 +190,9 @@ Now that your HANA system is connected to our S/4HANA system the next step is to
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt1.jpg">
 
 * Open the "ABAP Tables by table name" folder and then go to the "Z" folder where you'll find your "ZXSH..." CDS view.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt2.jpg">
-
 * Select the view and then choose "Add as Virtual Table".
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt3.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt2a.jpg">
 
 * Change the Table Names Prefix to "VT_RS_Abap_S4H_" so that the naming convention is Virtual Table > Remote Source. Press the Create button.
 
