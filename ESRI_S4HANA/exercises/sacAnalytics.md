@@ -7,9 +7,9 @@
 
 In the next steps you will set up a connection from the SAP Analytics Cloud (SAC) to your SAP HANA database. Afterwards you will work in SAC to create a map analytic based on live data from that connection.
 
-Note that this workshop will not spend much time on modeling and building analytics in SAC. There is a lot of information on this already. If you want a lot of in depth information on these topics, please see the online help for [SAP Analytics Cloud starting with data models.](https://www.sapanalytics.cloud/guided_playlists/data-models/)
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod14.jpg">
+
+Note that this workshop will not spend much time on modeling and building analytics in SAC. There is a lot of information on this already. If you want a lot of in depth information on these topics, please see the online help for [SAP Analytics Cloud starting with data models.](https://www.sapanalytics.cloud/guided_playlists/data-models/)
 
 ## Prerequisites
 
