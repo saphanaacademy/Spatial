@@ -183,7 +183,7 @@ You have now completed the step "Creating a Remote Source to the S/4HANA System"
 
 ### <a name="sdarsvt"></a> Creating a Virtual Table of the ABAP CDS View
 
-Now that your HANA system is connected to our S/4HANA system the next step is to add a Virtual Table to our HANA system. Of course if you are using just the S/4HANA trial appliance you are only emulating having a separate HANA sidecar. This table will be based on the ABAP CD views that you created earlier.
+Now that your HANA system is connected to our S/4HANA system the next step is to add a Virtual Table to our HANA system. Of course if you are using just the S/4HANA trial appliance you are only emulating having a separate HANA sidecar. This table will be based on the ABAP CD view that you created earlier.
 
 * If you look in your Remote Sources folder (you might need to right click on the parent Provisioning folder and choose Refresh) you will now see the RS_Abap_S4H Remote Source. The easiest way to find the "Z" view that you created in S/4HANA will be in the "ABAP Tables by table name" folder.
 
