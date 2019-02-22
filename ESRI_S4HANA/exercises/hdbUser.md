@@ -11,7 +11,7 @@ In the next steps you will create a technical HANA database user that has the ri
 
 ## Prerequisites
 
-You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 1: Creation of CDS Views in S/4HANA](../exercises/s4hViews.md) using the Eclipse IDE.
+You should have completed all of the exercise [Prerequisites](../exercises/preReqs.md). You should have also completed [Task 1: Creation of a CDS View in S/4HANA](../exercises/s4hViews.md) using the Eclipse IDE.
 
 ## Steps
 
@@ -88,7 +88,7 @@ As you are now connected to your HANA database you should also see your S/4HANA 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbsystab6.jpg">
 
-* If you were to expand this schema and then right click on the Views folder to add a Filter of ZXSH then you would see the views you created earlier. You will not be able to preview the data from these views in this perspective as the system user although you can look at their "Create Statements" via right clicking and selecting "Open Definition". This is due to S/4HANA security vs. that of the HANA database.
+* If you were to expand this schema and then right click on the Views folder to add a Filter of ZXSH then you would see the view you created earlier. You will not be able to preview the data from these views in this perspective as the system user although you can look at their "Create Statements" via right clicking and selecting "Open Definition". This is due to S/4HANA security vs. that of the HANA database.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/eclhdbviews.jpg">
 
