@@ -86,9 +86,9 @@ In this step we will create a Model using the Calculation View that has the comb
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod02.jpg">
 
-* Choose "Get data from a datasource"
-* Click on "Live Data connection" (right below Connect to live data)
-* Fill out the appropriate info in the Create Model dialogue and then press OK
+* Choose "Get data from a datasource".
+* Click on "Live Data connection" (right below Connect to live data).
+* Fill out the appropriate info in the Create Model dialogue.
 
 ```
 System Type:  SAP HANA
@@ -99,7 +99,7 @@ Name & Description: whatever you like
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod03.jpg">
 
-* You should see a screen similar to below
+* After pressing OK you should see a screen similar to below.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod04.jpg">
 
@@ -117,14 +117,69 @@ Note that the CV_S4H_CustomerLocation view is the simple geo-coding Calc View th
 
 In order to have a successful Location Dimension in SAC you need to have a Calculation View in the SAP_BOC_Spatial package and that view must have at least one Spatial Type column. Of course the appropriate rights have to be assigned to your technical user (HACKT28) to the package and the underlying data. For more detailed information please see this part of the SAC online help: [Creating Geo model from Live HANA Calculation View.]( https://www.sapanalytics.cloud/guided_playlists/creating-geo-model-from-live-hana-calculation-view/)
 
+* After you have filled in the dialogue press the OK button and then the "Save Model" button. There is no further work that you need to do in this model.
+* After saving the model click on the Main Menu button and choose Create and then Story.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod07.jpg">
+
+* Choose the "Add a Canvas Page" option which will give you a simple starting point. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod08.jpg">
+
+* Click on the Data button so that we can add our data source to this canvas and story.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod08a.jpg">
+
+* Choose "Data acquired from an exsting model".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod08b.jpg">
+
+* Search for and select the model you created and then press OK.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod08c.jpg">
+
+* Press the Story button to go back to your canvas.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod08d.jpg">
+
+* Click on the Geo Map option.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod09.jpg">
+
+* In the Designer > Builder for the new map, click on "+ Add Layer".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod10.jpg">
+
+* Click on "Select model".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod11.jpg">
+
+* You will see a select list of the models that have been added to the story as well as any other available models. Select your model and press OK.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod12.jpg">
+
+* FIll out the Designer > Builder dialogue with the following information.
+
+```
+Location Dimension:   ZipCode_EPSG3857
+
+Bubble Color: Measures > Net Amount  (you can change the Palette to go from Red to Green if you wish)
+
+Bubble Size: Measures > Population_Total (you can adjust the Size down to about 30% if you wish)
+
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod13.jpg">
+
+* Press the OK button and you should see a map similar to below.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod14.jpg">
 
 ### <a name="######"></a> ######
 
-
-
 You have now completed the step "######" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". 
 
-You have also completed the entire exercise...congratulations!
+You have also completed the entire exercise...congratulations and thanks for following along!
 
 [Go Back to the Main Page](../demoHowTo.md)
 
