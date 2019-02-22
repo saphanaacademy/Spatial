@@ -194,9 +194,9 @@ Now that your HANA system is connected to our S/4HANA system the next step is to
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt2a.jpg">
 
-* Change the Table Names Prefix to "VT_RS_Abap_S4H_" so that the naming convention is Virtual Table > Remote Source. Press the Create button.
+* Ensure that the Table Name has a Prefix of "VT_RS_Abap_S4H_" so that the naming convention is Virtual Table > Remote Source. Press the Create button.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt4.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt4b.jpg">
 
 * After you press the Create button go back to your HACKT28 schema > then open the Tables folder > and you'll see your new virtual table. As mentioned previously, the data is not materialized in HANA as this is a virtual tables to the S/4HANA system. At the time and date of creation for this exercise (Wednesday December 5, 2018 @ 09:26 PST) there is no real time row-level replication for ABAP CDS views through HANA SDI. This is as we are told coming as a future feature.
 
