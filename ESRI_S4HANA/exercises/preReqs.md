@@ -69,8 +69,7 @@ Note that the appliance Windows machine includes a configured Eclipse IDE with t
 
 ## <a name="sac"></a> Getting an SAP Analytics Cloud (SAC) System
 
-XXXXXX Instructions Coming Soon
-
+This exercise requires a fully licensed product. The free trial will not work as it has limited functionality in the data connections. Please see the [product info page for the SAP Analytics Cloud](https://www.sapanalytics.cloud/product/) for more info.
 
 You have now completed the Prerequisites for this exercise.
 
