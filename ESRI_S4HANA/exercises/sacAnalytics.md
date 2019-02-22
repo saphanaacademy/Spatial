@@ -48,13 +48,19 @@ Password: the one that you gave to your HACKT28 user
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac03a.jpg">
 
-* Press the OK button. You might get an error message to check your CORS settings or an error mentiong SSL or your credentials. If you do see an error and have entered the correct info into the connection dialogue then please go to the next step, [Creating a SAC Data Model with a Location Dimension.](#sacmod)
+* Press the OK button. Hopefully all is ok with your connection and you will see a new SAC Connection in your list.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod01.jpg">
+
+If you do not see an error and do have a new successful connection, then please skip the next step and go to [Creating a SAC Data Model with a Location Dimension.](#sacmod)  
+
+If you do get an error message it most likely asking you to check your CORS settings or an error mentioning SSL and your credentials. In this case you will want to follow the troubleshooting steps below.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sac04.jpg">
 
 ### <a name="sacconts"></a> Troubleshooting a Connection Error from SAC to HANA
 
-This step is only necessary if you get an error when trying to connect to your HANA system from SAC. Please note that after a lot of testing, the later releases of the S/4HANA trial (e.g. >= 1809 U32) seem to have less connection issues than previous versions such as the 1709 versions.
+This step is only necessary if you get an error when trying to connect to your HANA system from SAC. Please note that after testing, the later releases of the S/4HANA trial (e.g. >= 1809 U32) seem to have less connection issues than previous versions such as the 1709 versions. Later versions of Chrome seem to work better as well.
 
 * In the error that you got, there is a link to open up a "Troubleshoot" page.
 
@@ -68,14 +74,17 @@ This step is only necessary if you get an error when trying to connect to your H
   - Close Chrome and then go to the Windows button and type Run and then enter "chrome -–ignore-certificate-errors". Try creating the Connection in SAC again.
   - As a last resort (and, please, this is only for those using a trial appliance) use a brute force method and reboot your entire S/4HANA trial system in CAL. Try creating the Connection in SAC again. This has worked as a last resort on 1709 & 1809 S/4HANA trial systems.
 
-
 [Go Back Up to the List of Steps](#steps)
 
 ### <a name="sacmod"></a> Creating a SAC Data Model with a Location Dimension
 
-* 
+In this step we will create a Model using the Calculation View that has the combined data in your HANA system. You will also add a Location Dimension off of the second view you created on the geo-coded data. You should now have a Live, Direct connection to your HANA system to make this possible.
 
-You have now completed the step "Creating a Live Direct Data Connection to SAP HANA". 
+* Press the Main Menu / hamburger button and choose Create and then Model.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod02.jpg">
+
+
 
 ### <a name="######"></a> ######
 
