@@ -84,6 +84,19 @@ In this step we will create a Model using the Calculation View that has the comb
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod02.jpg">
 
+* Choose "Get data from a datasource"
+* Click on "Live Data connection" (right below Connect to live data)
+* Fill out the appropriate info in the Create Model dialogue
+
+```
+System Type:  SAP HANA
+Connection:   the name of the Connection you built in step 1 above
+Data Source:  search on "CV_S4H" or the name of the combined data model you built in Task 5
+Name & Description: whatever you like
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod03.jpg">
+
 
 
 ### <a name="######"></a> ######
