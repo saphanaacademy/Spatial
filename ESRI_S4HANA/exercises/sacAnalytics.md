@@ -84,7 +84,7 @@ In this step we will create a Model using the Calculation View that has the comb
 
 * Press the Main Menu / hamburger button and choose Create and then Model.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod02.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod02.jpg">
 
 * Choose "Get data from a datasource"
 * Click on "Live Data connection" (right below Connect to live data)
@@ -97,21 +97,21 @@ Data Source:  search on "CV_S4H" or the name of the combined data model you buil
 
 Name & Description: whatever you like
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod03.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod03.jpg">
 
 * You should see a screen similar to below
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod04.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod04.jpg">
 
 As mentioned above, this workshop will not spend much time on modeling and building analytics. There is a lot of info on those topics [here.](https://www.sapanalytics.cloud/guided_playlists/data-models/) When you are using a live connection to your HANA system it is recommended that you do as much of the modeling you can in your Calculation Views. This of course would be for best performance and also for the number of things that you can do in the HANA modeler vs. the options in SAC. The one thing that we will do to add to this model in SAC is to add a Location Dimension that will be used in a map.
 
 * Click on the "Create a Location Dimension" button.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod05.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod05.jpg">
 
 * Fill in the dialogue with the info like below. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod05.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod06.jpg">
 
 Note that the CV_S4H_CustomerLocation view is the simple geo-coding Calc View that you would have saved to the SAP_BOC_Spatial package in your HANA system. It is also important to note that the Location Dimension, ZIPCODE_EPSG3857, is the column in your GeoCode table that is a HANA Spatial Type (ST_Point to be exact) utilizing a Spatial Reference System of 3857. 
 
