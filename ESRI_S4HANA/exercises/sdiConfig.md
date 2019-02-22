@@ -204,7 +204,7 @@ Now that your HANA system is connected to our S/4HANA system the next step is to
 
 * If you right click on your view and choose "Open Data Preview" you will see the live data from the S/4HANA system connecting as the S4H_SD_DEM sales demo user. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt6.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sdivt6a.jpg">
 
 You have now completed the step "Creating a Virtual Table of the ABAP CDS View" and are done with the whole task of "Setup of Remote Connection and a Virtual Table for S/4HANA".
 
