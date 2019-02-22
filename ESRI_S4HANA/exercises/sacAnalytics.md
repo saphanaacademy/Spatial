@@ -104,19 +104,19 @@ Name & Description: whatever you like
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod04.jpg">
 
-As mentioned above, this workshop will not spend much time on modeling and building analytics. There is a lot of info on those topics [here.](https://www.sapanalytics.cloud/guided_playlists/data-models/) When you are using a live connection to your HANA system it is recommended that you do as much of the modeling you can in your Calculation Views. This of course would be for best performance and also for the number of things that you can do in the HANA modeler vs. the options in SAC. The one thing that we will do to add to this model in SAC is to add a Location Dimension that will be used in a map.
+As mentioned above, this workshop will not spend much time on modeling and building analytics. There is a lot of info on those topics [here.](https://www.sapanalytics.cloud/guided_playlists/data-models/) When you are using a live connection to your HANA system it is recommended that you do as much of the modeling as you can in your Calculation Views. This of course is for best performance and also for the number of options and features in the HANA modeler. The one thing that we will do to add to this model in SAC is to add a Location Dimension that will be used in a map.
 
 * Click on the "Create a Location Dimension" button.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod05.jpg">
 
-* Fill in the dialogue with the info like below. 
+* Fill in this dialogue with info similar to below. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod06.jpg">
 
 Note that the CV_S4H_CustomerLocation view is the simple geo-coding Calc View that you would have saved to the SAP_BOC_Spatial package in your HANA system. It is also important to note that the Location Dimension, ZIPCODE_EPSG3857, is the column in your GeoCode table that is a HANA Spatial Type (ST_Point to be exact) utilizing a Spatial Reference System of 3857. 
 
-In order to have a successful Location Dimension in SAC you need to have a Calculation View in the SAP_BOC_Spatial package and that view must have at least one Spatial Type column. Of course the appropriate rights have to be assigned to your technical user (HACKT28) to the package and the underlying data. For more detailed information please see this part of the SAC online help: [Creating Geo model from Live HANA Calculation View.]( https://www.sapanalytics.cloud/guided_playlists/creating-geo-model-from-live-hana-calculation-view/)
+In order to have a successful Location Dimension in SAC you need to have a Calculation View in the SAP_BOC_Spatial package and that view must have at least one Spatial Type column. Of course the appropriate rights have to be assigned to your technical user (HACKT28) to the package and the underlying data. You have already done these steps. For more detailed information please see this part of the SAC online help: [Creating Geo model from Live HANA Calculation View.]( https://www.sapanalytics.cloud/guided_playlists/creating-geo-model-from-live-hana-calculation-view/)
 
 * After you have filled in the dialogue press the OK button and then the "Save Model" button. There is no further work that you need to do in this model.
 
@@ -181,7 +181,7 @@ Bubble Size: Measures > Population_Total (you can adjust the Size down to about 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod14.jpg">
 
-You have now completed the step "Creating a SAC Story with a Map" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". 
+You have now completed the step "Creating a SAC Story with a Map" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". You might wish to Save your Story as well.
 
 You have also completed the entire exercise...congratulations and thanks for following along!
 
