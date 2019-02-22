@@ -9,7 +9,7 @@ In the next steps you will set up a connection between your SAP HANA database an
 
 Note that this workshop will not spend much time on modeling and building analytics in SAC. There is a lot of information on this already. If you want a lot of in depth information on these topics, please see the online help for [SAP Analytics Cloud starting with data models.](https://www.sapanalytics.cloud/guided_playlists/data-models/)
 
-<img src="../images/XXXXXX.jpg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod14.jpg">
 
 ## Prerequisites
 
@@ -24,6 +24,7 @@ Afterwards you will create a model based on the combined S/4HANA and census data
 1. [Creating a Live Direct Data Connection to SAP HANA](#saccon)
 1. [Troubleshooting a Connection Error from SAC to HANA](#sacconts)
 1. [Creating a SAC Data Model with a Location Dimension](#sacmod)
+1. [Creating a SAC Story with a Map](#sacmap)
 
 ### <a name="saccon"></a> Creating a Live Direct Data Connection to SAP HANA
 
@@ -118,6 +119,11 @@ Note that the CV_S4H_CustomerLocation view is the simple geo-coding Calc View th
 In order to have a successful Location Dimension in SAC you need to have a Calculation View in the SAP_BOC_Spatial package and that view must have at least one Spatial Type column. Of course the appropriate rights have to be assigned to your technical user (HACKT28) to the package and the underlying data. For more detailed information please see this part of the SAC online help: [Creating Geo model from Live HANA Calculation View.]( https://www.sapanalytics.cloud/guided_playlists/creating-geo-model-from-live-hana-calculation-view/)
 
 * After you have filled in the dialogue press the OK button and then the "Save Model" button. There is no further work that you need to do in this model.
+
+### <a name="sacmap"></a> Creating a SAC Story with a Map
+
+The final step in this task, and the workshop, is to create a Story in the SAP Analytics Cloud. The Story will just have one analytic which will be a map. The map will show our sales data and customer locations (from the S/4HANA system) as well as the population totals from our census database in HANA. The geo-coding of the S/4HANA customers was done via a simple lookup in HANA and that matches a postal code to a centroid point which is a HANA Spatial Type column.
+
 * After saving the model click on the Main Menu button and choose Create and then Story.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod07.jpg">
@@ -175,9 +181,7 @@ Bubble Size: Measures > Population_Total (you can adjust the Size down to about 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod14.jpg">
 
-### <a name="######"></a> ######
-
-You have now completed the step "######" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". 
+You have now completed the step "Creating a SAC Story with a Map" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". 
 
 You have also completed the entire exercise...congratulations and thanks for following along!
 
