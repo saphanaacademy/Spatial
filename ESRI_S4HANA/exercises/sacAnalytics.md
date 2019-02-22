@@ -7,6 +7,8 @@
 
 In the next steps you will set up a connection between your SAP HANA database and the SAP Analytics Cloud. Afterwards you will work in SAC to create analytics based on live data from that connection.
 
+Note that this workshop will not spend much time on modeling and building analytics in SAC. There is a lot of information on this already. If you want a lot of in depth information on these topics, please see the online help for [SAP Analytics Cloud starting with data models.](https://www.sapanalytics.cloud/guided_playlists/data-models/)
+
 <img src="../images/XXXXXX.jpg">
 
 ## Prerequisites
@@ -86,17 +88,34 @@ In this step we will create a Model using the Calculation View that has the comb
 
 * Choose "Get data from a datasource"
 * Click on "Live Data connection" (right below Connect to live data)
-* Fill out the appropriate info in the Create Model dialogue
+* Fill out the appropriate info in the Create Model dialogue and then press OK
 
 ```
 System Type:  SAP HANA
 Connection:   the name of the Connection you built in step 1 above
 Data Source:  search on "CV_S4H" or the name of the combined data model you built in Task 5
+
 Name & Description: whatever you like
 ```
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod03.jpg">
 
+* You should see a screen similar to below
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod04.jpg">
+
+As mentioned above, this workshop will not spend much time on modeling and building analytics. There is a lot of info on those topics [here.](https://www.sapanalytics.cloud/guided_playlists/data-models/) When you are using a live connection to your HANA system it is recommended that you do as much of the modeling you can in your Calculation Views. This of course would be for best performance and also for the number of things that you can do in the HANA modeler vs. the options in SAC. The one thing that we will do to add to this model in SAC is to add a Location Dimension that will be used in a map.
+
+* Click on the "Create a Location Dimension" button.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod05.jpg">
+
+* Fill in the dialogue with the info like below. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/mod05.jpg">
+
+Note that the CV_S4H_CustomerLocation view is the simple geo-coding Calc View that you would have saved to the SAP_BOC_Spatial package in your HANA system. It is also important to note that the Location Dimension, ZIPCODE_EPSG3857, is the column in your GeoCode table that is a HANA Spatial Type (ST_Point to be exact) utilizing a Spatial Reference System of 3857. 
+
+In order to have a successful Location Dimension in SAC you need to have a Calculation View in the SAP_BOC_Spatial package and that view must have at least one Spatial Type column. Of course the appropriate rights have to be assigned to your technical user (HACKT28) to the package and the underlying data. For more detailed information please see this part of the SAC online help: [Creating Geo model from Live HANA Calculation View.]( https://www.sapanalytics.cloud/guided_playlists/creating-geo-model-from-live-hana-calculation-view/)
 
 
 ### <a name="######"></a> ######
