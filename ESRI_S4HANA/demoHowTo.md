@@ -79,7 +79,7 @@ After you've completed the prerequisites there are a number of main tasks to com
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Task 6: Setup of the SAP HANA System for Resource Sharing](exercises/hdbCORS.md)
 
-7. WORK IN PROGRESS  Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud
+7. In the final task you will set up a connection from the SAP Analytics Cloud to your SAP HANA database. Afterwards you will work in SAC to create a map analytic based on live data from that connection.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Task 7: Coming Soon]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Task 7: Creation of Direct Connection to HANA, and Analytics in SAP Analytics Cloud](exercises/sacAnalytics.md)
 
