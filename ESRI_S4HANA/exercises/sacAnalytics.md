@@ -177,11 +177,11 @@ Bubble Size: Measures > Population_Total (you can adjust the Size down to about 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod13.jpg">
 
-* Press the OK button and you should see a map similar to below.
+* Press the OK button and you should see a map similar to below. You might wish to Save your Story as well.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../images/sacmod14.jpg">
 
-You have now completed the step "Creating a SAC Story with a Map" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". You might wish to Save your Story as well.
+You have now completed the step "Creating a SAC Story with a Map" and are done with the whole task of "Creation of Direct Connection to HANA and Analytics in SAP Analytics Cloud". 
 
 You have also completed the entire exercise...congratulations and thanks for following along!
 
