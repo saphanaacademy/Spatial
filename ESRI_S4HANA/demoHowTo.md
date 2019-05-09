@@ -6,7 +6,7 @@
 ## Description
 In this exercise / demo, you’ll learn how to integrate S/4HANA (on-premise) and ESRI GIS data at the data level in a HANA database. This integrated data will be consumed in SAP Analytics Cloud.
 
-<img src="images/s4HpEsriDemoSAC01.jpg" width="400" height="790">
+<img src="images/s4HpEsriDemoSAC01.jpg">
 
 
 ## Overview
